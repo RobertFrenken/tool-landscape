@@ -9,6 +9,7 @@ description = "Developer tool evaluation framework — map project goals to stab
 requires-python = ">=3.12"
 dependencies = [
     "duckdb>=1.1.0",
+    "networkx>=3.0",
     "pydantic>=2.0",
 ]
 

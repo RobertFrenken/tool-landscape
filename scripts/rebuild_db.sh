@@ -12,5 +12,11 @@ rm -f "$DB_PATH" "$DB_PATH.wal"
 echo "Rebuilding from seed data..."
 "$PROJECT_DIR/.venv/bin/landscape" import --seed
 
+echo "Computing neighborhoods..."
+"$PROJECT_DIR/.venv/bin/landscape" neighborhoods compute
+
+echo "Exporting to Parquet..."
+"$PROJECT_DIR/.venv/bin/landscape" export
+
 echo "Done."
 "$PROJECT_DIR/.venv/bin/landscape" stats

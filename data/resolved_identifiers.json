@@ -1,4 +1,34 @@
 {
+  ".NET MAUI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "A-Frame": {
+    "github_repo": null,
+    "npm_package": "a-frame",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "AG Grid": {
+    "github_repo": null,
+    "npm_package": "ag-grid",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "APScheduler": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "apscheduler",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
   "Accelerate": {
     "github_repo": "huggingface/accelerate",
     "npm_package": null,
@@ -14,6 +44,12 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Actix-web": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Advisor": {
     "github_repo": "tobegit3hub/advisor",
     "npm_package": null,
@@ -24,11 +60,43 @@
     ]
   },
   "Aeromancy": {
-    "github_repo": null,
+    "github_repo": "evilmartians/aeromancy",
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
       "manual_correction"
+    ]
+  },
+  "Agency Swarm": {
+    "github_repo": "VRSEN/agency-swarm",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Agenda": {
+    "github_repo": "agenda/agenda",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Agno": {
+    "github_repo": "agno-agi/agno",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Aider": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "aider",
+    "resolved_by": [
+      "pypi_guess"
     ]
   },
   "Aim": {
@@ -39,12 +107,35 @@
       "pypi_guess"
     ]
   },
+  "Aiohttp": {
+    "github_repo": "aio-libs/aiohttp",
+    "npm_package": null,
+    "pypi_package": "aiohttp",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
   "Airbyte": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": "airbyte",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "Alacritty": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Alex": {
+    "github_repo": null,
+    "npm_package": "alex",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Alibi": {
@@ -62,6 +153,27 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Alpine.js": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Altair": {
+    "github_repo": "vega/altair",
+    "npm_package": null,
+    "pypi_package": "altair",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Amazon Q Developer": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Amazon SageMaker": {
     "github_repo": null,
     "npm_package": null,
@@ -74,12 +186,44 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Analog": {
+    "github_repo": null,
+    "npm_package": "analog",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Anchor": {
+    "github_repo": null,
+    "npm_package": "anchor",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Angular": {
+    "github_repo": null,
+    "npm_package": "angular",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Ansible": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": "ansible",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "Ant Design": {
+    "github_repo": null,
+    "npm_package": "ant-design",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Anyscale": {
@@ -90,7 +234,21 @@
       "pypi_guess"
     ]
   },
+  "Anytype": {
+    "github_repo": null,
+    "npm_package": "anytype",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Apache AGE": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache APISIX": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -183,6 +341,12 @@
     "resolved_by": []
   },
   "Apache Druid": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache ECharts for Python (pyecharts)": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -415,6 +579,15 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Apache SkyWalking": {
+    "github_repo": "apache/skywalking-python",
+    "npm_package": null,
+    "pypi_package": "apache-skywalking",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
   "Apache Solr": {
     "github_repo": null,
     "npm_package": null,
@@ -458,6 +631,12 @@
       "pypi_guess"
     ]
   },
+  "Apache Thrift": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Apache XTable": {
     "github_repo": null,
     "npm_package": null,
@@ -476,6 +655,22 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "ApexCharts": {
+    "github_repo": null,
+    "npm_package": "apexcharts",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Apollo Client": {
+    "github_repo": null,
+    "npm_package": "apollo-client",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Aporia": {
     "github_repo": null,
     "npm_package": null,
@@ -484,13 +679,42 @@
       "pypi_guess"
     ]
   },
+  "Appsmith": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Apptainer (Singularity)": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
+  "Appwrite": {
+    "github_repo": null,
+    "npm_package": "appwrite",
+    "pypi_package": "appwrite",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
   "ArangoDB": {
+    "github_repo": null,
+    "npm_package": "arangodb",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Arduino": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Argo Rollouts": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -525,6 +749,22 @@
       "pypi_project_urls"
     ]
   },
+  "Ark UI": {
+    "github_repo": null,
+    "npm_package": "ark-ui",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "ArkType": {
+    "github_repo": null,
+    "npm_package": "arktype",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Arrikto": {
     "github_repo": null,
     "npm_package": null,
@@ -532,6 +772,40 @@
     "resolved_by": []
   },
   "Arroyo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Aseprite": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "AssemblyScript": {
+    "github_repo": null,
+    "npm_package": "assemblyscript",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Astro": {
+    "github_repo": null,
+    "npm_package": "astro",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Authelia": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Authentik": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -549,6 +823,20 @@
     "pypi_package": "auto-sklearn",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "AutoAnimate": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "AutoGen": {
+    "github_repo": "microsoft/autogen",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "AutoGluon": {
@@ -575,6 +863,36 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Avalonia": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Axios": {
+    "github_repo": null,
+    "npm_package": "axios",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Axolotl": {
+    "github_repo": "axolotl-ai-cloud/axolotl",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Axum": {
+    "github_repo": "tokio-rs/axum",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Azkaban": {
     "github_repo": null,
     "npm_package": null,
@@ -582,6 +900,20 @@
     "resolved_by": []
   },
   "Azure Machine Learning": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "BAML": {
+    "github_repo": "BoundaryML/baml",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Babylon.js": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -596,15 +928,21 @@
     ]
   },
   "Banana": {
-    "github_repo": null,
+    "github_repo": "MonashBI/banana",
     "npm_package": null,
-    "pypi_package": "banana-dev",
+    "pypi_package": "banana",
     "resolved_by": [
-      "pypi_project_urls",
-      "manual_correction"
+      "pypi_guess",
+      "pypi_project_urls"
     ]
   },
   "Bazel": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Beamer": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -617,6 +955,42 @@
     "resolved_by": [
       "github_override",
       "pypi_guess"
+    ]
+  },
+  "Bevy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "BibLaTeX": {
+    "github_repo": "plk/biblatex",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "BibTeX": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Billboard.js": {
+    "github_repo": null,
+    "npm_package": "billboard.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Biome": {
+    "github_repo": null,
+    "npm_package": "biome",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Black": {
@@ -645,6 +1019,57 @@
       "pypi_project_urls"
     ]
   },
+  "Bokeh": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "bokeh",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Bootstrap": {
+    "github_repo": null,
+    "npm_package": "bootstrap",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "BorgBackup": {
+    "github_repo": "borgbackup/borg",
+    "npm_package": null,
+    "pypi_package": "borgbackup",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Braintrust": {
+    "github_repo": "braintrustdata/braintrust-sdk-python",
+    "npm_package": "braintrust",
+    "pypi_package": "braintrust",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Bree": {
+    "github_repo": "breejs/bree",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Bubble Tea": {
+    "github_repo": "charmbracelet/bubbletea",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "BudgetML": {
     "github_repo": "ebhy/budgetml",
     "npm_package": null,
@@ -652,6 +1077,47 @@
     "resolved_by": [
       "url_parse",
       "pypi_guess"
+    ]
+  },
+  "Budibase": {
+    "github_repo": null,
+    "npm_package": "budibase",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "BullMQ": {
+    "github_repo": null,
+    "npm_package": "bullmq",
+    "pypi_package": "bullmq",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Bulma": {
+    "github_repo": null,
+    "npm_package": "bulma",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Bun": {
+    "github_repo": null,
+    "npm_package": "bun",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Bun Bundler": {
+    "github_repo": null,
+    "npm_package": "bun-bundler",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Butterfree": {
@@ -680,6 +1146,23 @@
       "pypi_project_urls"
     ]
   },
+  "C3.js": {
+    "github_repo": null,
+    "npm_package": "c3.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "CBOR": {
+    "github_repo": null,
+    "npm_package": "cbor",
+    "pypi_package": "cbor",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
   "CKAN": {
     "github_repo": null,
     "npm_package": null,
@@ -691,9 +1174,9 @@
   "CML": {
     "github_repo": null,
     "npm_package": null,
-    "pypi_package": null,
+    "pypi_package": "cml",
     "resolved_by": [
-      "manual_correction"
+      "pypi_guess"
     ]
   },
   "CNVRG.io": {
@@ -722,11 +1205,39 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Caddy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Cadence": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Camelot": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "camelot",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Cap'n Proto": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Capacitor": {
+    "github_repo": null,
+    "npm_package": "capacitor",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Captum": {
     "github_repo": "pytorch/captum",
@@ -736,6 +1247,26 @@
       "pypi_guess",
       "pypi_project_urls"
     ]
+  },
+  "Cargo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cartopy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "cartopy",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Casdoor": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "CatBoost": {
     "github_repo": "catboost/catboost",
@@ -770,6 +1301,44 @@
       "pypi_project_urls"
     ]
   },
+  "CesiumJS": {
+    "github_repo": null,
+    "npm_package": "cesiumjs",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Chakra UI": {
+    "github_repo": null,
+    "npm_package": "chakra-ui",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Changesets": {
+    "github_repo": "changesets/changesets",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Chart.js": {
+    "github_repo": null,
+    "npm_package": "chart.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Chartist.js": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "ChromaDB": {
     "github_repo": "chroma-core/chroma",
     "npm_package": null,
@@ -779,11 +1348,54 @@
       "pypi_project_urls"
     ]
   },
+  "Chromatic": {
+    "github_repo": null,
+    "npm_package": "chromatic",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Cilium": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "CircuitPython": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Citation Style Language": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Citus": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Claude Agent SDK": {
+    "github_repo": "anthropics/anthropic-sdk-python",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Claude Code": {
+    "github_repo": null,
+    "npm_package": "claude-code",
+    "pypi_package": "claude-code",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
   },
   "Cleanlab": {
     "github_repo": "cleanlab/cleanlab",
@@ -828,7 +1440,49 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Cloudflare Pages": {
+    "github_repo": null,
+    "npm_package": "cloudflare-pages",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Cobra": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "CockroachDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cocos Creator": {
+    "github_repo": null,
+    "npm_package": "cocos-creator",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Cocos2d-x": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Codebraid": {
+    "github_repo": "gpoore/codebraid",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Codeium": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -852,6 +1506,14 @@
       "pypi_project_urls"
     ]
   },
+  "Colyseus": {
+    "github_repo": null,
+    "npm_package": "colyseus",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Comet ML": {
     "github_repo": null,
     "npm_package": null,
@@ -860,7 +1522,82 @@
       "pypi_guess"
     ]
   },
+  "Commander.js": {
+    "github_repo": "tj/commander.js",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "CommonMark": {
+    "github_repo": "rtfd/commonmark.py",
+    "npm_package": "commonmark",
+    "pypi_package": "commonmark",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Compose Multiplatform": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ConTeXt": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Confluent Schema Registry": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Connexion": {
+    "github_repo": "spec-first/connexion",
+    "npm_package": null,
+    "pypi_package": "connexion",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Construct": {
+    "github_repo": null,
+    "npm_package": "construct",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Consul": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Continue": {
+    "github_repo": null,
+    "npm_package": "continue",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Convex": {
+    "github_repo": null,
+    "npm_package": "convex",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Coroot": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -883,6 +1620,15 @@
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "CrewAI": {
+    "github_repo": "crewAIInc/crewAI",
+    "npm_package": null,
+    "pypi_package": "crewai",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
   },
   "Cromwell": {
     "github_repo": "broadinstitute/cromwell",
@@ -909,15 +1655,63 @@
   },
   "Cube": {
     "github_repo": null,
+    "npm_package": "cube",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Cursor": {
+    "github_repo": "GijsTimmers/cursor",
+    "npm_package": "cursor",
+    "pypi_package": "cursor",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Cypress": {
+    "github_repo": null,
+    "npm_package": "cypress",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Cytoscape.js": {
+    "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "D2": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "D3.js": {
+    "github_repo": null,
+    "npm_package": "d3.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "DGL (Deep Graph Library)": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "DSPy": {
+    "github_repo": "stanfordnlp/dspy",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
   },
   "DVC": {
     "github_repo": "iterative/dvc",
@@ -938,10 +1732,19 @@
   },
   "Dagger": {
     "github_repo": null,
-    "npm_package": null,
+    "npm_package": "dagger",
     "pypi_package": "dagger",
     "resolved_by": [
-      "pypi_guess"
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Dagre": {
+    "github_repo": "dagrejs/dagre",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "Dagster": {
@@ -951,6 +1754,14 @@
     "resolved_by": [
       "github_override",
       "pypi_guess"
+    ]
+  },
+  "DaisyUI": {
+    "github_repo": null,
+    "npm_package": "daisyui",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Dash": {
@@ -982,10 +1793,11 @@
   },
   "DataHub": {
     "github_repo": null,
-    "npm_package": null,
+    "npm_package": "datahub",
     "pypi_package": "datahub",
     "resolved_by": [
-      "pypi_guess"
+      "pypi_guess",
+      "npm_guess"
     ]
   },
   "DataPrep": {
@@ -1005,6 +1817,14 @@
       "pypi_guess"
     ]
   },
+  "DataTables": {
+    "github_repo": null,
+    "npm_package": "datatables",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Databend": {
     "github_repo": null,
     "npm_package": null,
@@ -1018,6 +1838,16 @@
     "resolved_by": [
       "url_parse",
       "pypi_guess"
+    ]
+  },
+  "Datadog": {
+    "github_repo": "DataDog/datadogpy",
+    "npm_package": "datadog",
+    "pypi_package": "datadog",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
     ]
   },
   "Dataiku": {
@@ -1034,11 +1864,44 @@
       "pypi_guess"
     ]
   },
+  "Datashader": {
+    "github_repo": "holoviz/datashader",
+    "npm_package": null,
+    "pypi_package": "datashader",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Dear ImGui": {
+    "github_repo": "ocornut/imgui",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Debezium": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Deck.gl": {
+    "github_repo": null,
+    "npm_package": "deck.gl",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "DeepEval": {
+    "github_repo": "confident-ai/deepeval",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
   },
   "DeepSpeed": {
     "github_repo": "microsoft/DeepSpeed",
@@ -1059,11 +1922,12 @@
     ]
   },
   "Deepnote": {
-    "github_repo": null,
+    "github_repo": "s-omranpour/DeepNote",
     "npm_package": null,
-    "pypi_package": null,
+    "pypi_package": "deepnote",
     "resolved_by": [
-      "manual_correction"
+      "pypi_guess",
+      "pypi_project_urls"
     ]
   },
   "Deeque": {
@@ -1073,6 +1937,12 @@
     "resolved_by": [
       "url_parse"
     ]
+  },
+  "Defold": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Delta Lake": {
     "github_repo": "delta-io/delta",
@@ -1091,7 +1961,33 @@
       "url_parse"
     ]
   },
+  "Dendron": {
+    "github_repo": null,
+    "npm_package": "dendron",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Deno Deploy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Determined AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Devbox": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Devcontainers": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1105,15 +2001,66 @@
   },
   "Dify": {
     "github_repo": null,
+    "npm_package": "dify",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Ditaa": {
+    "github_repo": "stathissideris/ditaa",
     "npm_package": null,
     "pypi_package": null,
-    "resolved_by": []
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Django": {
+    "github_repo": "django/django",
+    "npm_package": null,
+    "pypi_package": "django",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Django REST Framework": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "django-rest-framework",
+    "resolved_by": [
+      "pypi_guess"
+    ]
   },
   "Docker": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Docling": {
+    "github_repo": "DS4SD/docling",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Docusaurus": {
+    "github_repo": null,
+    "npm_package": "docusaurus",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Docverter": {
+    "github_repo": "docverter/docverter",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
   },
   "Dolt": {
     "github_repo": "dolthub/dolt",
@@ -1131,11 +2078,26 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Doxygen": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Dragonfly": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Dramatiq": {
+    "github_repo": "Bogdanp/dramatiq",
+    "npm_package": null,
+    "pypi_package": "dramatiq",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
   },
   "Drone CI": {
     "github_repo": null,
@@ -1162,6 +2124,14 @@
       "pypi_project_urls"
     ]
   },
+  "ECharts": {
+    "github_repo": null,
+    "npm_package": "echarts",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "ELI5": {
     "github_repo": "eli5-org/eli5",
     "npm_package": null,
@@ -1171,7 +2141,37 @@
       "pypi_project_urls"
     ]
   },
+  "ELK": {
+    "github_repo": null,
+    "npm_package": "elk",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "ESLint": {
+    "github_repo": null,
+    "npm_package": "eslint",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "ESP-IDF": {
+    "github_repo": "espressif/esp-idf",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Earthly": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Echo": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1192,6 +2192,20 @@
       "pypi_project_urls"
     ]
   },
+  "Effect Schema": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Effector": {
+    "github_repo": null,
+    "npm_package": "effector",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Egeria": {
     "github_repo": null,
     "npm_package": null,
@@ -1207,11 +2221,73 @@
       "pypi_project_urls"
     ]
   },
+  "Electron": {
+    "github_repo": null,
+    "npm_package": "electron",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Elementary": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Eleventy": {
+    "github_repo": null,
+    "npm_package": "eleventy",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Emacs": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ember.js": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Emotion": {
+    "github_repo": null,
+    "npm_package": "emotion",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Emscripten": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "EndNote": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Envoy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Eraser": {
+    "github_repo": null,
+    "npm_package": "eraser",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Estuary Flow": {
     "github_repo": null,
@@ -1230,10 +2306,10 @@
   },
   "Evidence": {
     "github_repo": null,
-    "npm_package": null,
+    "npm_package": "evidence",
     "pypi_package": null,
     "resolved_by": [
-      "manual_correction"
+      "npm_guess"
     ]
   },
   "Evidently": {
@@ -1245,10 +2321,92 @@
       "pypi_project_urls"
     ]
   },
+  "ExLlamaV2": {
+    "github_repo": "turboderp/exllamav2",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Excalidraw": {
+    "github_repo": null,
+    "npm_package": "excalidraw",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Expo": {
+    "github_repo": null,
+    "npm_package": "expo",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Express.js": {
+    "github_repo": null,
+    "npm_package": "express.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "External Secrets Operator": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Extism": {
+    "github_repo": null,
+    "npm_package": "extism",
+    "pypi_package": "extism",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "FAISS": {
+    "github_repo": "facebookresearch/faiss",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "FLAML": {
     "github_repo": "microsoft/FLAML",
     "npm_package": null,
     "pypi_package": "flaml",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "FLTK": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "FMOD": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "FNA": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "FPDF2": {
+    "github_repo": "py-pdf/fpdf2",
+    "npm_package": null,
+    "pypi_package": "fpdf2",
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
@@ -1271,6 +2429,15 @@
       "pypi_project_urls"
     ]
   },
+  "Falcon": {
+    "github_repo": "falconry/falcon",
+    "npm_package": null,
+    "pypi_package": "falcon",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
   "FalkorDB": {
     "github_repo": null,
     "npm_package": null,
@@ -1284,6 +2451,14 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "Fastify": {
+    "github_repo": null,
+    "npm_package": "fastify",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Feast": {
@@ -1346,16 +2521,57 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Fiber": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Fiddler AI": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
+  "Final Form": {
+    "github_repo": null,
+    "npm_package": "final-form",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "FireWorks": {
     "github_repo": "materialsproject/fireworks",
     "npm_package": null,
     "pypi_package": "fireworks",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Firebase": {
+    "github_repo": null,
+    "npm_package": "firebase",
+    "pypi_package": "firebase",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Flask": {
+    "github_repo": "pallets/flask",
+    "npm_package": null,
+    "pypi_package": "flask",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "FlatBuffers": {
+    "github_repo": "google/flatbuffers",
+    "npm_package": null,
+    "pypi_package": "flatbuffers",
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
@@ -1389,6 +2605,12 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Flutter": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Fluvio": {
     "github_repo": null,
     "npm_package": null,
@@ -1407,6 +2629,12 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Fly.io": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Flyte": {
     "github_repo": null,
     "npm_package": null,
@@ -1415,6 +2643,43 @@
       "pypi_guess"
     ]
   },
+  "Foam": {
+    "github_repo": null,
+    "npm_package": "foam",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Folium": {
+    "github_repo": "python-visualization/folium",
+    "npm_package": null,
+    "pypi_package": "folium",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Forgejo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Formik": {
+    "github_repo": null,
+    "npm_package": "formik",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Fossil": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "FoundationDB": {
     "github_repo": "apple/foundationdb",
     "npm_package": null,
@@ -1422,6 +2687,42 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "Foundry": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Framer Motion": {
+    "github_repo": null,
+    "npm_package": "framer-motion",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Frappe Charts": {
+    "github_repo": null,
+    "npm_package": "frappe-charts",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "FreeRTOS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Fresh": {
+    "github_repo": null,
+    "npm_package": "fresh",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Frouros": {
@@ -1433,6 +2734,76 @@
       "pypi_guess"
     ]
   },
+  "Fumadocs": {
+    "github_repo": null,
+    "npm_package": "fumadocs",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "FusionAuth": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Fyrox": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "G2": {
+    "github_repo": null,
+    "npm_package": "g2",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "G6": {
+    "github_repo": null,
+    "npm_package": "g6",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "GSAP": {
+    "github_repo": null,
+    "npm_package": "gsap",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "GTK": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "GameMaker": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gatsby": {
+    "github_repo": null,
+    "npm_package": "gatsby",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Gazebo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Geniusrise": {
     "github_repo": "geniusrise/geniusrise",
     "npm_package": null,
@@ -1442,21 +2813,118 @@
       "pypi_project_urls"
     ]
   },
+  "GeoPandas": {
+    "github_repo": "geopandas/geopandas",
+    "npm_package": null,
+    "pypi_package": "geopandas",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "GeoServer": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gephi": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ghostty": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gin": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Giskard": {
+    "github_repo": "Giskard-AI/giskard",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Git": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Git LFS": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
-  "GitHub Actions": {
+  "GitBook": {
     "github_repo": null,
+    "npm_package": "gitbook",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "GitHub Actions": {
+    "github_repo": "features/actions",
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
       "manual_correction"
     ]
   },
+  "GitHub CLI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "GitHub Codespaces": {
+    "github_repo": "features/codespaces",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "GitHub Copilot": {
+    "github_repo": "features/copilot",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "GitHub Pages": {
+    "github_repo": null,
+    "npm_package": "github-pages",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "GitLab CI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gitea": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gitpod": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1473,6 +2941,28 @@
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Godot": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Goldmark": {
+    "github_repo": "yuin/goldmark",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Google ADK": {
+    "github_repo": "google/adk-python",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
   },
   "Google Cloud Vertex AI": {
     "github_repo": null,
@@ -1492,6 +2982,14 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Google Maps API": {
+    "github_repo": null,
+    "npm_package": "google-maps-api",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Gradio": {
     "github_repo": "gradio-app/gradio",
     "npm_package": null,
@@ -1503,11 +3001,25 @@
   },
   "Grafana": {
     "github_repo": null,
+    "npm_package": "grafana",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Grafana Loki": {
+    "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
-  "Grafana Loki": {
+  "Grafana Mimir": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Grafana Tempo": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1516,11 +3028,22 @@
   "Graphite": {
     "github_repo": null,
     "npm_package": null,
-    "pypi_package": "graphite-web",
+    "pypi_package": "graphite",
     "resolved_by": [
-      "pypi_guess",
-      "manual_correction"
+      "pypi_guess"
     ]
+  },
+  "Graphviz": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gravitee": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Great Expectations": {
     "github_repo": "great-expectations/great_expectations",
@@ -1542,6 +3065,28 @@
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Groff": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Guardrails AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "guardrails-ai",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Guidance": {
+    "github_repo": "guidance-ai/guidance",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
   },
   "Guild AI": {
     "github_repo": null,
@@ -1566,6 +3111,40 @@
       "pypi_project_urls"
     ]
   },
+  "H3": {
+    "github_repo": "uber/h3-py",
+    "npm_package": "h3",
+    "pypi_package": "h3",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "HAProxy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "HTTPX": {
+    "github_repo": "encode/httpx",
+    "npm_package": null,
+    "pypi_package": "httpx",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "HTTPie": {
+    "github_repo": "httpie/cli",
+    "npm_package": null,
+    "pypi_package": "httpie",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
   "Hamilton": {
     "github_repo": "DAGWorks-Inc/hamilton",
     "npm_package": null,
@@ -1573,6 +3152,30 @@
     "resolved_by": [
       "url_parse",
       "pypi_guess"
+    ]
+  },
+  "Handsontable": {
+    "github_repo": null,
+    "npm_package": "handsontable",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Happy DOM": {
+    "github_repo": "nicedayfor/happy-dom",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Hardhat": {
+    "github_repo": null,
+    "npm_package": "hardhat",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Hatch": {
@@ -1584,6 +3187,12 @@
       "pypi_project_urls"
     ]
   },
+  "HaxeFlixel": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Haystack": {
     "github_repo": null,
     "npm_package": null,
@@ -1591,6 +3200,12 @@
     "resolved_by": [
       "pypi_guess"
     ]
+  },
+  "Headless UI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Healthchecks.io": {
     "github_repo": "andrewthetechie/py-healthchecks.io",
@@ -1601,6 +3216,28 @@
       "pypi_project_urls"
     ]
   },
+  "Heaps": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Helicone": {
+    "github_repo": "helicone/helicone",
+    "npm_package": "helicone",
+    "pypi_package": "helicone",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Helix": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Helm": {
     "github_repo": null,
     "npm_package": null,
@@ -1608,11 +3245,28 @@
     "resolved_by": []
   },
   "Hex": {
-    "github_repo": null,
+    "github_repo": "dmulholland/hex",
     "npm_package": null,
+    "pypi_package": "hex",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Hexo": {
+    "github_repo": null,
+    "npm_package": "hexo",
     "pypi_package": null,
     "resolved_by": [
-      "manual_correction"
+      "npm_guess"
+    ]
+  },
+  "Highcharts": {
+    "github_repo": null,
+    "npm_package": "highcharts",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Hive Metastore": {
@@ -1620,6 +3274,23 @@
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "HoloViews": {
+    "github_repo": "holoviz/holoviews",
+    "npm_package": null,
+    "pypi_package": "holoviews",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Hono": {
+    "github_repo": null,
+    "npm_package": "hono",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Hopsworks": {
     "github_repo": "logicalclocks/hopsworks-api",
@@ -1639,12 +3310,37 @@
       "pypi_project_urls"
     ]
   },
+  "Howler.js": {
+    "github_repo": null,
+    "npm_package": "howler.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Htmx": {
+    "github_repo": null,
+    "npm_package": "htmx",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Hue": {
     "github_repo": "cloudera/hue",
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
       "manual_correction"
+    ]
+  },
+  "Huey": {
+    "github_repo": "coleifer/huey",
+    "npm_package": null,
+    "pypi_package": "huey",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
     ]
   },
   "HugeGraph": {
@@ -1664,6 +3360,21 @@
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Hugo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Humanloop": {
+    "github_repo": null,
+    "npm_package": "humanloop",
+    "pypi_package": "humanloop",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
   },
   "Hydra": {
     "github_repo": "facebookresearch/hydra",
@@ -1714,6 +3425,22 @@
       "manual_correction"
     ]
   },
+  "Impress.js": {
+    "github_repo": null,
+    "npm_package": "impress.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Inferno": {
+    "github_repo": null,
+    "npm_package": "inferno",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "InfluxDB": {
     "github_repo": null,
     "npm_package": null,
@@ -1729,6 +3456,40 @@
       "pypi_guess"
     ]
   },
+  "Ink": {
+    "github_repo": "vadimdemedes/ink",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Inngest": {
+    "github_repo": "inngest/inngest-py",
+    "npm_package": "inngest",
+    "pypi_package": "inngest",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Insomnia": {
+    "github_repo": null,
+    "npm_package": "insomnia",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Instructor": {
+    "github_repo": "jxnl/instructor",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Intake": {
     "github_repo": null,
     "npm_package": null,
@@ -1738,6 +3499,20 @@
     ]
   },
   "InterpretML": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ionic": {
+    "github_repo": null,
+    "npm_package": "ionic",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Istio": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1761,13 +3536,65 @@
       "npm_guess"
     ]
   },
+  "Jaeger": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Jan": {
+    "github_repo": null,
+    "npm_package": "jan",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "JanusGraph": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
+  "Javadoc": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Jekyll": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Jenkins": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Jest": {
+    "github_repo": null,
+    "npm_package": "jest",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "JetBrains IntelliJ IDEA": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "JetBrains PyCharm": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Jetpack Compose": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1782,11 +3609,27 @@
       "pypi_project_urls"
     ]
   },
+  "Jotai": {
+    "github_repo": null,
+    "npm_package": "jotai",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "JuiceFS": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Jupyter Book": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "jupyter-book",
+    "resolved_by": [
+      "pypi_guess"
+    ]
   },
   "Jupyter Enterprise Gateway": {
     "github_repo": "jupyter/enterprise_gateway",
@@ -1822,6 +3665,12 @@
       "url_parse",
       "pypi_guess"
     ]
+  },
+  "KEDA": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "KNIME": {
     "github_repo": null,
@@ -1874,6 +3723,14 @@
       "pypi_guess"
     ]
   },
+  "Kepler.gl": {
+    "github_repo": null,
+    "npm_package": "kepler.gl",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Keras Tuner": {
     "github_repo": "keras-team/keras-tuner",
     "npm_package": null,
@@ -1889,11 +3746,31 @@
     "pypi_package": null,
     "resolved_by": []
   },
-  "Kibana": {
+  "KeyDB": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Keycloak": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kiali": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kibana": {
+    "github_repo": null,
+    "npm_package": "kibana",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Knowledge Repo": {
     "github_repo": "airbnb/knowledge-repo",
@@ -1904,7 +3781,39 @@
       "pypi_guess"
     ]
   },
+  "Koa": {
+    "github_repo": null,
+    "npm_package": "koa",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Kong": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kotlin Multiplatform": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kroki": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "KsqlDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ktor": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1925,7 +3834,21 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Ky": {
+    "github_repo": "sindresorhus/ky",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Kyso": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kyverno": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -1939,6 +3862,42 @@
       "pypi_guess",
       "pypi_project_urls"
     ]
+  },
+  "LLM Guard": {
+    "github_repo": "protectai/llm-guard",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "LLaMA Factory": {
+    "github_repo": "hiyouga/LLaMA-Factory",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "LM Studio": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "LMQL": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "lmql",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "LaTeX": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Label Studio": {
     "github_repo": "HumanSignal/label-studio",
@@ -1965,6 +3924,12 @@
     "resolved_by": [
       "url_parse"
     ]
+  },
+  "Lakera": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Lance": {
     "github_repo": "lancedb/lance",
@@ -1993,6 +3958,63 @@
       "pypi_project_urls"
     ]
   },
+  "LangGraph": {
+    "github_repo": "langchain-ai/langgraph",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "LangSmith": {
+    "github_repo": "langchain-ai/langsmith-sdk",
+    "npm_package": "langsmith",
+    "pypi_package": "langsmith",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Langfuse": {
+    "github_repo": null,
+    "npm_package": "langfuse",
+    "pypi_package": "langfuse",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "LanguageTool": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Leaflet": {
+    "github_repo": null,
+    "npm_package": "leaflet",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Leaflet.markercluster": {
+    "github_repo": "Leaflet/Leaflet.markercluster",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Lerna": {
+    "github_repo": null,
+    "npm_package": "lerna",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "LightGBM": {
     "github_repo": "microsoft/LightGBM",
     "npm_package": null,
@@ -2004,15 +4026,47 @@
   },
   "Lightdash": {
     "github_repo": null,
-    "npm_package": null,
+    "npm_package": "lightdash",
     "pypi_package": null,
-    "resolved_by": []
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Lightning AI": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Lightning CSS": {
+    "github_repo": null,
+    "npm_package": "lightning-css",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Lightweight Charts": {
+    "github_repo": null,
+    "npm_package": "lightweight-charts",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Linkerd": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Lit": {
+    "github_repo": null,
+    "npm_package": "lit",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Litestar": {
     "github_repo": "litestar-org/litestar",
@@ -2029,6 +4083,14 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Llamafile": {
+    "github_repo": "Mozilla-Ocho/llamafile",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "LocalAI": {
     "github_repo": "mudler/LocalAI",
     "npm_package": null,
@@ -2038,11 +4100,27 @@
       "pypi_guess"
     ]
   },
+  "Logseq": {
+    "github_repo": null,
+    "npm_package": "logseq",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Logstash": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Logto": {
+    "github_repo": null,
+    "npm_package": "logto",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Losswise": {
     "github_repo": null,
@@ -2051,6 +4129,26 @@
     "resolved_by": [
       "pypi_guess"
     ]
+  },
+  "Lottie": {
+    "github_repo": null,
+    "npm_package": "lottie",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Love2D": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "LuaTeX": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Lucid": {
     "github_repo": "tensorflow/lucid",
@@ -2079,6 +4177,22 @@
       "pypi_project_urls"
     ]
   },
+  "Luma.gl": {
+    "github_repo": null,
+    "npm_package": "luma.gl",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Lume": {
+    "github_repo": null,
+    "npm_package": "lume",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Lux": {
     "github_repo": "lux-org/lux",
     "npm_package": null,
@@ -2094,8 +4208,32 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "MDX": {
+    "github_repo": null,
+    "npm_package": "mdx",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "MJML": {
+    "github_repo": null,
+    "npm_package": "mjml",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "ML Workspace": {
     "github_repo": "ml-tooling/ml-workspace",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "MLC LLM": {
+    "github_repo": "mlc-ai/mlc-llm",
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
@@ -2142,6 +4280,28 @@
       "pypi_guess"
     ]
   },
+  "MSW": {
+    "github_repo": null,
+    "npm_package": "msw",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "MUI": {
+    "github_repo": null,
+    "npm_package": "mui",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Macroquad": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Maestro": {
     "github_repo": "Netflix/maestro",
     "npm_package": null,
@@ -2165,6 +4325,54 @@
       "pypi_project_urls"
     ]
   },
+  "Mailgun": {
+    "github_repo": "mailgun/mailgun-python",
+    "npm_package": "mailgun",
+    "pypi_package": "mailgun",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Mammoth": {
+    "github_repo": "mwilliamson/mammoth.js",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Manim": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "manim",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Mantine": {
+    "github_repo": null,
+    "npm_package": "mantine",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "MapLibre GL JS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Mapbox GL JS": {
+    "github_repo": null,
+    "npm_package": "mapbox-gl-js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "MariaDB": {
     "github_repo": null,
     "npm_package": null,
@@ -2178,6 +4386,28 @@
     "resolved_by": [
       "pypi_guess"
     ]
+  },
+  "Markdoc": {
+    "github_repo": null,
+    "npm_package": "markdoc",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Marko": {
+    "github_repo": null,
+    "npm_package": "marko",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Marp": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Marqo": {
     "github_repo": null,
@@ -2193,11 +4423,41 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Marvin": {
+    "github_repo": "prefecthq/marvin",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Mastra": {
+    "github_repo": null,
+    "npm_package": "mastra",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Materialize": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Matplotlib Basemap": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Mayavi": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "mayavi",
+    "resolved_by": [
+      "pypi_guess"
+    ]
   },
   "Meilisearch": {
     "github_repo": null,
@@ -2220,6 +4480,20 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Mendeley": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Mercurial": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "mercurial",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
   "Mercury": {
     "github_repo": "mljar/mercury",
     "npm_package": null,
@@ -2238,11 +4512,35 @@
       "pypi_project_urls"
     ]
   },
-  "Metabase": {
+  "Mermaid": {
+    "github_repo": null,
+    "npm_package": "mermaid",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Mermaid Chart": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "MessagePack": {
+    "github_repo": null,
+    "npm_package": "messagepack",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Metabase": {
+    "github_repo": null,
+    "npm_package": "metabase",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Metacat": {
     "github_repo": "Netflix/metacat",
@@ -2260,6 +4558,18 @@
       "github_override",
       "pypi_guess"
     ]
+  },
+  "MicroPython": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Micronaut": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Milvus": {
     "github_repo": "milvus-io/milvus-lite",
@@ -2285,6 +4595,45 @@
       "pypi_project_urls"
     ]
   },
+  "Minio Operator": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Mintlify": {
+    "github_repo": null,
+    "npm_package": "mintlify",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Mithril": {
+    "github_repo": null,
+    "npm_package": "mithril",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "MkDocs": {
+    "github_repo": "mkdocs/mkdocs",
+    "npm_package": null,
+    "pypi_package": "mkdocs",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "MobX": {
+    "github_repo": null,
+    "npm_package": "mobx",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Modal": {
     "github_repo": "modal-labs/modal-client",
     "npm_package": null,
@@ -2293,6 +4642,12 @@
       "pypi_guess",
       "pypi_project_urls"
     ]
+  },
+  "Model Viewer": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "ModelDB": {
     "github_repo": "VertaAI/modeldb",
@@ -2320,6 +4675,34 @@
       "npm_guess"
     ]
   },
+  "MonoGame": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Mosaic": {
+    "github_repo": null,
+    "npm_package": "mosaic",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Motion One": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "MoveIt": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "moveit",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
   "Multiwoven": {
     "github_repo": null,
     "npm_package": null,
@@ -2327,11 +4710,12 @@
     "resolved_by": []
   },
   "MySQL": {
-    "github_repo": null,
+    "github_repo": "valhallasw/virtual-mysql-pypi-package",
     "npm_package": null,
-    "pypi_package": null,
+    "pypi_package": "mysql",
     "resolved_by": [
-      "manual_correction"
+      "pypi_guess",
+      "pypi_project_urls"
     ]
   },
   "NATS": {
@@ -2379,6 +4763,20 @@
       "pypi_guess"
     ]
   },
+  "Nagios": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Nakama": {
+    "github_repo": null,
+    "npm_package": "nakama",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "NannyML": {
     "github_repo": "nannyml/nannyml",
     "npm_package": null,
@@ -2386,6 +4784,44 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "Nanostores": {
+    "github_repo": "nanostores/nanostores",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "NativeScript": {
+    "github_repo": null,
+    "npm_package": "nativescript",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Nav2": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Navigo": {
+    "github_repo": "krasimir/navigo",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "NeMo Guardrails": {
+    "github_repo": "NVIDIA/NeMo-Guardrails",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "NebulaGraph": {
@@ -2409,17 +4845,48 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Neovim": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Neptune.ai": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
+  "NestJS": {
+    "github_repo": null,
+    "npm_package": "nestjs",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Netdata": {
+    "github_repo": "home-assistant-ecosystem/python-netdata",
+    "npm_package": null,
+    "pypi_package": "netdata",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
   "Netflix Conductor": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Netlify": {
+    "github_repo": null,
+    "npm_package": "netlify",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Netron": {
     "github_repo": "lutzroeder/netron",
@@ -2446,11 +4913,61 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Neutralinojs": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "New Relic": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Next.js": {
+    "github_repo": null,
+    "npm_package": "next.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Nextflow": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Nextra": {
+    "github_repo": null,
+    "npm_package": "nextra",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Nginx": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Nhost": {
+    "github_repo": null,
+    "npm_package": "nhost",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Nivo": {
+    "github_repo": null,
+    "npm_package": "nivo",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Nix": {
     "github_repo": null,
@@ -2458,12 +4975,65 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Nocodb": {
+    "github_repo": null,
+    "npm_package": "nocodb",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Nodemailer": {
+    "github_repo": null,
+    "npm_package": "nodemailer",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Nomad": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Notion": {
+    "github_repo": null,
+    "npm_package": "notion",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "NumPy": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": "numpy",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "NuttX": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Nuxt": {
+    "github_repo": null,
+    "npm_package": "nuxt",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Nx": {
+    "github_repo": null,
+    "npm_package": "nx",
+    "pypi_package": "nx",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
     ]
   },
   "ODD Platform": {
@@ -2487,13 +5057,39 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Observable Plot": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Obsidian": {
+    "github_repo": null,
+    "npm_package": "obsidian",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "OceanBase": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
+  "Oh My Zsh": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Ollama": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ollama Library": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -2514,11 +5110,41 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Open Props": {
+    "github_repo": null,
+    "npm_package": "open-props",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "OpenAI Agents SDK": {
+    "github_repo": "openai/openai-agents-python",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "OpenAI Fine-tuning API": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "OpenCost": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "OpenLayers": {
+    "github_repo": null,
+    "npm_package": "openlayers",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "OpenLineage": {
     "github_repo": null,
@@ -2550,6 +5176,20 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "OpenRoberta": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "OpenRouter": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "openrouter",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
   "OpenSearch": {
     "github_repo": "opensearch-project/OpenSearch",
     "npm_package": null,
@@ -2562,9 +5202,11 @@
   },
   "OpenTelemetry": {
     "github_repo": null,
-    "npm_package": null,
+    "npm_package": "opentelemetry",
     "pypi_package": null,
-    "resolved_by": []
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "OpenVINO": {
     "github_repo": null,
@@ -2572,6 +5214,20 @@
     "pypi_package": "openvino",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "OpenZeppelin": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Opik": {
+    "github_repo": "comet-ml/opik",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "Optuna": {
@@ -2583,6 +5239,32 @@
       "pypi_guess"
     ]
   },
+  "Org-mode": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ory Hydra": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ory Kratos": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Outlines": {
+    "github_repo": "dottxt-ai/outlines",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "PDM": {
     "github_repo": "pdm-project/pdm",
     "npm_package": null,
@@ -2592,6 +5274,14 @@
       "pypi_project_urls"
     ]
   },
+  "PEFT": {
+    "github_repo": "huggingface/peft",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Pachyderm": {
     "github_repo": "pachyderm/pachyderm",
     "npm_package": null,
@@ -2599,6 +5289,23 @@
     "resolved_by": [
       "github_override",
       "pypi_guess"
+    ]
+  },
+  "Panda CSS": {
+    "github_repo": null,
+    "npm_package": "panda-css",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Panda3D": {
+    "github_repo": "panda3d/panda3d",
+    "npm_package": null,
+    "pypi_package": "panda3d",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
     ]
   },
   "Pandas Profiling (ydata-profiling)": {
@@ -2617,6 +5324,12 @@
       "pypi_guess",
       "pypi_project_urls"
     ]
+  },
+  "Pandoc": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Panel": {
     "github_repo": "holoviz/panel",
@@ -2644,7 +5357,19 @@
       "pypi_project_urls"
     ]
   },
+  "Paperpile": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Paperspace Gradient": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ParaView": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -2656,6 +5381,14 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Parcel": {
+    "github_repo": null,
+    "npm_package": "parcel",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Parsl": {
     "github_repo": "Parsl/parsl",
     "npm_package": null,
@@ -2663,6 +5396,14 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "Patroni": {
+    "github_repo": "patroni/patroni",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "PeerDB": {
@@ -2680,6 +5421,25 @@
       "pypi_project_urls"
     ]
   },
+  "Pelican": {
+    "github_repo": "getpelican/pelican",
+    "npm_package": null,
+    "pypi_package": "pelican",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Perspective": {
+    "github_repo": "conway/perspective",
+    "npm_package": "perspective",
+    "pypi_package": "perspective",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
   "Petastorm": {
     "github_repo": "uber/petastorm",
     "npm_package": null,
@@ -2689,6 +5449,34 @@
       "pypi_guess"
     ]
   },
+  "Phaser": {
+    "github_repo": null,
+    "npm_package": "phaser",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Phidata": {
+    "github_repo": "phidatahq/phidata",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Phoenix": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Pikchr": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Pinecone": {
     "github_repo": null,
     "npm_package": null,
@@ -2697,12 +5485,67 @@
       "pypi_guess"
     ]
   },
+  "Pinia": {
+    "github_repo": null,
+    "npm_package": "pinia",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Pixi": {
     "github_repo": "prefix-dev/pixi",
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
       "manual_correction"
+    ]
+  },
+  "PixiJS": {
+    "github_repo": null,
+    "npm_package": "pixijs",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "PixiJS Sound": {
+    "github_repo": "pixijs/sound",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "PlantUML": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "PlatformIO": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "platformio",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "PlayCanvas": {
+    "github_repo": null,
+    "npm_package": "playcanvas",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Playwright": {
+    "github_repo": null,
+    "npm_package": "playwright",
+    "pypi_package": "playwright",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
     ]
   },
   "Ploomber": {
@@ -2723,11 +5566,52 @@
       "npm_guess"
     ]
   },
+  "Plotly Express": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "plotly-express",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Plotly.js": {
+    "github_repo": null,
+    "npm_package": "plotly.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Plotnine": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "plotnine",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "PocketBase": {
+    "github_repo": null,
+    "npm_package": "pocketbase",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Podman": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Poetry": {
+    "github_repo": "python-poetry/poetry",
+    "npm_package": null,
+    "pypi_package": "poetry",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
   },
   "Polars": {
     "github_repo": "pola-rs/polars",
@@ -2753,11 +5637,49 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Pomerium": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Portkey": {
+    "github_repo": "red8012/portkey",
+    "npm_package": "portkey",
+    "pypi_package": "portkey",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "PostGIS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "PostgreSQL": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Postman": {
+    "github_repo": null,
+    "npm_package": "postman",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Preact": {
+    "github_repo": null,
+    "npm_package": "preact",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Prefect": {
     "github_repo": "PrefectHQ/prefect",
@@ -2774,6 +5696,30 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Prettier": {
+    "github_repo": null,
+    "npm_package": "prettier",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "PrimeVue": {
+    "github_repo": null,
+    "npm_package": "primevue",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Prince": {
+    "github_repo": null,
+    "npm_package": "prince",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Project Nessie": {
     "github_repo": null,
     "npm_package": null,
@@ -2781,6 +5727,26 @@
     "resolved_by": []
   },
   "Prometheus": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Promptfoo": {
+    "github_repo": "promptfoo/promptfoo",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Protocol Buffers": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ProxySQL": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -2796,10 +5762,44 @@
       "npm_guess"
     ]
   },
+  "Puppeteer": {
+    "github_repo": null,
+    "npm_package": "puppeteer",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Pweave": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "pweave",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "PyDeck": {
+    "github_repo": "visgl/deck.gl",
+    "npm_package": null,
+    "pypi_package": "pydeck",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
   "PyIceberg": {
     "github_repo": "apache/iceberg-python",
     "npm_package": null,
     "pypi_package": "pyiceberg",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "PyMuPDF": {
+    "github_repo": "pymupdf/pymupdf",
+    "npm_package": null,
+    "pypi_package": "pymupdf",
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
@@ -2838,17 +5838,72 @@
       "pypi_project_urls"
     ]
   },
+  "Pydantic AI": {
+    "github_repo": "pydantic/pydantic-ai",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Pygame": {
+    "github_repo": "pygame/pygame",
+    "npm_package": null,
+    "pypi_package": "pygame",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Pygwalker": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "pygwalker",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "QGIS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Qdrant": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
-  "Quary": {
+  "Qt": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Quarkus": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Quarto": {
+    "github_repo": "quarto-dev/quarto-python",
+    "npm_package": "quarto",
+    "pypi_package": "quarto",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Quary": {
+    "github_repo": null,
+    "npm_package": "quary",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Querybook": {
     "github_repo": "pinterest/querybook",
@@ -2885,13 +5940,62 @@
     "pypi_package": null,
     "resolved_by": []
   },
-  "RAPIDS": {
+  "Qwik": {
+    "github_repo": null,
+    "npm_package": "qwik",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Qwik City": {
+    "github_repo": null,
+    "npm_package": "qwik-city",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "R Markdown": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
+    "resolved_by": []
+  },
+  "RAGAS": {
+    "github_repo": "explodinggradients/ragas",
+    "npm_package": null,
+    "pypi_package": null,
     "resolved_by": [
-      "manual_correction"
+      "url_parse"
     ]
+  },
+  "RAPIDS": {
+    "github_repo": "sinoroc/rapids",
+    "npm_package": null,
+    "pypi_package": "rapids",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "RIOT": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ROS 2": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "RPG Maker": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "RabbitMQ": {
     "github_repo": "rabbitmq/rabbitmq-server",
@@ -2899,6 +6003,24 @@
     "pypi_package": null,
     "resolved_by": [
       "manual_correction"
+    ]
+  },
+  "Radix UI": {
+    "github_repo": null,
+    "npm_package": "radix-ui",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Railway": {
+    "github_repo": "railwayapp/packages",
+    "npm_package": "railway",
+    "pypi_package": "railway",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
     ]
   },
   "Ray": {
@@ -2916,11 +6038,114 @@
     "pypi_package": null,
     "resolved_by": []
   },
-  "Redash": {
+  "Raylib": {
+    "github_repo": "electronstudio/raylib-python-cffi",
+    "npm_package": null,
+    "pypi_package": "raylib",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "React": {
+    "github_repo": null,
+    "npm_package": "react",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "React Email": {
+    "github_repo": null,
+    "npm_package": "react-email",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "React Flow": {
+    "github_repo": null,
+    "npm_package": "react-flow",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "React Hook Form": {
+    "github_repo": null,
+    "npm_package": "react-hook-form",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "React Native": {
+    "github_repo": null,
+    "npm_package": "react-native",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "React Router": {
+    "github_repo": null,
+    "npm_package": "react-router",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "React Three Fiber": {
+    "github_repo": null,
+    "npm_package": "react-three-fiber",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Read the Docs": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "ReadMe": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Rebuff": {
+    "github_repo": "protectai/rebuff",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Recharts": {
+    "github_repo": null,
+    "npm_package": "recharts",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Recoil": {
+    "github_repo": null,
+    "npm_package": "recoil",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Redash": {
+    "github_repo": null,
+    "npm_package": "redash",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Redis": {
     "github_repo": "redis/redis-py",
@@ -2943,6 +6168,100 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Redux Toolkit": {
+    "github_repo": null,
+    "npm_package": "redux-toolkit",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Redwood": {
+    "github_repo": null,
+    "npm_package": "redwood",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Relay": {
+    "github_repo": null,
+    "npm_package": "relay",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Remark (slideshow)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Remix": {
+    "github_repo": null,
+    "npm_package": "remix",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Ren'Py": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Render": {
+    "github_repo": null,
+    "npm_package": "render",
+    "pypi_package": "render",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Replicate": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "replicate",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "ReportLab": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "reportlab",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Requests": {
+    "github_repo": "psf/requests",
+    "npm_package": null,
+    "pypi_package": "requests",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Resend": {
+    "github_repo": "resendlabs/resend-python",
+    "npm_package": "resend",
+    "pypi_package": "resend",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Restic": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "RethinkDB": {
     "github_repo": "RethinkDB/rethinkdb-python",
     "npm_package": "rethinkdb",
@@ -2950,6 +6269,14 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Reveal.js": {
+    "github_repo": null,
+    "npm_package": "reveal.js",
+    "pypi_package": null,
+    "resolved_by": [
       "npm_guess"
     ]
   },
@@ -2968,7 +6295,43 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Roam Research": {
+    "github_repo": null,
+    "npm_package": "roam-research",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Rocket": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "RocksDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Rollup": {
+    "github_repo": null,
+    "npm_package": "rollup",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Rspack": {
+    "github_repo": null,
+    "npm_package": "rspack",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Ruby on Rails": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -2982,6 +6345,20 @@
       "pypi_guess",
       "pypi_project_urls"
     ]
+  },
+  "Rush": {
+    "github_repo": null,
+    "npm_package": "rush",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Rustdoc": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Rye": {
     "github_repo": null,
@@ -2997,6 +6374,26 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "SDL": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "SFML": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "SGLang": {
+    "github_repo": "sgl-project/sglang",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "SHAP": {
     "github_repo": "shap/shap",
     "npm_package": null,
@@ -3005,6 +6402,12 @@
       "pypi_guess",
       "pypi_project_urls"
     ]
+  },
+  "SILE": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "SLURM": {
     "github_repo": null,
@@ -3044,6 +6447,22 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "SWC": {
+    "github_repo": null,
+    "npm_package": "swc",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "SWR": {
+    "github_repo": null,
+    "npm_package": "swr",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Sacred": {
     "github_repo": "IDSIA/sacred",
     "npm_package": null,
@@ -3051,6 +6470,15 @@
     "resolved_by": [
       "url_parse",
       "pypi_guess"
+    ]
+  },
+  "Sanic": {
+    "github_repo": "sanic-org/sanic",
+    "npm_package": null,
+    "pypi_package": "sanic",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
     ]
   },
   "SciPy": {
@@ -3085,6 +6513,14 @@
       "pypi_guess"
     ]
   },
+  "Semantic Kernel": {
+    "github_repo": "microsoft/semantic-kernel",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Sematic": {
     "github_repo": null,
     "npm_package": null,
@@ -3093,12 +6529,62 @@
       "pypi_guess"
     ]
   },
+  "SendGrid SDK": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Sentry": {
+    "github_repo": null,
+    "npm_package": "sentry",
+    "pypi_package": "sentry",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Shapely": {
+    "github_repo": "shapely/shapely",
+    "npm_package": null,
+    "pypi_package": "shapely",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Sidekiq": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "SigNoz": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "SigOpt": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": "sigopt",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "Sigma.js": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Signals (TC39)": {
+    "github_repo": "tc39/proposal-signals",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "Singer": {
@@ -3115,6 +6601,14 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Skeleton": {
+    "github_repo": null,
+    "npm_package": "skeleton",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "SkyPilot": {
     "github_repo": "skypilot-org/skypilot",
     "npm_package": null,
@@ -3124,11 +6618,33 @@
       "pypi_project_urls"
     ]
   },
+  "SlickGrid": {
+    "github_repo": "6pac/SlickGrid",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Slidev": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Sling": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Smolagents": {
+    "github_repo": "huggingface/smolagents",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
   },
   "Snakemake": {
     "github_repo": "snakemake/snakemake",
@@ -3162,6 +6678,20 @@
       "pypi_guess"
     ]
   },
+  "Solid": {
+    "github_repo": null,
+    "npm_package": "solid",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "SolidStart": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "SolidUI": {
     "github_repo": "CloudOrc/SolidUI",
     "npm_package": null,
@@ -3170,7 +6700,73 @@
       "url_parse"
     ]
   },
+  "Solidity": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Spectacle": {
+    "github_repo": null,
+    "npm_package": "spectacle",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Sphinx": {
+    "github_repo": "sphinx-doc/sphinx",
+    "npm_package": null,
+    "pypi_package": "sphinx",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Spline": {
+    "github_repo": null,
+    "npm_package": "spline",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Spring AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Spring Boot": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "StarRocks": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Starlette": {
+    "github_repo": "Kludex/starlette",
+    "npm_package": null,
+    "pypi_package": "starlette",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Starlight": {
+    "github_repo": null,
+    "npm_package": "starlight",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Starship": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -3185,6 +6781,22 @@
       "pypi_project_urls"
     ]
   },
+  "Stencil": {
+    "github_repo": null,
+    "npm_package": "stencil",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Storybook": {
+    "github_repo": null,
+    "npm_package": "storybook",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Streamlit": {
     "github_repo": "streamlit/streamlit",
     "npm_package": null,
@@ -3192,6 +6804,34 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "Structurizr DSL": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Styled Components": {
+    "github_repo": null,
+    "npm_package": "styled-components",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Stylelint": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Sublime Text": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "sublime-text",
+    "resolved_by": [
+      "pypi_guess"
     ]
   },
   "Submitit": {
@@ -3212,6 +6852,37 @@
       "npm_guess"
     ]
   },
+  "SuperTokens": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Superforms": {
+    "github_repo": null,
+    "npm_package": "superforms",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Superset": {
+    "github_repo": null,
+    "npm_package": "superset",
+    "pypi_package": "superset",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Superstruct": {
+    "github_repo": null,
+    "npm_package": "superstruct",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "Superwise": {
     "github_repo": null,
     "npm_package": null,
@@ -3220,7 +6891,43 @@
       "pypi_guess"
     ]
   },
+  "Surge": {
+    "github_repo": null,
+    "npm_package": "surge",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "SurrealDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Svelte": {
+    "github_repo": null,
+    "npm_package": "svelte",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "SvelteKit": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Swagger UI": {
+    "github_repo": null,
+    "npm_package": "swagger-ui",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "SwiftUI": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -3241,6 +6948,14 @@
       "pypi_project_urls"
     ]
   },
+  "TRL": {
+    "github_repo": "huggingface/trl",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "TSFresh": {
     "github_repo": "blue-yonder/tsfresh",
     "npm_package": null,
@@ -3251,12 +6966,33 @@
     ]
   },
   "Tableau": {
+    "github_repo": "moriyoshi/tableau",
+    "npm_package": null,
+    "pypi_package": "tableau",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Tabnine": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
+    "resolved_by": []
+  },
+  "Tabulator": {
+    "github_repo": null,
+    "npm_package": "tabulator",
+    "pypi_package": null,
     "resolved_by": [
-      "manual_correction"
+      "npm_guess"
     ]
+  },
+  "Tailwind CSS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "Talos": {
     "github_repo": "autonomio/talos",
@@ -3265,6 +7001,52 @@
     "resolved_by": [
       "url_parse",
       "pypi_guess"
+    ]
+  },
+  "TanStack Form": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TanStack Query": {
+    "github_repo": null,
+    "npm_package": "tanstack-query",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "TanStack Router": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TanStack Store": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TanStack Table": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Tana": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Tauri": {
+    "github_repo": null,
+    "npm_package": "tauri",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Tecton": {
@@ -3289,9 +7071,11 @@
   },
   "Temporal": {
     "github_repo": null,
-    "npm_package": null,
+    "npm_package": "temporal",
     "pypi_package": null,
-    "resolved_by": []
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "TensorBoard": {
     "github_repo": "tensorflow/tensorboard",
@@ -3340,11 +7124,27 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "TensorRT-LLM": {
+    "github_repo": "NVIDIA/TensorRT-LLM",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Terraform": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Testing Library": {
+    "github_repo": null,
+    "npm_package": "testing-library",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Text Generation Inference (TGI)": {
     "github_repo": "huggingface/text-generation-inference",
@@ -3352,6 +7152,29 @@
     "pypi_package": null,
     "resolved_by": [
       "url_parse"
+    ]
+  },
+  "Textual": {
+    "github_repo": "Textualize/textual",
+    "npm_package": null,
+    "pypi_package": "textual",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Thanos": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Three.js": {
+    "github_repo": null,
+    "npm_package": "three.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "TiDB": {
@@ -3366,11 +7189,43 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Tiled": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "TimescaleDB": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Tock": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Together AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Tone.js": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ToolJet": {
+    "github_repo": null,
+    "npm_package": "tooljet",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "TorchDrift": {
     "github_repo": "torchdrift/torchdrift",
@@ -3388,6 +7243,37 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "Tornado": {
+    "github_repo": "tornadoweb/tornado",
+    "npm_package": null,
+    "pypi_package": "tornado",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Traefik": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Tremor": {
+    "github_repo": null,
+    "npm_package": "tremor",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Trigger.dev": {
+    "github_repo": null,
+    "npm_package": "trigger.dev",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Trino": {
@@ -3411,6 +7297,14 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "TruLens": {
+    "github_repo": "truera/trulens",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Trubrics": {
     "github_repo": null,
     "npm_package": null,
@@ -3427,6 +7321,50 @@
       "pypi_guess"
     ]
   },
+  "Truffle": {
+    "github_repo": null,
+    "npm_package": "truffle",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Turbopack": {
+    "github_repo": null,
+    "npm_package": "turbopack",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Turborepo": {
+    "github_repo": null,
+    "npm_package": "turborepo",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Turf.js": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Tyk": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TypeBox": {
+    "github_repo": "sinclairzx81/typebox",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Typer": {
     "github_repo": "fastapi/typer",
     "npm_package": null,
@@ -3436,12 +7374,55 @@
       "pypi_project_urls"
     ]
   },
+  "Typesense": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Typst": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Unity Catalog": {
     "github_repo": "unitycatalog/unitycatalog",
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
       "url_parse"
+    ]
+  },
+  "UnoCSS": {
+    "github_repo": null,
+    "npm_package": "unocss",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Unreal Engine": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Unsloth": {
+    "github_repo": "unslothai/unsloth",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Unstructured": {
+    "github_repo": "Unstructured-IO/unstructured",
+    "npm_package": null,
+    "pypi_package": "unstructured",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
     ]
   },
   "Upgini": {
@@ -3451,6 +7432,42 @@
     "resolved_by": [
       "url_parse",
       "pypi_guess"
+    ]
+  },
+  "Uptime Kuma": {
+    "github_repo": null,
+    "npm_package": "uptime-kuma",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "VS Code": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "VTK.js": {
+    "github_repo": null,
+    "npm_package": "vtk.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vale": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Valibot": {
+    "github_repo": null,
+    "npm_package": "valibot",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Valkey": {
@@ -3467,7 +7484,71 @@
       "pypi_guess"
     ]
   },
+  "Valtio": {
+    "github_repo": null,
+    "npm_package": "valtio",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vault": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "Vector": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "VeeValidate": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Vega": {
+    "github_repo": null,
+    "npm_package": "vega",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vega Embed": {
+    "github_repo": "vega/vega-embed",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Vega-Lite": {
+    "github_repo": null,
+    "npm_package": "vega-lite",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Velero": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Vercel": {
+    "github_repo": null,
+    "npm_package": "vercel",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vert.x": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -3483,11 +7564,63 @@
       "manual_correction"
     ]
   },
+  "Vest": {
+    "github_repo": null,
+    "npm_package": "vest",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "VictoriaMetrics": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "Victory": {
+    "github_repo": null,
+    "npm_package": "victory",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vim": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Vite": {
+    "github_repo": null,
+    "npm_package": "vite",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "VitePress": {
+    "github_repo": null,
+    "npm_package": "vitepress",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vitess": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Vitest": {
+    "github_repo": null,
+    "npm_package": "vitest",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
   },
   "Vizro": {
     "github_repo": "mckinsey/vizro",
@@ -3507,7 +7640,37 @@
       "pypi_project_urls"
     ]
   },
+  "Vue": {
+    "github_repo": null,
+    "npm_package": "vue",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vue Router": {
+    "github_repo": null,
+    "npm_package": "vue-router",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Vuetify": {
+    "github_repo": null,
+    "npm_package": "vuetify",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "WDL (Workflow Description Language)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Wails": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -3519,12 +7682,53 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "Warp": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Wasmer": {
+    "github_repo": "wasmerio/wasmer-python",
+    "npm_package": null,
+    "pypi_package": "wasmer",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Wasmtime": {
+    "github_repo": "bytecodealliance/wasmtime-py",
+    "npm_package": null,
+    "pypi_package": "wasmtime",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "WeasyPrint": {
+    "github_repo": "Kozea/WeasyPrint",
+    "npm_package": null,
+    "pypi_package": "weasyprint",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
   "Weaviate": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": "weaviate",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "Webpack": {
+    "github_repo": null,
+    "npm_package": "webpack",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "Weights & Biases": {
@@ -3553,6 +7757,12 @@
     "pypi_package": null,
     "resolved_by": []
   },
+  "WezTerm": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "WhyLabs (whylogs)": {
     "github_repo": null,
     "npm_package": null,
@@ -3561,12 +7771,34 @@
   },
   "Windmill": {
     "github_repo": null,
-    "npm_package": null,
-    "pypi_package": "wmill",
+    "npm_package": "windmill",
+    "pypi_package": "windmill",
     "resolved_by": [
       "pypi_guess",
-      "manual_correction"
+      "npm_guess"
     ]
+  },
+  "Windsurf": {
+    "github_repo": null,
+    "npm_package": "windsurf",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Wouter": {
+    "github_repo": "molefrog/wouter",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Wwise": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "XGBoost": {
     "github_repo": null,
@@ -3576,13 +7808,63 @@
       "pypi_guess"
     ]
   },
+  "XState": {
+    "github_repo": null,
+    "npm_package": "xstate",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "XeTeX": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Yarn": {
+    "github_repo": null,
+    "npm_package": "yarn",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "YugabyteDB": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
   },
+  "Yup": {
+    "github_repo": "jquense/yup",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "Zabbix": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zapier": {
+    "github_repo": null,
+    "npm_package": "zapier",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Zed": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zellij": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
@@ -3597,6 +7879,87 @@
       "pypi_guess"
     ]
   },
+  "Zephyr RTOS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zinc": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zipkin": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zitadel": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zod": {
+    "github_repo": null,
+    "npm_package": "zod",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Zola": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zotero": {
+    "github_repo": null,
+    "npm_package": "zotero",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Zustand": {
+    "github_repo": null,
+    "npm_package": "zustand",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "anime.js": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "argparse": {
+    "github_repo": "ThomasWaldmann/argparse",
+    "npm_package": null,
+    "pypi_package": "argparse",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "asdf": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "cert-manager": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "chDB": {
     "github_repo": "chdb-io/chdb",
     "npm_package": null,
@@ -3604,6 +7967,14 @@
     "resolved_by": [
       "url_parse",
       "pypi_guess"
+    ]
+  },
+  "clap": {
+    "github_repo": "clap-rs/clap",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "conda": {
@@ -3614,6 +7985,12 @@
       "pypi_guess",
       "pypi_project_urls"
     ]
+  },
+  "curl": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "dbt": {
     "github_repo": null,
@@ -3641,6 +8018,20 @@
       "pypi_project_urls"
     ]
   },
+  "dprint": {
+    "github_repo": null,
+    "npm_package": "dprint",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "draw.io": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
   "envd": {
     "github_repo": "tensorchord/envd",
     "npm_package": null,
@@ -3650,11 +8041,98 @@
       "pypi_project_urls"
     ]
   },
+  "esbuild": {
+    "github_repo": null,
+    "npm_package": "esbuild",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "etcd": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": null,
     "resolved_by": []
+  },
+  "ethers.js": {
+    "github_repo": null,
+    "npm_package": "ethers.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "fish": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "gRPC": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "grpc",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "got": {
+    "github_repo": "sindresorhus/got",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "graphology": {
+    "github_repo": null,
+    "npm_package": "graphology",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "hvPlot": {
+    "github_repo": "holoviz/hvplot",
+    "npm_package": null,
+    "pypi_package": "hvplot",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "io-ts": {
+    "github_repo": "gcanti/io-ts",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "jsPDF": {
+    "github_repo": "parallax/jsPDF",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "kitty": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "kitty",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "ky": {
+    "github_repo": "sindresorhus/ky",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
   },
   "lakeFS": {
     "github_repo": "treeverse/lakeFS",
@@ -3665,12 +8143,36 @@
       "pypi_guess"
     ]
   },
+  "litellm": {
+    "github_repo": "BerriAI/litellm",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "llama.cpp": {
+    "github_repo": "ggerganov/llama.cpp",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "mamba": {
     "github_repo": null,
     "npm_package": null,
     "pypi_package": "mamba",
     "resolved_by": [
       "pypi_guess"
+    ]
+  },
+  "markdown-it": {
+    "github_repo": "markdown-it/markdown-it",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "matplotlib": {
@@ -3682,6 +8184,34 @@
       "pypi_project_urls"
     ]
   },
+  "mdBook": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "micro-ROS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "mise": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "moon": {
+    "github_repo": "spacerest/moon",
+    "npm_package": "moon",
+    "pypi_package": "moon",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
   "mypy": {
     "github_repo": "python/mypy",
     "npm_package": null,
@@ -3689,6 +8219,31 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "n8n": {
+    "github_repo": null,
+    "npm_package": "n8n",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "nbdev": {
+    "github_repo": "AnswerDotAI/nbdev",
+    "npm_package": null,
+    "pypi_package": "nbdev",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "node-cron": {
+    "github_repo": "node-cron/node-cron",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "nox": {
@@ -3699,6 +8254,44 @@
       "pypi_guess"
     ]
   },
+  "npm": {
+    "github_repo": null,
+    "npm_package": "npm",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "nushell": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "oclif": {
+    "github_repo": null,
+    "npm_package": "oclif",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "ofetch": {
+    "github_repo": "unjs/ofetch",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "oxlint": {
+    "github_repo": null,
+    "npm_package": "oxlint",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "pandas": {
     "github_repo": null,
     "npm_package": null,
@@ -3706,6 +8299,64 @@
     "resolved_by": [
       "pypi_guess"
     ]
+  },
+  "pdf-lib": {
+    "github_repo": null,
+    "npm_package": "pdf-lib",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "pdf.js": {
+    "github_repo": null,
+    "npm_package": "pdf.js",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "pdf2htmlEX": {
+    "github_repo": "pdf2htmlEX/pdf2htmlEX",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "pdfTeX": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "pdfkit": {
+    "github_repo": null,
+    "npm_package": "pdfkit",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "pdfplumber": {
+    "github_repo": "jsvine/pdfplumber",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "pgBackRest": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "pgBouncer": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
   },
   "pg_duckdb": {
     "github_repo": "duckdb/pg_duckdb",
@@ -3732,6 +8383,14 @@
       "pypi_project_urls"
     ]
   },
+  "pnpm": {
+    "github_repo": null,
+    "npm_package": "pnpm",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
   "pre-commit": {
     "github_repo": "pre-commit/pre-commit",
     "npm_package": null,
@@ -3741,6 +8400,14 @@
       "pypi_project_urls"
     ]
   },
+  "proselint": {
+    "github_repo": "amperser/proselint",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "pytest": {
     "github_repo": "pytest-dev/pytest",
     "npm_package": null,
@@ -3748,6 +8415,14 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "react-force-graph": {
+    "github_repo": "vasturiano/react-force-graph",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
     ]
   },
   "scikit-learn": {
@@ -3767,6 +8442,44 @@
       "pypi_project_urls"
     ]
   },
+  "shadcn/ui": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "tRPC": {
+    "github_repo": null,
+    "npm_package": "trpc",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "textlint": {
+    "github_repo": null,
+    "npm_package": "textlint",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "tldraw": {
+    "github_repo": null,
+    "npm_package": "tldraw",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "tmux": {
+    "github_repo": "tmux/tmux",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
   "tox": {
     "github_repo": "tox-dev/tox",
     "npm_package": null,
@@ -3774,6 +8487,54 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "tsup": {
+    "github_repo": null,
+    "npm_package": "tsup",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "uPlot": {
+    "github_repo": "leeoniya/uPlot",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "unbuild": {
+    "github_repo": "unjs/unbuild",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "undici": {
+    "github_repo": null,
+    "npm_package": "undici",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "unified": {
+    "github_repo": null,
+    "npm_package": "unified",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "urql": {
+    "github_repo": null,
+    "npm_package": "urql",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   },
   "uv": {
@@ -3802,6 +8563,94 @@
     "resolved_by": [
       "pypi_guess",
       "pypi_project_urls"
+    ]
+  },
+  "vanilla-extract": {
+    "github_repo": null,
+    "npm_package": "vanilla-extract",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "viem": {
+    "github_repo": null,
+    "npm_package": "viem",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "vis-network": {
+    "github_repo": null,
+    "npm_package": "vis-network",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "visx": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "wagmi": {
+    "github_repo": null,
+    "npm_package": "wagmi",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "wasm-bindgen": {
+    "github_repo": "rustwasm/wasm-bindgen",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "wasm-pack": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "wget": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "wkhtmltopdf": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "write-good": {
+    "github_repo": "btford/write-good",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "yFiles": {
+    "github_repo": null,
+    "npm_package": "yfiles",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "yargs": {
+    "github_repo": null,
+    "npm_package": "yargs",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
     ]
   }
 }

@@ -16,6 +16,17 @@ landscape query --used-by KD-GAT            # Tools in a project's stack
 landscape query --ceiling extensive --momentum growing  # High-ceiling growing tools
 landscape inspect <tool-name>               # Full detail + edges + neighborhoods
 landscape coverage <project-name>           # Capability coverage report
+landscape neighborhoods compute [--resolution 1.0] [--min-size 3]
+landscape neighborhoods list                # Show all neighborhoods
+landscape neighborhoods show <name>         # Tools in a neighborhood
+landscape recommend --tool <name>           # Related tool recommendations
+landscape recommend --capability NAME --project NAME
+landscape validate                          # Run data quality checks
+landscape export [--output DIR]             # Export tables to Parquet
+
+# Frontend (Observable Framework)
+cd site && npm run dev                      # Local preview
+cd site && npm run build                    # Build static site
 
 # Development
 uv pip install -e ".[dev]" --python .venv/bin/python
@@ -31,13 +42,14 @@ uv pip install -e ".[dev]" --python .venv/bin/python
 | Table | Role | Rows |
 |-------|------|------|
 | `tools` | Tool catalog: identity, enums, arrays, booleans | 1157 |
-| `edges` | Typed directed relationships between tools | 1445 |
+| `edges` | Typed directed relationships between tools | 1469 |
 | `tool_metrics` | Time-series metrics with source tracking (EAV) | 0 (Phase 2) |
-| `neighborhoods` | Computed or user-defined tool clusters | 0 (Phase 3) |
-| `neighborhood_members` | Tool membership in neighborhoods (soft, pinnable) | 0 (Phase 3) |
+| `neighborhoods` | Computed Louvain clusters | 58 |
+| `neighborhood_members` | Tool membership in neighborhoods (soft, pinnable) | 1157 |
 | `projects` | Project definitions with environment constraints | 2 |
 | `capabilities` | Per-project floor/ceiling requirements | 16 |
 | `fitness` | Tool × capability fitness scores | 0 (Phase 2) |
+| `validation_flags` | Data quality issues detected by validator | 0 (on-demand) |
 | `migration_history` | Past tool switches (from git history) | 0 (Phase 1b) |
 
 ### Package Structure
@@ -53,9 +65,22 @@ landscape/
   cli/
     main.py         # Entry point + all subcommands
   analysis/
-    fitness.py      # Floor/ceiling scoring (Phase 2)
-    neighborhoods.py # Graph clustering (Phase 3)
-    metrics.py      # GitHub/PyPI metric collection (Phase 2)
+    fitness.py       # Floor/ceiling scoring (Phase 2)
+    neighborhoods.py # Louvain graph clustering (Phase 3)
+    recommend.py     # Tool recommendations (Phase 3)
+    validate.py      # Data quality validation (Phase 3)
+    metrics.py       # GitHub/PyPI metric collection (Phase 2)
+  export.py          # DuckDB → Parquet export for frontend
+
+site/                  # Observable Framework frontend (Phase 5)
+  src/
+    index.md           # Dashboard (summary stats, distributions)
+    graph.md           # D3 force-directed graph explorer
+    tools.md           # Filterable tool table
+    coverage.md        # Project capability coverage
+    compare.md         # Side-by-side tool comparison
+    data/*.parquet     # Exported Parquet files (committed)
+  observablehq.config.js
 ```
 
 ### Layer Rules
@@ -96,9 +121,9 @@ See `data/seed/project_ceilings.json` → `evaluation_protocol` for when/how to 
 | 1 | **Done** | Schema, seed migration, CLI (import/stats/query/inspect/coverage) |
 | 1b | **Done** | Hand-curated edges (75), multi-catalog migration, catalog validation |
 | 2 | **Done** | Metrics pipeline (GitHub/PyPI/npm/deps.dev), fitness scoring, identifier resolution |
-| 3 | Todo | Graph clustering → computed neighborhoods, recommend command |
+| 3 | **Done** | Graph clustering (Louvain → 58 neighborhoods), recommend command, validate command |
 | 4 | **Done** | Expanded catalogs: 9 catalogs × 29 dimensions (mlops, frontend, document, llm, gamedev, viz, platform, backend) |
-| 5 | Todo | Interactive exploration (see `~/plans/tool-landscape-frontend.md`) |
+| 5 | **Done** | Observable Framework frontend: dashboard, graph explorer, tool table, coverage, compare |
 
 ## Seed Data
 
@@ -117,7 +142,7 @@ See `data/seed/project_ceilings.json` → `evaluation_protocol` for when/how to 
 | `backend_tools_catalog.json` | 88 | Databases, auth, monitoring, service mesh, queues |
 
 - `data/seed/project_ceilings.json` — 2 projects, 16 capabilities, evaluation protocol
-- `data/seed/curated_edges.json` — 75 hand-curated typed edges
+- `data/seed/curated_edges.json` — 99 hand-curated typed edges
 
 Validate catalogs: `python3 scripts/validate_catalogs.py`
 

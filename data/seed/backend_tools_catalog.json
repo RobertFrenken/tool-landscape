@@ -22,11 +22,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_server", "reverse_proxy", "load_balancer"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c"],
-    "integration_targets": ["docker", "kubernetes", "certbot"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_server",
+      "reverse_proxy",
+      "load_balancer"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c"
+    ],
+    "integration_targets": [
+      "docker",
+      "kubernetes",
+      "certbot"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -53,11 +67,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_server", "reverse_proxy"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["docker", "lets_encrypt"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_server",
+      "reverse_proxy"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "docker",
+      "lets_encrypt"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -69,7 +95,7 @@
     "summary": "Cloud-native edge router with automatic service discovery for Docker and Kubernetes. Dynamic configuration eliminates manual route management in containerized environments.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -84,11 +110,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["reverse_proxy", "load_balancer", "api_gateway"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["docker", "kubernetes", "consul", "etcd"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "reverse_proxy",
+      "load_balancer",
+      "api_gateway"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "docker",
+      "kubernetes",
+      "consul",
+      "etcd"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -115,11 +156,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["load_balancer", "reverse_proxy"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c"],
-    "integration_targets": ["docker", "kubernetes"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "load_balancer",
+      "reverse_proxy"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c"
+    ],
+    "integration_targets": [
+      "docker",
+      "kubernetes"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -131,7 +184,7 @@
     "summary": "L7 proxy and communication bus designed for large service-oriented architectures. Foundation for Istio service mesh; excels at observability and traffic management.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "high",
     "lock_in_risk": "medium",
@@ -146,11 +199,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["service_proxy", "service_mesh", "load_balancer"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["cpp"],
-    "integration_targets": ["kubernetes", "istio", "prometheus", "jaeger"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "service_proxy",
+      "service_mesh",
+      "load_balancer"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "cpp"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "istio",
+      "prometheus",
+      "jaeger"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -162,7 +230,7 @@
     "summary": "Cloud-native API gateway built on Nginx/OpenResty. Plugin ecosystem covers auth, rate limiting, logging, and transformations without custom code.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -177,11 +245,27 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["api_gateway", "service_mesh"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["lua", "go"],
-    "integration_targets": ["kubernetes", "prometheus", "datadog", "opentelemetry"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "api_gateway",
+      "service_mesh"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "lua",
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "prometheus",
+      "datadog",
+      "opentelemetry"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -193,7 +277,7 @@
     "summary": "Dynamic, real-time API gateway with rich plugin ecosystem. etcd-backed configuration enables hot reloads without restarts; strong alternative to Kong.",
     "maturity": "production",
     "governance": "apache_foundation",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -208,11 +292,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["api_gateway"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["lua", "go"],
-    "integration_targets": ["etcd", "kubernetes", "prometheus"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "api_gateway"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "lua",
+      "go"
+    ],
+    "integration_targets": [
+      "etcd",
+      "kubernetes",
+      "prometheus"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -239,11 +336,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["postgresql", "mysql", "redis", "celery"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "mysql",
+      "redis",
+      "celery"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -270,11 +381,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["django", "postgresql", "openapi"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "django",
+      "postgresql",
+      "openapi"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -301,11 +424,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["sqlalchemy", "redis", "celery"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "sqlalchemy",
+      "redis",
+      "celery"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -332,11 +468,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["uvicorn", "httpx"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "uvicorn",
+      "httpx"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -363,11 +511,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["redis", "postgresql"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "redis",
+      "postgresql"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -394,11 +554,22 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["gunicorn", "uvicorn"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "gunicorn",
+      "uvicorn"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -425,11 +596,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "typescript"],
-    "integration_targets": ["mongodb", "postgresql", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "integration_targets": [
+      "mongodb",
+      "postgresql",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -456,11 +641,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "typescript"],
-    "integration_targets": ["postgresql", "redis", "openapi"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis",
+      "openapi"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -487,11 +686,27 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["typescript", "javascript"],
-    "integration_targets": ["postgresql", "mongodb", "redis", "graphql", "grpc"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "mongodb",
+      "redis",
+      "graphql",
+      "grpc"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -518,11 +733,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted", "edge"],
-    "language_ecosystem": ["typescript", "javascript"],
-    "integration_targets": ["cloudflare_workers", "deno", "bun"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "edge"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "integration_targets": [
+      "cloudflare_workers",
+      "deno",
+      "bun"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -549,11 +779,27 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java", "kotlin"],
-    "integration_targets": ["postgresql", "mongodb", "redis", "kafka", "rabbitmq"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java",
+      "kotlin"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "mongodb",
+      "redis",
+      "kafka",
+      "rabbitmq"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -565,7 +811,7 @@
     "summary": "Kubernetes-native Java framework with GraalVM native compilation support. Sub-second startup and low memory make it viable for serverless and container workloads.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -580,11 +826,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java", "kotlin"],
-    "integration_targets": ["kubernetes", "kafka", "postgresql", "graalvm"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java",
+      "kotlin"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "kafka",
+      "postgresql",
+      "graalvm"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -611,11 +872,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["postgresql", "redis", "mongodb"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis",
+      "mongodb"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -642,11 +916,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["postgresql", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -673,11 +959,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["rust"],
-    "integration_targets": ["postgresql", "redis", "opentelemetry"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis",
+      "opentelemetry"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -704,11 +1003,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["rust"],
-    "integration_targets": ["tokio", "tower", "postgresql"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust"
+    ],
+    "integration_targets": [
+      "tokio",
+      "tower",
+      "postgresql"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -735,11 +1047,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["ruby"],
-    "integration_targets": ["postgresql", "redis", "sidekiq", "webpack"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "ruby"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis",
+      "sidekiq",
+      "webpack"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -766,11 +1092,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["elixir"],
-    "integration_targets": ["postgresql", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "elixir"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -797,11 +1135,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["auth", "identity_management"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java"],
-    "integration_targets": ["ldap", "oauth2", "saml", "openid_connect", "kubernetes"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "identity_management"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
+    "integration_targets": [
+      "ldap",
+      "oauth2",
+      "saml",
+      "openid_connect",
+      "kubernetes"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -828,11 +1181,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "identity_management"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python", "go"],
-    "integration_targets": ["ldap", "oauth2", "saml", "openid_connect"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "identity_management"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "go"
+    ],
+    "integration_targets": [
+      "ldap",
+      "oauth2",
+      "saml",
+      "openid_connect"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -859,11 +1227,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["java", "javascript"],
-    "integration_targets": ["react", "nodejs", "python", "golang"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "java",
+      "javascript"
+    ],
+    "integration_targets": [
+      "react",
+      "nodejs",
+      "python",
+      "golang"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -890,11 +1273,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["nginx", "traefik", "caddy", "ldap"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "nginx",
+      "traefik",
+      "caddy",
+      "ldap"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -906,7 +1302,7 @@
     "summary": "Cloud-native identity management with built-in multi-tenancy and CQRS/event-sourcing architecture. Modern alternative to Auth0 and Keycloak.",
     "maturity": "growth",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -921,11 +1317,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "identity_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["oauth2", "openid_connect", "saml", "kubernetes"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "identity_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "oauth2",
+      "openid_connect",
+      "saml",
+      "kubernetes"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -937,7 +1348,7 @@
     "summary": "Developer-focused identity platform with registration, login, MFA, and SSO. Self-hosted Auth0 alternative with simpler deployment model than Keycloak.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -952,11 +1363,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "identity_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["java"],
-    "integration_targets": ["oauth2", "openid_connect", "saml", "ldap"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "identity_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
+    "integration_targets": [
+      "oauth2",
+      "openid_connect",
+      "saml",
+      "ldap"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -968,7 +1394,7 @@
     "summary": "OAuth 2.0 and OpenID Connect certified server. Headless design with no built-in UI allows full customization of login/consent flows.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -983,11 +1409,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "oauth_server"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["oauth2", "openid_connect", "postgresql", "mysql"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "oauth_server"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "oauth2",
+      "openid_connect",
+      "postgresql",
+      "mysql"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -999,7 +1440,7 @@
     "summary": "Cloud-native identity and user management system. Handles registration, login, MFA, and account recovery with headless API; pairs with Ory Hydra for OAuth.",
     "maturity": "growth",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1014,11 +1455,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "identity_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["ory_hydra", "postgresql", "mysql", "openid_connect"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "identity_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "ory_hydra",
+      "postgresql",
+      "mysql",
+      "openid_connect"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1030,7 +1486,7 @@
     "summary": "Database clustering system for horizontal scaling of MySQL. Powers YouTube's database infrastructure; adds sharding, connection pooling, and query routing to MySQL.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "high",
     "lock_in_risk": "medium",
@@ -1045,11 +1501,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["database", "database_proxy"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["mysql", "kubernetes", "prometheus"],
-    "pipeline_stage": ["data_collection", "serving"],
+    "categories": [
+      "database",
+      "database_proxy"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "mysql",
+      "kubernetes",
+      "prometheus"
+    ],
+    "pipeline_stage": [
+      "data_collection",
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1076,11 +1547,22 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["cache", "key_value_store"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["cpp"],
-    "integration_targets": ["redis_protocol"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "cache",
+      "key_value_store"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "cpp"
+    ],
+    "integration_targets": [
+      "redis_protocol"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1092,7 +1574,7 @@
     "summary": "Fast, typo-tolerant search engine optimized for instant search-as-you-type. Simpler alternative to Elasticsearch for application search with built-in curation.",
     "maturity": "growth",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1107,11 +1589,25 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["search_engine"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["cpp"],
-    "integration_targets": ["python", "javascript", "ruby", "php"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "search_engine"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "cpp"
+    ],
+    "integration_targets": [
+      "python",
+      "javascript",
+      "ruby",
+      "php"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1138,11 +1634,21 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["search_engine"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["elasticsearch_api"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "search_engine"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "elasticsearch_api"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1154,7 +1660,7 @@
     "summary": "End-to-end distributed tracing system originally from Uber. Visualizes request flows across microservices for latency analysis and root cause diagnosis.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1169,11 +1675,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["distributed_tracing", "observability"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["opentelemetry", "elasticsearch", "cassandra", "kafka"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "distributed_tracing",
+      "observability"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "opentelemetry",
+      "elasticsearch",
+      "cassandra",
+      "kafka"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1185,7 +1705,7 @@
     "summary": "Distributed tracing system originally from Twitter. Simpler than Jaeger with lighter footprint; good for teams starting with distributed tracing.",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1200,11 +1720,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["distributed_tracing", "observability"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java"],
-    "integration_targets": ["opentelemetry", "elasticsearch", "cassandra", "mysql"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "distributed_tracing",
+      "observability"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
+    "integration_targets": [
+      "opentelemetry",
+      "elasticsearch",
+      "cassandra",
+      "mysql"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1216,7 +1750,7 @@
     "summary": "High-scale distributed tracing backend requiring only object storage. No indexing overhead; pairs with Grafana for visualization and Loki for trace-to-log correlation.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -1231,11 +1765,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["distributed_tracing", "observability"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["grafana", "opentelemetry", "jaeger", "s3"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "distributed_tracing",
+      "observability"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "grafana",
+      "opentelemetry",
+      "jaeger",
+      "s3"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1247,7 +1796,7 @@
     "summary": "Horizontally scalable long-term storage for Prometheus metrics. Successor to Cortex; handles billions of active series with multi-tenant isolation.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -1262,11 +1811,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["metrics_storage", "observability"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["prometheus", "grafana", "s3", "opentelemetry"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "metrics_storage",
+      "observability"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "prometheus",
+      "grafana",
+      "s3",
+      "opentelemetry"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1278,7 +1842,7 @@
     "summary": "Highly available Prometheus setup with long-term storage via object storage. Sidecar model extends existing Prometheus deployments without replacing them.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1293,11 +1857,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["metrics_storage", "observability"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["prometheus", "grafana", "s3", "gcs"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "metrics_storage",
+      "observability"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "prometheus",
+      "grafana",
+      "s3",
+      "gcs"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1309,7 +1887,7 @@
     "summary": "Unified observability platform covering metrics, traces, and logs with OpenTelemetry-native ingestion. Self-hosted Datadog alternative with ClickHouse backend.",
     "maturity": "growth",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1324,11 +1902,27 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["observability", "monitoring", "distributed_tracing"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go", "typescript"],
-    "integration_targets": ["opentelemetry", "clickhouse", "kubernetes"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "observability",
+      "monitoring",
+      "distributed_tracing"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go",
+      "typescript"
+    ],
+    "integration_targets": [
+      "opentelemetry",
+      "clickhouse",
+      "kubernetes"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1355,11 +1949,30 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["error_tracking", "monitoring"],
-    "deployment_model": ["saas", "self_hosted"],
-    "language_ecosystem": ["python", "javascript", "go", "java", "rust"],
-    "integration_targets": ["github", "gitlab", "jira", "slack"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "error_tracking",
+      "monitoring"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "rust"
+    ],
+    "integration_targets": [
+      "github",
+      "gitlab",
+      "jira",
+      "slack"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1386,11 +1999,30 @@
     "saas_available": true,
     "self_hosted_viable": false,
     "composite_tool": true,
-    "categories": ["observability", "monitoring", "apm"],
-    "deployment_model": ["saas"],
-    "language_ecosystem": ["python", "go", "java", "javascript"],
-    "integration_targets": ["kubernetes", "aws", "gcp", "azure", "docker"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "observability",
+      "monitoring",
+      "apm"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "go",
+      "java",
+      "javascript"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "aws",
+      "gcp",
+      "azure",
+      "docker"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1417,11 +2049,30 @@
     "saas_available": true,
     "self_hosted_viable": false,
     "composite_tool": true,
-    "categories": ["observability", "monitoring", "apm"],
-    "deployment_model": ["saas"],
-    "language_ecosystem": ["java", "python", "go", "javascript", "ruby"],
-    "integration_targets": ["kubernetes", "aws", "opentelemetry", "prometheus"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "observability",
+      "monitoring",
+      "apm"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "java",
+      "python",
+      "go",
+      "javascript",
+      "ruby"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "aws",
+      "opentelemetry",
+      "prometheus"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1448,11 +2099,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["uptime_monitoring"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
-    "integration_targets": ["slack", "discord", "telegram", "email"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "uptime_monitoring"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "integration_targets": [
+      "slack",
+      "discord",
+      "telegram",
+      "email"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1479,11 +2143,28 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["monitoring", "infrastructure_monitoring"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["c", "python", "go"],
-    "integration_targets": ["prometheus", "grafana", "slack", "pagerduty"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "monitoring",
+      "infrastructure_monitoring"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "c",
+      "python",
+      "go"
+    ],
+    "integration_targets": [
+      "prometheus",
+      "grafana",
+      "slack",
+      "pagerduty"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1510,11 +2191,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["monitoring", "infrastructure_monitoring"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c", "perl"],
-    "integration_targets": ["snmp", "ssh", "nrpe"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "monitoring",
+      "infrastructure_monitoring"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c",
+      "perl"
+    ],
+    "integration_targets": [
+      "snmp",
+      "ssh",
+      "nrpe"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1526,7 +2221,7 @@
     "summary": "Full-featured service mesh for Kubernetes providing traffic management, security, and observability. Envoy-based data plane with rich but complex configuration model.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "high",
     "lock_in_risk": "medium",
@@ -1541,11 +2236,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["service_mesh"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "envoy", "prometheus", "jaeger", "grafana"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "service_mesh"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "envoy",
+      "prometheus",
+      "jaeger",
+      "grafana"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1557,7 +2266,7 @@
     "summary": "Ultralight Kubernetes service mesh focused on simplicity and performance. Rust-based micro-proxy adds mTLS, observability, and reliability with minimal resource overhead.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1572,11 +2281,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["service_mesh"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["rust", "go"],
-    "integration_targets": ["kubernetes", "prometheus", "grafana"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "service_mesh"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust",
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "prometheus",
+      "grafana"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1603,11 +2325,27 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["service_discovery", "service_mesh", "configuration_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "nomad", "vault", "envoy"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "service_discovery",
+      "service_mesh",
+      "configuration_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "nomad",
+      "vault",
+      "envoy"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1634,11 +2372,28 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["secrets_management", "security"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "consul", "aws", "gcp", "azure", "postgresql"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "secrets_management",
+      "security"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "consul",
+      "aws",
+      "gcp",
+      "azure",
+      "postgresql"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1665,11 +2420,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["orchestrator", "scheduler"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["consul", "vault", "docker", "podman"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "orchestrator",
+      "scheduler"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "consul",
+      "vault",
+      "docker",
+      "podman"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1696,11 +2466,22 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["database_proxy", "connection_pooler"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c"],
-    "integration_targets": ["postgresql"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "database_proxy",
+      "connection_pooler"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c"
+    ],
+    "integration_targets": [
+      "postgresql"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1727,11 +2508,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["database_ha", "database_management"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["postgresql", "etcd", "consul", "zookeeper"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "database_ha",
+      "database_management"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "etcd",
+      "consul",
+      "zookeeper"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1758,11 +2553,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["database_proxy", "connection_pooler"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["cpp"],
-    "integration_targets": ["mysql", "mariadb", "percona"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "database_proxy",
+      "connection_pooler"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "cpp"
+    ],
+    "integration_targets": [
+      "mysql",
+      "mariadb",
+      "percona"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1789,11 +2597,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["backup", "database_management"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c"],
-    "integration_targets": ["postgresql", "s3", "gcs", "azure_blob"],
-    "pipeline_stage": ["data_collection"],
+    "categories": [
+      "backup",
+      "database_management"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "s3",
+      "gcs",
+      "azure_blob"
+    ],
+    "pipeline_stage": [
+      "data_collection"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1805,7 +2627,7 @@
     "summary": "Kubernetes cluster backup, restore, and migration tool. Backs up cluster resources and persistent volumes; essential for disaster recovery in Kubernetes environments.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1820,11 +2642,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["backup", "disaster_recovery"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "s3", "gcs", "azure_blob"],
-    "pipeline_stage": ["data_collection"],
+    "categories": [
+      "backup",
+      "disaster_recovery"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "s3",
+      "gcs",
+      "azure_blob"
+    ],
+    "pipeline_stage": [
+      "data_collection"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1851,11 +2687,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["backup"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["s3", "gcs", "azure_blob", "sftp", "backblaze_b2"],
-    "pipeline_stage": ["data_collection"],
+    "categories": [
+      "backup"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "s3",
+      "gcs",
+      "azure_blob",
+      "sftp",
+      "backblaze_b2"
+    ],
+    "pipeline_stage": [
+      "data_collection"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1882,11 +2732,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["backup"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python", "c"],
-    "integration_targets": ["ssh", "sftp"],
-    "pipeline_stage": ["data_collection"],
+    "categories": [
+      "backup"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "c"
+    ],
+    "integration_targets": [
+      "ssh",
+      "sftp"
+    ],
+    "pipeline_stage": [
+      "data_collection"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1898,7 +2760,7 @@
     "summary": "API gateway and management platform with developer portal, analytics, and rate limiting. Go-based alternative to Kong with lower resource footprint.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -1913,11 +2775,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["api_gateway", "api_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "openapi", "graphql", "grpc"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "api_gateway",
+      "api_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "openapi",
+      "graphql",
+      "grpc"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1944,11 +2821,27 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "reverse_proxy", "zero_trust"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["oauth2", "openid_connect", "kubernetes", "docker"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "reverse_proxy",
+      "zero_trust"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "oauth2",
+      "openid_connect",
+      "kubernetes",
+      "docker"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -1960,7 +2853,7 @@
     "summary": "APM system for distributed systems with service mesh observability. Auto-instrumentation agents for Java, Python, Node.js, and Go; strong in cloud-native environments.",
     "maturity": "production",
     "governance": "apache_foundation",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1975,11 +2868,28 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["apm", "observability", "distributed_tracing"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java", "go", "python"],
-    "integration_targets": ["kubernetes", "istio", "envoy", "elasticsearch"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "apm",
+      "observability",
+      "distributed_tracing"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java",
+      "go",
+      "python"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "istio",
+      "envoy",
+      "elasticsearch"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -1991,7 +2901,7 @@
     "summary": "API management platform with gateway, developer portal, and access management. Supports REST, GraphQL, gRPC, and event-driven APIs in a unified platform.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "high",
     "lock_in_risk": "medium",
@@ -2006,11 +2916,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["api_gateway", "api_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["java"],
-    "integration_targets": ["kubernetes", "openapi", "graphql", "kafka"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "api_gateway",
+      "api_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "openapi",
+      "graphql",
+      "kafka"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2022,7 +2947,7 @@
     "summary": "UI-first identity access management platform with built-in UI for login, registration, and admin. Supports OAuth 2.0, OIDC, SAML, and 40+ social login providers.",
     "maturity": "growth",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2037,11 +2962,26 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "identity_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["oauth2", "openid_connect", "saml", "ldap"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "identity_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "oauth2",
+      "openid_connect",
+      "saml",
+      "ldap"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2068,11 +3008,27 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["auth", "identity_management"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["typescript"],
-    "integration_targets": ["react", "next.js", "python", "go", "openid_connect"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "auth",
+      "identity_management"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "integration_targets": [
+      "react",
+      "next.js",
+      "python",
+      "go",
+      "openid_connect"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2099,11 +3055,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
-    "integration_targets": ["mongodb", "postgresql", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "integration_targets": [
+      "mongodb",
+      "postgresql",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2130,11 +3099,27 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java", "kotlin", "groovy"],
-    "integration_targets": ["graalvm", "kafka", "rabbitmq", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java",
+      "kotlin",
+      "groovy"
+    ],
+    "integration_targets": [
+      "graalvm",
+      "kafka",
+      "rabbitmq",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2161,11 +3146,27 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java", "kotlin", "javascript"],
-    "integration_targets": ["kafka", "redis", "postgresql", "mongodb"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java",
+      "kotlin",
+      "javascript"
+    ],
+    "integration_targets": [
+      "kafka",
+      "redis",
+      "postgresql",
+      "mongodb"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2192,11 +3193,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "http_client"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["asyncio", "redis", "postgresql"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "http_client"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "asyncio",
+      "redis",
+      "postgresql"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2223,11 +3237,21 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["asyncio"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "asyncio"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2254,11 +3278,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["openapi", "flask", "starlette"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "openapi",
+      "flask",
+      "starlette"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2285,11 +3321,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["rust"],
-    "integration_targets": ["postgresql", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2316,11 +3364,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["postgresql", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2347,11 +3407,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["web_framework", "api_framework"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["kotlin"],
-    "integration_targets": ["postgresql", "mongodb", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "web_framework",
+      "api_framework"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "kotlin"
+    ],
+    "integration_targets": [
+      "postgresql",
+      "mongodb",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2363,7 +3436,7 @@
     "summary": "Observability console for Istio service mesh with topology visualization, traffic flow analysis, and configuration validation. Essential companion for Istio deployments.",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "medium",
@@ -2378,11 +3451,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["observability", "service_mesh"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go", "typescript"],
-    "integration_targets": ["istio", "prometheus", "grafana", "jaeger"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "observability",
+      "service_mesh"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go",
+      "typescript"
+    ],
+    "integration_targets": [
+      "istio",
+      "prometheus",
+      "grafana",
+      "jaeger"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2394,7 +3482,7 @@
     "summary": "eBPF-powered observability with automatic service map discovery and anomaly detection. Zero-instrumentation monitoring that maps dependencies from network traffic.",
     "maturity": "growth",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2409,11 +3497,25 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["observability", "monitoring"],
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "prometheus", "clickhouse"],
-    "pipeline_stage": ["monitoring"],
+    "categories": [
+      "observability",
+      "monitoring"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "prometheus",
+      "clickhouse"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2440,11 +3542,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["job_queue", "background_processing"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["ruby"],
-    "integration_targets": ["redis", "rails", "postgresql"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "job_queue",
+      "background_processing"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "ruby"
+    ],
+    "integration_targets": [
+      "redis",
+      "rails",
+      "postgresql"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2471,11 +3586,23 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["job_queue", "background_processing"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["rabbitmq", "redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "job_queue",
+      "background_processing"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "rabbitmq",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2502,11 +3629,22 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["job_queue", "background_processing"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
-    "integration_targets": ["redis"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "job_queue",
+      "background_processing"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "integration_targets": [
+      "redis"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2518,7 +3656,7 @@
     "summary": "Kubernetes-native operator for deploying and managing MinIO tenants. Automates provisioning, TLS, and multi-tenant object storage on Kubernetes.",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "multi_tenant",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -2533,11 +3671,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["object_storage", "kubernetes_operator"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "minio", "s3"],
-    "pipeline_stage": ["data_collection", "serving"],
+    "categories": [
+      "object_storage",
+      "kubernetes_operator"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "minio",
+      "s3"
+    ],
+    "pipeline_stage": [
+      "data_collection",
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2549,7 +3701,7 @@
     "summary": "Kubernetes-native certificate management controller. Automates issuance and renewal of TLS certificates from Let's Encrypt, Vault, and other CAs.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2564,11 +3716,24 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["security", "certificate_management"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "lets_encrypt", "vault"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "security",
+      "certificate_management"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "lets_encrypt",
+      "vault"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2580,7 +3745,7 @@
     "summary": "Kubernetes-native policy management without new languages. Policies as Kubernetes resources using familiar YAML; validates, mutates, and generates configurations.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2595,11 +3760,22 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["policy_engine", "security"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "policy_engine",
+      "security"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   },
@@ -2611,7 +3787,7 @@
     "summary": "eBPF-based networking, security, and observability for Kubernetes. Kernel-level packet processing delivers high performance with network policies and transparent encryption.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "high",
     "lock_in_risk": "medium",
@@ -2626,11 +3802,27 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": true,
-    "categories": ["networking", "security", "service_mesh"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go", "c"],
-    "integration_targets": ["kubernetes", "prometheus", "grafana", "hubble"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "networking",
+      "security",
+      "service_mesh"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go",
+      "c"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "prometheus",
+      "grafana",
+      "hubble"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2642,7 +3834,7 @@
     "summary": "Kubernetes Event-Driven Autoscaling based on external metrics. Scales workloads from zero to N based on queue depth, database queries, or custom metrics.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2657,11 +3849,26 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["autoscaler", "kubernetes_operator"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "kafka", "rabbitmq", "redis", "prometheus"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "autoscaler",
+      "kubernetes_operator"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "kafka",
+      "rabbitmq",
+      "redis",
+      "prometheus"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2673,7 +3880,7 @@
     "summary": "Progressive delivery controller for Kubernetes with canary and blue-green deployments. Integrates with service meshes and ingress controllers for traffic splitting.",
     "maturity": "production",
     "governance": "cncf",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2688,11 +3895,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["deployment", "progressive_delivery"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "istio", "nginx", "prometheus"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "deployment",
+      "progressive_delivery"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "istio",
+      "nginx",
+      "prometheus"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "horizontal",
     "used_by": []
   },
@@ -2719,11 +3940,25 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "composite_tool": false,
-    "categories": ["secrets_management", "kubernetes_operator"],
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
-    "integration_targets": ["kubernetes", "vault", "aws_ssm", "gcp_secret_manager"],
-    "pipeline_stage": ["serving"],
+    "categories": [
+      "secrets_management",
+      "kubernetes_operator"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "integration_targets": [
+      "kubernetes",
+      "vault",
+      "aws_ssm",
+      "gcp_secret_manager"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
     "scale_profile": "single_node",
     "used_by": []
   }

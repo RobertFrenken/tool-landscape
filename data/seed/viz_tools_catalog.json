@@ -7,7 +7,7 @@
     "summary": "Low-level JavaScript library for data-driven document manipulation and visualization using web standards (SVG, Canvas, HTML)",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "medium",
@@ -30,11 +30,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Observable Framework",
-      "Observable Plot"
+      "observable framework",
+      "observable plot"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -48,7 +48,7 @@
     "summary": "Simple yet flexible JavaScript charting library for designers and developers with canvas-based rendering and good defaults",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -70,7 +70,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -85,7 +85,7 @@
     "summary": "Feature-rich interactive charting and data visualization library from Apache with declarative API and extensive chart types",
     "maturity": "production",
     "governance": "apache_foundation",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -108,7 +108,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -123,7 +123,7 @@
     "summary": "Commercial JavaScript charting library with extensive chart types, accessibility, and enterprise support; free for non-commercial use",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "high",
@@ -145,7 +145,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -160,7 +160,7 @@
     "summary": "High-level declarative charting library built on D3.js and WebGL with 40+ chart types and interactive features",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -183,11 +183,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Plotly",
-      "Dash"
+      "plotly",
+      "dash"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -201,7 +201,7 @@
     "summary": "Composable React charting library built on D3 with declarative components for building charts from reusable pieces",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -223,10 +223,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React"
+      "react"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -240,7 +240,7 @@
     "summary": "Rich set of React dataviz components built on D3 with server-side rendering support and 27+ chart types",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -262,11 +262,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "D3.js"
+      "react",
+      "d3.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -280,7 +280,7 @@
     "summary": "React component library for building interactive data visualizations with composable chart components",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -302,11 +302,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "React Native"
+      "react",
+      "react native"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -320,7 +320,7 @@
     "summary": "Collection of low-level React visualization primitives from Airbnb combining D3 power with React component model",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "low",
@@ -343,11 +343,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "D3.js"
+      "react",
+      "d3.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -361,7 +361,7 @@
     "summary": "Re-usable easy-interface JavaScript chart library based on D3.js maintained by NAVER",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -383,10 +383,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "D3.js"
+      "d3.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -400,7 +400,7 @@
     "summary": "Modern interactive charting library with clean API, responsive design, and framework wrappers for React/Vue/Angular",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -422,12 +422,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "Vue",
-      "Angular"
+      "react",
+      "vue",
+      "angular"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -441,7 +441,7 @@
     "summary": "D3-based reusable chart library providing classes for each chart type to simplify D3 chart generation",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -463,10 +463,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "D3.js"
+      "d3.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -480,7 +480,7 @@
     "summary": "Simple responsive modern SVG charts with zero dependencies for quick data visualization",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -502,7 +502,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -517,7 +517,7 @@
     "summary": "Ultra-small (~50KB) fast time series chart library optimized for performance with minimal memory footprint",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -539,7 +539,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -554,7 +554,7 @@
     "summary": "Simple responsive SVG charting library with clean separation of concerns between CSS and JavaScript",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -576,7 +576,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -591,7 +591,7 @@
     "summary": "Concise and progressive visualization grammar from AntV for building interactive data-driven graphics",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -614,11 +614,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "G6",
-      "Ant Design"
+      "g6",
+      "ant design"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -632,7 +632,7 @@
     "summary": "Concise high-level JavaScript charting library from Observable for exploratory data analysis with sensible defaults",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -655,11 +655,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Observable Framework",
-      "D3.js"
+      "observable framework",
+      "d3.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -673,7 +673,7 @@
     "summary": "Declarative visualization grammar using JSON specifications to create interactive views of data",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -696,11 +696,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Vega-Lite",
-      "Altair"
+      "vega-lite",
+      "altair"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -714,7 +714,7 @@
     "summary": "High-level grammar of interactive graphics providing concise JSON syntax that compiles to full Vega specifications",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -737,11 +737,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Vega",
-      "Altair"
+      "vega",
+      "altair"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -755,7 +755,7 @@
     "summary": "Graph theory / network visualization library for analysis and visualization with rich interaction and layout algorithms",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -777,11 +777,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Dagre",
-      "ELK"
+      "dagre",
+      "elk"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -795,7 +795,7 @@
     "summary": "WebGL-powered JavaScript library for visualizing large graphs with thousands of nodes and edges performantly",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -817,7 +817,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
       "graphology"
@@ -834,7 +834,7 @@
     "summary": "Dynamic browser-based network visualization library for displaying customizable automatically-organized graph views",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -856,7 +856,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -871,7 +871,7 @@
     "summary": "Graph visualization framework from AntV for interactive relationship data and network analysis with rich layouts",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -893,11 +893,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "G2",
-      "Ant Design"
+      "g2",
+      "ant design"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -933,10 +933,10 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Java"
+      "java"
     ],
     "integration_targets": [
-      "Sigma.js"
+      "sigma.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -950,7 +950,7 @@
     "summary": "Commercial graph visualization SDK with advanced automatic layout algorithms, available for HTML/Java/.NET/JavaFX",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "high",
@@ -974,13 +974,13 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "Java"
+      "javascript",
+      "java"
     ],
     "integration_targets": [
-      "React",
-      "Angular",
-      "Vue"
+      "react",
+      "angular",
+      "vue"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -1017,11 +1017,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [
-      "Jupyter Notebook",
-      "Kroki"
+      "jupyter notebook",
+      "kroki"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1035,7 +1035,7 @@
     "summary": "React component for force-directed 2D/3D/VR graph visualization using D3 force simulation and Three.js",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1057,12 +1057,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "Three.js",
-      "D3.js"
+      "react",
+      "three.js",
+      "d3.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1076,7 +1076,7 @@
     "summary": "JavaScript library for directed graph layout using Sugiyama-style hierarchical algorithm for DAG visualization",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1098,11 +1098,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Cytoscape.js",
-      "D3.js"
+      "cytoscape.js",
+      "d3.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1116,7 +1116,7 @@
     "summary": "Eclipse Layout Kernel providing automatic graph layout algorithms usable standalone or via elkjs in JavaScript",
     "maturity": "production",
     "governance": "foundation",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1139,12 +1139,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Java",
-      "JavaScript"
+      "java",
+      "javascript"
     ],
     "integration_targets": [
-      "Cytoscape.js",
-      "React Flow"
+      "cytoscape.js",
+      "react flow"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1158,7 +1158,7 @@
     "summary": "Robust multi-purpose JavaScript graph library providing graph data structure and standard graph algorithms",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1180,10 +1180,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Sigma.js"
+      "sigma.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1197,7 +1197,7 @@
     "summary": "Customizable React component for building interactive node-based editors, flow charts, and diagrams",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1220,12 +1220,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "Dagre",
-      "ELK"
+      "react",
+      "dagre",
+      "elk"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1261,11 +1261,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Folium",
-      "MapLibre GL JS"
+      "folium",
+      "maplibre gl js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1302,11 +1302,11 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Deck.gl",
-      "Kepler.gl"
+      "deck.gl",
+      "kepler.gl"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -1342,10 +1342,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "GeoServer"
+      "geoserver"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1382,13 +1382,13 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "MapLibre GL JS",
-      "Mapbox GL JS",
-      "Google Maps API",
-      "PyDeck"
+      "maplibre gl js",
+      "mapbox gl js",
+      "google maps api",
+      "pydeck"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1426,7 +1426,7 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1441,7 +1441,7 @@
     "summary": "Advanced geospatial analysis library for browsers and Node.js with modular functions for spatial operations",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1463,11 +1463,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Leaflet",
-      "Mapbox GL JS"
+      "leaflet",
+      "mapbox gl js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1503,11 +1503,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Deck.gl",
-      "Kepler.gl"
+      "deck.gl",
+      "kepler.gl"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1544,12 +1544,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Deck.gl",
-      "MapLibre GL JS",
-      "Jupyter Notebook"
+      "deck.gl",
+      "maplibre gl js",
+      "jupyter notebook"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1585,15 +1585,15 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "C",
-      "Python",
-      "JavaScript",
-      "Java"
+      "c",
+      "python",
+      "javascript",
+      "java"
     ],
     "integration_targets": [
-      "DuckDB",
-      "Deck.gl",
-      "Kepler.gl"
+      "duckdb",
+      "deck.gl",
+      "kepler.gl"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1629,12 +1629,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Java"
+      "java"
     ],
     "integration_targets": [
-      "OpenLayers",
-      "Leaflet",
-      "QGIS"
+      "openlayers",
+      "leaflet",
+      "qgis"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -1670,13 +1670,13 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "C++",
-      "Python"
+      "c++",
+      "python"
     ],
     "integration_targets": [
-      "GeoServer",
-      "PostGIS",
-      "CesiumJS"
+      "geoserver",
+      "postgis",
+      "cesiumjs"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1712,10 +1712,10 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Deck.gl"
+      "deck.gl"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -1729,7 +1729,7 @@
     "summary": "Free browser-based diagramming tool (also known as diagrams.net) for flowcharts, UML, network diagrams, and more",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1752,11 +1752,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Confluence",
-      "GitHub"
+      "confluence",
+      "github"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1770,7 +1770,7 @@
     "summary": "Virtual whiteboard for sketching hand-drawn style diagrams with real-time collaboration and library support",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1793,10 +1793,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React"
+      "react"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1810,7 +1810,7 @@
     "summary": "Infinite canvas SDK for React with whiteboard and diagramming capabilities; free for non-commercial, paid for production",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -1833,10 +1833,10 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React"
+      "react"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1872,10 +1872,10 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "GitHub"
+      "github"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1889,7 +1889,7 @@
     "summary": "Widely-used JavaScript 3D library providing WebGL rendering with scene graph, cameras, lights, and loaders",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "low",
@@ -1911,10 +1911,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React Three Fiber"
+      "react three fiber"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1928,7 +1928,7 @@
     "summary": "Powerful real-time 3D engine using WebGL and WebGPU for rendering interactive 3D experiences in the browser",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "low",
@@ -1950,8 +1950,8 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1966,7 +1966,7 @@
     "summary": "Web framework for building VR/AR experiences using HTML-like declarative components built on Three.js",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1988,10 +1988,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Three.js"
+      "three.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2005,7 +2005,7 @@
     "summary": "React renderer for Three.js enabling declarative 3D scene construction using React components and hooks",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2027,11 +2027,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "Three.js"
+      "react",
+      "three.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2067,10 +2067,10 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React"
+      "react"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2084,7 +2084,7 @@
     "summary": "Web component from Google for rendering 3D models in web pages with AR support and customizable controls",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2106,7 +2106,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2121,7 +2121,7 @@
     "summary": "WebGL/WebGPU game engine with visual editor for creating interactive 3D web content and games",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "high",
     "lock_in_risk": "medium",
@@ -2144,7 +2144,7 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2159,7 +2159,7 @@
     "summary": "Fast 2D WebGL renderer with canvas fallback for creating interactive graphics, games, and animated content",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2181,7 +2181,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2196,7 +2196,7 @@
     "summary": "Feature-rich JavaScript data grid with community (MIT) and enterprise editions for React/Angular/Vue",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2218,12 +2218,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "Angular",
-      "Vue"
+      "react",
+      "angular",
+      "vue"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -2237,7 +2237,7 @@
     "summary": "Headless UI table library for building powerful tables and datagrids with framework adapters for React/Vue/Solid/Svelte",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2259,14 +2259,14 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "React",
-      "Vue",
-      "Svelte",
-      "Solid"
+      "react",
+      "vue",
+      "svelte",
+      "solid"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2280,7 +2280,7 @@
     "summary": "Spreadsheet-like JavaScript data grid component; free for non-commercial use, paid license for commercial projects",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -2302,12 +2302,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "Angular",
-      "Vue"
+      "react",
+      "angular",
+      "vue"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -2321,7 +2321,7 @@
     "summary": "Lightning-fast JavaScript grid/spreadsheet with virtual scrolling for rendering millions of rows efficiently",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2343,7 +2343,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2358,7 +2358,7 @@
     "summary": "jQuery plugin for enhancing HTML tables with pagination, searching, sorting, and AJAX data loading",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2380,10 +2380,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "jQuery"
+      "jquery"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2397,7 +2397,7 @@
     "summary": "Interactive tables and data grids for JavaScript with no dependencies, supporting filtering, sorting, and editing",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2419,7 +2419,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2434,7 +2434,7 @@
     "summary": "JavaScript implementation of VTK for scientific visualization in the browser including volume rendering and isosurfaces",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "low",
@@ -2457,10 +2457,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "ParaView"
+      "paraview"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2496,11 +2496,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "C++",
-      "Python"
+      "c++",
+      "python"
     ],
     "integration_targets": [
-      "VTK.js"
+      "vtk.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -2536,11 +2536,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "NumPy",
-      "Jupyter Notebook"
+      "numpy",
+      "jupyter notebook"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2554,7 +2554,7 @@
     "summary": "Interactive visualization library for Python that creates browser-ready plots from large and streaming datasets",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2578,12 +2578,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Jupyter Notebook",
-      "Panel",
-      "HoloViews"
+      "jupyter notebook",
+      "panel",
+      "holoviews"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2597,7 +2597,7 @@
     "summary": "Declarative statistical visualization library for Python based on Vega-Lite with a concise grammar of graphics API",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2621,12 +2621,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Vega-Lite",
-      "Jupyter Notebook",
-      "Streamlit"
+      "vega-lite",
+      "jupyter notebook",
+      "streamlit"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2640,7 +2640,7 @@
     "summary": "Python library that makes data analysis and visualization seamless by letting your data visualize itself",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2663,13 +2663,13 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Bokeh",
+      "bokeh",
       "matplotlib",
-      "Panel",
-      "Datashader"
+      "panel",
+      "datashader"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2706,11 +2706,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
       "matplotlib",
-      "Jupyter Notebook"
+      "jupyter notebook"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2747,12 +2747,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Deck.gl",
-      "Jupyter Notebook",
-      "Streamlit"
+      "deck.gl",
+      "jupyter notebook",
+      "streamlit"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2789,11 +2789,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Leaflet",
-      "Jupyter Notebook"
+      "leaflet",
+      "jupyter notebook"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2830,12 +2830,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
       "matplotlib",
-      "Folium",
-      "Shapely"
+      "folium",
+      "shapely"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2872,11 +2872,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Bokeh",
-      "HoloViews",
+      "bokeh",
+      "holoviews",
       "matplotlib"
     ],
     "pipeline_stage": [],
@@ -2891,7 +2891,7 @@
     "summary": "High-level plotting API for pandas, dask, xarray, and networkx built on HoloViews with familiar .plot() syntax",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2914,13 +2914,13 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "HoloViews",
-      "Bokeh",
+      "holoviews",
+      "bokeh",
       "matplotlib",
-      "Plotly"
+      "plotly"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2934,7 +2934,7 @@
     "summary": "Python library that turns pandas DataFrames into a Tableau-like visual exploration interface in Jupyter",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2957,11 +2957,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Jupyter Notebook",
-      "Streamlit"
+      "jupyter notebook",
+      "streamlit"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2998,7 +2998,7 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
       "matplotlib"
@@ -3038,11 +3038,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
       "matplotlib",
-      "GeoPandas"
+      "geopandas"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3078,11 +3078,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "GeoPandas",
-      "Folium"
+      "geopandas",
+      "folium"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3096,7 +3096,7 @@
     "summary": "Extensible framework for linking data visualizations, tables, and inputs over DuckDB with cross-filtering",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -3120,12 +3120,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "DuckDB",
-      "Observable Framework",
-      "Vega-Lite"
+      "duckdb",
+      "observable framework",
+      "vega-lite"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -3139,7 +3139,7 @@
     "summary": "Interactive analytics and data visualization component for large or streaming datasets with WebAssembly engine",
     "maturity": "production",
     "governance": "linux_foundation",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -3162,12 +3162,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "Python"
+      "javascript",
+      "python"
     ],
     "integration_targets": [
-      "Jupyter Notebook",
-      "Apache Arrow"
+      "jupyter notebook",
+      "apache arrow"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -3181,7 +3181,7 @@
     "summary": "Modern data exploration and visualization platform with rich chart builder and interactive dashboards",
     "maturity": "production",
     "governance": "apache_foundation",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -3204,13 +3204,13 @@
       "saas"
     ],
     "language_ecosystem": [
-      "Python",
-      "JavaScript"
+      "python",
+      "javascript"
     ],
     "integration_targets": [
-      "PostgreSQL",
-      "DuckDB",
-      "Trino"
+      "postgresql",
+      "duckdb",
+      "trino"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -3224,7 +3224,7 @@
     "summary": "React library for building dashboards with pre-built chart and UI components using Tailwind CSS",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3247,12 +3247,12 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "React",
-      "Recharts",
-      "Tailwind CSS"
+      "react",
+      "recharts",
+      "tailwind css"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -3266,7 +3266,7 @@
     "summary": "Python wrapper for Apache ECharts enabling interactive chart generation from Python with Jupyter integration",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3289,11 +3289,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "ECharts",
-      "Jupyter Notebook"
+      "echarts",
+      "jupyter notebook"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3307,7 +3307,7 @@
     "summary": "High-level Python interface to Plotly for creating common figures in a single function call with tidy data",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3330,12 +3330,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Plotly",
-      "Dash",
-      "Jupyter Notebook"
+      "plotly",
+      "dash",
+      "jupyter notebook"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3372,7 +3372,7 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3387,7 +3387,7 @@
     "summary": "Utility for embedding Vega and Vega-Lite visualizations in web pages with tooltip and export support",
     "maturity": "production",
     "governance": "community",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3409,11 +3409,11 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Vega",
-      "Vega-Lite"
+      "vega",
+      "vega-lite"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3449,12 +3449,12 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Mermaid",
-      "GitHub",
-      "VS Code"
+      "mermaid",
+      "github",
+      "vs code"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -3490,14 +3490,14 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "SQL",
-      "C"
+      "sql",
+      "c"
     ],
     "integration_targets": [
-      "PostgreSQL",
-      "QGIS",
-      "GeoServer",
-      "GeoPandas"
+      "postgresql",
+      "qgis",
+      "geoserver",
+      "geopandas"
     ],
     "pipeline_stage": [],
     "scale_profile": "enterprise",
@@ -3511,7 +3511,7 @@
     "summary": "High-performance WebGL2/WebGPU framework from vis.gl providing GPU-accelerated data visualization primitives",
     "maturity": "production",
     "governance": "linux_foundation",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "low",
@@ -3534,10 +3534,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Deck.gl"
+      "deck.gl"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -3551,7 +3551,7 @@
     "summary": "Financial charting library from TradingView for rendering lightweight interactive candlestick and time-series charts",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3573,7 +3573,7 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3610,10 +3610,10 @@
       "npm"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Leaflet"
+      "leaflet"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",

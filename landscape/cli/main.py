@@ -38,6 +38,7 @@ def cmd_stats(args: argparse.Namespace) -> None:
         "projects",
         "capabilities",
         "fitness",
+        "validation_flags",
         "migration_history",
     ]
     print(f"Database: {DEFAULT_DB_PATH} ({DEFAULT_DB_PATH.stat().st_size / 1024:.0f} KB)\n")
@@ -173,8 +174,10 @@ def cmd_resolve(args: argparse.Namespace) -> None:
         save_identifiers,
     )
 
-    seed_path = Path(__file__).resolve().parents[2] / "data" / "seed" / "mlops_tools_catalog.json"
-    tools = json.loads(seed_path.read_text())
+    seed_dir = Path(__file__).resolve().parents[2] / "data" / "seed"
+    tools = []
+    for catalog in sorted(seed_dir.glob("*_catalog*.json")):
+        tools.extend(json.loads(catalog.read_text()))
     existing = load_identifiers()
 
     results = asyncio.run(resolve_all(tools, existing=existing, skip_resolved=not args.force))
@@ -355,6 +358,132 @@ def cmd_fitness_show(args: argparse.Namespace) -> None:
     con.close()
 
 
+def cmd_neighborhoods_compute(args: argparse.Namespace) -> None:
+    """Compute neighborhoods via Louvain clustering."""
+    from landscape.analysis.neighborhoods import compute_neighborhoods, persist_neighborhoods
+    from landscape.db.connection import get_db
+
+    con = get_db()
+    results = compute_neighborhoods(con, resolution=args.resolution, min_size=args.min_size)
+    count = persist_neighborhoods(con, results, respect_pins=not args.clear)
+    con.close()
+
+    print(f"Computed {count} neighborhoods:")
+    for r in results:
+        print(f"  {r.name} ({r.size} tools)")
+
+
+def cmd_neighborhoods_list(args: argparse.Namespace) -> None:
+    """List all neighborhoods."""
+    from landscape.db.connection import get_db
+
+    con = get_db(read_only=True)
+    rows = con.execute(
+        """
+        SELECT n.name, n.description, count(nm.tool_id) as size
+        FROM neighborhoods n
+        LEFT JOIN neighborhood_members nm ON n.neighborhood_id = nm.neighborhood_id
+        GROUP BY n.name, n.description
+        ORDER BY size DESC
+        """
+    ).fetchall()
+    con.close()
+
+    if not rows:
+        print("No neighborhoods computed. Run: landscape neighborhoods compute")
+        return
+
+    print(f"{'Name':<40} {'Size':>5}  Description")
+    print("-" * 80)
+    for name, desc, size in rows:
+        desc_str = (desc[:35] + "...") if desc and len(desc) > 38 else (desc or "")
+        print(f"{name:<40} {size:>5}  {desc_str}")
+    print(f"\n{len(rows)} neighborhoods")
+
+
+def cmd_neighborhoods_show(args: argparse.Namespace) -> None:
+    """Show tools in a neighborhood."""
+    from landscape.analysis.neighborhoods import get_neighborhood_tools
+    from landscape.db.connection import get_db
+
+    con = get_db(read_only=True)
+    tools = get_neighborhood_tools(con, args.name)
+    con.close()
+
+    if not tools:
+        print(f"Neighborhood '{args.name}' not found or empty.")
+        sys.exit(1)
+
+    print(f"=== {args.name} ({len(tools)} tools) ===\n")
+    for t in tools:
+        cats = ", ".join(t.get("categories", [])[:3])
+        print(f"  {t['name']:<30} {cats}")
+
+
+def cmd_recommend(args: argparse.Namespace) -> None:
+    """Recommend tools."""
+    from landscape.db.connection import get_db
+
+    con = get_db(read_only=True)
+
+    if args.capability:
+        if not args.project:
+            print("--project required with --capability")
+            con.close()
+            sys.exit(1)
+        from landscape.analysis.recommend import recommend_for_capability
+
+        recs = recommend_for_capability(con, args.project, args.capability, top_n=args.top_n)
+        print(f"=== Recommendations for {args.capability} ({args.project}) ===\n")
+    elif args.tool:
+        from landscape.analysis.recommend import recommend_for_tool
+
+        recs = recommend_for_tool(con, args.tool, top_n=args.top_n)
+        print(f"=== Recommendations related to {args.tool} ===\n")
+    else:
+        print("Provide --tool or --capability")
+        con.close()
+        sys.exit(1)
+
+    if not recs:
+        print("No recommendations found.")
+    else:
+        print(f"  {'Tool':<30} {'Score':>6}  Reason")
+        print(f"  {'-' * 30} {'-' * 6}  {'-' * 30}")
+        for r in recs:
+            print(f"  {r.tool_name:<30} {r.score:>5.1f}  {r.reason}")
+
+    con.close()
+
+
+def cmd_export(args: argparse.Namespace) -> None:
+    """Export DuckDB tables to Parquet for frontend."""
+    from pathlib import Path
+
+    from landscape.db.connection import get_db
+    from landscape.export import DEFAULT_EXPORT_DIR, export_parquet
+
+    con = get_db(read_only=True)
+    out = Path(args.output) if args.output else DEFAULT_EXPORT_DIR
+    results = export_parquet(con, output_dir=out)
+    con.close()
+
+    print(f"Exported to {out}:")
+    for name, count in results.items():
+        print(f"  {name}.parquet: {count} rows")
+
+
+def cmd_validate(args: argparse.Namespace) -> None:
+    """Run data quality validation checks."""
+    from landscape.analysis.validate import print_validation_report, run_validation
+    from landscape.db.connection import get_db
+
+    con = get_db(read_only=True)
+    flags = run_validation(con)
+    con.close()
+    print_validation_report(flags)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="landscape",
@@ -444,6 +573,46 @@ def main() -> None:
     )
     p_fit_show.add_argument("name", help="Tool name")
     p_fit_show.set_defaults(func=cmd_fitness_show)
+
+    # neighborhoods
+    p_nbr = sub.add_parser("neighborhoods", help="Neighborhood clustering")
+    nbr_sub = p_nbr.add_subparsers(dest="nbr_command")
+
+    p_nbr_compute = nbr_sub.add_parser("compute", help="Compute neighborhoods via Louvain")
+    p_nbr_compute.add_argument(
+        "--resolution", type=float, default=1.0, help="Louvain resolution (default: 1.0)"
+    )
+    p_nbr_compute.add_argument(
+        "--min-size", type=int, default=3, help="Minimum community size (default: 3)"
+    )
+    p_nbr_compute.add_argument(
+        "--clear", action="store_true", help="Clear pinned memberships before recompute"
+    )
+    p_nbr_compute.set_defaults(func=cmd_neighborhoods_compute)
+
+    p_nbr_list = nbr_sub.add_parser("list", help="List neighborhoods")
+    p_nbr_list.set_defaults(func=cmd_neighborhoods_list)
+
+    p_nbr_show = nbr_sub.add_parser("show", help="Show tools in a neighborhood")
+    p_nbr_show.add_argument("name", help="Neighborhood name")
+    p_nbr_show.set_defaults(func=cmd_neighborhoods_show)
+
+    # recommend
+    p_rec = sub.add_parser("recommend", help="Tool recommendations")
+    p_rec.add_argument("--tool", help="Recommend tools related to this tool")
+    p_rec.add_argument("--capability", help="Recommend tools for a capability")
+    p_rec.add_argument("--project", help="Project name (required with --capability)")
+    p_rec.add_argument("--top-n", type=int, default=10, help="Number of recommendations")
+    p_rec.set_defaults(func=cmd_recommend)
+
+    # export
+    p_export = sub.add_parser("export", help="Export tables to Parquet")
+    p_export.add_argument("--output", help="Output directory (default: site/src/data/)")
+    p_export.set_defaults(func=cmd_export)
+
+    # validate
+    p_val = sub.add_parser("validate", help="Run data quality validation checks")
+    p_val.set_defaults(func=cmd_validate)
 
     args = parser.parse_args()
     if not args.command:

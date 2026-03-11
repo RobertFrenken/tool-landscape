@@ -1,0 +1,67 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install Python deps
+        run: uv venv .venv && uv pip install -e "." --python .venv/bin/python
+
+      - name: Rebuild database and export Parquet
+        run: |
+          .venv/bin/landscape import --seed
+          .venv/bin/landscape neighborhoods compute
+          .venv/bin/landscape export
+
+      - name: Install site deps
+        working-directory: site
+        run: npm ci
+
+      - name: Build site
+        working-directory: site
+        run: npx observable build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

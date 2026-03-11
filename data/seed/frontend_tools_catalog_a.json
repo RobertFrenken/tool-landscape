@@ -287,7 +287,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -328,7 +328,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -457,7 +457,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -498,7 +498,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -542,7 +542,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1602,7 +1602,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -1645,7 +1645,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1686,7 +1686,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1727,7 +1727,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1769,7 +1769,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -1811,7 +1811,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -1854,7 +1854,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -1896,7 +1896,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1940,7 +1940,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1985,7 +1985,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2029,7 +2029,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2071,7 +2071,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -2114,7 +2114,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -2158,7 +2158,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2202,7 +2202,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2247,7 +2247,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2286,7 +2286,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2328,7 +2328,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2370,7 +2370,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2413,7 +2413,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2456,7 +2456,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2501,7 +2501,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "high",
     "lock_in_risk": "low",
@@ -2543,7 +2543,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2585,7 +2585,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -2629,7 +2629,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2675,7 +2675,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2720,7 +2720,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2766,7 +2766,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -2982,7 +2982,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -3025,7 +3025,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "medium",
     "lock_in_risk": "medium",
@@ -3069,7 +3069,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3108,7 +3108,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3153,7 +3153,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -3199,7 +3199,7 @@
       "frontend"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",

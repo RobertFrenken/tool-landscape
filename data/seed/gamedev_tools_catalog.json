@@ -29,9 +29,9 @@
       "binary"
     ],
     "language_ecosystem": [
-      "GDScript",
-      "C#",
-      "C++"
+      "gdscript",
+      "c#",
+      "c++"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -68,12 +68,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C++",
-      "Blueprints"
+      "c++",
+      "blueprints"
     ],
     "integration_targets": [
-      "FMOD",
-      "Wwise"
+      "fmod",
+      "wwise"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -109,7 +109,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -146,8 +146,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Lua",
-      "C++"
+      "lua",
+      "c++"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -184,9 +184,9 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++",
-      "Lua",
-      "JavaScript"
+      "c++",
+      "lua",
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -223,9 +223,9 @@
       "binary"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript",
-      "C++"
+      "typescript",
+      "javascript",
+      "c++"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -262,8 +262,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "Ruby"
+      "javascript",
+      "ruby"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -300,7 +300,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "GML"
+      "gml"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -337,7 +337,7 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -374,8 +374,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python",
-      "Ren'Py Script"
+      "python",
+      "ren'py script"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -412,7 +412,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Lua"
+      "lua"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -449,10 +449,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "C",
-      "C++",
-      "Python",
-      "Rust"
+      "c",
+      "c++",
+      "python",
+      "rust"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -489,8 +489,8 @@
       "library"
     ],
     "language_ecosystem": [
-      "C",
-      "C++"
+      "c",
+      "c++"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -527,7 +527,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++"
+      "c++"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -564,10 +564,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "C#"
+      "c#"
     ],
     "integration_targets": [
-      "FMOD"
+      "fmod"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -603,10 +603,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "C#"
+      "c#"
     ],
     "integration_targets": [
-      "SDL"
+      "sdl"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -642,7 +642,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Haxe"
+      "haxe"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -679,7 +679,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Haxe"
+      "haxe"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -716,7 +716,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -753,7 +753,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -791,14 +791,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "C++",
-      "C#"
+      "c",
+      "c++",
+      "c#"
     ],
     "integration_targets": [
-      "Unreal Engine",
-      "Godot",
-      "Unity"
+      "unreal engine",
+      "godot",
+      "unity"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -835,14 +835,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "C++",
-      "C#"
+      "c",
+      "c++",
+      "c#"
     ],
     "integration_targets": [
-      "Unreal Engine",
-      "Godot",
-      "Unity"
+      "unreal engine",
+      "godot",
+      "unity"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -878,8 +878,8 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -916,7 +916,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -953,11 +953,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript"
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [
-      "PixiJS"
+      "pixijs"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -995,11 +995,11 @@
       "saas"
     ],
     "language_ecosystem": [
-      "C",
-      "C++"
+      "c",
+      "c++"
     ],
     "integration_targets": [
-      "PlatformIO"
+      "platformio"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1036,14 +1036,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "C++",
-      "Python"
+      "c",
+      "c++",
+      "python"
     ],
     "integration_targets": [
-      "Arduino",
-      "ESP-IDF",
-      "Zephyr RTOS"
+      "arduino",
+      "esp-idf",
+      "zephyr rtos"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1080,12 +1080,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "C++"
+      "c",
+      "c++"
     ],
     "integration_targets": [
-      "PlatformIO",
-      "Arduino"
+      "platformio",
+      "arduino"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1122,12 +1122,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "C++"
+      "c",
+      "c++"
     ],
     "integration_targets": [
-      "PlatformIO",
-      "micro-ROS"
+      "platformio",
+      "micro-ros"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1164,10 +1164,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "ESP-IDF"
+      "esp-idf"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1204,10 +1204,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "MicroPython"
+      "micropython"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1243,8 +1243,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust",
-      "C"
+      "rust",
+      "c"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1282,8 +1282,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "C++"
+      "c",
+      "c++"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1321,11 +1321,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [
-      "ESP-IDF",
-      "AWS IoT"
+      "esp-idf",
+      "aws iot"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1361,14 +1361,14 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "C++",
-      "Python"
+      "c++",
+      "python"
     ],
     "integration_targets": [
-      "Gazebo",
-      "MoveIt",
-      "Nav2",
-      "micro-ROS"
+      "gazebo",
+      "moveit",
+      "nav2",
+      "micro-ros"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1404,11 +1404,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C++",
-      "Python"
+      "c++",
+      "python"
     ],
     "integration_targets": [
-      "ROS 2"
+      "ros 2"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1444,12 +1444,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++",
-      "Python"
+      "c++",
+      "python"
     ],
     "integration_targets": [
-      "ROS 2",
-      "Gazebo"
+      "ros 2",
+      "gazebo"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1485,12 +1485,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++",
-      "Python"
+      "c++",
+      "python"
     ],
     "integration_targets": [
-      "ROS 2",
-      "Gazebo"
+      "ros 2",
+      "gazebo"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1527,12 +1527,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [
-      "ROS 2",
-      "Zephyr RTOS",
-      "FreeRTOS"
+      "ros 2",
+      "zephyr rtos",
+      "freertos"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1568,9 +1568,9 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript",
-      "Solidity"
+      "javascript",
+      "typescript",
+      "solidity"
     ],
     "integration_targets": [
       "ethers.js",
@@ -1610,8 +1610,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Solidity",
-      "Rust"
+      "solidity",
+      "rust"
     ],
     "integration_targets": [
       "ethers.js",
@@ -1651,11 +1651,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Hardhat"
+      "hardhat"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1691,8 +1691,8 @@
       "library"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript"
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [
       "viem",
@@ -1732,12 +1732,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "TypeScript"
+      "typescript"
     ],
     "integration_targets": [
       "wagmi",
-      "Hardhat",
-      "Foundry"
+      "hardhat",
+      "foundry"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1773,8 +1773,8 @@
       "library"
     ],
     "language_ecosystem": [
-      "Rust",
-      "TypeScript"
+      "rust",
+      "typescript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1811,8 +1811,8 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "Solidity"
+      "javascript",
+      "solidity"
     ],
     "integration_targets": [
       "ethers.js"
@@ -1852,12 +1852,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB"
+      "postgresql",
+      "mysql",
+      "mongodb"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1894,13 +1894,13 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "PostgreSQL",
-      "MongoDB",
-      "MySQL"
+      "postgresql",
+      "mongodb",
+      "mysql"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1937,13 +1937,13 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "PostgreSQL",
-      "MongoDB",
-      "MySQL"
+      "postgresql",
+      "mongodb",
+      "mysql"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -1981,8 +1981,8 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript"
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2019,7 +2019,7 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2057,12 +2057,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "TypeScript"
+      "typescript"
     ],
     "integration_targets": [
-      "PostgreSQL",
-      "MySQL",
-      "SQLite"
+      "postgresql",
+      "mysql",
+      "sqlite"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2098,7 +2098,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2135,7 +2135,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2172,7 +2172,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2209,12 +2209,12 @@
       "saas"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript",
-      "Python"
+      "typescript",
+      "javascript",
+      "python"
     ],
     "integration_targets": [
-      "React Email"
+      "react email"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2250,12 +2250,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript"
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [
-      "Resend",
-      "Nodemailer"
+      "resend",
+      "nodemailer"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2291,10 +2291,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "Nodemailer"
+      "nodemailer"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2330,12 +2330,12 @@
       "saas"
     ],
     "language_ecosystem": [
-      "Python",
-      "JavaScript",
-      "Ruby",
-      "Go",
-      "Java",
-      "C#"
+      "python",
+      "javascript",
+      "ruby",
+      "go",
+      "java",
+      "c#"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2372,13 +2372,13 @@
       "saas"
     ],
     "language_ecosystem": [
-      "Python",
-      "JavaScript",
-      "Ruby",
-      "Go",
-      "Java",
-      "C#",
-      "PHP"
+      "python",
+      "javascript",
+      "ruby",
+      "go",
+      "java",
+      "c#",
+      "php"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2415,7 +2415,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2452,11 +2452,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "MongoDB"
+      "mongodb"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2492,12 +2492,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript",
-      "Python"
+      "typescript",
+      "javascript",
+      "python"
     ],
     "integration_targets": [
-      "Redis"
+      "redis"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2533,12 +2533,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "SQLAlchemy",
-      "Redis",
-      "MongoDB"
+      "sqlalchemy",
+      "redis",
+      "mongodb"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2574,7 +2574,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2613,11 +2613,11 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "Java",
-      "JavaScript"
+      "java",
+      "javascript"
     ],
     "integration_targets": [
-      "Arduino"
+      "arduino"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2653,10 +2653,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [
-      "micro-ROS"
+      "micro-ros"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2692,12 +2692,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Solidity"
+      "solidity"
     ],
     "integration_targets": [
-      "Hardhat",
-      "Foundry",
-      "Truffle"
+      "hardhat",
+      "foundry",
+      "truffle"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2733,11 +2733,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "Solidity"
+      "solidity"
     ],
     "integration_targets": [
-      "Hardhat",
-      "Foundry"
+      "hardhat",
+      "foundry"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2773,10 +2773,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "SDL"
+      "sdl"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2812,8 +2812,8 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python",
-      "C++"
+      "python",
+      "c++"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2851,8 +2851,8 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript"
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2890,13 +2890,13 @@
       "saas"
     ],
     "language_ecosystem": [
-      "Go",
-      "Lua",
-      "TypeScript"
+      "go",
+      "lua",
+      "typescript"
     ],
     "integration_targets": [
-      "Godot",
-      "Unreal Engine"
+      "godot",
+      "unreal engine"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2932,12 +2932,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C++"
+      "c++"
     ],
     "integration_targets": [
-      "Godot",
-      "Love2D",
-      "Defold"
+      "godot",
+      "love2d",
+      "defold"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2973,8 +2973,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C++",
-      "Lua"
+      "c++",
+      "lua"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3011,11 +3011,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Tiled"
+      "tiled"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3051,9 +3051,9 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust",
-      "TypeScript",
-      "JavaScript"
+      "rust",
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],

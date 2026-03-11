@@ -10,6 +10,15 @@ __pycache__/
 dist/
 build/
 
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+
+# Observable Framework
+site/dist/
+site/.observablehq/
+site/node_modules/
+
 # OS
 .DS_Store
 .nfs*

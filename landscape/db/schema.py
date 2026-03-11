@@ -208,6 +208,20 @@ CREATE TABLE IF NOT EXISTS migration_history (
     created_at      TIMESTAMP DEFAULT current_timestamp
 );
 
+-- ── Validation flags ────────────────────────────────────────────────────────
+
+CREATE SEQUENCE IF NOT EXISTS flag_id_seq START 1;
+
+CREATE TABLE IF NOT EXISTS validation_flags (
+    flag_id      INTEGER PRIMARY KEY DEFAULT (nextval('flag_id_seq')),
+    tool_id      INTEGER REFERENCES tools(tool_id),
+    rule_name    VARCHAR NOT NULL,
+    severity     VARCHAR NOT NULL,
+    message      VARCHAR NOT NULL,
+    auto_fixable BOOLEAN DEFAULT false,
+    created_at   TIMESTAMP DEFAULT current_timestamp
+);
+
 -- ── Indexes ─────────────────────────────────────────────────────────────────
 
 CREATE INDEX IF NOT EXISTS idx_tools_momentum ON tools (community_momentum);
@@ -220,6 +234,8 @@ CREATE INDEX IF NOT EXISTS idx_metrics_measured ON tool_metrics (measured_at);
 CREATE INDEX IF NOT EXISTS idx_fitness_tool ON fitness (tool_id);
 CREATE INDEX IF NOT EXISTS idx_fitness_cap ON fitness (capability_id);
 CREATE INDEX IF NOT EXISTS idx_nbr_members_tool ON neighborhood_members (tool_id);
+CREATE INDEX IF NOT EXISTS idx_flags_tool ON validation_flags (tool_id);
+CREATE INDEX IF NOT EXISTS idx_flags_severity ON validation_flags (severity);
 """
 # fmt: on
 

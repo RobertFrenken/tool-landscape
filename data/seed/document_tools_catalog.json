@@ -3,13 +3,25 @@
     "name": "LaTeX",
     "url": "https://www.latex-project.org",
     "open_source": true,
-    "categories": ["typesetting"],
+    "categories": [
+      "typesetting"
+    ],
     "license": "LPPL-1.3c",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["bibtex", "biblatex", "tikz", "beamer", "overleaf"],
+    "integration_targets": [
+      "bibtex",
+      "biblatex",
+      "tikz",
+      "beamer",
+      "overleaf"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -25,7 +37,9 @@
     "self_hosted_viable": true,
     "interoperability": "medium",
     "summary": "The gold standard for academic typesetting. Unmatched math rendering and citation management. Steep learning curve but ubiquitous in STEM publishing. TeX Live distribution runs natively on HPC.",
-    "used_by": ["KD-GAT"],
+    "used_by": [
+      "KD-GAT"
+    ],
     "capability_ceiling": "extensive",
     "migration_likelihood": "low",
     "composite_tool": true
@@ -34,13 +48,24 @@
     "name": "Typst",
     "url": "https://typst.app",
     "open_source": true,
-    "categories": ["typesetting"],
+    "categories": [
+      "typesetting"
+    ],
     "license": "Apache-2.0",
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["rust", "typst"],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "rust",
+      "typst"
+    ],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["pandoc", "vscode"],
+    "integration_targets": [
+      "pandoc",
+      "vscode"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -65,13 +90,23 @@
     "name": "Groff",
     "url": "https://www.gnu.org/software/groff/",
     "open_source": true,
-    "categories": ["typesetting"],
+    "categories": [
+      "typesetting"
+    ],
     "license": "GPL-3.0-or-later",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["man", "postscript", "pdf"],
+    "integration_targets": [
+      "man",
+      "postscript",
+      "pdf"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -86,7 +121,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "low",
-    "summary": "GNU troff — the traditional Unix document formatting system. Powers man pages. Extremely lightweight and available on virtually every Unix system. Niche use outside manpages today.",
+    "summary": "GNU troff \u2014 the traditional Unix document formatting system. Powers man pages. Extremely lightweight and available on virtually every Unix system. Niche use outside manpages today.",
     "used_by": [],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
@@ -96,13 +131,24 @@
     "name": "ConTeXt",
     "url": "https://wiki.contextgarden.net",
     "open_source": true,
-    "categories": ["typesetting"],
+    "categories": [
+      "typesetting"
+    ],
     "license": "GPL-2.0-or-later",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex", "lua"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex",
+      "lua"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["luatex", "metapost", "tikz"],
+    "integration_targets": [
+      "luatex",
+      "metapost",
+      "tikz"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -127,13 +173,24 @@
     "name": "SILE",
     "url": "https://sile-typesetter.org",
     "open_source": true,
-    "categories": ["typesetting"],
+    "categories": [
+      "typesetting"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["rust", "lua"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust",
+      "lua"
+    ],
     "maturity": "growth",
     "governance": "community",
-    "integration_targets": ["lua", "harfbuzz", "icu"],
+    "integration_targets": [
+      "lua",
+      "harfbuzz",
+      "icu"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -158,13 +215,29 @@
     "name": "Pandoc",
     "url": "https://pandoc.org",
     "open_source": true,
-    "categories": ["document_converter"],
+    "categories": [
+      "document_converter"
+    ],
     "license": "GPL-2.0-or-later",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["haskell"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "haskell"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["latex", "markdown", "docx", "html", "epub", "rst", "org", "typst", "quarto"],
+    "integration_targets": [
+      "latex",
+      "markdown",
+      "docx",
+      "html",
+      "epub",
+      "rst",
+      "org",
+      "typst",
+      "quarto"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -180,7 +253,10 @@
     "self_hosted_viable": true,
     "interoperability": "high",
     "summary": "The universal document converter. Converts between dozens of formats with Lua filter extensibility. Foundation for Quarto and R Markdown. Essential infrastructure for any document toolchain.",
-    "used_by": ["KD-GAT", "Map-Visualizations"],
+    "used_by": [
+      "KD-GAT",
+      "Map-Visualizations"
+    ],
     "capability_ceiling": "extensive",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -189,13 +265,24 @@
     "name": "Mammoth",
     "url": "https://github.com/mwilliamson/mammoth.js",
     "open_source": true,
-    "categories": ["document_converter"],
+    "categories": [
+      "document_converter"
+    ],
     "license": "BSD-2-Clause",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript", "python", "java"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "python",
+      "java"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["docx", "html"],
+    "integration_targets": [
+      "docx",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -210,7 +297,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "medium",
-    "summary": "Converts .docx to clean semantic HTML. Focuses on meaning over formatting — maps Word styles to HTML elements. Available in JS, Python, and Java. Good for CMS ingestion pipelines.",
+    "summary": "Converts .docx to clean semantic HTML. Focuses on meaning over formatting \u2014 maps Word styles to HTML elements. Available in JS, Python, and Java. Good for CMS ingestion pipelines.",
     "used_by": [],
     "capability_ceiling": "low",
     "migration_likelihood": "low",
@@ -220,13 +307,25 @@
     "name": "WeasyPrint",
     "url": "https://weasyprint.org",
     "open_source": true,
-    "categories": ["document_converter", "pdf_library"],
+    "categories": [
+      "document_converter",
+      "pdf_library"
+    ],
     "license": "BSD-3-Clause",
-    "deployment_model": ["embedded_library", "self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "embedded_library",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["html", "css", "pdf"],
+    "integration_targets": [
+      "html",
+      "css",
+      "pdf"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -241,7 +340,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "medium",
-    "summary": "Python HTML/CSS to PDF renderer. Uses CSS Paged Media for print layouts. No browser dependency — pure Python with Cairo backend. Excellent for generating PDFs from HTML templates.",
+    "summary": "Python HTML/CSS to PDF renderer. Uses CSS Paged Media for print layouts. No browser dependency \u2014 pure Python with Cairo backend. Excellent for generating PDFs from HTML templates.",
     "used_by": [],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
@@ -251,13 +350,26 @@
     "name": "Prince",
     "url": "https://www.princexml.com",
     "open_source": false,
-    "categories": ["document_converter", "pdf_library"],
+    "categories": [
+      "document_converter",
+      "pdf_library"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c", "javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c",
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["html", "css", "pdf", "svg"],
+    "integration_targets": [
+      "html",
+      "css",
+      "pdf",
+      "svg"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -282,13 +394,23 @@
     "name": "wkhtmltopdf",
     "url": "https://wkhtmltopdf.org",
     "open_source": true,
-    "categories": ["document_converter"],
+    "categories": [
+      "document_converter"
+    ],
     "license": "LGPL-3.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c++"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c++"
+    ],
     "maturity": "archived",
     "governance": "community",
-    "integration_targets": ["html", "pdf", "webkit"],
+    "integration_targets": [
+      "html",
+      "pdf",
+      "webkit"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -313,13 +435,26 @@
     "name": "CommonMark",
     "url": "https://commonmark.org",
     "open_source": true,
-    "categories": ["markdown"],
+    "categories": [
+      "markdown"
+    ],
     "license": "CC-BY-SA-4.0",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript", "c", "python", "rust", "go"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "c",
+      "python",
+      "rust",
+      "go"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "html"],
+    "integration_targets": [
+      "markdown",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -344,13 +479,25 @@
     "name": "MDX",
     "url": "https://mdxjs.com",
     "open_source": true,
-    "categories": ["markdown"],
+    "categories": [
+      "markdown"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["react", "next.js", "docusaurus", "astro", "unified"],
+    "integration_targets": [
+      "react",
+      "next.js",
+      "docusaurus",
+      "astro",
+      "unified"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -375,13 +522,23 @@
     "name": "Markdoc",
     "url": "https://markdoc.dev",
     "open_source": true,
-    "categories": ["markdown"],
+    "categories": [
+      "markdown"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["react", "next.js", "html"],
+    "integration_targets": [
+      "react",
+      "next.js",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -396,7 +553,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "medium",
-    "summary": "Stripe-developed Markdown superset with custom tags and validation. Renders to a serializable AST, framework-agnostic output. Simpler mental model than MDX — no arbitrary JS execution in content.",
+    "summary": "Stripe-developed Markdown superset with custom tags and validation. Renders to a serializable AST, framework-agnostic output. Simpler mental model than MDX \u2014 no arbitrary JS execution in content.",
     "used_by": [],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
@@ -406,13 +563,26 @@
     "name": "unified",
     "url": "https://unifiedjs.com",
     "open_source": true,
-    "categories": ["markdown"],
+    "categories": [
+      "markdown"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["remark", "rehype", "retext", "mdx", "mdast", "hast"],
+    "integration_targets": [
+      "remark",
+      "rehype",
+      "retext",
+      "mdx",
+      "mdast",
+      "hast"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -437,13 +607,22 @@
     "name": "markdown-it",
     "url": "https://github.com/markdown-it/markdown-it",
     "open_source": true,
-    "categories": ["markdown"],
+    "categories": [
+      "markdown"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["commonmark", "html"],
+    "integration_targets": [
+      "commonmark",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -468,13 +647,23 @@
     "name": "Goldmark",
     "url": "https://github.com/yuin/goldmark",
     "open_source": true,
-    "categories": ["markdown"],
+    "categories": [
+      "markdown"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["go"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["commonmark", "hugo", "html"],
+    "integration_targets": [
+      "commonmark",
+      "hugo",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -499,13 +688,32 @@
     "name": "Quarto",
     "url": "https://quarto.org",
     "open_source": true,
-    "categories": ["literate_programming", "typesetting"],
+    "categories": [
+      "literate_programming",
+      "typesetting"
+    ],
     "license": "GPL-2.0-or-later",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python", "r", "julia", "javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "r",
+      "julia",
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["pandoc", "jupyter", "knitr", "observable", "revealjs", "latex", "typst", "html"],
+    "integration_targets": [
+      "pandoc",
+      "jupyter",
+      "knitr",
+      "observable",
+      "revealjs",
+      "latex",
+      "typst",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -521,7 +729,9 @@
     "self_hosted_viable": true,
     "interoperability": "high",
     "summary": "Next-gen scientific publishing system from Posit. Multi-language (Python/R/Julia), multi-output (HTML/PDF/DOCX/RevealJS). Built on Pandoc. Rapidly becoming the standard for reproducible research documents.",
-    "used_by": ["KD-GAT"],
+    "used_by": [
+      "KD-GAT"
+    ],
     "capability_ceiling": "extensive",
     "migration_likelihood": "low",
     "composite_tool": true
@@ -530,13 +740,26 @@
     "name": "R Markdown",
     "url": "https://rmarkdown.rstudio.com",
     "open_source": true,
-    "categories": ["literate_programming"],
+    "categories": [
+      "literate_programming"
+    ],
     "license": "GPL-3.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["r", "python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "r",
+      "python"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["pandoc", "knitr", "latex", "html", "shiny"],
+    "integration_targets": [
+      "pandoc",
+      "knitr",
+      "latex",
+      "html",
+      "shiny"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -551,7 +774,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "high",
-    "summary": "Pioneer of literate programming in data science. R-first but supports Python via reticulate. Predecessor to Quarto — still widely used in R community. Posit recommends Quarto for new projects.",
+    "summary": "Pioneer of literate programming in data science. R-first but supports Python via reticulate. Predecessor to Quarto \u2014 still widely used in R community. Posit recommends Quarto for new projects.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "medium",
@@ -561,13 +784,26 @@
     "name": "Jupyter Book",
     "url": "https://jupyterbook.org",
     "open_source": true,
-    "categories": ["literate_programming", "docs_site"],
+    "categories": [
+      "literate_programming",
+      "docs_site"
+    ],
     "license": "BSD-3-Clause",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["jupyter", "sphinx", "myst", "latex", "html"],
+    "integration_targets": [
+      "jupyter",
+      "sphinx",
+      "myst",
+      "latex",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -592,13 +828,25 @@
     "name": "Pweave",
     "url": "http://mpastell.com/pweave/",
     "open_source": true,
-    "categories": ["literate_programming"],
+    "categories": [
+      "literate_programming"
+    ],
     "license": "BSD-3-Clause",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["python", "markdown", "rst", "latex", "html"],
+    "integration_targets": [
+      "python",
+      "markdown",
+      "rst",
+      "latex",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -623,13 +871,24 @@
     "name": "nbdev",
     "url": "https://nbdev.fast.ai",
     "open_source": true,
-    "categories": ["literate_programming"],
+    "categories": [
+      "literate_programming"
+    ],
     "license": "Apache-2.0",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["jupyter", "quarto", "github_actions", "pypi"],
+    "integration_targets": [
+      "jupyter",
+      "quarto",
+      "github_actions",
+      "pypi"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -654,13 +913,26 @@
     "name": "Org-mode",
     "url": "https://orgmode.org",
     "open_source": true,
-    "categories": ["literate_programming", "knowledge_management"],
+    "categories": [
+      "literate_programming",
+      "knowledge_management"
+    ],
     "license": "GPL-3.0-or-later",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["emacs_lisp"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "emacs_lisp"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["emacs", "latex", "html", "pandoc", "babel"],
+    "integration_targets": [
+      "emacs",
+      "latex",
+      "html",
+      "pandoc",
+      "babel"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -685,13 +957,25 @@
     "name": "Codebraid",
     "url": "https://github.com/gpoore/codebraid",
     "open_source": true,
-    "categories": ["literate_programming"],
+    "categories": [
+      "literate_programming"
+    ],
     "license": "BSD-3-Clause",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "growth",
     "governance": "community",
-    "integration_targets": ["pandoc", "jupyter", "python", "rust", "julia"],
+    "integration_targets": [
+      "pandoc",
+      "jupyter",
+      "python",
+      "rust",
+      "julia"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -716,13 +1000,25 @@
     "name": "Reveal.js",
     "url": "https://revealjs.com",
     "open_source": true,
-    "categories": ["presentation"],
+    "categories": [
+      "presentation"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["html", "markdown", "quarto", "pandoc", "mermaid"],
+    "integration_targets": [
+      "html",
+      "markdown",
+      "quarto",
+      "pandoc",
+      "mermaid"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -738,7 +1034,9 @@
     "self_hosted_viable": true,
     "interoperability": "high",
     "summary": "HTML presentation framework with nested slides, Markdown content, and plugin ecosystem. Default backend for Quarto presentations. Speaker notes, PDF export, and extensive theming.",
-    "used_by": ["KD-GAT"],
+    "used_by": [
+      "KD-GAT"
+    ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -747,13 +1045,26 @@
     "name": "Slidev",
     "url": "https://sli.dev",
     "open_source": true,
-    "categories": ["presentation"],
+    "categories": [
+      "presentation"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "vue"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "vue"
+    ],
     "maturity": "growth",
     "governance": "community",
-    "integration_targets": ["vue", "vite", "mermaid", "monaco", "shiki"],
+    "integration_targets": [
+      "vue",
+      "vite",
+      "mermaid",
+      "monaco",
+      "shiki"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -778,13 +1089,25 @@
     "name": "Marp",
     "url": "https://marp.app",
     "open_source": true,
-    "categories": ["presentation"],
+    "categories": [
+      "presentation"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "vscode", "html", "pdf", "pptx"],
+    "integration_targets": [
+      "markdown",
+      "vscode",
+      "html",
+      "pdf",
+      "pptx"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -799,7 +1122,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "high",
-    "summary": "Markdown-to-slide converter with VS Code integration. CSS-themed slides from plain Markdown. Exports to HTML, PDF, and PPTX. Simpler than Reveal.js — good for quick, clean presentations.",
+    "summary": "Markdown-to-slide converter with VS Code integration. CSS-themed slides from plain Markdown. Exports to HTML, PDF, and PPTX. Simpler than Reveal.js \u2014 good for quick, clean presentations.",
     "used_by": [],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
@@ -809,13 +1132,25 @@
     "name": "Beamer",
     "url": "https://ctan.org/pkg/beamer",
     "open_source": true,
-    "categories": ["presentation", "typesetting"],
+    "categories": [
+      "presentation",
+      "typesetting"
+    ],
     "license": "LPPL-1.3c",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["latex", "tikz", "bibtex", "pdf"],
+    "integration_targets": [
+      "latex",
+      "tikz",
+      "bibtex",
+      "pdf"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -830,7 +1165,7 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "interoperability": "medium",
-    "summary": "LaTeX document class for presentations. Academic standard for conference talks — integrates natively with LaTeX math, citations, and TikZ diagrams. Steeper learning curve than HTML-based alternatives.",
+    "summary": "LaTeX document class for presentations. Academic standard for conference talks \u2014 integrates natively with LaTeX math, citations, and TikZ diagrams. Steeper learning curve than HTML-based alternatives.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -840,13 +1175,24 @@
     "name": "Spectacle",
     "url": "https://formidable.com/open-source/spectacle/",
     "open_source": true,
-    "categories": ["presentation"],
+    "categories": [
+      "presentation"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "react"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "react"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["react", "jsx", "html"],
+    "integration_targets": [
+      "react",
+      "jsx",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -861,7 +1207,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "medium",
-    "summary": "React-based presentation library from Formidable. JSX-defined slides with full React component power. Good for interactive demos. Requires React knowledge — more complex than Markdown-based alternatives.",
+    "summary": "React-based presentation library from Formidable. JSX-defined slides with full React component power. Good for interactive demos. Requires React knowledge \u2014 more complex than Markdown-based alternatives.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -871,13 +1217,22 @@
     "name": "Impress.js",
     "url": "https://impress.js.org",
     "open_source": true,
-    "categories": ["presentation"],
+    "categories": [
+      "presentation"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["html", "css"],
+    "integration_targets": [
+      "html",
+      "css"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -902,13 +1257,22 @@
     "name": "Remark (slideshow)",
     "url": "https://remarkjs.com",
     "open_source": true,
-    "categories": ["presentation"],
+    "categories": [
+      "presentation"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "html"],
+    "integration_targets": [
+      "markdown",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -923,7 +1287,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "medium",
-    "summary": "In-browser Markdown-driven slideshow tool. Single HTML file, no build step. Simpler than Reveal.js — just Markdown in a textarea. Good for quick presentations without toolchain setup.",
+    "summary": "In-browser Markdown-driven slideshow tool. Single HTML file, no build step. Simpler than Reveal.js \u2014 just Markdown in a textarea. Good for quick presentations without toolchain setup.",
     "used_by": [],
     "capability_ceiling": "low",
     "migration_likelihood": "low",
@@ -933,13 +1297,22 @@
     "name": "pdf2htmlEX",
     "url": "https://github.com/pdf2htmlEX/pdf2htmlEX",
     "open_source": true,
-    "categories": ["document_converter"],
+    "categories": [
+      "document_converter"
+    ],
     "license": "GPL-3.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c++"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c++"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["pdf", "html"],
+    "integration_targets": [
+      "pdf",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -964,13 +1337,25 @@
     "name": "Docverter",
     "url": "https://github.com/docverter/docverter",
     "open_source": true,
-    "categories": ["document_converter"],
+    "categories": [
+      "document_converter"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["ruby"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "ruby"
+    ],
     "maturity": "archived",
     "governance": "community",
-    "integration_targets": ["pandoc", "latex", "html", "pdf", "docx"],
+    "integration_targets": [
+      "pandoc",
+      "latex",
+      "html",
+      "pdf",
+      "docx"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -995,13 +1380,24 @@
     "name": "pdfTeX",
     "url": "https://www.tug.org/applications/pdftex/",
     "open_source": true,
-    "categories": ["pdf_library", "typesetting"],
+    "categories": [
+      "pdf_library",
+      "typesetting"
+    ],
     "license": "GPL-2.0-or-later",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex", "c"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex",
+      "c"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["latex", "pdf"],
+    "integration_targets": [
+      "latex",
+      "pdf"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1026,13 +1422,27 @@
     "name": "LuaTeX",
     "url": "https://www.luatex.org",
     "open_source": true,
-    "categories": ["pdf_library", "typesetting"],
+    "categories": [
+      "pdf_library",
+      "typesetting"
+    ],
     "license": "GPL-2.0-or-later",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex", "lua", "c"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex",
+      "lua",
+      "c"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["latex", "context", "pdf", "opentype"],
+    "integration_targets": [
+      "latex",
+      "context",
+      "pdf",
+      "opentype"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1057,13 +1467,26 @@
     "name": "XeTeX",
     "url": "https://tug.org/xetex/",
     "open_source": true,
-    "categories": ["pdf_library", "typesetting"],
+    "categories": [
+      "pdf_library",
+      "typesetting"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex", "c++"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex",
+      "c++"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["latex", "pdf", "opentype", "unicode"],
+    "integration_targets": [
+      "latex",
+      "pdf",
+      "opentype",
+      "unicode"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1088,13 +1511,23 @@
     "name": "pdf-lib",
     "url": "https://pdf-lib.js.org",
     "open_source": true,
-    "categories": ["pdf_library"],
+    "categories": [
+      "pdf_library"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["pdf", "node", "browser"],
+    "integration_targets": [
+      "pdf",
+      "node",
+      "browser"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1119,13 +1552,23 @@
     "name": "jsPDF",
     "url": "https://github.com/parallax/jsPDF",
     "open_source": true,
-    "categories": ["pdf_library"],
+    "categories": [
+      "pdf_library"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["pdf", "html2canvas", "browser"],
+    "integration_targets": [
+      "pdf",
+      "html2canvas",
+      "browser"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1150,13 +1593,23 @@
     "name": "ReportLab",
     "url": "https://www.reportlab.com",
     "open_source": true,
-    "categories": ["pdf_library"],
+    "categories": [
+      "pdf_library"
+    ],
     "license": "BSD-3-Clause",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["pdf", "platypus", "django"],
+    "integration_targets": [
+      "pdf",
+      "platypus",
+      "django"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1181,13 +1634,23 @@
     "name": "FPDF2",
     "url": "https://py-pdf.github.io/fpdf2/",
     "open_source": true,
-    "categories": ["pdf_library"],
+    "categories": [
+      "pdf_library"
+    ],
     "license": "LGPL-3.0-only",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["pdf", "html", "markdown"],
+    "integration_targets": [
+      "pdf",
+      "html",
+      "markdown"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1202,7 +1665,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "medium",
-    "summary": "Minimalist PDF generation library for Python. Successor to PyFPDF with active maintenance. Simpler API than ReportLab — good for straightforward PDF creation without complex layouts.",
+    "summary": "Minimalist PDF generation library for Python. Successor to PyFPDF with active maintenance. Simpler API than ReportLab \u2014 good for straightforward PDF creation without complex layouts.",
     "used_by": [],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
@@ -1212,13 +1675,26 @@
     "name": "PyMuPDF",
     "url": "https://pymupdf.readthedocs.io",
     "open_source": true,
-    "categories": ["pdf_library"],
+    "categories": [
+      "pdf_library"
+    ],
     "license": "AGPL-3.0-only",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["python", "c"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python",
+      "c"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["pdf", "epub", "xps", "svg", "mupdf"],
+    "integration_targets": [
+      "pdf",
+      "epub",
+      "xps",
+      "svg",
+      "mupdf"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1233,7 +1709,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "high",
-    "summary": "Python bindings for MuPDF. Fast PDF/EPUB text extraction, rendering, and manipulation. AGPL license — commercial license available. Best Python option for PDF reading, text extraction, and OCR integration.",
+    "summary": "Python bindings for MuPDF. Fast PDF/EPUB text extraction, rendering, and manipulation. AGPL license \u2014 commercial license available. Best Python option for PDF reading, text extraction, and OCR integration.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -1243,13 +1719,22 @@
     "name": "pdfplumber",
     "url": "https://github.com/jsvine/pdfplumber",
     "open_source": true,
-    "categories": ["pdf_library"],
+    "categories": [
+      "pdf_library"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["pdf", "pdfminer"],
+    "integration_targets": [
+      "pdf",
+      "pdfminer"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1274,13 +1759,23 @@
     "name": "Camelot",
     "url": "https://camelot-py.readthedocs.io",
     "open_source": true,
-    "categories": ["pdf_library"],
+    "categories": [
+      "pdf_library"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["pdf", "pandas", "opencv"],
+    "integration_targets": [
+      "pdf",
+      "pandas",
+      "opencv"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1305,13 +1800,27 @@
     "name": "Zotero",
     "url": "https://www.zotero.org",
     "open_source": true,
-    "categories": ["reference_management"],
+    "categories": [
+      "reference_management"
+    ],
     "license": "AGPL-3.0-only",
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["bibtex", "csl", "word", "libreoffice", "google_docs", "latex"],
+    "integration_targets": [
+      "bibtex",
+      "csl",
+      "word",
+      "libreoffice",
+      "google_docs",
+      "latex"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -1327,7 +1836,9 @@
     "self_hosted_viable": true,
     "interoperability": "high",
     "summary": "Free, open-source reference manager with browser integration, PDF annotation, and group libraries. Exports BibTeX/CSL-JSON. WebDAV sync or Zotero cloud. Best overall reference manager for researchers.",
-    "used_by": ["KD-GAT"],
+    "used_by": [
+      "KD-GAT"
+    ],
     "capability_ceiling": "extensive",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -1336,13 +1847,21 @@
     "name": "Mendeley",
     "url": "https://www.mendeley.com",
     "open_source": false,
-    "categories": ["reference_management"],
+    "categories": [
+      "reference_management"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["saas"],
+    "deployment_model": [
+      "saas"
+    ],
     "language_ecosystem": [],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["bibtex", "word", "csl"],
+    "integration_targets": [
+      "bibtex",
+      "word",
+      "csl"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -1367,13 +1886,24 @@
     "name": "BibTeX",
     "url": "https://www.bibtex.org",
     "open_source": true,
-    "categories": ["reference_management"],
+    "categories": [
+      "reference_management"
+    ],
     "license": "Knuth-CTAN",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["latex", "pandoc", "zotero", "jabref"],
+    "integration_targets": [
+      "latex",
+      "pandoc",
+      "zotero",
+      "jabref"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1389,7 +1919,9 @@
     "self_hosted_viable": true,
     "interoperability": "high",
     "summary": "The original reference database format for LaTeX. Plain text .bib files are universally supported. Limited sorting/formatting compared to BibLaTeX but maximal compatibility with journal templates.",
-    "used_by": ["KD-GAT"],
+    "used_by": [
+      "KD-GAT"
+    ],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -1398,13 +1930,23 @@
     "name": "BibLaTeX",
     "url": "https://github.com/plk/biblatex",
     "open_source": true,
-    "categories": ["reference_management"],
+    "categories": [
+      "reference_management"
+    ],
     "license": "LPPL-1.3c",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["tex"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "tex"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["latex", "biber", "zotero"],
+    "integration_targets": [
+      "latex",
+      "biber",
+      "zotero"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1429,13 +1971,27 @@
     "name": "Citation Style Language",
     "url": "https://citationstyles.org",
     "open_source": true,
-    "categories": ["reference_management"],
+    "categories": [
+      "reference_management"
+    ],
     "license": "CC-BY-SA-3.0",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["xml", "javascript", "python", "ruby"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "xml",
+      "javascript",
+      "python",
+      "ruby"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["zotero", "mendeley", "pandoc", "word"],
+    "integration_targets": [
+      "zotero",
+      "mendeley",
+      "pandoc",
+      "word"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1460,13 +2016,22 @@
     "name": "Paperpile",
     "url": "https://paperpile.com",
     "open_source": false,
-    "categories": ["reference_management"],
+    "categories": [
+      "reference_management"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["saas"],
+    "deployment_model": [
+      "saas"
+    ],
     "language_ecosystem": [],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["google_docs", "bibtex", "csl", "word"],
+    "integration_targets": [
+      "google_docs",
+      "bibtex",
+      "csl",
+      "word"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -1491,16 +2056,26 @@
     "name": "EndNote",
     "url": "https://endnote.com",
     "open_source": false,
-    "categories": ["reference_management"],
+    "categories": [
+      "reference_management"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["self_hosted", "saas"],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
     "language_ecosystem": [],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["word", "bibtex", "pubmed", "web_of_science"],
+    "integration_targets": [
+      "word",
+      "bibtex",
+      "pubmed",
+      "web_of_science"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "high",
@@ -1522,13 +2097,28 @@
     "name": "Vale",
     "url": "https://vale.sh",
     "open_source": true,
-    "categories": ["prose_linting"],
+    "categories": [
+      "prose_linting"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "asciidoc", "rst", "html", "xml", "org", "vscode", "github_actions"],
+    "integration_targets": [
+      "markdown",
+      "asciidoc",
+      "rst",
+      "html",
+      "xml",
+      "org",
+      "vscode",
+      "github_actions"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1543,7 +2133,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "high",
-    "summary": "Programmable prose linter with YAML rules. Style packages for Microsoft, Google, write-good, Joblint. Markup-aware — parses Markdown, AsciiDoc, RST natively. CI-friendly single binary.",
+    "summary": "Programmable prose linter with YAML rules. Style packages for Microsoft, Google, write-good, Joblint. Markup-aware \u2014 parses Markdown, AsciiDoc, RST natively. CI-friendly single binary.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -1553,13 +2143,25 @@
     "name": "textlint",
     "url": "https://textlint.github.io",
     "open_source": true,
-    "categories": ["prose_linting"],
+    "categories": [
+      "prose_linting"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "html", "rst", "asciidoc", "vscode"],
+    "integration_targets": [
+      "markdown",
+      "html",
+      "rst",
+      "asciidoc",
+      "vscode"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1584,13 +2186,24 @@
     "name": "write-good",
     "url": "https://github.com/btford/write-good",
     "open_source": true,
-    "categories": ["prose_linting"],
+    "categories": [
+      "prose_linting"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["vim", "emacs", "vscode", "atom"],
+    "integration_targets": [
+      "vim",
+      "emacs",
+      "vscode",
+      "atom"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1615,13 +2228,26 @@
     "name": "LanguageTool",
     "url": "https://languagetool.org",
     "open_source": true,
-    "categories": ["prose_linting"],
+    "categories": [
+      "prose_linting"
+    ],
     "license": "LGPL-2.1-only",
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["java"],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["browser", "word", "libreoffice", "vscode", "emacs"],
+    "integration_targets": [
+      "browser",
+      "word",
+      "libreoffice",
+      "vscode",
+      "emacs"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -1646,13 +2272,24 @@
     "name": "proselint",
     "url": "https://github.com/amperser/proselint",
     "open_source": true,
-    "categories": ["prose_linting"],
+    "categories": [
+      "prose_linting"
+    ],
     "license": "BSD-3-Clause",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["vim", "emacs", "vscode", "sublime"],
+    "integration_targets": [
+      "vim",
+      "emacs",
+      "vscode",
+      "sublime"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1677,13 +2314,24 @@
     "name": "Alex",
     "url": "https://alexjs.com",
     "open_source": true,
-    "categories": ["prose_linting"],
+    "categories": [
+      "prose_linting"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "html", "github_actions", "vscode"],
+    "integration_targets": [
+      "markdown",
+      "html",
+      "github_actions",
+      "vscode"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1708,13 +2356,26 @@
     "name": "Read the Docs",
     "url": "https://readthedocs.org",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "MIT",
-    "deployment_model": ["saas", "self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["sphinx", "mkdocs", "github", "gitlab", "bitbucket"],
+    "integration_targets": [
+      "sphinx",
+      "mkdocs",
+      "github",
+      "gitlab",
+      "bitbucket"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -1739,13 +2400,24 @@
     "name": "GitBook",
     "url": "https://www.gitbook.com",
     "open_source": false,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["saas"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["markdown", "github", "gitlab", "slack"],
+    "integration_targets": [
+      "markdown",
+      "github",
+      "gitlab",
+      "slack"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -1770,13 +2442,23 @@
     "name": "Rustdoc",
     "url": "https://doc.rust-lang.org/rustdoc/",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["rust"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust"
+    ],
     "maturity": "production",
     "governance": "foundation",
-    "integration_targets": ["rust", "cargo", "docs.rs"],
+    "integration_targets": [
+      "rust",
+      "cargo",
+      "docs.rs"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1791,7 +2473,7 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "interoperability": "low",
-    "summary": "Built-in Rust documentation generator. Runs doc-tests as part of cargo test. Hosted automatically on docs.rs for published crates. Tight language integration — doc comments are first-class.",
+    "summary": "Built-in Rust documentation generator. Runs doc-tests as part of cargo test. Hosted automatically on docs.rs for published crates. Tight language integration \u2014 doc comments are first-class.",
     "used_by": [],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
@@ -1801,13 +2483,24 @@
     "name": "Javadoc",
     "url": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "GPL-2.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["java", "maven", "gradle", "html"],
+    "integration_targets": [
+      "java",
+      "maven",
+      "gradle",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1832,13 +2525,24 @@
     "name": "MkDocs",
     "url": "https://www.mkdocs.org",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "BSD-2-Clause",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "github_pages", "readthedocs", "material_theme"],
+    "integration_targets": [
+      "markdown",
+      "github_pages",
+      "readthedocs",
+      "material_theme"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1854,7 +2558,9 @@
     "self_hosted_viable": true,
     "interoperability": "high",
     "summary": "Python-based static site generator for project documentation. YAML config, Markdown content, Jinja2 themes. Material for MkDocs theme is exceptional. Simple, fast, and widely adopted.",
-    "used_by": ["KD-GAT"],
+    "used_by": [
+      "KD-GAT"
+    ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -1863,13 +2569,26 @@
     "name": "Sphinx",
     "url": "https://www.sphinx-doc.org",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "BSD-2-Clause",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["python"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["rst", "myst", "readthedocs", "latex", "epub", "intersphinx"],
+    "integration_targets": [
+      "rst",
+      "myst",
+      "readthedocs",
+      "latex",
+      "epub",
+      "intersphinx"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1894,13 +2613,26 @@
     "name": "Docusaurus",
     "url": "https://docusaurus.io",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "react"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "react"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["mdx", "react", "algolia", "github_pages", "vercel"],
+    "integration_targets": [
+      "mdx",
+      "react",
+      "algolia",
+      "github_pages",
+      "vercel"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1925,13 +2657,26 @@
     "name": "VitePress",
     "url": "https://vitepress.dev",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "vue"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "vue"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "vue", "vite", "algolia", "mermaid"],
+    "integration_targets": [
+      "markdown",
+      "vue",
+      "vite",
+      "algolia",
+      "mermaid"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1956,13 +2701,25 @@
     "name": "Starlight",
     "url": "https://starlight.astro.build",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "astro"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "astro"
+    ],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["astro", "markdown", "mdx", "markdoc"],
+    "integration_targets": [
+      "astro",
+      "markdown",
+      "mdx",
+      "markdoc"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -1987,13 +2744,22 @@
     "name": "mdBook",
     "url": "https://rust-lang.github.io/mdBook/",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "MPL-2.0",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["rust"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "github_pages"],
+    "integration_targets": [
+      "markdown",
+      "github_pages"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2018,13 +2784,30 @@
     "name": "Doxygen",
     "url": "https://www.doxygen.nl",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "GPL-2.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["c", "c++", "python", "java"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "c",
+      "c++",
+      "python",
+      "java"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["c", "c++", "python", "java", "latex", "html", "graphviz"],
+    "integration_targets": [
+      "c",
+      "c++",
+      "python",
+      "java",
+      "latex",
+      "html",
+      "graphviz"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2049,13 +2832,24 @@
     "name": "Mintlify",
     "url": "https://mintlify.com",
     "open_source": false,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["saas"],
-    "language_ecosystem": ["javascript", "react"],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "react"
+    ],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["mdx", "openapi", "github"],
+    "integration_targets": [
+      "mdx",
+      "openapi",
+      "github"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -2070,7 +2864,7 @@
     "saas_available": true,
     "self_hosted_viable": false,
     "interoperability": "medium",
-    "summary": "SaaS documentation platform with beautiful defaults and AI-powered search. MDX-based content, git-synced. Polished but proprietary — content is in MDX/Markdown but tooling is locked to their platform.",
+    "summary": "SaaS documentation platform with beautiful defaults and AI-powered search. MDX-based content, git-synced. Polished but proprietary \u2014 content is in MDX/Markdown but tooling is locked to their platform.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -2080,13 +2874,24 @@
     "name": "Fumadocs",
     "url": "https://fumadocs.vercel.app",
     "open_source": true,
-    "categories": ["docs_site"],
+    "categories": [
+      "docs_site"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript", "react"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "react"
+    ],
     "maturity": "growth",
     "governance": "community",
-    "integration_targets": ["next.js", "mdx", "openapi"],
+    "integration_targets": [
+      "next.js",
+      "mdx",
+      "openapi"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2111,13 +2916,24 @@
     "name": "Obsidian",
     "url": "https://obsidian.md",
     "open_source": false,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["markdown", "mermaid", "dataview", "templater"],
+    "integration_targets": [
+      "markdown",
+      "mermaid",
+      "dataview",
+      "templater"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -2132,8 +2948,11 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "interoperability": "high",
-    "summary": "Local-first Markdown knowledge base with bidirectional links, graph view, and plugin ecosystem. Data stored as plain .md files — no lock-in. Sync and publish available as paid services.",
-    "used_by": ["KD-GAT", "Map-Visualizations"],
+    "summary": "Local-first Markdown knowledge base with bidirectional links, graph view, and plugin ecosystem. Data stored as plain .md files \u2014 no lock-in. Sync and publish available as paid services.",
+    "used_by": [
+      "KD-GAT",
+      "Map-Visualizations"
+    ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -2142,13 +2961,24 @@
     "name": "Notion",
     "url": "https://www.notion.so",
     "open_source": false,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["saas"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["api", "slack", "github", "zapier"],
+    "integration_targets": [
+      "api",
+      "slack",
+      "github",
+      "zapier"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -2173,13 +3003,23 @@
     "name": "Logseq",
     "url": "https://logseq.com",
     "open_source": true,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "AGPL-3.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["clojure", "javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "clojure",
+      "javascript"
+    ],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["markdown", "org_mode"],
+    "integration_targets": [
+      "markdown",
+      "org_mode"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -2204,13 +3044,23 @@
     "name": "Dendron",
     "url": "https://www.dendron.so",
     "open_source": true,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "AGPL-3.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "archived",
     "governance": "community",
-    "integration_targets": ["vscode", "markdown", "github_pages"],
+    "integration_targets": [
+      "vscode",
+      "markdown",
+      "github_pages"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2235,13 +3085,23 @@
     "name": "Foam",
     "url": "https://foambubble.github.io/foam/",
     "open_source": true,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "growth",
     "governance": "community",
-    "integration_targets": ["vscode", "markdown", "github_pages"],
+    "integration_targets": [
+      "vscode",
+      "markdown",
+      "github_pages"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2256,7 +3116,7 @@
     "saas_available": false,
     "self_hosted_viable": true,
     "interoperability": "high",
-    "summary": "VS Code extension for Roam-like knowledge management. Wikilinks, graph visualization, daily notes. Lightweight — just a VS Code extension set over plain Markdown. Good for developers already in VS Code.",
+    "summary": "VS Code extension for Roam-like knowledge management. Wikilinks, graph visualization, daily notes. Lightweight \u2014 just a VS Code extension set over plain Markdown. Good for developers already in VS Code.",
     "used_by": [],
     "capability_ceiling": "medium",
     "migration_likelihood": "low",
@@ -2266,13 +3126,23 @@
     "name": "Roam Research",
     "url": "https://roamresearch.com",
     "open_source": false,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["saas"],
-    "language_ecosystem": ["clojure", "javascript"],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "clojure",
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "company_backed",
-    "integration_targets": ["markdown", "datalog"],
+    "integration_targets": [
+      "markdown",
+      "datalog"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -2297,13 +3167,19 @@
     "name": "Tana",
     "url": "https://tana.inc",
     "open_source": false,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "LicenseRef-Proprietary",
-    "deployment_model": ["saas"],
+    "deployment_model": [
+      "saas"
+    ],
     "language_ecosystem": [],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["api"],
+    "integration_targets": [
+      "api"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "cloud_only",
@@ -2318,7 +3194,7 @@
     "saas_available": true,
     "self_hosted_viable": false,
     "interoperability": "low",
-    "summary": "Supertag-based knowledge workspace combining outlines, databases, and AI. Highly structured data model with computed fields. Innovative but cloud-only with no export — extreme lock-in risk.",
+    "summary": "Supertag-based knowledge workspace combining outlines, databases, and AI. Highly structured data model with computed fields. Innovative but cloud-only with no export \u2014 extreme lock-in risk.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -2328,13 +3204,23 @@
     "name": "Anytype",
     "url": "https://anytype.io",
     "open_source": true,
-    "categories": ["knowledge_management"],
+    "categories": [
+      "knowledge_management"
+    ],
     "license": "LicenseRef-Source-Available",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go", "javascript"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go",
+      "javascript"
+    ],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["markdown", "ipfs"],
+    "integration_targets": [
+      "markdown",
+      "ipfs"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -2359,13 +3245,28 @@
     "name": "Mermaid",
     "url": "https://mermaid.js.org",
     "open_source": true,
-    "categories": ["diagram_authoring"],
+    "categories": [
+      "diagram_authoring"
+    ],
     "license": "MIT",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["javascript"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["markdown", "github", "gitlab", "obsidian", "mkdocs", "docusaurus", "quarto", "notion"],
+    "integration_targets": [
+      "markdown",
+      "github",
+      "gitlab",
+      "obsidian",
+      "mkdocs",
+      "docusaurus",
+      "quarto",
+      "notion"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2381,7 +3282,10 @@
     "self_hosted_viable": true,
     "interoperability": "high",
     "summary": "Text-to-diagram library supporting flowcharts, sequence diagrams, Gantt charts, class diagrams, and more. Native GitHub/GitLab rendering. De facto standard for diagrams-as-code in documentation.",
-    "used_by": ["KD-GAT", "Map-Visualizations"],
+    "used_by": [
+      "KD-GAT",
+      "Map-Visualizations"
+    ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -2390,13 +3294,25 @@
     "name": "PlantUML",
     "url": "https://plantuml.com",
     "open_source": true,
-    "categories": ["diagram_authoring"],
+    "categories": [
+      "diagram_authoring"
+    ],
     "license": "GPL-3.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["graphviz", "latex", "confluence", "vscode", "intellij"],
+    "integration_targets": [
+      "graphviz",
+      "latex",
+      "confluence",
+      "vscode",
+      "intellij"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -2421,13 +3337,23 @@
     "name": "D2",
     "url": "https://d2lang.com",
     "open_source": true,
-    "categories": ["diagram_authoring"],
+    "categories": [
+      "diagram_authoring"
+    ],
     "license": "MPL-2.0",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["go"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
     "maturity": "growth",
     "governance": "company_backed",
-    "integration_targets": ["svg", "png", "vscode"],
+    "integration_targets": [
+      "svg",
+      "png",
+      "vscode"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2452,13 +3378,30 @@
     "name": "Kroki",
     "url": "https://kroki.io",
     "open_source": true,
-    "categories": ["diagram_authoring"],
+    "categories": [
+      "diagram_authoring"
+    ],
     "license": "MIT",
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["java", "javascript"],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "java",
+      "javascript"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["mermaid", "plantuml", "d2", "graphviz", "ditaa", "pikchr", "svgbob", "vega"],
+    "integration_targets": [
+      "mermaid",
+      "plantuml",
+      "d2",
+      "graphviz",
+      "ditaa",
+      "pikchr",
+      "svgbob",
+      "vega"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -2483,13 +3426,25 @@
     "name": "Structurizr DSL",
     "url": "https://structurizr.com",
     "open_source": true,
-    "categories": ["diagram_authoring"],
+    "categories": [
+      "diagram_authoring"
+    ],
     "license": "Apache-2.0",
-    "deployment_model": ["self_hosted", "saas"],
-    "language_ecosystem": ["java"],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["c4_model", "plantuml", "mermaid", "d2"],
+    "integration_targets": [
+      "c4_model",
+      "plantuml",
+      "mermaid",
+      "d2"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",
@@ -2504,7 +3459,7 @@
     "saas_available": true,
     "self_hosted_viable": true,
     "interoperability": "high",
-    "summary": "DSL for the C4 model of software architecture. Define architecture once, render as PlantUML, Mermaid, D2, or interactive diagrams. Model-driven — changes propagate to all views automatically.",
+    "summary": "DSL for the C4 model of software architecture. Define architecture once, render as PlantUML, Mermaid, D2, or interactive diagrams. Model-driven \u2014 changes propagate to all views automatically.",
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -2514,13 +3469,23 @@
     "name": "Pikchr",
     "url": "https://pikchr.org",
     "open_source": true,
-    "categories": ["diagram_authoring"],
+    "categories": [
+      "diagram_authoring"
+    ],
     "license": "0BSD",
-    "deployment_model": ["embedded_library"],
-    "language_ecosystem": ["c"],
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "c"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["fossil", "markdown", "html"],
+    "integration_targets": [
+      "fossil",
+      "markdown",
+      "html"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "native",
@@ -2545,13 +3510,24 @@
     "name": "Ditaa",
     "url": "https://github.com/stathissideris/ditaa",
     "open_source": true,
-    "categories": ["diagram_authoring"],
+    "categories": [
+      "diagram_authoring"
+    ],
     "license": "LGPL-3.0-only",
-    "deployment_model": ["self_hosted"],
-    "language_ecosystem": ["java"],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
     "maturity": "production",
     "governance": "community",
-    "integration_targets": ["ascii", "png", "asciidoc", "org_mode"],
+    "integration_targets": [
+      "ascii",
+      "png",
+      "asciidoc",
+      "org_mode"
+    ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "hpc_compatible": "adaptable",

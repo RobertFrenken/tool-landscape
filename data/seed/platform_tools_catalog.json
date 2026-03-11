@@ -29,13 +29,13 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Expo",
-      "Metro",
-      "Hermes"
+      "expo",
+      "metro",
+      "hermes"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -72,11 +72,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Dart"
+      "dart"
     ],
     "integration_targets": [
-      "Firebase",
-      "Material Design"
+      "firebase",
+      "material design"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -113,12 +113,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "React Native",
-      "EAS Build"
+      "react native",
+      "eas build"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -154,14 +154,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Ionic",
-      "React",
-      "Vue",
-      "Angular"
+      "ionic",
+      "react",
+      "vue",
+      "angular"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -197,14 +197,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Capacitor",
-      "Angular",
-      "React",
-      "Vue"
+      "capacitor",
+      "angular",
+      "react",
+      "vue"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -240,12 +240,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Angular",
-      "Vue"
+      "angular",
+      "vue"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -282,12 +282,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C#",
-      ".NET"
+      "c#",
+      ".net"
     ],
     "integration_targets": [
-      "Visual Studio",
-      "Xamarin"
+      "visual studio",
+      "xamarin"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -323,11 +323,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Kotlin"
+      "kotlin"
     ],
     "integration_targets": [
-      "Jetpack Compose",
-      "SwiftUI"
+      "jetpack compose",
+      "swiftui"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -364,12 +364,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Swift"
+      "swift"
     ],
     "integration_targets": [
-      "Xcode",
-      "UIKit",
-      "AppKit"
+      "xcode",
+      "uikit",
+      "appkit"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -405,11 +405,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Kotlin"
+      "kotlin"
     ],
     "integration_targets": [
-      "Android Studio",
-      "Kotlin Multiplatform"
+      "android studio",
+      "kotlin multiplatform"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -446,11 +446,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Kotlin"
+      "kotlin"
     ],
     "integration_targets": [
-      "Jetpack Compose",
-      "Kotlin Multiplatform"
+      "jetpack compose",
+      "kotlin multiplatform"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -486,14 +486,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "React",
-      "Vue",
-      "Angular",
-      "Node.js"
+      "react",
+      "vue",
+      "angular",
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -529,14 +529,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Go",
-      "JavaScript",
-      "TypeScript"
+      "go",
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "React",
-      "Vue",
-      "Svelte"
+      "react",
+      "vue",
+      "svelte"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -572,12 +572,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "React",
-      "Vue"
+      "react",
+      "vue"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -613,13 +613,13 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C++",
-      "QML",
-      "Python"
+      "c++",
+      "qml",
+      "python"
     ],
     "integration_targets": [
-      "CMake",
-      "PyQt"
+      "cmake",
+      "pyqt"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -655,14 +655,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "Python",
-      "Rust",
-      "Vala"
+      "c",
+      "python",
+      "rust",
+      "vala"
     ],
     "integration_targets": [
-      "GNOME",
-      "GLib"
+      "gnome",
+      "glib"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -698,12 +698,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C++"
+      "c++"
     ],
     "integration_targets": [
-      "OpenGL",
-      "Vulkan",
-      "DirectX"
+      "opengl",
+      "vulkan",
+      "directx"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -739,10 +739,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C++"
+      "c++"
     ],
     "integration_targets": [
-      "OpenGL"
+      "opengl"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -778,12 +778,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C#",
-      ".NET"
+      "c#",
+      ".net"
     ],
     "integration_targets": [
-      "Visual Studio",
-      ".NET MAUI"
+      "visual studio",
+      ".net maui"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -819,11 +819,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Node.js"
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -859,11 +859,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Node.js"
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -899,11 +899,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript"
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [
-      "Node.js"
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -939,12 +939,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "React",
-      "Node.js"
+      "react",
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -980,11 +980,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "Go"
+      "go"
     ],
     "integration_targets": [
-      "Lip Gloss",
-      "Bubbles"
+      "lip gloss",
+      "bubbles"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1020,10 +1020,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "Go"
+      "go"
     ],
     "integration_targets": [
-      "Viper"
+      "viper"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1059,7 +1059,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1096,10 +1096,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "Rich"
+      "rich"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1135,7 +1135,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1150,7 +1150,7 @@
     "summary": "Microsoft's extensible code editor with integrated terminal, debugging, Git, and vast extension marketplace",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -1173,13 +1173,13 @@
       "saas"
     ],
     "language_ecosystem": [
-      "TypeScript",
-      "JavaScript"
+      "typescript",
+      "javascript"
     ],
     "integration_targets": [
-      "GitHub Copilot",
-      "Docker",
-      "Git"
+      "github copilot",
+      "docker",
+      "git"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1215,12 +1215,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Lua",
-      "Vimscript"
+      "lua",
+      "vimscript"
     ],
     "integration_targets": [
-      "LSP",
-      "Tree-sitter",
+      "lsp",
+      "tree-sitter",
       "tmux"
     ],
     "pipeline_stage": [],
@@ -1257,12 +1257,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
-      "LSP",
-      "Tree-sitter",
-      "GitHub Copilot"
+      "lsp",
+      "tree-sitter",
+      "github copilot"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1298,11 +1298,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
-      "LSP",
-      "Tree-sitter"
+      "lsp",
+      "tree-sitter"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1338,11 +1338,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Vimscript"
+      "vimscript"
     ],
     "integration_targets": [
       "tmux",
-      "LSP"
+      "lsp"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1378,12 +1378,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Emacs Lisp"
+      "emacs lisp"
     ],
     "integration_targets": [
-      "Org-mode",
-      "LSP",
-      "Magit"
+      "org-mode",
+      "lsp",
+      "magit"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1419,11 +1419,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "LSP",
-      "Package Control"
+      "lsp",
+      "package control"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1459,14 +1459,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Java",
-      "Kotlin"
+      "java",
+      "kotlin"
     ],
     "integration_targets": [
-      "Maven",
-      "Gradle",
-      "Git",
-      "Docker"
+      "maven",
+      "gradle",
+      "git",
+      "docker"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1502,13 +1502,13 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
       "pytest",
-      "Docker",
-      "Git",
-      "Jupyter"
+      "docker",
+      "git",
+      "jupyter"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1544,7 +1544,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
       "wasm-bindgen",
@@ -1584,11 +1584,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
       "wasm-pack",
-      "JavaScript"
+      "javascript"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1624,13 +1624,13 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "C++"
+      "c",
+      "c++"
     ],
     "integration_targets": [
-      "LLVM",
-      "OpenGL",
-      "SDL"
+      "llvm",
+      "opengl",
+      "sdl"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1666,10 +1666,10 @@
       "library"
     ],
     "language_ecosystem": [
-      "TypeScript"
+      "typescript"
     ],
     "integration_targets": [
-      "Binaryen",
+      "binaryen",
       "npm"
     ],
     "pipeline_stage": [],
@@ -1706,15 +1706,15 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust",
-      "C",
-      "C++",
-      "Go",
-      "Python"
+      "rust",
+      "c",
+      "c++",
+      "go",
+      "python"
     ],
     "integration_targets": [
-      "WASI",
-      "WAPM"
+      "wasi",
+      "wapm"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1750,14 +1750,14 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust",
-      "C",
-      "C++",
-      "Go",
-      "Python"
+      "rust",
+      "c",
+      "c++",
+      "go",
+      "python"
     ],
     "integration_targets": [
-      "WASI"
+      "wasi"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1793,15 +1793,15 @@
       "library"
     ],
     "language_ecosystem": [
-      "Rust",
-      "Go",
-      "Python",
-      "JavaScript",
-      "C"
+      "rust",
+      "go",
+      "python",
+      "javascript",
+      "c"
     ],
     "integration_targets": [
-      "Wasmtime",
-      "WASI"
+      "wasmtime",
+      "wasi"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -1837,15 +1837,15 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++",
-      "Java",
-      "Python",
-      "Go",
-      "C#",
-      "Rust"
+      "c++",
+      "java",
+      "python",
+      "go",
+      "c#",
+      "rust"
     ],
     "integration_targets": [
-      "gRPC"
+      "grpc"
     ],
     "pipeline_stage": [],
     "scale_profile": "cluster",
@@ -1881,12 +1881,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python",
-      "Java",
-      "C++",
-      "Go",
-      "Ruby",
-      "JavaScript"
+      "python",
+      "java",
+      "c++",
+      "go",
+      "ruby",
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1923,12 +1923,12 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++",
-      "Java",
-      "Go",
-      "C#",
-      "Rust",
-      "Python"
+      "c++",
+      "java",
+      "go",
+      "c#",
+      "rust",
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -1965,11 +1965,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++",
-      "Rust",
-      "Go",
-      "Java",
-      "Python"
+      "c++",
+      "rust",
+      "go",
+      "java",
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2006,11 +2006,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "Java",
-      "C++",
-      "Python",
-      "Go",
-      "Ruby"
+      "java",
+      "c++",
+      "python",
+      "go",
+      "ruby"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2047,11 +2047,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "C",
-      "Python",
-      "Go",
-      "Rust",
-      "JavaScript"
+      "c",
+      "python",
+      "go",
+      "rust",
+      "javascript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2066,7 +2066,7 @@
     "summary": "Open specification for defining reproducible development environments using containers with IDE integration",
     "maturity": "production",
     "governance": "company_backed",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "shared_server",
     "migration_cost": "medium",
     "lock_in_risk": "low",
@@ -2088,12 +2088,12 @@
       "container"
     ],
     "language_ecosystem": [
-      "JSON"
+      "json"
     ],
     "integration_targets": [
-      "VS Code",
-      "GitHub Codespaces",
-      "Docker"
+      "vs code",
+      "github codespaces",
+      "docker"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2131,10 +2131,10 @@
     ],
     "language_ecosystem": [],
     "integration_targets": [
-      "VS Code",
-      "JetBrains",
-      "Git",
-      "Docker"
+      "vs code",
+      "jetbrains",
+      "git",
+      "docker"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2171,9 +2171,9 @@
     ],
     "language_ecosystem": [],
     "integration_targets": [
-      "VS Code",
-      "Devcontainers",
-      "GitHub"
+      "vs code",
+      "devcontainers",
+      "github"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2209,11 +2209,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Go"
+      "go"
     ],
     "integration_targets": [
-      "Nix",
-      "Docker"
+      "nix",
+      "docker"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2249,7 +2249,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
       "asdf"
@@ -2288,7 +2288,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Shell"
+      "shell"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2326,11 +2326,11 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Node.js"
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2366,11 +2366,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Node.js",
+      "node.js",
       "npm"
     ],
     "pipeline_stage": [],
@@ -2407,11 +2407,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Node.js",
+      "node.js",
       "npm"
     ],
     "pipeline_stage": [],
@@ -2448,13 +2448,13 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript",
-      "Zig"
+      "javascript",
+      "typescript",
+      "zig"
     ],
     "integration_targets": [
       "npm",
-      "Node.js"
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2490,7 +2490,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
       "crates.io"
@@ -2529,10 +2529,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [
-      "PyPI"
+      "pypi"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2569,10 +2569,10 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "OpenAPI"
+      "openapi"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2609,8 +2609,8 @@
     ],
     "language_ecosystem": [],
     "integration_targets": [
-      "OpenAPI",
-      "GitHub"
+      "openapi",
+      "github"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2646,12 +2646,12 @@
       "self_hosted"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Next.js",
-      "MDX"
+      "next.js",
+      "mdx"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2687,12 +2687,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [
-      "GitHub",
-      "GitLab",
-      "Bitbucket"
+      "github",
+      "gitlab",
+      "bitbucket"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2728,12 +2728,12 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Go"
+      "go"
     ],
     "integration_targets": [
-      "GitHub",
-      "Git",
-      "GitHub Actions"
+      "github",
+      "git",
+      "github actions"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2770,11 +2770,11 @@
       "saas"
     ],
     "language_ecosystem": [
-      "Go"
+      "go"
     ],
     "integration_targets": [
-      "Git",
-      "Docker"
+      "git",
+      "docker"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2811,12 +2811,12 @@
       "saas"
     ],
     "language_ecosystem": [
-      "Go"
+      "go"
     ],
     "integration_targets": [
-      "Git",
-      "Docker",
-      "Gitea"
+      "git",
+      "docker",
+      "gitea"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -2852,7 +2852,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2889,8 +2889,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python",
-      "Rust"
+      "python",
+      "rust"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -2927,11 +2927,11 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [
-      "Neovim",
-      "Vim"
+      "neovim",
+      "vim"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -2967,8 +2967,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust",
-      "Lua"
+      "rust",
+      "lua"
     ],
     "integration_targets": [
       "tmux"
@@ -3007,7 +3007,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
       "tmux"
@@ -3046,8 +3046,8 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C",
-      "Python"
+      "c",
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3084,7 +3084,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3121,13 +3121,13 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
       "bash",
       "zsh",
       "fish",
-      "PowerShell"
+      "powershell"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3163,7 +3163,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Shell"
+      "shell"
     ],
     "integration_targets": [
       "zsh"
@@ -3202,7 +3202,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Zig"
+      "zig"
     ],
     "integration_targets": [
       "tmux"
@@ -3242,7 +3242,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3279,7 +3279,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3316,7 +3316,7 @@
       "binary"
     ],
     "language_ecosystem": [
-      "C"
+      "c"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3353,8 +3353,8 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3391,11 +3391,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Node.js"
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3431,11 +3431,11 @@
       "library"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "Node.js"
+      "node.js"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3471,7 +3471,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3508,7 +3508,7 @@
       "library"
     ],
     "language_ecosystem": [
-      "Python"
+      "python"
     ],
     "integration_targets": [],
     "pipeline_stage": [],
@@ -3546,11 +3546,11 @@
       "saas"
     ],
     "language_ecosystem": [
-      "JavaScript"
+      "javascript"
     ],
     "integration_targets": [
-      "OpenAPI",
-      "GraphQL"
+      "openapi",
+      "graphql"
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
@@ -3586,13 +3586,13 @@
       "binary"
     ],
     "language_ecosystem": [
-      "JavaScript",
-      "TypeScript"
+      "javascript",
+      "typescript"
     ],
     "integration_targets": [
-      "OpenAPI",
-      "GraphQL",
-      "gRPC"
+      "openapi",
+      "graphql",
+      "grpc"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3628,10 +3628,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
-      "WASI"
+      "wasi"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3667,10 +3667,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
-      "Starship"
+      "starship"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3706,10 +3706,10 @@
       "binary"
     ],
     "language_ecosystem": [
-      "Rust"
+      "rust"
     ],
     "integration_targets": [
-      "Starship"
+      "starship"
     ],
     "pipeline_stage": [],
     "scale_profile": "single_node",
@@ -3746,15 +3746,15 @@
       "library"
     ],
     "language_ecosystem": [
-      "C++",
-      "Go",
-      "Java",
-      "Python",
-      "Rust",
-      "C#"
+      "c++",
+      "go",
+      "java",
+      "python",
+      "rust",
+      "c#"
     ],
     "integration_targets": [
-      "Protocol Buffers"
+      "protocol buffers"
     ],
     "pipeline_stage": [],
     "scale_profile": "cluster",

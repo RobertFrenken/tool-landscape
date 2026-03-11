@@ -340,8 +340,55 @@ def backfill_identifiers(con: duckdb.DuckDBPyConnection) -> int:
     return count
 
 
+def _validate_seed_catalogs() -> None:
+    """Run seed catalog validation before migration. Raises on errors."""
+    catalogs = _find_seed_catalogs()
+    errors = 0
+    all_names: set[str] = set()
+
+    valid_enums = {
+        "maturity": {"experimental", "early", "growth", "production", "archived", ""},
+        "governance": {
+            "community",
+            "company_backed",
+            "foundation",
+            "apache_foundation",
+            "cncf",
+            "linux_foundation",
+            "",
+        },
+        "hpc_compatible": {"native", "adaptable", "cloud_only", "unknown", ""},
+        "collaboration_model": {"single_user", "shared_server", "multi_tenant", "unknown", ""},
+        "community_momentum": {"growing", "stable", "declining", "unknown", ""},
+    }
+
+    for path in catalogs:
+        tools = json.loads(path.read_text())
+        for t in tools:
+            name = t.get("name", "")
+            if not name:
+                errors += 1
+                continue
+            if name in all_names:
+                errors += 1
+            all_names.add(name)
+
+            for field, valid in valid_enums.items():
+                val = t.get(field, "")
+                if val and val not in valid:
+                    errors += 1
+
+    if errors:
+        msg = (
+            f"Seed catalog validation found {errors} error(s). "
+            "Run: python scripts/validate_catalogs.py"
+        )
+        raise ValueError(msg)
+
+
 def run_migration(con: duckdb.DuckDBPyConnection) -> dict[str, int]:
     """Run the full migration pipeline."""
+    _validate_seed_catalogs()
     create_schema(con)
 
     results: dict[str, int] = {}

@@ -933,7 +933,7 @@
       "serving"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
@@ -977,7 +977,7 @@
       "serving"
     ],
     "scale_profile": "single_node",
-    "hpc_compatible": "cloud_only",
+    "hpc_compatible": "unknown",
     "collaboration_model": "single_user",
     "migration_cost": "low",
     "lock_in_risk": "low",
