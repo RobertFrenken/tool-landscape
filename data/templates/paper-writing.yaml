@@ -1,0 +1,80 @@
+spec_version: "1"
+
+project:
+  description: "Academic paper writing template — offline-capable, publication-quality output"
+
+environment:
+  primary: local
+  gpu_required: false
+  internet_on_compute: true
+
+stack_pins: []
+
+components:
+  writing_tool:
+    description: "Primary document authoring tool"
+    require:
+      open_source: true
+      offline_capable: true
+      categories: [writing, typesetting, documentation]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 3}
+      documentation_quality: {value: excellent, weight: 3}
+      lock_in_risk: {value: low, weight: 4}
+    notes:
+      - "PDF output with publication-quality typography"
+      - "LaTeX math support"
+      - "Cross-reference and citation integration"
+    triggers:
+      - "Journal requires specific LaTeX class"
+      - "Collaboration requires real-time co-editing"
+
+  reference_management:
+    description: "Citation management, BibTeX integration"
+    require:
+      open_source: true
+      offline_capable: true
+    prefer:
+      capability_ceiling: {value: high, weight: 4}
+      community_momentum: {value: stable, weight: 2}
+      lock_in_risk: {value: low, weight: 5}
+    notes:
+      - "BibTeX/BibLaTeX export"
+      - "PDF annotation and organization"
+      - "Browser extension for quick capture"
+
+  figure_generation:
+    description: "Create publication-quality figures and plots"
+    require:
+      open_source: true
+      categories: [visualization, charting]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      documentation_quality: {value: excellent, weight: 3}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "Vector output (SVG/PDF)"
+      - "Reproducible from script/code"
+      - "Journal style templates"
+
+  collaboration:
+    description: "Co-authoring workflow with version tracking"
+    require:
+      open_source: true
+    prefer:
+      lock_in_risk: {value: low, weight: 5}
+      capability_ceiling: {value: high, weight: 3}
+    notes:
+      - "Git-compatible (diff-friendly format)"
+      - "Comment/review workflow"
+
+  version_control:
+    description: "Track document revisions and manage contributions"
+    require:
+      open_source: true
+      offline_capable: true
+      categories: [version_control]
+    prefer:
+      maturity: {value: production, weight: 5}
+      community_momentum: {value: stable, weight: 2}

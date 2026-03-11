@@ -1,0 +1,72 @@
+spec_version: "1"
+
+project:
+  description: "Data dashboard template — interactive visualization with lightweight stack"
+
+environment:
+  primary: local
+  gpu_required: false
+  internet_on_compute: true
+
+stack_pins: []
+
+components:
+  data_pipeline:
+    description: "ETL/ELT for ingesting and transforming data"
+    require:
+      open_source: true
+      categories: [data_pipeline, etl]
+    prefer:
+      capability_ceiling: {value: high, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+      resource_overhead: {value: minimal, weight: 4}
+      lock_in_risk: {value: low, weight: 3}
+
+  query_engine:
+    description: "Analytical query engine for dashboard data"
+    require:
+      open_source: true
+      categories: [database, analytics]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "In-process preferred (no server setup)"
+      - "Parquet/CSV native support"
+
+  visualization:
+    description: "Charting and interactive visualization"
+    require:
+      open_source: true
+      categories: [visualization, charting]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 3}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "Interactive (hover, zoom, filter)"
+      - "Publication-quality output"
+
+  static_site:
+    description: "Framework for building and deploying the dashboard"
+    require:
+      open_source: true
+      categories: [static_site, web_framework]
+    prefer:
+      resource_overhead: {value: minimal, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Data loader / build-time data processing"
+      - "Hot reload for development"
+
+  data_quality:
+    description: "Validation, profiling, anomaly detection on input data"
+    require:
+      open_source: true
+      python_native: true
+    prefer:
+      capability_ceiling: {value: high, weight: 3}
+      community_momentum: {value: growing, weight: 3}
+      resource_overhead: {value: minimal, weight: 3}

@@ -1,0 +1,60 @@
+spec_version: "1"
+
+project:
+  description: "Static site template — zero-cost hosting, no server required"
+
+environment:
+  primary: local
+  gpu_required: false
+  internet_on_compute: true
+
+stack_pins: []
+
+components:
+  site_framework:
+    description: "Static site generator or framework"
+    require:
+      open_source: true
+      categories: [static_site, documentation]
+    prefer:
+      capability_ceiling: {value: high, weight: 4}
+      community_momentum: {value: growing, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Markdown-native content"
+      - "Plugin/extension ecosystem"
+
+  content_management:
+    description: "Content authoring, templating, and organization"
+    require:
+      open_source: true
+    prefer:
+      lock_in_risk: {value: low, weight: 5}
+      capability_ceiling: {value: high, weight: 3}
+    notes:
+      - "Git-based content workflow"
+      - "No proprietary CMS dependency"
+
+  build_deploy:
+    description: "CI/CD pipeline for building and deploying the site"
+    require:
+      open_source: true
+      categories: [ci_cd, deployment]
+    prefer:
+      resource_overhead: {value: minimal, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "GitHub Pages / Netlify / Vercel compatible"
+      - "Zero-cost tier available"
+
+  hosting:
+    description: "Static file hosting with CDN"
+    require:
+      categories: [hosting, cdn]
+    prefer:
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 4}
+    notes:
+      - "Free tier sufficient for project needs"
+      - "Custom domain support"

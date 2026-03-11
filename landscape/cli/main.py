@@ -473,6 +473,274 @@ def cmd_export(args: argparse.Namespace) -> None:
         print(f"  {name}.parquet: {count} rows")
 
 
+def cmd_spec_validate(args: argparse.Namespace) -> None:
+    """Validate a spec YAML file."""
+    from landscape.spec.templates import load_spec_with_templates
+
+    spec = load_spec_with_templates(args.spec_file)
+    errors = spec.validate_spec()
+
+    # Print component summary
+    print(f"Spec: {spec.project.get('name', '(unnamed)')}")
+    print(f"Version: {spec.spec_version}")
+    print(f"Components: {len(spec.components)}")
+    print(f"Stack pins: {spec.stack_pins}")
+    if spec.extends:
+        print(f"Extends: {spec.extends}")
+    print()
+
+    # Per-component summary
+    for name, comp in spec.components.items():
+        n_require = len(comp.require.get_known_fields())
+        n_prefer = len(comp.get_preferences())
+        current = comp.current_tool or "(none)"
+        print(
+            f"  {name}: current={current}, require={n_require}, prefer={n_prefer}, notes={len(comp.notes)}"
+        )
+
+    print()
+    if errors:
+        print(f"{len(errors)} validation issues:")
+        for e in errors:
+            print(f"  \u26a0 {e}")
+        sys.exit(1)
+    else:
+        print("\u2713 Spec is valid")
+
+
+def cmd_shop(args: argparse.Namespace) -> None:
+    """Shop for tools using a spec."""
+    from landscape.analysis.shop import (
+        persist_shop_results,
+        print_shop_report,
+        reports_to_json,
+        shop,
+    )
+    from landscape.db.connection import get_db
+    from landscape.spec.templates import load_spec_with_templates
+
+    spec = load_spec_with_templates(args.spec_file)
+    read_only = not getattr(args, "persist", False)
+    con = get_db(read_only=read_only)
+    reports = shop(con, spec, component_name=args.component, top_n=args.top_n)
+
+    if getattr(args, "format", "text") == "json":
+        print(reports_to_json(reports))
+    else:
+        print_shop_report(reports)
+
+    if getattr(args, "persist", False):
+        project_name = spec.project.get("name", "")
+        if not project_name:
+            print("Warning: spec has no project.name — cannot persist scores", file=sys.stderr)
+        else:
+            n = persist_shop_results(con, reports, project_name)
+            print(f"\nPersisted {n} fitness scores for project '{project_name}'")
+
+    con.close()
+
+
+def cmd_spec_init(args: argparse.Namespace) -> None:
+    """Create a new spec from templates."""
+    from landscape.spec.templates import init_spec, list_templates
+
+    template_names = args.templates.split("+")
+    available = list_templates()
+    for t in template_names:
+        if t not in available:
+            print(f"Template '{t}' not found. Available: {available}")
+            sys.exit(1)
+
+    output = args.output or f"{template_names[0]}-spec.yaml"
+    spec = init_spec(template_names, output)
+    print(f"Created {output} from template(s): {', '.join(template_names)}")
+    print(f"  {len(spec.components)} components")
+
+
+def cmd_spec_list_templates(args: argparse.Namespace) -> None:
+    """List available spec templates."""
+    from landscape.spec.templates import list_templates, load_template
+
+    templates = list_templates()
+    if not templates:
+        print("No templates found.")
+        return
+
+    for name in templates:
+        data = load_template(name)
+        desc = data.get("project", {}).get("description", "")
+        n_components = len(data.get("components", {}))
+        print(f"  {name:<20} {n_components} components  {desc}")
+
+
+def cmd_spec_extract(args: argparse.Namespace) -> None:
+    """Extract a draft spec from a project codebase."""
+
+    import yaml
+
+    from landscape.spec.extract import extract_spec
+
+    spec_data = extract_spec(args.path)
+    project_name = spec_data.get("project", {}).get("name", "project")
+    output = args.output or f"{project_name.lower().replace(' ', '-')}-spec.yaml"
+
+    with open(output, "w") as f:
+        yaml.dump(spec_data, f, default_flow_style=False, sort_keys=False)
+
+    n_components = len(spec_data.get("components", {}))
+    n_unmapped = len(spec_data.get("_unmapped_tools", []))
+    print(f"Extracted draft spec to {output}")
+    print(f"  {n_components} components detected")
+    if n_unmapped:
+        print(f"  {n_unmapped} unmapped dependencies (see _unmapped_tools in output)")
+    env = spec_data.get("environment", {})
+    if env:
+        print(f"  Environment: {env}")
+    print("\nRefine with the agent refinement protocol (see data/templates/refine-prompt.md)")
+
+
+def cmd_spec_migrate(args: argparse.Namespace) -> None:
+    """Generate a spec YAML from existing DB project/capabilities data."""
+    import json
+
+    import yaml
+
+    from landscape.db.connection import get_db
+    from landscape.models.spec import BOOLEAN_FIELDS, MATCHABLE_FIELDS, METRIC_FIELDS
+
+    con = get_db(read_only=True)
+
+    # Look up project
+    project = con.execute(
+        """
+        SELECT project_id, name, description, team_size_ceiling,
+               env_primary, env_secondary, gpu_required,
+               internet_on_compute, shared_filesystem
+        FROM projects WHERE lower(name) = lower($1)
+        """,
+        [args.project],
+    ).fetchone()
+    if not project:
+        print(f"Project '{args.project}' not found.")
+        con.close()
+        sys.exit(1)
+
+    (
+        project_id,
+        proj_name,
+        proj_desc,
+        team_size,
+        env_primary,
+        env_secondary,
+        gpu_required,
+        internet_on_compute,
+        shared_filesystem,
+    ) = project
+
+    # Query capabilities with current tool name
+    caps = con.execute(
+        """
+        SELECT c.name, c.description, t.name as tool_name,
+               c.ceiling_requirements, c.triggers, c.notes
+        FROM capabilities c
+        LEFT JOIN tools t ON c.current_tool_id = t.tool_id
+        WHERE c.project_id = $1
+        ORDER BY c.name
+        """,
+        [project_id],
+    ).fetchall()
+    con.close()
+
+    # Known require fields (booleans + enums + arrays + metrics)
+    known_require_fields = MATCHABLE_FIELDS | set(METRIC_FIELDS)
+
+    # Build environment block
+    environment: dict = {}
+    if env_primary:
+        environment["primary"] = env_primary
+    if env_secondary:
+        environment["secondary"] = list(env_secondary)
+    if gpu_required:
+        environment["gpu_required"] = True
+    if not internet_on_compute:
+        environment["internet_on_compute"] = False
+    if shared_filesystem:
+        environment["shared_filesystem"] = shared_filesystem
+
+    # Build components
+    components: dict = {}
+    for cap_name, cap_desc, tool_name, ceiling_req, triggers, notes in caps:
+        comp: dict = {}
+        if cap_desc:
+            comp["description"] = cap_desc
+        if tool_name:
+            comp["current_tool"] = tool_name
+
+        # Parse ceiling_requirements JSON → require + extra notes
+        require: dict = {}
+        extra_notes: list[str] = []
+
+        if ceiling_req:
+            # ceiling_req may be a JSON string or already a dict
+            if isinstance(ceiling_req, str):
+                ceiling_data = json.loads(ceiling_req)
+            else:
+                ceiling_data = ceiling_req
+
+            for key, value in ceiling_data.items():
+                if key in known_require_fields:
+                    # Booleans: keep as-is
+                    if key in BOOLEAN_FIELDS:
+                        require[key] = bool(value)
+                    else:
+                        require[key] = value
+                else:
+                    # Unknown fields → notes
+                    extra_notes.append(f"ceiling: {key} = {value}")
+
+        if require:
+            comp["require"] = require
+
+        if triggers:
+            comp["triggers"] = list(triggers)
+
+        # Collect notes
+        all_notes: list[str] = []
+        if notes:
+            all_notes.append(notes)
+        all_notes.extend(extra_notes)
+        if all_notes:
+            comp["notes"] = all_notes
+
+        components[cap_name] = comp
+
+    # Assemble spec
+    spec_data: dict = {
+        "spec_version": "1",
+        "project": {"name": proj_name},
+    }
+    if proj_desc:
+        spec_data["project"]["description"] = proj_desc
+    if team_size:
+        spec_data["project"]["team_size_ceiling"] = team_size
+    if environment:
+        spec_data["environment"] = environment
+    if components:
+        spec_data["components"] = components
+
+    # Write YAML
+    output = args.output or f"{proj_name.lower().replace(' ', '-')}-spec.yaml"
+    with open(output, "w") as f:
+        yaml.dump(spec_data, f, default_flow_style=False, sort_keys=False)
+
+    print(f"Migrated project '{proj_name}' → {output}")
+    print(f"  {len(components)} components")
+    n_with_tool = sum(1 for c in components.values() if c.get("current_tool"))
+    n_with_require = sum(1 for c in components.values() if c.get("require"))
+    print(f"  {n_with_tool} with current_tool")
+    print(f"  {n_with_require} with require constraints")
+
+
 def cmd_validate(args: argparse.Namespace) -> None:
     """Run data quality validation checks."""
     from landscape.analysis.validate import print_validation_report, run_validation
@@ -613,6 +881,43 @@ def main() -> None:
     # validate
     p_val = sub.add_parser("validate", help="Run data quality validation checks")
     p_val.set_defaults(func=cmd_validate)
+
+    # spec
+    p_spec = sub.add_parser("spec", help="Spec management")
+    spec_sub = p_spec.add_subparsers(dest="spec_command")
+
+    p_spec_validate = spec_sub.add_parser("validate", help="Validate a spec file")
+    p_spec_validate.add_argument("spec_file", help="Path to spec YAML file")
+    p_spec_validate.set_defaults(func=cmd_spec_validate)
+
+    p_spec_init = spec_sub.add_parser("init", help="Create spec from template(s)")
+    p_spec_init.add_argument(
+        "templates", help="Template name(s), joined with + (e.g., ml-research+paper-writing)"
+    )
+    p_spec_init.add_argument("--output", "-o", help="Output file path")
+    p_spec_init.set_defaults(func=cmd_spec_init)
+
+    p_spec_templates = spec_sub.add_parser("templates", help="List available templates")
+    p_spec_templates.set_defaults(func=cmd_spec_list_templates)
+
+    p_spec_extract = spec_sub.add_parser("extract", help="Extract draft spec from codebase")
+    p_spec_extract.add_argument("path", help="Path to project directory")
+    p_spec_extract.add_argument("--output", "-o", help="Output file path")
+    p_spec_extract.set_defaults(func=cmd_spec_extract)
+
+    p_spec_migrate = spec_sub.add_parser("migrate", help="Generate spec from existing DB project")
+    p_spec_migrate.add_argument("project", help="Project name")
+    p_spec_migrate.add_argument("--output", "-o", help="Output file path")
+    p_spec_migrate.set_defaults(func=cmd_spec_migrate)
+
+    # shop
+    p_shop = sub.add_parser("shop", help="Shop for tools using a spec")
+    p_shop.add_argument("spec_file", help="Path to spec YAML file")
+    p_shop.add_argument("--component", help="Filter to single component")
+    p_shop.add_argument("--top-n", type=int, default=10, help="Top N results per component")
+    p_shop.add_argument("--format", choices=["text", "json"], default="text", help="Output format")
+    p_shop.add_argument("--persist", action="store_true", help="Write scores to fitness table")
+    p_shop.set_defaults(func=cmd_shop)
 
     args = parser.parse_args()
     if not args.command:

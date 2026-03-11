@@ -1,0 +1,111 @@
+spec_version: "1"
+
+project:
+  description: "ML research lab template — HPC-first, offline-capable"
+
+environment:
+  primary: hpc
+  gpu_required: true
+  internet_on_compute: false
+  shared_filesystem: nfs
+
+stack_pins: []
+
+components:
+  experiment_tracking:
+    description: "Track hyperparameters, metrics, artifacts across runs"
+    require:
+      offline_capable: true
+      hpc_compatible: [native, adaptable]
+      categories: [experiment_tracking]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 3}
+      python_native: {value: true, weight: 4}
+      lock_in_risk: {value: low, weight: 2}
+    notes:
+      - "query_api for programmatic access to run data"
+      - "artifact_storage integrated with tracking"
+    triggers:
+      - "Databricks restricts OSS MLflow features"
+      - "Annual review (check community_momentum)"
+
+  orchestration:
+    description: "Job scheduling, hyperparameter sweeps, distributed training"
+    require:
+      hpc_compatible: [native, adaptable]
+      categories: [orchestration, hyperparameter_optimization]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      python_native: {value: true, weight: 3}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "SLURM integration (native or via adapter)"
+      - "Fault tolerance for multi-day training runs"
+    triggers:
+      - "Team exceeds 5 concurrent GPU users"
+      - "Training runs exceed 48 hours regularly"
+
+  training_framework:
+    description: "Deep learning framework for model development"
+    require:
+      open_source: true
+      python_native: true
+      categories: [deep_learning, machine_learning]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "GPU acceleration (CUDA, ROCm)"
+      - "Ecosystem of extension libraries (geometric, audio, vision)"
+
+  config_management:
+    description: "Experiment configuration, hyperparameter schemas"
+    require:
+      python_native: true
+      categories: [configuration]
+    prefer:
+      capability_ceiling: {value: high, weight: 3}
+      lock_in_risk: {value: low, weight: 4}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Type-safe config composition"
+      - "CLI override support"
+
+  data_versioning:
+    description: "Track dataset versions, reproduce experiments"
+    require:
+      offline_capable: true
+      open_source: true
+      categories: [data_versioning, data_management]
+    prefer:
+      capability_ceiling: {value: high, weight: 3}
+      community_momentum: {value: growing, weight: 3}
+      lock_in_risk: {value: low, weight: 4}
+    notes:
+      - "Git-compatible workflow"
+      - "Large file support (10GB+ datasets)"
+
+  package_management:
+    description: "Python dependency management, virtual environments"
+    require:
+      python_native: true
+      offline_capable: true
+      categories: [package_management]
+    prefer:
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 3}
+
+  dashboard:
+    description: "Visualize experiment results, model comparisons"
+    require:
+      categories: [visualization, dashboarding]
+    prefer:
+      python_native: {value: true, weight: 3}
+      capability_ceiling: {value: high, weight: 3}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Notebook-compatible (Jupyter integration)"

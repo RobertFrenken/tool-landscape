@@ -1,0 +1,155 @@
+spec_version: "1"
+
+extends:
+  - data-dashboard
+
+project:
+  name: "Map-Visualizations"
+  description: "Ohio political district maps + campaign finance analytics — DuckDB, D3.js, Observable Framework"
+  team_size: 2
+
+environment:
+  primary: local
+  secondary: [hpc]
+  gpu_required: false
+  internet_on_compute: true
+
+stack_pins: [DuckDB, D3.js, Observable Framework]
+
+components:
+  query_engine:
+    description: "Analytical query engine for geospatial + campaign finance data"
+    current_tool: DuckDB
+    require:
+      open_source: true
+      offline_capable: true
+      categories: [database, analytics]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      resource_overhead: {value: minimal, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      python_native: {value: true, weight: 2}
+    notes:
+      - "In-process (no server, works in WASM too)"
+      - "Parquet/CSV native I/O"
+      - "Spatial extensions for geospatial queries"
+      - "DuckDB-WASM for client-side analytics"
+    triggers:
+      - "Dataset exceeds DuckDB-WASM memory limits"
+      - "Need real-time collaborative queries"
+
+  visualization:
+    description: "Interactive maps, charts, and network graphs"
+    current_tool: D3.js
+    require:
+      open_source: true
+      categories: [visualization, charting, mapping]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: stable, weight: 2}
+      documentation_quality: {value: excellent, weight: 4}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "GeoJSON/TopoJSON map rendering"
+      - "Force-directed network graphs"
+      - "Responsive SVG with hover interactions"
+      - "Publication-quality output"
+    triggers:
+      - "Need WebGL for 100K+ point rendering"
+      - "D3 v8 breaking changes"
+
+  site_framework:
+    description: "Reactive data application framework with build-time data loading"
+    current_tool: Observable Framework
+    require:
+      open_source: true
+      categories: [static_site, web_framework, data_visualization]
+    prefer:
+      capability_ceiling: {value: high, weight: 4}
+      community_momentum: {value: growing, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Data loaders (Python/SQL/JS) at build time"
+      - "Reactive cells for interactive exploration"
+      - "DuckDB-WASM integration"
+      - "GitHub Pages deployment"
+    triggers:
+      - "Observable Inc discontinues Framework"
+      - "Need server-side rendering for SEO"
+
+  data_pipeline:
+    description: "ETL from Ohio SOS, FEC, Census → DuckDB + Parquet"
+    current_tool: DuckDB
+    require:
+      open_source: true
+      categories: [data_pipeline, etl]
+    prefer:
+      capability_ceiling: {value: high, weight: 3}
+      resource_overhead: {value: minimal, weight: 5}
+      python_native: {value: true, weight: 3}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Incremental updates (don't re-download unchanged files)"
+      - "Schema validation on ingest"
+      - "Parquet export for Observable data loaders"
+
+  geospatial:
+    description: "GIS data processing — shapefiles, projections, spatial joins"
+    require:
+      open_source: true
+      python_native: true
+      categories: [geospatial, mapping]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+      maturity: {value: production, weight: 4}
+    notes:
+      - "Shapefile/GeoJSON read/write"
+      - "Coordinate projection (Ohio State Plane → WGS84)"
+      - "Spatial joins (points in polygons)"
+      - "TopoJSON simplification for web"
+
+  graph_analytics:
+    description: "Network analysis for campaign finance donor/recipient graphs"
+    require:
+      open_source: true
+      python_native: true
+      categories: [graph_analytics, network_analysis]
+    prefer:
+      capability_ceiling: {value: high, weight: 3}
+      community_momentum: {value: stable, weight: 2}
+      resource_overhead: {value: minimal, weight: 4}
+    notes:
+      - "Community detection (Louvain/Leiden)"
+      - "Centrality metrics"
+      - "Export to D3-compatible JSON format"
+
+  hosting:
+    description: "Static site hosting for the dashboard"
+    current_tool: GitHub Pages
+    require:
+      categories: [hosting]
+    prefer:
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Free tier sufficient"
+      - "Custom domain support"
+      - "GitHub Actions deployment"
+    triggers:
+      - "Need authentication/gating on dashboards"
+      - "GitHub Pages bandwidth limits exceeded"
+
+  design_system:
+    description: "Consistent colors, typography, and layout across dashboard pages"
+    require:
+      open_source: true
+    prefer:
+      lock_in_risk: {value: low, weight: 5}
+      resource_overhead: {value: minimal, weight: 4}
+    notes:
+      - "CSS custom properties for theming"
+      - "Responsive layout (mobile + desktop)"
+      - "Accessibility (WCAG 2.1 AA)"
+      - "Dark/light mode support"

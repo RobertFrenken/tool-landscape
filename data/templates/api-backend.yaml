@@ -1,0 +1,84 @@
+spec_version: "1"
+
+project:
+  description: "API backend template — self-hostable web services"
+
+environment:
+  primary: cloud
+  gpu_required: false
+  internet_on_compute: true
+
+stack_pins: []
+
+components:
+  web_framework:
+    description: "HTTP framework for API endpoints"
+    require:
+      open_source: true
+      self_hosted_viable: true
+      categories: [web_framework, api]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      community_momentum: {value: growing, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "OpenAPI/Swagger auto-generation"
+      - "Async support"
+
+  database:
+    description: "Primary data store"
+    require:
+      open_source: true
+      self_hosted_viable: true
+      categories: [database]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: stable, weight: 3}
+      maturity: {value: production, weight: 4}
+      lock_in_risk: {value: low, weight: 3}
+
+  auth:
+    description: "Authentication and authorization"
+    require:
+      open_source: true
+      self_hosted_viable: true
+      categories: [authentication, security]
+    prefer:
+      maturity: {value: production, weight: 5}
+      documentation_quality: {value: excellent, weight: 4}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "OAuth2 / OIDC support"
+      - "JWT or session-based"
+
+  monitoring:
+    description: "Application monitoring, logging, alerting"
+    require:
+      open_source: true
+      self_hosted_viable: true
+      categories: [monitoring, observability]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+      resource_overhead: {value: moderate, weight: 3}
+
+  deployment:
+    description: "Container orchestration, deployment pipelines"
+    require:
+      open_source: true
+      categories: [deployment, containerization]
+    prefer:
+      maturity: {value: production, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+      documentation_quality: {value: excellent, weight: 3}
+
+  testing:
+    description: "API testing framework"
+    require:
+      open_source: true
+      categories: [testing]
+    prefer:
+      community_momentum: {value: growing, weight: 3}
+      documentation_quality: {value: excellent, weight: 3}
+      resource_overhead: {value: minimal, weight: 4}

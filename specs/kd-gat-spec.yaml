@@ -1,0 +1,180 @@
+spec_version: "1"
+
+extends:
+  - ml-research
+
+project:
+  name: "KD-GAT"
+  description: "CAN bus intrusion detection via knowledge distillation with graph attention networks"
+  team_size: 5
+
+environment:
+  primary: hpc
+  secondary: [wsl_local]
+  gpu_required: true
+  internet_on_compute: false
+  shared_filesystem: nfs
+
+stack_pins: [PyTorch, DuckDB, Ray, Pydantic, ruff]
+
+components:
+  experiment_tracking:
+    description: "Track hyperparameters, metrics, and model artifacts across IDS training runs"
+    current_tool: MLflow
+    require:
+      offline_capable: true
+      hpc_compatible: [native, adaptable]
+      open_source: true
+      categories: [experiment_tracking]
+      maturity: [growth, production]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 3}
+      python_native: {value: true, weight: 4}
+      lock_in_risk: {value: low, weight: 2}
+      collaboration_model: {value: shared_server, weight: 2}
+    notes:
+      - "query_api for programmatic comparison of sweep results"
+      - "artifact_storage for model checkpoints (10GB+)"
+      - "HuggingFace Hub push integration for model sharing"
+    triggers:
+      - "Databricks restricts OSS MLflow features"
+      - "Team exceeds 5 concurrent experiment writers"
+      - "Annual review (check community_momentum)"
+
+  orchestration:
+    description: "Distributed hyperparameter sweeps and training across SLURM-managed GPUs"
+    current_tool: Ray
+    require:
+      hpc_compatible: [native, adaptable]
+      open_source: true
+      python_native: true
+      categories: [orchestration, hyperparameter_optimization]
+      maturity: [growth, production]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 5}
+      resource_overhead: {value: minimal, weight: 3}
+      lock_in_risk: {value: low, weight: 2}
+    notes:
+      - "SLURM integration (sbatch submission or Ray-on-SLURM)"
+      - "Fault tolerance for multi-day training (checkpoint/resume)"
+      - "GPU-aware scheduling across heterogeneous nodes"
+      - "ASHA/PBT early stopping for sweep efficiency"
+    triggers:
+      - "Ray complexity exceeds team capacity"
+      - "SLURM adapter breaks on OSC update"
+      - "Training runs exceed 72 hours regularly"
+
+  training_framework:
+    description: "Deep learning framework — graph neural networks for CAN bus IDS"
+    current_tool: PyTorch
+    require:
+      open_source: true
+      python_native: true
+      categories: [deep_learning, machine_learning]
+      maturity: [production]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "PyTorch Geometric (PyG) for GNN layers"
+      - "CUDA 12.x support on OSC"
+      - "Mixed precision training (AMP)"
+      - "Knowledge distillation framework support"
+
+  graph_library:
+    description: "Graph neural network extension library for PyTorch"
+    current_tool: PyTorch Geometric
+    require:
+      open_source: true
+      python_native: true
+      categories: [graph_neural_networks, deep_learning]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "GAT (Graph Attention Network) layers"
+      - "Temporal graph support for time-series CAN data"
+      - "Mini-batch graph loading for large datasets"
+      - "Pre-built wheels for CUDA on HPC"
+    triggers:
+      - "PyG drops support for current CUDA version"
+      - "DGL surpasses PyG in GAT performance"
+
+  config_management:
+    description: "Experiment configuration with type-safe schemas and YAML composition"
+    current_tool: Pydantic
+    require:
+      python_native: true
+      open_source: true
+      categories: [configuration, validation]
+    prefer:
+      capability_ceiling: {value: high, weight: 3}
+      lock_in_risk: {value: low, weight: 4}
+      resource_overhead: {value: minimal, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "YAML composition (base + override configs)"
+      - "CLI override support (--key=value)"
+      - "Nested config validation with error messages"
+      - "Sweep parameter expansion"
+
+  data_pipeline:
+    description: "CAN bus data ingestion, preprocessing, and feature extraction"
+    current_tool: DuckDB
+    require:
+      open_source: true
+      offline_capable: true
+      categories: [database, analytics, data_pipeline]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+      python_native: {value: true, weight: 3}
+    notes:
+      - "Parquet native read/write"
+      - "In-process (no server) for HPC batch jobs"
+      - "SQL interface for data exploration"
+
+  package_management:
+    description: "Python dependency management and virtual environments"
+    current_tool: uv
+    require:
+      offline_capable: true
+      open_source: true
+      categories: [package_management]
+    prefer:
+      community_momentum: {value: growing, weight: 5}
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Lock file for reproducible installs"
+      - "Fast resolution (< 5s for typical project)"
+      - "pip-compatible interface"
+
+  linting:
+    description: "Code quality, formatting, and import sorting"
+    current_tool: ruff
+    require:
+      open_source: true
+      python_native: true
+      categories: [linting, code_quality]
+    prefer:
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+      capability_ceiling: {value: extensive, weight: 3}
+
+weights:
+  hpc_compat: 0.25
+  ceiling_fit: 0.20
+  momentum: 0.15
+  lock_in_risk: 0.10
+  docs: 0.05
+  overhead: 0.10
+  downloads: 0.05
+  openssf: 0.05
+  stars: 0.03
+  recency: 0.02
