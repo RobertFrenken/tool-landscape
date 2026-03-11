@@ -17,6 +17,7 @@ build/
 # Observable Framework
 site/dist/
 site/.observablehq/
+site/src/.observablehq/
 site/node_modules/
 
 # OS
