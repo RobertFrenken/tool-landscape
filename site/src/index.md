@@ -62,7 +62,7 @@ Plot.plot({
     Plot.barX(maturityData, {
       x: "count",
       y: "maturity",
-      fill: "#7c3aed",
+      fill: "steelblue",
       sort: {y: "-x"},
       tip: true,
     }),
@@ -125,7 +125,7 @@ Plot.plot({
     Plot.barX(ceilingData, {
       x: "count",
       y: "ceiling",
-      fill: "#7c3aed",
+      fill: "steelblue",
       sort: {y: "-x"},
       tip: true,
     }),
@@ -154,7 +154,7 @@ Plot.plot({
     Plot.barX(edgeTypeData, {
       x: "count",
       y: "relation",
-      fill: "#7c3aed",
+      fill: "steelblue",
       sort: {y: "-x"},
       tip: true,
     }),
@@ -186,7 +186,7 @@ Plot.plot({
     Plot.barX(catData, {
       x: "count",
       y: "category",
-      fill: "#7c3aed",
+      fill: "steelblue",
       sort: {y: "-x"},
       tip: true,
     }),
