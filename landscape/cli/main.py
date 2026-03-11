@@ -330,7 +330,9 @@ def main() -> None:
 
     p_mc = metrics_sub.add_parser("collect", help="Collect metrics from external APIs")
     p_mc.add_argument(
-        "--source", choices=["github", "pypi", "npm"], help="Collect from single source"
+        "--source",
+        choices=["github", "pypi", "npm", "deps_dev"],
+        help="Collect from single source",
     )
     p_mc.add_argument("--tool", help="Collect for a single tool name")
     p_mc.set_defaults(func=cmd_metrics_collect)

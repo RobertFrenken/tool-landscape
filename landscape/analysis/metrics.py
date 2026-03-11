@@ -144,6 +144,24 @@ async def collect_all(
         else:
             results["npm"] = 0
 
+    if run_all or "deps_dev" in (sources or []):
+        from landscape.analysis.collectors.deps_dev import (
+            collect_depsdev_metrics,
+        )
+
+        tools = get_tools_with_identifiers(con, tool_names=tool_names)
+        if tools:
+            logger.info("Collecting deps.dev metrics for %d tools", len(tools))
+            rows = await collect_depsdev_metrics(
+                tools,
+                con,
+                now=now,
+                tool_names=tool_names,
+            )
+            results["deps_dev"] = insert_metrics(con, rows)
+        else:
+            results["deps_dev"] = 0
+
     return results
 
 
