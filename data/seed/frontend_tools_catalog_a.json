@@ -1,0 +1,3220 @@
+[
+  {
+    "name": "React",
+    "url": "https://react.dev",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "next.js",
+      "remix",
+      "vite",
+      "webpack"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Declarative component-based UI library maintained by Meta with the largest frontend ecosystem.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Vue",
+    "url": "https://vuejs.org",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "nuxt",
+      "vite",
+      "webpack"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Progressive framework with an approachable API, reactivity system, and single-file components.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Svelte",
+    "url": "https://svelte.dev",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "sveltekit",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Compile-time reactive framework that shifts work from runtime to build step for smaller bundles.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Solid",
+    "url": "https://www.solidjs.com",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "solidstart",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Fine-grained reactive framework with JSX syntax and no virtual DOM for top-tier performance.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Angular",
+    "url": "https://angular.dev",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "rxjs",
+      "webpack",
+      "esbuild"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Full-featured opinionated framework by Google with dependency injection, RxJS, and a complete CLI.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Preact",
+    "url": "https://preactjs.com",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vite",
+      "webpack"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "3kB React-compatible alternative with the same API for size-constrained applications.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Lit",
+    "url": "https://lit.dev",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "BSD-3-Clause",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "web_components"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Google-backed library for building fast, lightweight web components with reactive templates.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Alpine.js",
+    "url": "https://alpinejs.dev",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "htmx"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Lightweight declarative framework for adding behavior directly in HTML markup.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Htmx",
+    "url": "https://htmx.org",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "BSD-2-Clause",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "alpine.js",
+      "django",
+      "flask"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "HTML-over-the-wire library that adds AJAX, WebSockets, and SSE via attributes without JavaScript.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Qwik",
+    "url": "https://qwik.dev",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "qwik_city",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Resumability-first framework by Builder.io that eliminates hydration for instant interactivity.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Inferno",
+    "url": "https://infernojs.org",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "webpack",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Performance-focused React-like library optimized for rendering speed and small bundle size.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Mithril",
+    "url": "https://mithril.js.org",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "webpack"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Tiny full-featured SPA framework with built-in routing and XHR in under 10kB.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Stencil",
+    "url": "https://stenciljs.com",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "web_components",
+      "react",
+      "angular",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Compiler by Ionic that generates framework-agnostic web components from TypeScript and JSX.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Marko",
+    "url": "https://markojs.com",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "express",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "eBay-developed streaming UI framework with automatic partial hydration and HTML-first templating.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Next.js",
+    "url": "https://nextjs.org",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "vercel",
+      "turbopack"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "distributed",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Vercel's full-stack React framework with SSR, SSG, API routes, and App Router.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Nuxt",
+    "url": "https://nuxt.com",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vue",
+      "nitro",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "distributed",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Vue-based meta-framework with file-based routing, SSR, auto-imports, and Nitro server engine.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "SvelteKit",
+    "url": "https://svelte.dev/docs/kit",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "svelte",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Official Svelte application framework with filesystem routing, SSR, and adapter-based deployment.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Astro",
+    "url": "https://astro.build",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Content-focused framework shipping zero JS by default with island architecture for partial hydration.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Remix",
+    "url": "https://remix.run",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "distributed",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Web-standards-focused React framework emphasizing progressive enhancement and nested routing.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "SolidStart",
+    "url": "https://start.solidjs.com",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "solid",
+      "vite",
+      "nitro"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "SolidJS meta-framework with file-based routing, SSR, and Nitro-powered server functions.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Gatsby",
+    "url": "https://www.gatsbyjs.com",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "graphql",
+      "webpack"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "GraphQL-powered React static site generator with a rich plugin ecosystem, now in maintenance mode.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "high",
+    "composite_tool": true
+  },
+  {
+    "name": "Qwik City",
+    "url": "https://qwik.dev/docs/qwikcity",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "qwik",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Qwik's meta-framework layer adding file-based routing, data loaders, and server-side actions.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Fresh",
+    "url": "https://fresh.deno.dev",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "preact",
+      "deno"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Deno-native framework using Preact with island architecture and zero build step.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Analog",
+    "url": "https://analogjs.org",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "angular",
+      "vite",
+      "nitro"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Vite-powered Angular meta-framework with file-based routing and SSR via Nitro.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Redwood",
+    "url": "https://redwoodjs.com",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "graphql",
+      "prisma",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "distributed",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Opinionated full-stack React framework with GraphQL, Prisma ORM, and cell-based data fetching.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Vite",
+    "url": "https://vite.dev",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid",
+      "rollup"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Lightning-fast dev server and build tool using native ES modules and Rollup for production.",
+    "used_by": [
+      "Map-Visualizations"
+    ],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Webpack",
+    "url": "https://webpack.js.org",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "angular",
+      "babel"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Mature and highly configurable module bundler that defined the modern JS build pipeline.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "high",
+    "composite_tool": false
+  },
+  {
+    "name": "esbuild",
+    "url": "https://esbuild.github.io",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vite",
+      "tsup"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Go-based JavaScript bundler and minifier that is 10-100x faster than traditional tools.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Turbopack",
+    "url": "https://turbo.build/pack",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MPL-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "next.js"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Rust-based incremental bundler by Vercel designed as the successor to Webpack for Next.js.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Rollup",
+    "url": "https://rollupjs.org",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vite"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "ES module bundler focused on tree-shaking and clean output, used internally by Vite.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Parcel",
+    "url": "https://parceljs.org",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Zero-configuration bundler with automatic transforms and built-in dev server.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Rspack",
+    "url": "https://rspack.dev",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "webpack",
+      "react",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Rust-based Webpack-compatible bundler by ByteDance offering drop-in migration with 5-10x speed.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "SWC",
+    "url": "https://swc.rs",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "next.js",
+      "vite",
+      "rspack"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Rust-based JavaScript/TypeScript compiler used by Next.js and Vite as a Babel replacement.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Bun Bundler",
+    "url": "https://bun.sh/docs/bundler",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "bun"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Built-in bundler for the Bun runtime with esbuild-compatible API and native speed.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "tsup",
+    "url": "https://tsup.egoist.dev",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "esbuild",
+      "rollup"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Zero-config TypeScript library bundler powered by esbuild with DTS generation.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "unbuild",
+    "url": "https://github.com/unjs/unbuild",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "rollup",
+      "esbuild"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Unified build system from the UnJS ecosystem using Rollup and esbuild with passive bundling.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Tailwind CSS",
+    "url": "https://tailwindcss.com",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vite",
+      "next.js",
+      "nuxt"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Utility-first CSS framework that composes designs directly in markup with JIT compilation.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "shadcn/ui",
+    "url": "https://ui.shadcn.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "tailwind_css",
+      "radix_ui"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Copy-paste component collection built on Radix UI and Tailwind CSS that you own and customize.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Radix UI",
+    "url": "https://www.radix-ui.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Unstyled accessible React primitives for building high-quality design systems.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Chakra UI",
+    "url": "https://chakra-ui.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Accessible React component library with a composable style-props API and theming system.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "MUI",
+    "url": "https://mui.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Material Design React components with extensive theming, a data grid, and date pickers.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Ant Design",
+    "url": "https://ant.design",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Enterprise-grade React UI library by Alibaba with 50+ polished components and design tokens.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Mantine",
+    "url": "https://mantine.dev",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "next.js",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Full-featured React component library with 100+ hooks, form handling, and rich text editor.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "DaisyUI",
+    "url": "https://daisyui.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "tailwind_css"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Framework-agnostic Tailwind CSS component library with semantic class names and 30+ themes.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "UnoCSS",
+    "url": "https://unocss.dev",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vite",
+      "nuxt",
+      "astro"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Instant atomic CSS engine with Tailwind/Windi CSS preset compatibility and regex-based rules.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Panda CSS",
+    "url": "https://panda-css.com",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Type-safe CSS-in-JS engine with build-time extraction from the Chakra UI team.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "vanilla-extract",
+    "url": "https://vanilla-extract.style",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vite",
+      "webpack",
+      "esbuild",
+      "next.js"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Zero-runtime CSS-in-TypeScript with static extraction and type-safe theme contracts.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Styled Components",
+    "url": "https://styled-components.com",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "CSS-in-JS library using tagged template literals to style React components with scoped styles.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Emotion",
+    "url": "https://emotion.sh",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "mui"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Performant CSS-in-JS library with both string and object styles, used as MUI's styling engine.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Headless UI",
+    "url": "https://headlessui.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "vue",
+      "tailwind_css"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Unstyled accessible UI components by Tailwind Labs for React and Vue.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Ark UI",
+    "url": "https://ark-ui.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "solid"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Headless component library from Chakra UI creators supporting React, Vue, and Solid via Zag.js.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Bootstrap",
+    "url": "https://getbootstrap.com",
+    "open_source": true,
+    "categories": [
+      "css_framework",
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "angular"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "The original responsive CSS framework with grid system, components, and JavaScript plugins.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Bulma",
+    "url": "https://bulma.io",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "CSS-only framework with Flexbox-based grid and clean class naming, no JavaScript required.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Zustand",
+    "url": "https://zustand-demo.pmnd.rs",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Minimal unopinionated React state management using hooks with no boilerplate or providers.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Jotai",
+    "url": "https://jotai.org",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Primitive and flexible atomic state management for React inspired by Recoil.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Redux Toolkit",
+    "url": "https://redux-toolkit.js.org",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "angular"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Official opinionated Redux toolset with createSlice, RTK Query, and Immer-based reducers.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Pinia",
+    "url": "https://pinia.vuejs.org",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vue",
+      "nuxt"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Official Vue state management with Composition API support, devtools, and SSR compatibility.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "XState",
+    "url": "https://xstate.js.org",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Framework-agnostic finite state machines and statecharts with a visual editor and actor model.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Valtio",
+    "url": "https://valtio.pmnd.rs",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Proxy-based reactive state for React that makes mutable state automatically tracked.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Recoil",
+    "url": "https://recoiljs.org",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Meta's experimental atomic state library for React with derived data and async queries.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "high",
+    "composite_tool": false
+  },
+  {
+    "name": "MobX",
+    "url": "https://mobx.js.org",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "angular",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Transparent reactive state management using observables with minimal boilerplate.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Nanostores",
+    "url": "https://github.com/nanostores/nanostores",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid",
+      "angular"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Tiny framework-agnostic state manager designed for multi-framework islands architecture.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Effector",
+    "url": "https://effector.dev",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Reactive state manager with explicit data flow using stores, events, and effects.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "TanStack Store",
+    "url": "https://tanstack.com/store",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid",
+      "angular"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Framework-agnostic reactive store powering TanStack Router and TanStack Form internals.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Ember.js",
+    "url": "https://emberjs.com",
+    "open_source": true,
+    "categories": [
+      "ui_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "glimmer"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Convention-over-configuration framework with strong backward compatibility and Glimmer rendering.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "medium",
+    "composite_tool": true
+  },
+  {
+    "name": "Eleventy",
+    "url": "https://www.11ty.dev",
+    "open_source": true,
+    "categories": [
+      "meta_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "nunjucks",
+      "liquid",
+      "markdown"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Zero-config static site generator supporting 10+ template languages with no client JS by default.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Biome",
+    "url": "https://biomejs.dev",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "vite",
+      "next.js"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Rust-based all-in-one formatter and linter replacing Prettier and ESLint with a single tool.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Lightning CSS",
+    "url": "https://lightningcss.dev",
+    "open_source": true,
+    "categories": [
+      "build_tool"
+    ],
+    "license": "MPL-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vite",
+      "parcel",
+      "tailwind_css"
+    ],
+    "pipeline_stage": [
+      "build"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Rust-based CSS parser, transformer, and minifier replacing PostCSS and Autoprefixer.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "PrimeVue",
+    "url": "https://primevue.org",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vue",
+      "nuxt",
+      "tailwind_css"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Rich Vue component suite with 90+ components, themes, and optional Tailwind integration.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Vuetify",
+    "url": "https://vuetifyjs.com",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vue",
+      "nuxt"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Material Design component framework for Vue with extensive theming and enterprise features.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Skeleton",
+    "url": "https://www.skeleton.dev",
+    "open_source": true,
+    "categories": [
+      "component_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "svelte",
+      "react",
+      "tailwind_css"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Tailwind-based adaptive UI toolkit originally for Svelte, now expanding to React.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Open Props",
+    "url": "https://open-props.style",
+    "open_source": true,
+    "categories": [
+      "css_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "CSS custom properties library providing consistent design tokens without a build step.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Signals (TC39)",
+    "url": "https://github.com/tc39/proposal-signals",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "foundation",
+    "integration_targets": [
+      "angular",
+      "preact",
+      "solid",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "TC39 Stage 1 proposal for native JavaScript reactivity primitives with polyfill implementations.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "TanStack Query",
+    "url": "https://tanstack.com/query",
+    "open_source": true,
+    "categories": [
+      "state_management"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "solid",
+      "angular"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Framework-agnostic async state manager for server data with caching, refetching, and mutations.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  }
+]

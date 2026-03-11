@@ -44,11 +44,38 @@ def _null_if_unknown(value: str | None) -> str | None:
     return value
 
 
+def _find_seed_catalogs() -> list[Path]:
+    """Find all *_catalog.json files in the seed directory."""
+    catalogs = sorted(SEED_DIR.glob("*_catalog*.json"))
+    if not catalogs:
+        msg = f"No catalog files found in {SEED_DIR}"
+        raise FileNotFoundError(msg)
+    return catalogs
+
+
 def migrate_tools(con: duckdb.DuckDBPyConnection, catalog_path: Path | None = None) -> int:
-    """Migrate tools from JSON catalog into the tools table."""
-    path = catalog_path or SEED_DIR / "mlops_tools_catalog.json"
-    tools = json.loads(path.read_text())
+    """Migrate tools from JSON catalog(s) into the tools table.
+
+    If catalog_path is given, load only that file.
+    Otherwise, load all *_catalog*.json files from the seed directory.
+    """
+    if catalog_path:
+        paths = [catalog_path]
+    else:
+        paths = _find_seed_catalogs()
+
     now = datetime.now(UTC)
+    count = 0
+
+    for path in paths:
+        tools = json.loads(path.read_text())
+        count += _insert_tools(con, tools, now)
+
+    return count
+
+
+def _insert_tools(con: duckdb.DuckDBPyConnection, tools: list[dict], now: datetime) -> int:
+    """Insert a list of tool dicts into the tools table."""
     count = 0
 
     for t in tools:
@@ -317,12 +344,14 @@ def run_migration(con: duckdb.DuckDBPyConnection) -> dict[str, int]:
     """Run the full migration pipeline."""
     create_schema(con)
 
-    results = {
-        "tools": migrate_tools(con),
-        "projects": migrate_projects(con),
-        "edges_derived": derive_edges(con),
-        "edges_curated": load_curated_edges(con),
-        "identifiers": backfill_identifiers(con),
-    }
+    results: dict[str, int] = {}
+
+    # Load all seed catalogs
+    results["tools"] = migrate_tools(con)
+
+    results["projects"] = migrate_projects(con)
+    results["edges_derived"] = derive_edges(con)
+    results["edges_curated"] = load_curated_edges(con)
+    results["identifiers"] = backfill_identifiers(con)
 
     return results

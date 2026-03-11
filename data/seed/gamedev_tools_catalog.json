@@ -1,0 +1,3063 @@
+[
+  {
+    "name": "Godot",
+    "url": "https://godotengine.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Feature-packed, cross-platform game engine for 2D and 3D games with its own GDScript language and C# support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "GDScript",
+      "C#",
+      "C++"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Unreal Engine",
+    "url": "https://www.unrealengine.com",
+    "open_source": false,
+    "license": "Proprietary (royalty-based)",
+    "summary": "Industry-standard AAA game engine with photorealistic rendering, Blueprints visual scripting, and C++ extensibility",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "low",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Blueprints"
+    ],
+    "integration_targets": [
+      "FMOD",
+      "Wwise"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Bevy",
+    "url": "https://bevyengine.org",
+    "open_source": true,
+    "license": "MIT OR Apache-2.0",
+    "summary": "Data-driven game engine built in Rust with an ECS architecture, hot reloading, and modern rendering pipeline",
+    "maturity": "early",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Defold",
+    "url": "https://defold.com",
+    "open_source": true,
+    "license": "Defold License (Apache-2.0 derivative)",
+    "summary": "Lightweight cross-platform 2D/3D game engine optimized for mobile, maintained by the Defold Foundation",
+    "maturity": "production",
+    "governance": "foundation",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Lua",
+      "C++"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Cocos2d-x",
+    "url": "https://www.cocos.com/en/cocos2d-x",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Cross-platform 2D game framework widely used for mobile game development with C++, Lua, and JavaScript bindings",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Lua",
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Cocos Creator",
+    "url": "https://www.cocos.com/en/creator",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Modern successor to Cocos2d-x with a visual editor, 3D support, and TypeScript-based scripting",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript",
+      "C++"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "RPG Maker",
+    "url": "https://www.rpgmakerweb.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Specialized game engine for creating 2D RPGs with minimal programming, tile-based maps, and event scripting",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "Ruby"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "GameMaker",
+    "url": "https://gamemaker.io",
+    "open_source": false,
+    "license": "Proprietary (free tier available)",
+    "summary": "Beginner-friendly 2D game engine with GML scripting, drag-and-drop visual programming, and multi-platform export",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "GML"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Construct",
+    "url": "https://www.construct.net",
+    "open_source": false,
+    "license": "Proprietary (subscription)",
+    "summary": "Browser-based 2D game engine with visual event sheets, no coding required, exports to HTML5 and mobile",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Ren'Py",
+    "url": "https://www.renpy.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Visual novel engine with Python scripting, built-in dialogue system, and cross-platform deployment",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python",
+      "Ren'Py Script"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Love2D",
+    "url": "https://love2d.org",
+    "open_source": true,
+    "license": "zlib",
+    "summary": "Lightweight 2D game framework for Lua with simple API, great for prototyping and game jams",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Lua"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Raylib",
+    "url": "https://www.raylib.com",
+    "open_source": true,
+    "license": "zlib",
+    "summary": "Simple C library for game programming focused on learning; bindings for 60+ languages including Python and Rust",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++",
+      "Python",
+      "Rust"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "SDL",
+    "url": "https://www.libsdl.org",
+    "open_source": true,
+    "license": "zlib",
+    "summary": "Cross-platform low-level access to audio, keyboard, mouse, joystick, and graphics hardware; foundation for many game engines",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "SFML",
+    "url": "https://www.sfml-dev.org",
+    "open_source": true,
+    "license": "zlib",
+    "summary": "Object-oriented C++ multimedia library providing simple access to graphics, audio, and networking",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "MonoGame",
+    "url": "https://www.monogame.net",
+    "open_source": true,
+    "license": "Ms-PL",
+    "summary": "Open-source C# framework descended from XNA; used by Stardew Valley, Celeste, and other indie hits",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C#"
+    ],
+    "integration_targets": [
+      "FMOD"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "FNA",
+    "url": "https://fna-xna.github.io",
+    "open_source": true,
+    "license": "Ms-PL",
+    "summary": "Accuracy-focused reimplementation of XNA 4 for preserving and porting legacy XNA games to modern platforms",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C#"
+    ],
+    "integration_targets": [
+      "SDL"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Heaps",
+    "url": "https://heaps.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Cross-platform game engine built on Haxe with GPU-accelerated 2D/3D rendering; used by Dead Cells",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Haxe"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "HaxeFlixel",
+    "url": "https://haxeflixel.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "2D game framework built on Haxe and OpenFL, inspired by AS3 Flixel; compiles to multiple targets",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Haxe"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Fyrox",
+    "url": "https://fyrox.rs",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "General-purpose 3D/2D game engine written in Rust with a scene editor, UI framework, and animation system",
+    "maturity": "early",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Macroquad",
+    "url": "https://macroquad.rs",
+    "open_source": true,
+    "license": "MIT OR Apache-2.0",
+    "summary": "Simple Rust game library inspired by raylib; cross-platform including WASM with zero dependencies",
+    "maturity": "early",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "FMOD",
+    "url": "https://www.fmod.com",
+    "open_source": false,
+    "license": "Proprietary (free indie license under $200k)",
+    "summary": "Industry-standard adaptive audio middleware for games with real-time mixing, DSP effects, and spatial audio",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "audio"
+    ],
+    "deployment_model": [
+      "library",
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++",
+      "C#"
+    ],
+    "integration_targets": [
+      "Unreal Engine",
+      "Godot",
+      "Unity"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Wwise",
+    "url": "https://www.audiokinetic.com/en/wwise/overview",
+    "open_source": false,
+    "license": "Proprietary (free indie license under $200k)",
+    "summary": "Professional interactive audio solution for games with advanced soundscape design, spatial audio, and music systems",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "audio"
+    ],
+    "deployment_model": [
+      "library",
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++",
+      "C#"
+    ],
+    "integration_targets": [
+      "Unreal Engine",
+      "Godot",
+      "Unity"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Tone.js",
+    "url": "https://tonejs.github.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Web Audio framework for creating interactive music and sound synthesis in the browser",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "audio"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Howler.js",
+    "url": "https://howlerjs.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "JavaScript audio library providing a consistent cross-browser API with Web Audio and HTML5 Audio fallback",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "audio"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "PixiJS Sound",
+    "url": "https://github.com/pixijs/sound",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "WebAudio API audio library for PixiJS with filters, sprites, and streaming support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "audio"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "PixiJS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Arduino",
+    "url": "https://www.arduino.cc",
+    "open_source": true,
+    "license": "LGPL-2.1 / GPL-2.0",
+    "summary": "Open-source electronics platform with easy-to-use hardware and software for prototyping embedded systems",
+    "maturity": "production",
+    "governance": "foundation",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++"
+    ],
+    "integration_targets": [
+      "PlatformIO"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "PlatformIO",
+    "url": "https://platformio.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Cross-platform IDE and build system for embedded development supporting 1500+ boards and 40+ frameworks",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++",
+      "Python"
+    ],
+    "integration_targets": [
+      "Arduino",
+      "ESP-IDF",
+      "Zephyr RTOS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "ESP-IDF",
+    "url": "https://github.com/espressif/esp-idf",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Official development framework for Espressif ESP32 chips with FreeRTOS, Wi-Fi, Bluetooth, and peripheral drivers",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++"
+    ],
+    "integration_targets": [
+      "PlatformIO",
+      "Arduino"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Zephyr RTOS",
+    "url": "https://www.zephyrproject.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Scalable real-time operating system for resource-constrained devices; Linux Foundation project with 1000+ contributors",
+    "maturity": "production",
+    "governance": "linux_foundation",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++"
+    ],
+    "integration_targets": [
+      "PlatformIO",
+      "micro-ROS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "MicroPython",
+    "url": "https://micropython.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Lean Python 3 implementation for microcontrollers with REPL, hardware access, and filesystem support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "ESP-IDF"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "CircuitPython",
+    "url": "https://circuitpython.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Adafruit's MicroPython fork focused on education and beginner-friendliness with USB drive-based workflow",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "MicroPython"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Tock",
+    "url": "https://www.tockos.org",
+    "open_source": true,
+    "license": "MIT OR Apache-2.0",
+    "summary": "Secure embedded operating system for Cortex-M and RISC-V microcontrollers with process isolation via Rust's type system",
+    "maturity": "early",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust",
+      "C"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "RIOT",
+    "url": "https://www.riot-os.org",
+    "open_source": true,
+    "license": "LGPL-2.1",
+    "summary": "Friendly real-time OS for IoT with multi-threading, IPv6/6LoWPAN networking, and support for 8-bit to 32-bit MCUs",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "FreeRTOS",
+    "url": "https://www.freertos.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Market-leading real-time operating system for microcontrollers, now maintained by AWS with extensive chip vendor support",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded",
+      "iot"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [
+      "ESP-IDF",
+      "AWS IoT"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "ROS 2",
+    "url": "https://www.ros.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Industry-standard robotics middleware with DDS-based communication, lifecycle management, and real-time support",
+    "maturity": "production",
+    "governance": "foundation",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "robotics"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Python"
+    ],
+    "integration_targets": [
+      "Gazebo",
+      "MoveIt",
+      "Nav2",
+      "micro-ROS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Gazebo",
+    "url": "https://gazebosim.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "3D robotics simulator with physics engines, sensor models, and ROS 2 integration for testing before deployment",
+    "maturity": "production",
+    "governance": "foundation",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "robotics"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Python"
+    ],
+    "integration_targets": [
+      "ROS 2"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "MoveIt",
+    "url": "https://moveit.ai",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Motion planning framework for robotic arms with collision detection, kinematics, and ROS 2 integration",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "robotics"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Python"
+    ],
+    "integration_targets": [
+      "ROS 2",
+      "Gazebo"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Nav2",
+    "url": "https://docs.nav2.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "ROS 2 navigation stack for autonomous mobile robots with path planning, obstacle avoidance, and recovery behaviors",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "robotics"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Python"
+    ],
+    "integration_targets": [
+      "ROS 2",
+      "Gazebo"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "micro-ROS",
+    "url": "https://micro.ros.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "ROS 2 for microcontrollers enabling embedded devices to participate as first-class ROS 2 nodes",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "robotics",
+      "embedded"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [
+      "ROS 2",
+      "Zephyr RTOS",
+      "FreeRTOS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Hardhat",
+    "url": "https://hardhat.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Ethereum development environment for compiling, deploying, testing, and debugging Solidity smart contracts",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript",
+      "Solidity"
+    ],
+    "integration_targets": [
+      "ethers.js",
+      "viem"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Foundry",
+    "url": "https://www.getfoundry.sh",
+    "open_source": true,
+    "license": "MIT OR Apache-2.0",
+    "summary": "Blazing fast Rust-based Ethereum toolkit with Forge (testing), Cast (interaction), Anvil (local node), and Chisel (REPL)",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Solidity",
+      "Rust"
+    ],
+    "integration_targets": [
+      "ethers.js",
+      "viem"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "ethers.js",
+    "url": "https://docs.ethers.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Complete Ethereum library for JavaScript/TypeScript with wallet management, contract interaction, and ENS support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Hardhat"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "wagmi",
+    "url": "https://wagmi.sh",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "React Hooks for Ethereum providing wallet connection, contract reads/writes, and chain switching with TypeScript support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "viem",
+      "ethers.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "viem",
+    "url": "https://viem.sh",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "TypeScript interface for Ethereum with type-safe contract interactions, ENS support, and modular architecture",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "wagmi",
+      "Hardhat",
+      "Foundry"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Anchor",
+    "url": "https://www.anchor-lang.com",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Framework for Solana program development with IDL generation, account validation macros, and TypeScript client generation",
+    "maturity": "production",
+    "governance": "foundation",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Rust",
+      "TypeScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Truffle",
+    "url": "https://trufflesuite.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Legacy Ethereum development suite with contract compilation, migration, and Ganache local blockchain (now in maintenance mode)",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "high",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "Solidity"
+    ],
+    "integration_targets": [
+      "ethers.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Budibase",
+    "url": "https://budibase.com",
+    "open_source": true,
+    "license": "GPL-3.0",
+    "summary": "Open-source low-code platform for building internal tools and admin panels with database connectors and automation",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "low_code"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Appsmith",
+    "url": "https://www.appsmith.com",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Open-source platform for building internal tools with drag-and-drop UI, 25+ database integrations, and JavaScript customization",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "low_code"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "ToolJet",
+    "url": "https://www.tooljet.com",
+    "open_source": true,
+    "license": "AGPL-3.0",
+    "summary": "Open-source low-code platform for building business applications with visual app builder and 40+ data source connectors",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "low_code"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "n8n",
+    "url": "https://n8n.io",
+    "open_source": true,
+    "license": "Sustainable Use License",
+    "summary": "Fair-code workflow automation platform with visual editor, 400+ integrations, and native AI agent capabilities",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "low_code",
+      "scheduling"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Zapier",
+    "url": "https://zapier.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Market-leading no-code automation platform connecting 7000+ apps with trigger-action workflows (Zaps)",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": true,
+    "categories": [
+      "low_code"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Nocodb",
+    "url": "https://nocodb.com",
+    "open_source": true,
+    "license": "AGPL-3.0",
+    "summary": "Open-source Airtable alternative that turns any database into a smart spreadsheet with API generation",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "low_code"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "PostgreSQL",
+      "MySQL",
+      "SQLite"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "pdfkit",
+    "url": "https://pdfkit.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "JavaScript PDF generation library for Node.js and the browser with text, vector graphics, and image embedding",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "pdf_processing"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "pdf.js",
+    "url": "https://mozilla.github.io/pdf.js",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Mozilla's PDF rendering library built with HTML5; powers Firefox's built-in PDF viewer",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "pdf_processing"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Nodemailer",
+    "url": "https://nodemailer.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "De facto standard Node.js module for sending emails via SMTP with support for attachments, HTML, and OAuth2",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "email"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Resend",
+    "url": "https://resend.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Developer-first email API built on React Email with excellent DX, deliverability tracking, and simple REST/SDK interface",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "email"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript",
+      "Python"
+    ],
+    "integration_targets": [
+      "React Email"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "React Email",
+    "url": "https://react.email",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "React component library for building responsive HTML emails with modern DX instead of table-based layouts",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "email"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Resend",
+      "Nodemailer"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "MJML",
+    "url": "https://mjml.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Markup language and engine for responsive email creation that compiles to cross-client compatible HTML",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "email"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Nodemailer"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "SendGrid SDK",
+    "url": "https://docs.sendgrid.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Twilio SendGrid client libraries for transactional and marketing email delivery with analytics and template management",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "email"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "Python",
+      "JavaScript",
+      "Ruby",
+      "Go",
+      "Java",
+      "C#"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Mailgun",
+    "url": "https://www.mailgun.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Email delivery API with powerful routing, validation, and analytics for transactional and bulk email",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "email"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "Python",
+      "JavaScript",
+      "Ruby",
+      "Go",
+      "Java",
+      "C#",
+      "PHP"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "node-cron",
+    "url": "https://github.com/node-cron/node-cron",
+    "open_source": true,
+    "license": "ISC",
+    "summary": "Lightweight cron-like job scheduler for Node.js using standard cron syntax for task scheduling",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scheduling"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Agenda",
+    "url": "https://github.com/agenda/agenda",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Lightweight MongoDB-backed job scheduler for Node.js with human-readable scheduling and job persistence",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scheduling"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "MongoDB"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "BullMQ",
+    "url": "https://bullmq.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Redis-backed message queue and job scheduler for Node.js with rate limiting, retries, concurrency, and delayed jobs",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scheduling"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript",
+      "Python"
+    ],
+    "integration_targets": [
+      "Redis"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "APScheduler",
+    "url": "https://apscheduler.readthedocs.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Python task scheduler supporting cron, interval, and date triggers with pluggable job stores and executors",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scheduling"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "SQLAlchemy",
+      "Redis",
+      "MongoDB"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Bree",
+    "url": "https://github.com/breejs/bree",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Node.js job scheduler using worker threads for sandboxed job execution with cron and human-readable intervals",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scheduling"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "OpenRoberta",
+    "url": "https://lab.open-roberta.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Cloud-based visual programming environment for educational robotics supporting LEGO, Arduino, and micro:bit",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "robotics",
+      "low_code"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Java",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Arduino"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "NuttX",
+    "url": "https://nuttx.apache.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Apache RTOS with POSIX compliance, mature networking stack, and broad MCU support from 8-bit to SMP-capable chips",
+    "maturity": "production",
+    "governance": "apache_foundation",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "embedded"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [
+      "micro-ROS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Solidity",
+    "url": "https://soliditylang.org",
+    "open_source": true,
+    "license": "GPL-3.0",
+    "summary": "Object-oriented programming language for writing smart contracts on Ethereum and EVM-compatible blockchains",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Solidity"
+    ],
+    "integration_targets": [
+      "Hardhat",
+      "Foundry",
+      "Truffle"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "OpenZeppelin",
+    "url": "https://www.openzeppelin.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Battle-tested library of reusable smart contracts for ERC-20, ERC-721, access control, and upgradeability patterns",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "blockchain"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Solidity"
+    ],
+    "integration_targets": [
+      "Hardhat",
+      "Foundry"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Pygame",
+    "url": "https://www.pygame.org",
+    "open_source": true,
+    "license": "LGPL-2.1",
+    "summary": "Python library for 2D game development wrapping SDL with simple APIs for graphics, sound, and input",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "SDL"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Panda3D",
+    "url": "https://www.panda3d.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "3D game engine with Python and C++ APIs, developed by Disney and Carnegie Mellon for rapid prototyping",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_engine"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python",
+      "C++"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Colyseus",
+    "url": "https://colyseus.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Multiplayer game server framework for Node.js with state synchronization, matchmaking, and room management",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Nakama",
+    "url": "https://heroiclabs.com",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Open-source game server for social and real-time features: matchmaking, leaderboards, chat, and user accounts",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "Go",
+      "Lua",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Godot",
+      "Unreal Engine"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Tiled",
+    "url": "https://www.mapeditor.org",
+    "open_source": true,
+    "license": "GPL-2.0",
+    "summary": "General-purpose 2D tile map editor with orthogonal, isometric, and hexagonal support; widely used across game engines",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C++"
+    ],
+    "integration_targets": [
+      "Godot",
+      "Love2D",
+      "Defold"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Aseprite",
+    "url": "https://www.aseprite.org",
+    "open_source": true,
+    "license": "Proprietary (source-available)",
+    "summary": "Pixel art editor and animation tool designed for sprites, with layers, onion skinning, and tilemap mode",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Lua"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Phaser",
+    "url": "https://phaser.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Fast HTML5 game framework for Canvas and WebGL with physics, animations, input, and tilemaps",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Tiled"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Tauri",
+    "url": "https://tauri.app",
+    "open_source": true,
+    "license": "MIT OR Apache-2.0",
+    "summary": "Build desktop and mobile apps with web frontends and a Rust backend; lightweight alternative to Electron",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "game_dev"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  }
+]

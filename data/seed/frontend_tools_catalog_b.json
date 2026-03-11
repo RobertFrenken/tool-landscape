@@ -1,0 +1,3397 @@
+[
+  {
+    "name": "SWR",
+    "url": "https://swr.vercel.app",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "next.js"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "React hooks for data fetching with stale-while-revalidate strategy. Lightweight alternative to TanStack Query, tightly integrated with Next.js. Simple API but fewer features for complex caching scenarios.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "tRPC",
+    "url": "https://trpc.io",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "next.js",
+      "express",
+      "fastify",
+      "zod"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "End-to-end typesafe APIs without code generation. Server defines procedures, client gets full TypeScript inference. Eliminates API schema drift but locks you into TypeScript on both ends.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Apollo Client",
+    "url": "https://www.apollographql.com/docs/react",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "graphql",
+      "apollo_server"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Full-featured GraphQL client with normalized caching, optimistic UI, and local state management. Mature but heavy; the normalized cache is powerful but adds complexity. Apollo Studio adds observability as SaaS.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "urql",
+    "url": "https://commerce.nearform.com/open-source/urql",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "graphql"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Lightweight, extensible GraphQL client. Exchange-based architecture allows plugging in normalized caching, auth, retries as needed. Simpler than Apollo with comparable capability when configured.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Relay",
+    "url": "https://relay.dev",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "graphql"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Meta's production GraphQL client with compiler-driven optimizations. Enforces colocation of data requirements with components. Extremely powerful at scale but steep learning curve and opinionated constraints.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Ky",
+    "url": "https://github.com/sindresorhus/ky",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "fetch_api"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Tiny HTTP client wrapping fetch with retry, timeout, hooks, and JSON shortcuts. Browser-first (no Node polyfills). Good for projects that want fetch ergonomics without Axios weight.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "ofetch",
+    "url": "https://github.com/unjs/ofetch",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "nuxt",
+      "nitro",
+      "node",
+      "bun",
+      "deno"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Universal fetch client from UnJS ecosystem. Works in Node, browser, Deno, Bun, and workers. Auto-parses JSON, retries, and provides interceptors. Default HTTP client in Nuxt/Nitro.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Axios",
+    "url": "https://axios-http.com",
+    "open_source": true,
+    "categories": [
+      "data_fetching"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "node",
+      "browser"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Widely adopted HTTP client for browser and Node.js. Interceptors, request cancellation, and automatic transforms. Losing ground to native fetch wrappers (Ky, ofetch) but massive installed base.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Vitest",
+    "url": "https://vitest.dev",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vite",
+      "vue",
+      "react",
+      "svelte",
+      "c8",
+      "istanbul"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Vite-native test runner with Jest-compatible API. Blazing fast via Vite's transform pipeline and native ESM. In-source testing, snapshot testing, coverage, and workspace support. Rapidly replacing Jest in new projects.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Playwright",
+    "url": "https://playwright.dev",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript",
+      "python",
+      "java",
+      "csharp"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "chromium",
+      "firefox",
+      "webkit",
+      "github_actions",
+      "ci"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Cross-browser end-to-end testing from Microsoft. Auto-waits, network interception, multi-tab/iframe support, codegen, and trace viewer. Supports Chromium, Firefox, and WebKit with a single API.",
+    "used_by": [
+      "Map-Visualizations"
+    ],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Cypress",
+    "url": "https://www.cypress.io",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "chrome",
+      "firefox",
+      "edge",
+      "ci"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "E2E testing framework with time-travel debugging and automatic waiting. Runs in-browser for real DOM interaction. Cypress Cloud adds parallelization and analytics as paid SaaS. Losing ground to Playwright.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Testing Library",
+    "url": "https://testing-library.com",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "angular",
+      "jest",
+      "vitest"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Component testing utilities that encourage testing user behavior over implementation details. Query by role, text, and label rather than CSS selectors. Framework-agnostic with React, Vue, Svelte, Angular adapters.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Jest",
+    "url": "https://jestjs.io",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "babel",
+      "react",
+      "node"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Meta's all-in-one test runner with built-in assertions, mocking, snapshots, and coverage. Massive ecosystem but slow ESM support and CJS-first architecture. Being replaced by Vitest in Vite-based projects.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Storybook",
+    "url": "https://storybook.js.org",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "angular",
+      "web_components",
+      "vite",
+      "webpack"
+    ],
+    "pipeline_stage": [
+      "testing",
+      "documentation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "UI component workshop for building, documenting, and testing components in isolation. Addon ecosystem for a11y, interactions, visual testing. Heavy setup cost but invaluable for design systems and component libraries.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Chromatic",
+    "url": "https://www.chromatic.com",
+    "open_source": false,
+    "categories": [
+      "testing"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "storybook",
+      "github_actions",
+      "ci"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "Visual regression testing platform built by the Storybook team. Captures screenshots of every story, diffs against baselines, and integrates into PR review. Free tier available; paid for larger projects.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "MSW",
+    "url": "https://mswjs.io",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "jest",
+      "vitest",
+      "storybook",
+      "cypress",
+      "playwright"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "API mocking library using Service Workers (browser) and interceptors (Node). Mock at the network level, not the module level. Works with any framework, test runner, or HTTP client. Reusable handlers across tests and Storybook.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Happy DOM",
+    "url": "https://github.com/nicedayfor/happy-dom",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vitest",
+      "jest"
+    ],
+    "pipeline_stage": [
+      "testing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Fast JavaScript implementation of browser APIs (DOM, CSS, fetch) for testing without a real browser. Default environment for Vitest. Faster than jsdom with better Web API coverage, but less battle-tested.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Puppeteer",
+    "url": "https://pptr.dev",
+    "open_source": true,
+    "categories": [
+      "testing"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "chrome",
+      "firefox",
+      "node"
+    ],
+    "pipeline_stage": [
+      "testing",
+      "automation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Chrome/Firefox automation from Google. Lower-level than Playwright with more manual waiting. Strong for scraping and PDF generation. Being superseded by Playwright for E2E testing but retains a niche for Chrome-specific automation.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Hugo",
+    "url": "https://gohugo.io",
+    "open_source": true,
+    "categories": [
+      "static_site"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "netlify",
+      "vercel",
+      "github_pages",
+      "cloudflare_pages"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Fastest static site generator. Single Go binary, no dependencies. Builds thousands of pages in seconds. Go templating is powerful but idiosyncratic. Excellent for blogs and docs; limited for interactive content.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Jekyll",
+    "url": "https://jekyllrb.com",
+    "open_source": true,
+    "categories": [
+      "static_site"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "ruby"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "github_pages",
+      "liquid"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Ruby-based static site generator, GitHub Pages default. Mature and well-understood but slow builds, Ruby dependency management friction, and limited modern JS integration. Legacy choice being replaced by Hugo, Astro, Eleventy.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "high",
+    "composite_tool": false
+  },
+  {
+    "name": "Lume",
+    "url": "https://lume.land",
+    "open_source": true,
+    "categories": [
+      "static_site"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "deno",
+      "markdown",
+      "nunjucks",
+      "jsx"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Deno-native static site generator inspired by Eleventy. No node_modules, uses Deno's import system. Plugin architecture, multiple template engines. Small but growing community in the Deno ecosystem.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Pelican",
+    "url": "https://getpelican.com",
+    "open_source": true,
+    "categories": [
+      "static_site"
+    ],
+    "license": "AGPL-3.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "jinja2",
+      "markdown",
+      "restructuredtext"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Python-native static site generator using Jinja2 templates. Good for Python developers who want a blog without learning Ruby/JS. Smaller plugin ecosystem than Hugo/Jekyll. Declining momentum.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Hexo",
+    "url": "https://hexo.io",
+    "open_source": true,
+    "categories": [
+      "static_site"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "ejs",
+      "nunjucks",
+      "markdown"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Node.js blog framework with fast generation and huge theme ecosystem. Popular in Asian developer communities. Mature but dated architecture; new projects tend to choose Hugo, Astro, or Eleventy instead.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Zola",
+    "url": "https://www.getzola.org",
+    "open_source": true,
+    "categories": [
+      "static_site"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "rust"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "tera",
+      "markdown",
+      "sass"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Single-binary SSG written in Rust. Fast builds like Hugo, Tera templates (Jinja2-like). Built-in Sass compilation, syntax highlighting, search index. Growing as a simpler, dependency-free Hugo alternative.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Zod",
+    "url": "https://zod.dev",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react_hook_form",
+      "trpc",
+      "tanstack_form",
+      "astro",
+      "remix"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "TypeScript-first schema validation with static type inference. Define a schema once, get runtime validation and TypeScript types. De facto standard for TS validation. Zod 4 targets smaller bundle and faster parsing.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "TypeBox",
+    "url": "https://github.com/sinclairzx81/typebox",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "fastify",
+      "ajv",
+      "json_schema"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "JSON Schema-based type builder with TypeScript inference. Schemas compile to standard JSON Schema, enabling cross-language validation. Default validator in Fastify. Fastest runtime validation among TS schema libs.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Valibot",
+    "url": "https://valibot.dev",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react_hook_form",
+      "tanstack_form",
+      "modular_forms"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Modular schema validation with tree-shakeable API. Similar to Zod but up to 98% smaller bundle via granular imports. Each validation action is independently importable. Good for client-heavy apps where bundle size matters.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "ArkType",
+    "url": "https://arktype.io",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "early",
+    "governance": "community",
+    "integration_targets": [],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "TypeScript validation using type syntax as strings. Write schemas that look like TypeScript type annotations. Extremely fast runtime, ambitious type-level computation. Still maturing but innovative approach.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Yup",
+    "url": "https://github.com/jquense/yup",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "formik",
+      "react_hook_form"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Schema builder for runtime value parsing and validation. Inspired by Joi, popular with Formik. Predates TypeScript-first approach; type inference less ergonomic than Zod. Large installed base but declining for new projects.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "io-ts",
+    "url": "https://github.com/gcanti/io-ts",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "fp-ts"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Runtime type system for IO decoding/encoding using fp-ts. Functional programming approach with Either-based error handling. Precise and composable but steep learning curve due to fp-ts dependency. Niche adoption.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Effect Schema",
+    "url": "https://effect.website",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "effect"
+    ],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Schema validation module in the Effect ecosystem. Bidirectional transformations (decode + encode), built-in pretty printing of errors, and integration with Effect's error channel. Most powerful if already using Effect.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Superstruct",
+    "url": "https://docs.superstructjs.org",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [],
+    "pipeline_stage": [
+      "frontend",
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Composable validation structs for JavaScript/TypeScript. Small bundle, simple API. Predates Zod and was popular in Slate.js ecosystem. Losing mindshare to Zod and Valibot but still maintained.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Vest",
+    "url": "https://vestjs.dev",
+    "open_source": true,
+    "categories": [
+      "validation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Form validation framework inspired by unit testing syntax (describe/test/it). Framework-agnostic, supports async validation, field-level and form-level modes. Unique approach separating validation logic from UI.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Framer Motion",
+    "url": "https://www.framer.com/motion",
+    "open_source": true,
+    "categories": [
+      "animation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Production-ready React animation library. Declarative API for spring physics, gestures, layout animations, shared layout transitions, and scroll-linked animations. Large bundle but comprehensive. React-only.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "GSAP",
+    "url": "https://gsap.com",
+    "open_source": false,
+    "categories": [
+      "animation"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "svg",
+      "canvas",
+      "webgl",
+      "react",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Industry-standard animation platform. Timeline-based sequencing, ScrollTrigger, morphSVG, physics plugins. Free for most uses, paid license for business tools. Framework-agnostic. Unmatched for complex, choreographed animations.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Motion One",
+    "url": "https://motion.dev",
+    "open_source": true,
+    "categories": [
+      "animation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "web_animations_api",
+      "vue",
+      "svelte",
+      "solid"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Tiny animation library built on Web Animations API. Hardware-accelerated by default, 3.8kb bundle. From the creator of Framer Motion. Framework-agnostic alternative for projects where bundle size matters.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Lottie",
+    "url": "https://airbnb.io/lottie",
+    "open_source": true,
+    "categories": [
+      "animation"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "after_effects",
+      "react",
+      "vue",
+      "react_native"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Renders After Effects animations as JSON on web, iOS, and Android. Designers export from AE via Bodymovin plugin, developers render with Lottie. Bridges design-dev gap for complex vector animations.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "AutoAnimate",
+    "url": "https://auto-animate.formkit.com",
+    "open_source": true,
+    "categories": [
+      "animation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "svelte",
+      "angular",
+      "solid"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Zero-config drop-in animation utility. Add one function call to a parent element and children automatically animate on add, remove, and move. No keyframes or configuration needed. Great for lists and layout transitions.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "anime.js",
+    "url": "https://animejs.com",
+    "open_source": true,
+    "categories": [
+      "animation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "svg",
+      "css",
+      "dom"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Lightweight JavaScript animation library for CSS, SVG, DOM attributes, and JS objects. Clean timeline API, staggering, and easing functions. Framework-agnostic, small bundle. Good middle ground between CSS animations and GSAP.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "TanStack Router",
+    "url": "https://tanstack.com/router",
+    "open_source": true,
+    "categories": [
+      "routing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "tanstack_query",
+      "vite"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Fully type-safe router for React with built-in search param validation, route-level data loading, and pending UI. File-based or code-based route definitions. Growing as the typesafe alternative to React Router.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "React Router",
+    "url": "https://reactrouter.com",
+    "open_source": true,
+    "categories": [
+      "routing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "remix"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Standard React routing library. v7 merged with Remix, adding loaders, actions, and framework features. Massive adoption, solid docs, but frequent major version API changes have caused upgrade fatigue.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Vue Router",
+    "url": "https://router.vuejs.org",
+    "open_source": true,
+    "categories": [
+      "routing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vue"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Official router for Vue.js. Navigation guards, lazy-loading, nested routes, scroll behavior. Tightly integrated with Vue's reactivity system. Stable, well-documented, no real alternatives in the Vue ecosystem.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Wouter",
+    "url": "https://github.com/molefrog/wouter",
+    "open_source": true,
+    "categories": [
+      "routing"
+    ],
+    "license": "ISC",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "preact"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Minimalist React/Preact router under 2KB. Hook-based API, no dependencies. Good for small apps and micro-frontends where React Router is overkill. Intentionally limited feature set.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Navigo",
+    "url": "https://github.com/krasimir/navigo",
+    "open_source": true,
+    "categories": [
+      "routing"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Framework-agnostic client-side router. No React/Vue dependency. Hash and history API modes, lifecycle hooks, parameterized routes. Good for vanilla JS projects or custom framework setups.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "React Hook Form",
+    "url": "https://react-hook-form.com",
+    "open_source": true,
+    "categories": [
+      "form_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "zod",
+      "yup",
+      "joi",
+      "superstruct"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Performant React form library using uncontrolled components and refs. Minimal re-renders, resolver-based validation (Zod, Yup, etc.), DevTools extension. De facto standard for React forms.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Formik",
+    "url": "https://formik.org",
+    "open_source": true,
+    "categories": [
+      "form_library"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "yup"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "React form library using controlled components. Render-prop and hook APIs. Pioneered the React form library pattern but re-render performance issues and stalled maintenance. Being replaced by React Hook Form.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "high",
+    "composite_tool": false
+  },
+  {
+    "name": "VeeValidate",
+    "url": "https://vee-validate.logaretm.com",
+    "open_source": true,
+    "categories": [
+      "form_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vue",
+      "zod",
+      "yup",
+      "valibot"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Vue.js form validation with composition API support. Schema-based validation via Zod/Yup/Valibot resolvers, field-level and form-level modes. Standard choice for Vue form handling.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Superforms",
+    "url": "https://superforms.rocks",
+    "open_source": true,
+    "categories": [
+      "form_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "sveltekit",
+      "zod",
+      "valibot",
+      "arktype"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "SvelteKit form library with server-side validation, client-side enhancement, and progressive enhancement. Works without JavaScript. Nested data, multi-step forms, and tainted field tracking.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "TanStack Form",
+    "url": "https://tanstack.com/form",
+    "open_source": true,
+    "categories": [
+      "form_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "early",
+    "governance": "community",
+    "integration_targets": [
+      "react",
+      "vue",
+      "solid",
+      "angular",
+      "zod",
+      "valibot",
+      "yup"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Type-safe, framework-agnostic form library from the TanStack family. Async validation, field arrays, dependent fields. Newer entrant but benefits from TanStack's reputation and multi-framework approach.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Final Form",
+    "url": "https://final-form.org",
+    "open_source": true,
+    "categories": [
+      "form_library"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "client"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "react"
+    ],
+    "pipeline_stage": [
+      "frontend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Framework-agnostic form state management with subscription-based re-rendering. react-final-form wraps it for React. From the creator of Redux Form. Low maintenance activity; consider React Hook Form for new projects.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "high",
+    "composite_tool": false
+  },
+  {
+    "name": "ESLint",
+    "url": "https://eslint.org",
+    "open_source": true,
+    "categories": [
+      "linter"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vscode",
+      "prettier",
+      "typescript",
+      "react",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "development"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Standard JavaScript/TypeScript linter. Flat config (eslint.config.js) in v9+. Massive plugin ecosystem (React, Vue, a11y, import sorting). Slow on large codebases but unmatched configurability and community.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Prettier",
+    "url": "https://prettier.io",
+    "open_source": true,
+    "categories": [
+      "linter"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "css",
+      "html",
+      "json",
+      "markdown"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vscode",
+      "eslint",
+      "git_hooks"
+    ],
+    "pipeline_stage": [
+      "development"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Opinionated code formatter for JS/TS/CSS/HTML/JSON/Markdown. Minimal config by design \u2014 enforces consistency by removing style debates. Standard formatter in most JS projects. Being challenged by Biome.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "oxlint",
+    "url": "https://oxc-project.github.io/docs/guide/usage/linter.html",
+    "open_source": true,
+    "categories": [
+      "linter"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "early",
+    "governance": "community",
+    "integration_targets": [
+      "vscode",
+      "eslint"
+    ],
+    "pipeline_stage": [
+      "development"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Rust-based linter from the OXC project (same team building Rolldown). 50-100x faster than ESLint. Designed to run alongside ESLint initially, then replace it. Part of the Vite/Rolldown ecosystem convergence.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "dprint",
+    "url": "https://dprint.dev",
+    "open_source": true,
+    "categories": [
+      "linter"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "json",
+      "markdown",
+      "toml",
+      "rust"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vscode"
+    ],
+    "pipeline_stage": [
+      "development"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Fast pluggable code formatter written in Rust. WASM-based plugin system for JS/TS, JSON, Markdown, TOML, and more. 30x faster than Prettier. More configurable than Prettier but smaller community.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Stylelint",
+    "url": "https://stylelint.io",
+    "open_source": true,
+    "categories": [
+      "linter"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "css",
+      "scss",
+      "less"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "vscode",
+      "postcss",
+      "prettier"
+    ],
+    "pipeline_stage": [
+      "development"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "CSS linter with 170+ rules. Supports CSS, SCSS, Less, and CSS-in-JS. Enforces conventions, catches errors, and sorts properties. The only serious CSS-specific linter. Integrates with Prettier for formatting.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "next.js",
+      "github",
+      "gitlab",
+      "bitbucket"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "Deploy-on-push platform optimized for Next.js. Edge functions, serverless, preview deployments, analytics. Generous free tier. Tight Next.js coupling creates soft lock-in. The default deployment for React/Next projects.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Netlify",
+    "url": "https://www.netlify.com",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "github",
+      "gitlab",
+      "bitbucket",
+      "astro",
+      "next.js",
+      "hugo"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "JAMstack deployment platform. Build hooks, deploy previews, edge functions, forms, identity. More framework-agnostic than Vercel. Pioneer of the deploy-on-push model. Solid free tier for static sites.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Cloudflare Pages",
+    "url": "https://pages.cloudflare.com",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "github",
+      "gitlab",
+      "cloudflare_workers",
+      "d1",
+      "r2",
+      "kv"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "Full-stack deployment on Cloudflare's edge network. Integrates with Workers (serverless), D1 (SQLite), R2 (object storage), KV. Fastest edge network. Growing as the cost-effective Vercel alternative.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Deno Deploy",
+    "url": "https://deno.com/deploy",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "deno",
+      "github",
+      "fresh"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "low",
+    "summary": "Serverless edge deployment for Deno. Global V8 isolates, zero cold start, built-in KV database. Tight Deno coupling is both strength (zero-config deployment) and weakness (lock-in). Niche but growing.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Railway",
+    "url": "https://railway.app",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "python",
+      "go",
+      "rust"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "github",
+      "docker",
+      "postgres",
+      "redis",
+      "mysql"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "Modern PaaS for deploying anything \u2014 web apps, APIs, databases, cron jobs. Auto-detects language/framework, provisions databases. Simple pricing, good DX. Heroku replacement for the modern stack.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Fly.io",
+    "url": "https://fly.io",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "python",
+      "go",
+      "rust",
+      "elixir"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "docker",
+      "postgres",
+      "redis",
+      "github"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "Deploy Docker containers to edge locations via Firecracker microVMs. Run full apps (not just functions) close to users. Built-in Postgres, Redis, and GPU support. More infrastructure control than Vercel/Netlify.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Render",
+    "url": "https://render.com",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "python",
+      "go",
+      "rust",
+      "ruby"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "github",
+      "gitlab",
+      "docker",
+      "postgres",
+      "redis"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "Cloud platform for web apps, APIs, static sites, databases, and background workers. Straightforward Heroku alternative with free static site hosting. Less edge-focused than Fly.io but simpler setup.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Surge",
+    "url": "https://surge.sh",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "npm",
+      "ci"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "One-command static site deployment. `npx surge` publishes a directory instantly. No build pipeline, no config. Good for quick prototypes and demos. Limited features compared to Netlify/Vercel.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "GitHub Pages",
+    "url": "https://pages.github.com",
+    "open_source": false,
+    "categories": [
+      "deployment"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "ruby"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "github",
+      "github_actions",
+      "jekyll"
+    ],
+    "pipeline_stage": [
+      "deployment"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "Free static site hosting from GitHub repos. Actions-based deployment or branch-based publishing. No serverless functions, no edge compute. Perfect for docs, blogs, and project pages. Limited but zero-cost.",
+    "used_by": [
+      "Map-Visualizations"
+    ],
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Firebase",
+    "url": "https://firebase.google.com",
+    "open_source": false,
+    "categories": [
+      "backend_service"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "python",
+      "java",
+      "swift",
+      "kotlin"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "google_cloud",
+      "react",
+      "vue",
+      "angular",
+      "flutter"
+    ],
+    "pipeline_stage": [
+      "backend",
+      "deployment"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "Google's BaaS platform: Firestore (NoSQL), Auth, Cloud Functions, Hosting, Storage, Analytics. Massive feature set but deep Google Cloud lock-in. Free tier generous for prototyping. Realtime sync is a killer feature.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Convex",
+    "url": "https://www.convex.dev",
+    "open_source": false,
+    "categories": [
+      "backend_service"
+    ],
+    "license": "Proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "next.js",
+      "svelte",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "backend"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "low",
+    "summary": "Reactive backend platform with TypeScript server functions, realtime subscriptions, and ACID transactions. Write backend logic as TypeScript functions, get automatic caching and reactivity. Innovative but high lock-in.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "PocketBase",
+    "url": "https://pocketbase.io",
+    "open_source": true,
+    "categories": [
+      "backend_service"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "go",
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "sqlite",
+      "svelte",
+      "react",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "backend"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Single-binary backend: SQLite database, realtime subscriptions, auth, file storage, admin UI. Deploy one Go executable. Perfect for side projects and prototypes. Limited to single-node; not for high-scale production.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Appwrite",
+    "url": "https://appwrite.io",
+    "open_source": true,
+    "categories": [
+      "backend_service"
+    ],
+    "license": "BSD-3-Clause",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "python",
+      "java",
+      "kotlin",
+      "swift",
+      "dart"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "docker",
+      "react",
+      "vue",
+      "angular",
+      "flutter"
+    ],
+    "pipeline_stage": [
+      "backend"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Self-hostable Firebase alternative. Auth, databases, storage, functions, messaging via Docker. Supports 10+ SDKs. Cloud option available. More portable than Firebase with lower lock-in, but smaller ecosystem.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Nhost",
+    "url": "https://nhost.io",
+    "open_source": true,
+    "categories": [
+      "backend_service"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "hasura",
+      "postgres",
+      "react",
+      "next.js",
+      "vue"
+    ],
+    "pipeline_stage": [
+      "backend"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Open-source Firebase alternative built on Hasura + PostgreSQL. GraphQL API auto-generated from schema, auth, storage, serverless functions. Postgres foundation means standard SQL and easier data portability.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Turborepo",
+    "url": "https://turbo.build/repo",
+    "open_source": true,
+    "categories": [
+      "monorepo"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "npm",
+      "pnpm",
+      "yarn",
+      "vercel",
+      "github_actions"
+    ],
+    "pipeline_stage": [
+      "development",
+      "ci"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Incremental build system for JavaScript/TypeScript monorepos. Remote caching (via Vercel or self-hosted), task graph, parallel execution. Simple turbo.json config. Less opinionated than Nx; easier adoption.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Nx",
+    "url": "https://nx.dev",
+    "open_source": true,
+    "categories": [
+      "monorepo"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "java",
+      "go",
+      "python",
+      "rust"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "react",
+      "angular",
+      "vue",
+      "next.js",
+      "nest.js",
+      "vite",
+      "jest",
+      "cypress"
+    ],
+    "pipeline_stage": [
+      "development",
+      "ci"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Smart monorepo build system with project graph analysis, affected commands, distributed task execution, and code generators. More batteries-included than Turborepo. Nx Cloud adds remote caching and CI distribution.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "Lerna",
+    "url": "https://lerna.js.org",
+    "open_source": true,
+    "categories": [
+      "monorepo"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "npm",
+      "yarn",
+      "pnpm",
+      "nx"
+    ],
+    "pipeline_stage": [
+      "development",
+      "ci"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Original JavaScript monorepo tool, now maintained by Nx team. Versioning and publishing focused. Uses Nx under the hood for task running. Legacy choice; new projects prefer Turborepo or Nx directly.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Changesets",
+    "url": "https://github.com/changesets/changesets",
+    "open_source": true,
+    "categories": [
+      "monorepo"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "npm",
+      "pnpm",
+      "yarn",
+      "github_actions"
+    ],
+    "pipeline_stage": [
+      "development",
+      "ci"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Versioning and changelog management for monorepos. Contributors add changeset files describing changes; CI aggregates them into version bumps and changelogs. Complements Turborepo/Nx (they build, Changesets publishes).",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Rush",
+    "url": "https://rushjs.io",
+    "open_source": true,
+    "categories": [
+      "monorepo"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "pnpm",
+      "npm",
+      "yarn",
+      "github_actions"
+    ],
+    "pipeline_stage": [
+      "development",
+      "ci"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Enterprise-scale monorepo manager from Microsoft. Strict dependency management, phased builds, and publishing orchestration. Opinionated and complex but battle-tested at Microsoft scale. Steeper learning curve than Turborepo/Nx.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": true
+  },
+  {
+    "name": "moon",
+    "url": "https://moonrepo.dev",
+    "open_source": true,
+    "categories": [
+      "monorepo"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "typescript",
+      "rust",
+      "go",
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "community",
+    "integration_targets": [
+      "node",
+      "bun",
+      "deno",
+      "rust",
+      "go"
+    ],
+    "pipeline_stage": [
+      "development",
+      "ci"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Rust-based monorepo management tool with task runner, dependency graph, and code generation. Language-agnostic (JS, Rust, Go, Python). Newer alternative to Nx/Turborepo with focus on polyglot repos and Rust performance.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  }
+]

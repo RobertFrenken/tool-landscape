@@ -28,10 +28,10 @@ uv pip install -e ".[dev]" --python .venv/bin/python
 
 9 tables in `data/landscape.duckdb` (rebuilt from `data/seed/`):
 
-| Table | Role | Rows (Phase 1) |
-|-------|------|-----------------|
-| `tools` | Tool catalog: identity, enums, arrays, booleans | 506 |
-| `edges` | Typed directed relationships between tools | 381 |
+| Table | Role | Rows |
+|-------|------|------|
+| `tools` | Tool catalog: identity, enums, arrays, booleans | 1157 |
+| `edges` | Typed directed relationships between tools | 1445 |
 | `tool_metrics` | Time-series metrics with source tracking (EAV) | 0 (Phase 2) |
 | `neighborhoods` | Computed or user-defined tool clusters | 0 (Phase 3) |
 | `neighborhood_members` | Tool membership in neighborhoods (soft, pinnable) | 0 (Phase 3) |
@@ -94,15 +94,31 @@ See `data/seed/project_ceilings.json` → `evaluation_protocol` for when/how to 
 | Phase | Status | What |
 |-------|--------|------|
 | 1 | **Done** | Schema, seed migration, CLI (import/stats/query/inspect/coverage) |
-| 1b | Todo | Migration history import, hand-curated edges (requires/wraps/replaces) |
-| 2 | Todo | Algorithmic metrics (GitHub API, PyPI stats), fitness scoring |
+| 1b | **Done** | Hand-curated edges (75), multi-catalog migration, catalog validation |
+| 2 | **Done** | Metrics pipeline (GitHub/PyPI/npm/deps.dev), fitness scoring, identifier resolution |
 | 3 | Todo | Graph clustering → computed neighborhoods, recommend command |
-| 4 | Todo | Frontend + document authoring tools (LaTeX, Quarto, Typst, D3, etc.) |
-| 5 | Todo | Interactive exploration (TUI or D3/Cytoscape export) |
+| 4 | **Done** | Expanded catalogs: 9 catalogs × 29 dimensions (mlops, frontend, document, llm, gamedev, viz, platform, backend) |
+| 5 | Todo | Interactive exploration (see `~/plans/tool-landscape-frontend.md`) |
 
 ## Seed Data
 
-- `data/seed/mlops_tools_catalog.json` — 506 tools × 29 dimensions (source of truth for tools table)
+9 catalogs in `data/seed/` (all `*_catalog*.json`, loaded automatically by `migrate_tools()`):
+
+| Catalog | Tools | Domain |
+|---------|-------|--------|
+| `mlops_tools_catalog.json` | 506 | ML/data/DevOps tools |
+| `frontend_tools_catalog_a.json` | 74 | UI frameworks, build tools, component libraries, state mgmt |
+| `frontend_tools_catalog_b.json` | 75 | Testing, SSG, validation, animation, forms, routing |
+| `document_tools_catalog.json` | 83 | LaTeX, Markdown, Quarto, Typst, publishing |
+| `llm_tools_catalog.json` | 71 | LLM frameworks, agents, RAG, vector DBs |
+| `gamedev_tools_catalog.json` | 77 | Game engines, embedded/IoT, robotics, blockchain |
+| `viz_tools_catalog.json` | 90 | Charting, graph viz, mapping, diagramming, 3D |
+| `platform_tools_catalog.json` | 93 | Desktop/mobile, editors, CLI, WASM, package mgmt |
+| `backend_tools_catalog.json` | 88 | Databases, auth, monitoring, service mesh, queues |
+
 - `data/seed/project_ceilings.json` — 2 projects, 16 capabilities, evaluation protocol
+- `data/seed/curated_edges.json` — 75 hand-curated typed edges
+
+Validate catalogs: `python3 scripts/validate_catalogs.py`
 
 The database is `.gitignore`d and rebuilt from seed via `scripts/rebuild_db.sh`.

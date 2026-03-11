@@ -1,0 +1,3139 @@
+[
+  {
+    "name": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "open_source": true,
+    "categories": [
+      "agent_framework",
+      "llm_orchestration"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Stateful graph-based agent orchestration from LangChain team. Cyclic graphs with persistence and human-in-the-loop. Tightly coupled to LangChain ecosystem but best-in-class for complex agent workflows.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Semantic Kernel",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "open_source": true,
+    "categories": [
+      "llm_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python",
+      "csharp",
+      "java"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "azure",
+      "huggingface"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Microsoft's LLM orchestration SDK. Strong Azure/OpenAI integration with planner-based agent patterns. Enterprise-oriented; Python SDK lags behind C# in features.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Spring AI",
+    "url": "https://spring.io/projects/spring-ai",
+    "open_source": true,
+    "categories": [
+      "llm_framework"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "java"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "ollama",
+      "pgvector",
+      "chromadb"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Spring ecosystem's LLM framework for Java/Kotlin. Brings familiar Spring patterns (dependency injection, auto-config) to AI apps. Strong for Java shops, irrelevant for Python-first teams.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Mastra",
+    "url": "https://mastra.ai",
+    "open_source": true,
+    "categories": [
+      "llm_framework",
+      "agent_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "early",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "vercel"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "TypeScript-first AI agent framework with built-in tool calling, RAG, and workflow engine. Early but growing fast in the JS/TS ecosystem.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "CrewAI",
+    "url": "https://crewai.com",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Role-based multi-agent framework. Intuitive crew/agent/task abstraction for orchestrating multiple LLM agents. Popular for prototyping but can be opaque for complex production workflows.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "CC-BY-4.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "azure"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Microsoft's multi-agent conversation framework. v0.4 rewrite (AG2) is event-driven and modular. Strong research backing but API instability between versions has frustrated adopters.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "company_backed",
+    "integration_targets": [
+      "huggingface",
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Hugging Face's minimalist agent library. Code-first agents that write Python to solve tasks. Lightweight alternative to heavier frameworks; good HF Hub integration.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Agency Swarm",
+    "url": "https://github.com/VRSEN/agency-swarm",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "community",
+    "integration_targets": [
+      "openai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "OpenAI Assistants API-based multi-agent framework. Focuses on inter-agent communication via shared threads. Tightly coupled to OpenAI; limited provider flexibility.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Phidata",
+    "url": "https://github.com/phidatahq/phidata",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "MPL-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "pgvector",
+      "duckdb"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Agent framework with built-in memory, knowledge bases, and tool use. Clean Pydantic-based API. Rebranded to Agno in late 2025; growing community.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Claude Agent SDK",
+    "url": "https://github.com/anthropics/anthropic-sdk-python",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Anthropic's official agent SDK for building Claude-powered agents. Tight integration with Claude models, tool use, and computer use. Single-provider lock-in but best-in-class for Claude workflows.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "OpenAI Agents SDK",
+    "url": "https://github.com/openai/openai-agents-python",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "OpenAI's official agent framework (successor to Swarm). Handoffs, guardrails, and tracing built-in. Simple API but OpenAI-only; designed for production agent deployments.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Google ADK",
+    "url": "https://github.com/google/adk-python",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "company_backed",
+    "integration_targets": [
+      "gemini",
+      "vertex_ai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "Google's Agent Development Kit for Gemini-powered agents. Deep Vertex AI integration with session management and tool orchestration. Very new; Google ecosystem lock-in.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Agno",
+    "url": "https://github.com/agno-agi/agno",
+    "open_source": true,
+    "categories": [
+      "agent_framework"
+    ],
+    "license": "MPL-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "pgvector"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Rebrand of Phidata. Multi-modal agent framework with memory, knowledge, and reasoning. Model-agnostic with clean API. Growing rapidly in the agent framework space.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "DSPy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "open_source": true,
+    "categories": [
+      "prompt_engineering"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "ollama"
+    ],
+    "pipeline_stage": [
+      "training",
+      "evaluation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Stanford's programming framework for LLMs \u2014 replaces hand-written prompts with optimizable modules. Compiler-based prompt optimization with metric-driven tuning. Paradigm shift but steep learning curve.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Instructor",
+    "url": "https://github.com/jxnl/instructor",
+    "open_source": true,
+    "categories": [
+      "structured_output",
+      "prompt_engineering"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "ollama",
+      "pydantic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Pydantic-based structured output extraction from LLMs. Patches provider SDKs to return validated Pydantic models. Simple, elegant, and provider-agnostic. Best-in-class for structured extraction.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "LMQL",
+    "url": "https://lmql.ai",
+    "open_source": true,
+    "categories": [
+      "prompt_engineering"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "community",
+    "integration_targets": [
+      "openai",
+      "huggingface"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "SQL-like query language for LLMs with constraints and control flow. Novel approach to structured prompting but adoption has stalled as native structured output from providers improved.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Guidance",
+    "url": "https://github.com/guidance-ai/guidance",
+    "open_source": true,
+    "categories": [
+      "prompt_engineering",
+      "structured_output"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "huggingface",
+      "llama_cpp"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Microsoft-backed constrained generation library. Template-based prompting with guaranteed output structure via token-level control. Powerful for local models; less relevant for API-only usage.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Outlines",
+    "url": "https://github.com/dottxt-ai/outlines",
+    "open_source": true,
+    "categories": [
+      "structured_output",
+      "prompt_engineering"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "huggingface",
+      "vllm",
+      "llama_cpp"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Structured generation via grammar-constrained decoding. Guarantees valid JSON/regex/Pydantic output at inference time. Integrates with vLLM and HF. Best for local model structured output.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "SGLang",
+    "url": "https://github.com/sgl-project/sglang",
+    "open_source": true,
+    "categories": [
+      "llm_serving",
+      "prompt_engineering"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "cuda",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "High-performance LLM serving with RadixAttention for prefix caching and structured generation. Competitive with vLLM on throughput. Strong HPC fit with multi-GPU support.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Marvin",
+    "url": "https://github.com/prefecthq/marvin",
+    "open_source": true,
+    "categories": [
+      "structured_output",
+      "prompt_engineering"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "pydantic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Prefect-backed library for AI functions, classification, extraction, and image generation. Decorator-based API that makes LLM calls feel like normal Python functions. Clean but narrow scope.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "llama.cpp",
+    "url": "https://github.com/ggerganov/llama.cpp",
+    "open_source": true,
+    "categories": [
+      "llm_serving"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "cpp",
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "gguf",
+      "cuda",
+      "metal",
+      "vulkan"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "C/C++ LLM inference engine with broad hardware support. Foundation for GGUF quantized model ecosystem. Runs on CPU, GPU, and edge devices. De facto standard for local inference.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Jan",
+    "url": "https://jan.ai",
+    "open_source": true,
+    "categories": [
+      "llm_serving"
+    ],
+    "license": "AGPL-3.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "cpp"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "gguf",
+      "llama_cpp",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Desktop app for running LLMs locally with ChatGPT-like UI. OpenAI-compatible API server built on llama.cpp. Good for personal use; not designed for production serving.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "LM Studio",
+    "url": "https://lmstudio.ai",
+    "open_source": false,
+    "categories": [
+      "llm_serving"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "cpp"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "gguf",
+      "llama_cpp",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Polished desktop app for local LLM inference. Model discovery, download, and OpenAI-compatible API. Free for personal use. Popular with non-technical users; limited programmatic control.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Llamafile",
+    "url": "https://github.com/Mozilla-Ocho/llamafile",
+    "open_source": true,
+    "categories": [
+      "llm_serving"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "cpp"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "gguf",
+      "llama_cpp"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Mozilla-backed single-file LLM executable. Bundles model weights + inference engine into one cross-platform binary using Cosmopolitan libc. Zero-install deployment; great for air-gapped environments.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "ExLlamaV2",
+    "url": "https://github.com/turboderp/exllamav2",
+    "open_source": true,
+    "categories": [
+      "llm_serving"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python",
+      "cpp"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "cuda",
+      "huggingface"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "High-performance GPTQ/EXL2 quantized inference for NVIDIA GPUs. Fastest single-GPU inference for quantized models. Narrow focus but excellent at what it does.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "MLC LLM",
+    "url": "https://github.com/mlc-ai/mlc-llm",
+    "open_source": true,
+    "categories": [
+      "llm_serving"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "cpp"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "cuda",
+      "metal",
+      "vulkan",
+      "webgpu"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Machine Learning Compilation for LLMs. Compiler-based approach for deploying to diverse hardware (GPU, mobile, browser via WebGPU). From TVM team. Good for edge/mobile deployment.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "TensorRT-LLM",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "open_source": true,
+    "categories": [
+      "llm_serving"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "cpp"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "cuda",
+      "triton",
+      "nvidia"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "low",
+    "summary": "NVIDIA's optimized LLM inference library. Maximum throughput on NVIDIA GPUs with tensor parallelism and in-flight batching. Complex setup but unmatched performance on NVIDIA hardware.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "FAISS",
+    "url": "https://github.com/facebookresearch/faiss",
+    "open_source": true,
+    "categories": [
+      "rag",
+      "vector_database"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python",
+      "cpp"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "cuda",
+      "langchain",
+      "llamaindex"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Meta's GPU-accelerated similarity search library. Gold standard for raw vector search performance. Not a database (no persistence, CRUD); use as a building block. Excellent for HPC with GPU support.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Unstructured",
+    "url": "https://unstructured.io",
+    "open_source": true,
+    "categories": [
+      "rag"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "llamaindex",
+      "s3"
+    ],
+    "pipeline_stage": [
+      "data_collection",
+      "preprocessing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Document parsing and chunking for RAG pipelines. Handles PDFs, HTML, DOCX, images with OCR. Essential preprocessing step before embedding. Heavy system dependencies for full feature set.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "RAGAS",
+    "url": "https://github.com/explodinggradients/ragas",
+    "open_source": true,
+    "categories": [
+      "llm_evaluation"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "langchain",
+      "llamaindex",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "evaluation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "RAG evaluation framework with reference-free metrics (faithfulness, relevancy, context recall). LLM-as-judge approach. De facto standard for RAG evaluation. Requires LLM API calls for scoring.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "DeepEval",
+    "url": "https://github.com/confident-ai/deepeval",
+    "open_source": true,
+    "categories": [
+      "llm_evaluation"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "pytest",
+      "openai",
+      "langchain"
+    ],
+    "pipeline_stage": [
+      "evaluation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Pytest-integrated LLM evaluation framework. 14+ metrics including hallucination, bias, toxicity. Feels like writing unit tests for LLM outputs. Growing fast as LLM testing becomes standard.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "open_source": true,
+    "categories": [
+      "llm_evaluation"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "ollama",
+      "azure"
+    ],
+    "pipeline_stage": [
+      "evaluation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "CLI-first LLM evaluation and red-teaming tool. YAML config for test cases, side-by-side model comparison, and CI integration. Best for prompt regression testing and model selection.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Giskard",
+    "url": "https://github.com/Giskard-AI/giskard",
+    "open_source": true,
+    "categories": [
+      "llm_evaluation"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "huggingface",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "evaluation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "AI model testing framework covering both traditional ML and LLMs. Automated vulnerability scanning and test generation. Broader scope than RAGAS but less focused on RAG-specific metrics.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "TruLens",
+    "url": "https://github.com/truera/trulens",
+    "open_source": true,
+    "categories": [
+      "llm_evaluation",
+      "llm_observability"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "llamaindex",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "evaluation",
+      "monitoring"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "LLM app evaluation with feedback functions for groundedness, relevance, and sentiment. Snowflake-acquired. Combines evaluation with tracing/observability. Now part of Snowflake Cortex ecosystem.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "LangSmith",
+    "url": "https://smith.langchain.com",
+    "open_source": false,
+    "categories": [
+      "llm_evaluation",
+      "llm_observability"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "langgraph",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "evaluation",
+      "monitoring"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "LangChain's observability and evaluation platform. Tracing, dataset management, online evaluation, and prompt playground. Best-in-class LangChain integration but proprietary SaaS with ecosystem lock-in.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Braintrust",
+    "url": "https://braintrust.dev",
+    "open_source": false,
+    "categories": [
+      "llm_evaluation",
+      "llm_observability"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "evaluation",
+      "monitoring"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "LLM evaluation and observability platform with proxy-based logging. Dataset management, experiment tracking, and online scoring. Provider-agnostic alternative to LangSmith.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Humanloop",
+    "url": "https://humanloop.com",
+    "open_source": false,
+    "categories": [
+      "llm_evaluation",
+      "llm_observability"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "evaluation",
+      "monitoring"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "Prompt management and evaluation platform. Version-controlled prompts with A/B testing and human feedback collection. Enterprise-focused; strong for teams iterating on prompts collaboratively.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "PEFT",
+    "url": "https://github.com/huggingface/peft",
+    "open_source": true,
+    "categories": [
+      "fine_tuning"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "huggingface",
+      "pytorch",
+      "cuda"
+    ],
+    "pipeline_stage": [
+      "training"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "HuggingFace's parameter-efficient fine-tuning library (LoRA, QLoRA, IA3, etc.). Standard for fine-tuning LLMs on consumer/HPC GPUs. Dramatically reduces memory requirements. Essential for HPC fine-tuning.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Axolotl",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl",
+    "open_source": true,
+    "categories": [
+      "fine_tuning"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "huggingface",
+      "pytorch",
+      "cuda",
+      "deepspeed"
+    ],
+    "pipeline_stage": [
+      "training"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "YAML-config LLM fine-tuning framework. Wraps HF Transformers + PEFT + DeepSpeed into a single config file. Supports LoRA, QLoRA, full fine-tune, DPO, RLHF. Community favorite for fine-tuning.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "LLaMA Factory",
+    "url": "https://github.com/hiyouga/LLaMA-Factory",
+    "open_source": true,
+    "categories": [
+      "fine_tuning"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "community",
+    "integration_targets": [
+      "huggingface",
+      "pytorch",
+      "cuda"
+    ],
+    "pipeline_stage": [
+      "training"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "All-in-one LLM fine-tuning framework with web UI. Supports 100+ models, multiple training methods (SFT, RLHF, DPO, KTO). Most starred fine-tuning repo. Web UI lowers barrier for beginners.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "open_source": true,
+    "categories": [
+      "fine_tuning"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "huggingface",
+      "pytorch",
+      "cuda"
+    ],
+    "pipeline_stage": [
+      "training"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "2-5x faster LLM fine-tuning with 70% less memory via custom Triton kernels. Drop-in replacement for HF Trainer. Ideal for memory-constrained HPC. Free tier with Pro for multi-GPU.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "TRL",
+    "url": "https://github.com/huggingface/trl",
+    "open_source": true,
+    "categories": [
+      "fine_tuning"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "huggingface",
+      "pytorch",
+      "peft"
+    ],
+    "pipeline_stage": [
+      "training"
+    ],
+    "scale_profile": "multi_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "heavy",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "HuggingFace's Transformer Reinforcement Learning library. SFT, RLHF (PPO), DPO, KTO trainers built on HF Transformers. Official path for alignment training. Integrates with PEFT for efficient training.",
+    "used_by": [],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "OpenAI Fine-tuning API",
+    "url": "https://platform.openai.com/docs/guides/fine-tuning",
+    "open_source": false,
+    "categories": [
+      "fine_tuning"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai"
+    ],
+    "pipeline_stage": [
+      "training"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "low",
+    "summary": "OpenAI's managed fine-tuning service. Upload JSONL, get a fine-tuned model. Zero infrastructure but expensive, limited customization, and full vendor lock-in. No weight access.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Ollama Library",
+    "url": "https://ollama.com/library",
+    "open_source": false,
+    "categories": [
+      "model_hub"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "go"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "ollama",
+      "gguf"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Ollama's curated model registry with one-command pull. Docker Hub-like experience for LLMs. Limited to GGUF format models. Simple but less comprehensive than HuggingFace Hub.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "open_source": false,
+    "categories": [
+      "model_hub",
+      "llm_serving"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "Unified API gateway for 100+ LLM providers. OpenAI-compatible API with automatic fallback routing. Pay-per-token across providers. Great for model comparison; adds latency and a dependency.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Together AI",
+    "url": "https://together.ai",
+    "open_source": false,
+    "categories": [
+      "model_hub",
+      "llm_serving"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "huggingface"
+    ],
+    "pipeline_stage": [
+      "serving",
+      "training"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "Inference and fine-tuning platform for open-source models. Competitive pricing, OpenAI-compatible API, and serverless endpoints. Strong for open-weight model hosting without managing infrastructure.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Replicate",
+    "url": "https://replicate.com",
+    "open_source": false,
+    "categories": [
+      "model_hub",
+      "llm_serving"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "docker",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "Cloud platform for running ML models via API. Cog container format for packaging. Pay-per-second GPU pricing. Broad model ecosystem beyond LLMs (image, audio, video).",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Guardrails AI",
+    "url": "https://guardrailsai.com",
+    "open_source": true,
+    "categories": [
+      "llm_safety"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "langchain"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Input/output validation framework for LLMs. Validator Hub with pre-built checks for PII, toxicity, hallucination, etc. RAIL spec for declarative validation. Growing ecosystem of community validators.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "NeMo Guardrails",
+    "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+    "open_source": true,
+    "categories": [
+      "llm_safety"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "nvidia",
+      "langchain"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "NVIDIA's programmable guardrails with Colang DSL. Topic control, jailbreak prevention, and fact-checking rails. More structured than Guardrails AI but steeper learning curve with custom DSL.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "LLM Guard",
+    "url": "https://github.com/protectai/llm-guard",
+    "open_source": true,
+    "categories": [
+      "llm_safety"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "langchain",
+      "fastapi"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Input/output scanner for LLM interactions. Detects prompt injection, PII, toxicity, and code injection. Local model-based scanning (no API calls needed). Good for air-gapped/HPC environments.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Lakera",
+    "url": "https://lakera.ai",
+    "open_source": false,
+    "categories": [
+      "llm_safety"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "AI security platform with Lakera Guard API. Prompt injection detection, content moderation, and PII detection as a service. Low-latency API; enterprise-focused with SOC2 compliance.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Rebuff",
+    "url": "https://github.com/protectai/rebuff",
+    "open_source": true,
+    "categories": [
+      "llm_safety"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "community",
+    "integration_targets": [
+      "openai",
+      "langchain"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Prompt injection detection using multi-layer approach (heuristics, LLM-based, vector similarity). Early-stage; limited maintenance. Proof-of-concept quality; consider LLM Guard for production.",
+    "used_by": [],
+    "capability_ceiling": "low",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Pydantic AI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "open_source": true,
+    "categories": [
+      "structured_output",
+      "agent_framework"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "pydantic",
+      "ollama"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "From Pydantic team. Agent framework with type-safe structured output, dependency injection, and Logfire integration. Early but high-quality code. Natural fit for Pydantic-heavy codebases.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "BAML",
+    "url": "https://github.com/BoundaryML/baml",
+    "open_source": true,
+    "categories": [
+      "structured_output"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript",
+      "ruby"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "ollama"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Domain-specific language for LLM functions with type-safe structured output. Compiler generates client code from .baml files. Novel approach with VS Code playground. Growing but requires buying into DSL.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Inngest",
+    "url": "https://inngest.com",
+    "open_source": true,
+    "categories": [
+      "llm_orchestration"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript",
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vercel",
+      "aws",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Event-driven workflow engine with built-in AI agent support. Step functions with retries, concurrency, and throttling. Growing AI/LLM orchestration focus. TypeScript-first.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Trigger.dev",
+    "url": "https://trigger.dev",
+    "open_source": true,
+    "categories": [
+      "llm_orchestration"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "vercel",
+      "aws"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Background job framework for TypeScript with long-running task support. v3 added AI/LLM task patterns. Self-hostable alternative to cloud functions for AI workloads. TypeScript-only ecosystem.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Langfuse",
+    "url": "https://langfuse.com",
+    "open_source": true,
+    "categories": [
+      "llm_observability"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "llamaindex",
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "monitoring",
+      "evaluation"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Open-source LLM observability with tracing, prompt management, and evaluation. Self-hostable LangSmith alternative. Growing fast as the open-source default for LLM monitoring. Docker-based self-hosting.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Helicone",
+    "url": "https://helicone.ai",
+    "open_source": true,
+    "categories": [
+      "llm_observability"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "azure"
+    ],
+    "pipeline_stage": [
+      "monitoring"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "LLM proxy for logging, monitoring, and cost tracking. One-line integration via URL swap. Request caching, rate limiting, and usage dashboards. Lightest-touch observability option.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Portkey",
+    "url": "https://portkey.ai",
+    "open_source": true,
+    "categories": [
+      "llm_observability",
+      "llm_orchestration"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "langchain",
+      "llamaindex"
+    ],
+    "pipeline_stage": [
+      "serving",
+      "monitoring"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "AI gateway with observability, caching, load balancing, and fallback routing. Unified API for 200+ LLMs. Production-focused with guardrails integration. Combines gateway + observability in one tool.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": true
+  },
+  {
+    "name": "Opik",
+    "url": "https://github.com/comet-ml/opik",
+    "open_source": true,
+    "categories": [
+      "llm_observability",
+      "llm_evaluation"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "early",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "llamaindex",
+      "openai"
+    ],
+    "pipeline_stage": [
+      "evaluation",
+      "monitoring"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Comet ML's open-source LLM evaluation and tracing platform. Combines experiment tracking heritage with LLM-specific features. Self-hostable. Newer entrant competing with Langfuse.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "open_source": false,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript",
+      "java",
+      "go",
+      "rust",
+      "cpp"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vscode",
+      "jetbrains",
+      "neovim",
+      "git"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "GitHub's AI coding assistant. Inline completions, chat, and workspace agent. Market leader with deepest IDE integration. Subscription-based; no offline mode. Agent mode growing rapidly.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "open_source": false,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript",
+      "java",
+      "go",
+      "rust",
+      "cpp"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "vscode"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "AI-native code editor (VS Code fork). Codebase-aware chat, multi-file editing, and composer mode. Fastest-growing AI code editor. Subscription model; VS Code fork means some extension compatibility.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "open_source": false,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript",
+      "java",
+      "go",
+      "rust",
+      "cpp"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vscode",
+      "jetbrains",
+      "neovim",
+      "vim"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "high",
+    "summary": "Free AI code completion with broad IDE support. Parent company of Windsurf editor. Generous free tier. Less capable than Copilot/Cursor but zero cost for individuals.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Continue",
+    "url": "https://continue.dev",
+    "open_source": true,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vscode",
+      "jetbrains",
+      "ollama",
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Open-source AI code assistant for VS Code and JetBrains. BYO model (Ollama, OpenAI, Anthropic). Fully local-capable with Ollama. Best open-source Copilot alternative.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Aider",
+    "url": "https://aider.chat",
+    "open_source": true,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "ollama",
+      "git"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Terminal-based AI pair programming tool. Git-aware with automatic commits. Works with any LLM provider. Best CLI-based coding assistant; ideal for SSH/HPC environments without GUI.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "open_source": false,
+    "categories": [
+      "code_generation",
+      "agent_framework"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "anthropic",
+      "git",
+      "bash"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "Anthropic's agentic CLI coding tool. Full shell access, file editing, git integration, and MCP tool use. Terminal-native; excellent for HPC/SSH. Claude-only but most capable agentic coding tool.",
+    "used_by": [
+      "KD-GAT"
+    ],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Windsurf",
+    "url": "https://windsurf.com",
+    "open_source": false,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript",
+      "java",
+      "go"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vscode",
+      "openai",
+      "anthropic"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "AI code editor from Codeium (VS Code fork). Cascade flow-based multi-file editing. Competes directly with Cursor. Generous free tier; acquired by OpenAI in 2025.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Tabnine",
+    "url": "https://tabnine.com",
+    "open_source": false,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript",
+      "java",
+      "go",
+      "rust"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vscode",
+      "jetbrains",
+      "neovim"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "AI code completion with on-premise deployment option. Enterprise-focused with privacy guarantees. Pioneer in AI code completion but losing ground to Copilot and Cursor. Self-hosted option for compliance.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Amazon Q Developer",
+    "url": "https://aws.amazon.com/q/developer/",
+    "open_source": false,
+    "categories": [
+      "code_generation"
+    ],
+    "license": "proprietary",
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "python",
+      "typescript",
+      "java",
+      "go"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "vscode",
+      "jetbrains",
+      "aws"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "cloud_native",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "multi_tenant",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "interoperability": "medium",
+    "summary": "AWS's AI coding assistant (formerly CodeWhisperer). Strong AWS service integration and security scanning. Free tier available. Best for AWS-heavy teams; less capable than Copilot/Cursor for general coding.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "litellm",
+    "url": "https://github.com/BerriAI/litellm",
+    "open_source": true,
+    "categories": [
+      "llm_orchestration"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "openai",
+      "anthropic",
+      "azure",
+      "ollama",
+      "huggingface"
+    ],
+    "pipeline_stage": [
+      "serving"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": false,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "Unified API for 100+ LLM providers. OpenAI-compatible interface with fallbacks, load balancing, and spend tracking. Proxy server mode for team usage. De facto standard for multi-provider LLM access.",
+    "used_by": [],
+    "capability_ceiling": "high",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  },
+  {
+    "name": "Docling",
+    "url": "https://github.com/DS4SD/docling",
+    "open_source": true,
+    "categories": [
+      "rag"
+    ],
+    "license": "MIT",
+    "deployment_model": [
+      "embedded_library"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "growth",
+    "governance": "company_backed",
+    "integration_targets": [
+      "langchain",
+      "llamaindex"
+    ],
+    "pipeline_stage": [
+      "data_collection",
+      "preprocessing"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "moderate",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "high",
+    "summary": "IBM's document parsing library. PDF, DOCX, HTML to structured output with layout-aware chunking. ML-based table and figure extraction. Strong alternative to Unstructured for academic/research docs.",
+    "used_by": [],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "unknown",
+    "composite_tool": false
+  }
+]

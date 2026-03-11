@@ -1,0 +1,3763 @@
+[
+  {
+    "name": "React Native",
+    "url": "https://reactnative.dev",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Build native mobile apps using React and JavaScript with native platform components",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Expo",
+      "Metro",
+      "Hermes"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Flutter",
+    "url": "https://flutter.dev",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework",
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Dart"
+    ],
+    "integration_targets": [
+      "Firebase",
+      "Material Design"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Expo",
+    "url": "https://expo.dev",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Platform for building universal React Native apps with managed workflow, OTA updates, and cloud build services",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "mobile_framework"
+    ],
+    "deployment_model": [
+      "saas",
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "React Native",
+      "EAS Build"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Capacitor",
+    "url": "https://capacitorjs.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Cross-platform native runtime for building web-native mobile and desktop apps with native API access",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Ionic",
+      "React",
+      "Vue",
+      "Angular"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Ionic",
+    "url": "https://ionicframework.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Cross-platform mobile UI framework with web components and native access via Capacitor",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "mobile_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Capacitor",
+      "Angular",
+      "React",
+      "Vue"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "NativeScript",
+    "url": "https://nativescript.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Build native mobile apps with JavaScript, TypeScript, or Angular using direct access to native APIs",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Angular",
+      "Vue"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": ".NET MAUI",
+    "url": "https://dotnet.microsoft.com/en-us/apps/maui",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Microsoft's cross-platform framework for building native mobile and desktop apps with C# and XAML",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework",
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C#",
+      ".NET"
+    ],
+    "integration_targets": [
+      "Visual Studio",
+      "Xamarin"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Kotlin Multiplatform",
+    "url": "https://kotlinlang.org/docs/multiplatform.html",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Share Kotlin code across Android, iOS, desktop, web, and server platforms with platform-specific APIs",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Kotlin"
+    ],
+    "integration_targets": [
+      "Jetpack Compose",
+      "SwiftUI"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "SwiftUI",
+    "url": "https://developer.apple.com/xcode/swiftui",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Apple's declarative UI framework for building native interfaces across iOS, macOS, watchOS, and tvOS",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework",
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Swift"
+    ],
+    "integration_targets": [
+      "Xcode",
+      "UIKit",
+      "AppKit"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Jetpack Compose",
+    "url": "https://developer.android.com/jetpack/compose",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Android's modern declarative UI toolkit for building native interfaces with Kotlin",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Kotlin"
+    ],
+    "integration_targets": [
+      "Android Studio",
+      "Kotlin Multiplatform"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Compose Multiplatform",
+    "url": "https://www.jetbrains.com/lp/compose-multiplatform",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "JetBrains framework extending Jetpack Compose to iOS, desktop, and web from shared Kotlin code",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mobile_framework",
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Kotlin"
+    ],
+    "integration_targets": [
+      "Jetpack Compose",
+      "Kotlin Multiplatform"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Electron",
+    "url": "https://www.electronjs.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Build cross-platform desktop apps with JavaScript, HTML, and CSS using Chromium and Node.js",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Vue",
+      "Angular",
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Wails",
+    "url": "https://wails.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Build desktop applications using Go backend and web technologies for the frontend",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Go",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Vue",
+      "Svelte"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Neutralinojs",
+    "url": "https://neutralino.js.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Lightweight cross-platform desktop application framework using system webview instead of bundled browser",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Vue"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Qt",
+    "url": "https://www.qt.io",
+    "open_source": true,
+    "license": "LGPL-3.0",
+    "summary": "Comprehensive C++ framework for cross-platform desktop, mobile, and embedded application development",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "QML",
+      "Python"
+    ],
+    "integration_targets": [
+      "CMake",
+      "PyQt"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "GTK",
+    "url": "https://www.gtk.org",
+    "open_source": true,
+    "license": "LGPL-2.1",
+    "summary": "Cross-platform widget toolkit for creating graphical user interfaces, foundation of GNOME desktop",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "Python",
+      "Rust",
+      "Vala"
+    ],
+    "integration_targets": [
+      "GNOME",
+      "GLib"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Dear ImGui",
+    "url": "https://github.com/ocornut/imgui",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Immediate mode GUI library for C++ with minimal dependencies, ideal for tools, debug UIs, and game dev",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C++"
+    ],
+    "integration_targets": [
+      "OpenGL",
+      "Vulkan",
+      "DirectX"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "FLTK",
+    "url": "https://www.fltk.org",
+    "open_source": true,
+    "license": "LGPL-2.0",
+    "summary": "Lightweight cross-platform C++ GUI toolkit with small footprint and minimal dependencies",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C++"
+    ],
+    "integration_targets": [
+      "OpenGL"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Avalonia",
+    "url": "https://avaloniaui.net",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Cross-platform .NET UI framework inspired by WPF for building desktop, mobile, and web apps",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "desktop_framework"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C#",
+      ".NET"
+    ],
+    "integration_targets": [
+      "Visual Studio",
+      ".NET MAUI"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Commander.js",
+    "url": "https://github.com/tj/commander.js",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Complete solution for Node.js command-line interfaces with argument parsing, help generation, and subcommands",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "yargs",
+    "url": "https://yargs.js.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Node.js CLI argument parser with command grouping, auto-generated help, and middleware support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "oclif",
+    "url": "https://oclif.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Framework for building CLIs in Node.js with plugin architecture, used by Heroku and Salesforce CLIs",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Ink",
+    "url": "https://github.com/vadimdemedes/ink",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Build interactive CLI apps using React components rendered to the terminal",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Bubble Tea",
+    "url": "https://github.com/charmbracelet/bubbletea",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Elm-architecture TUI framework for Go with composable components for building terminal user interfaces",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Go"
+    ],
+    "integration_targets": [
+      "Lip Gloss",
+      "Bubbles"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Cobra",
+    "url": "https://cobra.dev",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Go library for creating powerful CLI applications, used by kubectl, Hugo, and GitHub CLI",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Go"
+    ],
+    "integration_targets": [
+      "Viper"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "clap",
+    "url": "https://github.com/clap-rs/clap",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Full-featured command line argument parser for Rust with derive macros and builder patterns",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Textual",
+    "url": "https://textual.textualize.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Python TUI framework for building sophisticated terminal applications with CSS-like styling and widgets",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Rich"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "argparse",
+    "url": "https://docs.python.org/3/library/argparse.html",
+    "open_source": true,
+    "license": "PSF",
+    "summary": "Python standard library module for parsing command-line arguments with automatic help generation",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "cli_framework"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "VS Code",
+    "url": "https://code.visualstudio.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Microsoft's extensible code editor with integrated terminal, debugging, Git, and vast extension marketplace",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "GitHub Copilot",
+      "Docker",
+      "Git"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Neovim",
+    "url": "https://neovim.io",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Hyperextensible Vim-based text editor with Lua scripting, async plugins, and built-in LSP client",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Lua",
+      "Vimscript"
+    ],
+    "integration_targets": [
+      "LSP",
+      "Tree-sitter",
+      "tmux"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Zed",
+    "url": "https://zed.dev",
+    "open_source": true,
+    "license": "GPL-3.0",
+    "summary": "High-performance multiplayer code editor built in Rust by the creators of Atom and Tree-sitter",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "LSP",
+      "Tree-sitter",
+      "GitHub Copilot"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Helix",
+    "url": "https://helix-editor.com",
+    "open_source": true,
+    "license": "MPL-2.0",
+    "summary": "Post-modern modal text editor with built-in LSP support, Tree-sitter, and multiple selections by default",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "LSP",
+      "Tree-sitter"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Vim",
+    "url": "https://www.vim.org",
+    "open_source": true,
+    "license": "Vim",
+    "summary": "Ubiquitous modal text editor with extensive plugin ecosystem, available on virtually every Unix system",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Vimscript"
+    ],
+    "integration_targets": [
+      "tmux",
+      "LSP"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Emacs",
+    "url": "https://www.gnu.org/software/emacs",
+    "open_source": true,
+    "license": "GPL-3.0",
+    "summary": "Extensible, self-documenting editor with Emacs Lisp scripting, Org-mode, and decades of ecosystem",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Emacs Lisp"
+    ],
+    "integration_targets": [
+      "Org-mode",
+      "LSP",
+      "Magit"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Sublime Text",
+    "url": "https://www.sublimetext.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Fast, lightweight text editor with powerful multi-cursor editing, goto-anything, and Python plugin API",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "LSP",
+      "Package Control"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "JetBrains IntelliJ IDEA",
+    "url": "https://www.jetbrains.com/idea",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Full-featured Java/Kotlin IDE with deep code intelligence, refactoring, and integrated dev tools",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Java",
+      "Kotlin"
+    ],
+    "integration_targets": [
+      "Maven",
+      "Gradle",
+      "Git",
+      "Docker"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "JetBrains PyCharm",
+    "url": "https://www.jetbrains.com/pycharm",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Python IDE with intelligent code completion, debugging, testing, and scientific tools integration",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "code_editor"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "pytest",
+      "Docker",
+      "Git",
+      "Jupyter"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "wasm-pack",
+    "url": "https://rustwasm.github.io/wasm-pack",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Build, test, and publish Rust-generated WebAssembly packages to npm registries",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "wasm"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "wasm-bindgen",
+      "npm"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "wasm-bindgen",
+    "url": "https://github.com/rustwasm/wasm-bindgen",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Facilitate high-level interactions between Rust-compiled WebAssembly modules and JavaScript",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "wasm"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "wasm-pack",
+      "JavaScript"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Emscripten",
+    "url": "https://emscripten.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "LLVM-based compiler toolchain for compiling C/C++ code to WebAssembly and JavaScript",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "wasm"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "C++"
+    ],
+    "integration_targets": [
+      "LLVM",
+      "OpenGL",
+      "SDL"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "AssemblyScript",
+    "url": "https://www.assemblyscript.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "TypeScript-like language that compiles directly to WebAssembly with near-native performance",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "wasm"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Binaryen",
+      "npm"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Wasmer",
+    "url": "https://wasmer.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Universal WebAssembly runtime supporting WASI, multiple compilers, and embedding in any language",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "wasm"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust",
+      "C",
+      "C++",
+      "Go",
+      "Python"
+    ],
+    "integration_targets": [
+      "WASI",
+      "WAPM"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Wasmtime",
+    "url": "https://wasmtime.dev",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Bytecode Alliance WebAssembly runtime focused on security, standards compliance, and the WASI component model",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "wasm"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust",
+      "C",
+      "C++",
+      "Go",
+      "Python"
+    ],
+    "integration_targets": [
+      "WASI"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Extism",
+    "url": "https://extism.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Universal WebAssembly plugin framework for building extensible software with wasm modules in any language",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "wasm"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Rust",
+      "Go",
+      "Python",
+      "JavaScript",
+      "C"
+    ],
+    "integration_targets": [
+      "Wasmtime",
+      "WASI"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Protocol Buffers",
+    "url": "https://protobuf.dev",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Google's language-neutral mechanism for serializing structured data with code generation and schema evolution",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "serialization"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Java",
+      "Python",
+      "Go",
+      "C#",
+      "Rust"
+    ],
+    "integration_targets": [
+      "gRPC"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "cluster",
+    "used_by": []
+  },
+  {
+    "name": "MessagePack",
+    "url": "https://msgpack.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Efficient binary serialization format like JSON but smaller and faster with broad language support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "serialization"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python",
+      "Java",
+      "C++",
+      "Go",
+      "Ruby",
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "cluster",
+    "used_by": []
+  },
+  {
+    "name": "FlatBuffers",
+    "url": "https://flatbuffers.dev",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Zero-copy serialization library from Google for game dev and performance-critical applications",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "serialization"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Java",
+      "Go",
+      "C#",
+      "Rust",
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "cluster",
+    "used_by": []
+  },
+  {
+    "name": "Cap'n Proto",
+    "url": "https://capnproto.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Insanely fast serialization protocol with zero-copy reads and RPC system, created by former Protobuf author",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "serialization"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Rust",
+      "Go",
+      "Java",
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "cluster",
+    "used_by": []
+  },
+  {
+    "name": "Apache Thrift",
+    "url": "https://thrift.apache.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Cross-language RPC framework with interface definition language and serialization support",
+    "maturity": "production",
+    "governance": "apache_foundation",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "serialization"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Java",
+      "C++",
+      "Python",
+      "Go",
+      "Ruby"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "cluster",
+    "used_by": []
+  },
+  {
+    "name": "CBOR",
+    "url": "https://cbor.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Concise Binary Object Representation \u2014 compact binary data format based on the JSON data model (RFC 8949)",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "serialization"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C",
+      "Python",
+      "Go",
+      "Rust",
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "cluster",
+    "used_by": []
+  },
+  {
+    "name": "Devcontainers",
+    "url": "https://containers.dev",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Open specification for defining reproducible development environments using containers with IDE integration",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "dev_environment"
+    ],
+    "deployment_model": [
+      "container"
+    ],
+    "language_ecosystem": [
+      "JSON"
+    ],
+    "integration_targets": [
+      "VS Code",
+      "GitHub Codespaces",
+      "Docker"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Gitpod",
+    "url": "https://www.gitpod.io",
+    "open_source": true,
+    "license": "AGPL-3.0",
+    "summary": "Cloud development environments that spin up pre-configured workspaces from any Git context",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "dev_environment"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [],
+    "integration_targets": [
+      "VS Code",
+      "JetBrains",
+      "Git",
+      "Docker"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "GitHub Codespaces",
+    "url": "https://github.com/features/codespaces",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Cloud-hosted dev environments integrated with GitHub, powered by devcontainers and VS Code",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": true,
+    "categories": [
+      "dev_environment"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [],
+    "integration_targets": [
+      "VS Code",
+      "Devcontainers",
+      "GitHub"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Devbox",
+    "url": "https://www.jetify.com/devbox",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Create isolated, reproducible development environments using Nix packages without containers",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "dev_environment"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Go"
+    ],
+    "integration_targets": [
+      "Nix",
+      "Docker"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "mise",
+    "url": "https://mise.jdx.dev",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Polyglot dev tool version manager replacing asdf, nvm, pyenv with task runner and env var management",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "dev_environment"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "asdf"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "asdf",
+    "url": "https://asdf-vm.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Extendable version manager for multiple runtime versions with plugin system for any language",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "dev_environment"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Shell"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "npm",
+    "url": "https://www.npmjs.com",
+    "open_source": true,
+    "license": "Artistic-2.0",
+    "summary": "Default package manager for Node.js with the world's largest software registry",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "package_manager"
+    ],
+    "deployment_model": [
+      "binary",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "pnpm",
+    "url": "https://pnpm.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Fast, disk space efficient package manager using content-addressable storage and hard links",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "package_manager"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Node.js",
+      "npm"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Yarn",
+    "url": "https://yarnpkg.com",
+    "open_source": true,
+    "license": "BSD-2-Clause",
+    "summary": "JavaScript package manager with workspaces, plug-and-play, and deterministic dependency resolution",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "package_manager"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Node.js",
+      "npm"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Bun",
+    "url": "https://bun.sh",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "All-in-one JavaScript runtime, bundler, transpiler, and package manager built for speed with Zig",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "package_manager"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript",
+      "Zig"
+    ],
+    "integration_targets": [
+      "npm",
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Cargo",
+    "url": "https://doc.rust-lang.org/cargo",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Rust's official package manager and build system with dependency resolution and crates.io integration",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "package_manager"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "crates.io"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Poetry",
+    "url": "https://python-poetry.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Python dependency management and packaging tool with deterministic lockfile and virtual env management",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "package_manager"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "PyPI"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Swagger UI",
+    "url": "https://swagger.io/tools/swagger-ui",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Interactive API documentation renderer that visualizes OpenAPI specifications with try-it-out functionality",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "documentation"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "OpenAPI"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "ReadMe",
+    "url": "https://readme.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Developer hub platform for creating interactive API documentation with metrics and user management",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": true,
+    "categories": [
+      "documentation"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [],
+    "integration_targets": [
+      "OpenAPI",
+      "GitHub"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Nextra",
+    "url": "https://nextra.site",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Next.js-based static site generator for documentation and blogs with MDX support and search",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "documentation"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Next.js",
+      "MDX"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Git",
+    "url": "https://git-scm.com",
+    "open_source": true,
+    "license": "GPL-2.0",
+    "summary": "Distributed version control system that tracks changes in source code during software development",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "version_control"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "GitHub CLI",
+    "url": "https://cli.github.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "GitHub's official CLI for managing PRs, issues, releases, and workflows from the terminal",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "version_control"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Go"
+    ],
+    "integration_targets": [
+      "GitHub",
+      "Git",
+      "GitHub Actions"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Gitea",
+    "url": "https://gitea.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Lightweight self-hosted Git service with web UI, issues, PRs, and CI/CD \u2014 painless to deploy",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "version_control"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "Go"
+    ],
+    "integration_targets": [
+      "Git",
+      "Docker"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Forgejo",
+    "url": "https://forgejo.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Community-driven fork of Gitea focused on sustainability and federation under Codeberg governance",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "version_control"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "Go"
+    ],
+    "integration_targets": [
+      "Git",
+      "Docker",
+      "Gitea"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Fossil",
+    "url": "https://fossil-scm.org",
+    "open_source": true,
+    "license": "BSD-2-Clause",
+    "summary": "All-in-one DVCS with built-in wiki, bug tracker, and web UI in a single self-contained executable",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "version_control"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Mercurial",
+    "url": "https://www.mercurial-scm.org",
+    "open_source": true,
+    "license": "GPL-2.0",
+    "summary": "Distributed version control system focused on simplicity and performance, used by large codebases",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "low",
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "version_control"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python",
+      "Rust"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "tmux",
+    "url": "https://github.com/tmux/tmux",
+    "open_source": true,
+    "license": "ISC",
+    "summary": "Terminal multiplexer for managing multiple sessions, windows, and panes in a single terminal",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [
+      "Neovim",
+      "Vim"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "WezTerm",
+    "url": "https://wezfurlong.org/wezterm",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "GPU-accelerated terminal emulator with Lua configuration, multiplexing, and image protocol support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust",
+      "Lua"
+    ],
+    "integration_targets": [
+      "tmux"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Alacritty",
+    "url": "https://alacritty.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Fast, GPU-accelerated terminal emulator focused on simplicity and performance with TOML config",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "tmux"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "kitty",
+    "url": "https://sw.kovidgoyal.net/kitty",
+    "open_source": true,
+    "license": "GPL-3.0",
+    "summary": "Fast GPU-based terminal emulator with tiling, tabs, image display, and remote control protocol",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C",
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Warp",
+    "url": "https://www.warp.dev",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Modern terminal with AI-powered command suggestions, block-based output, and team collaboration",
+    "maturity": "growth",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Starship",
+    "url": "https://starship.rs",
+    "open_source": true,
+    "license": "ISC",
+    "summary": "Minimal, blazing-fast cross-shell prompt with rich module system for git, language versions, and cloud context",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "bash",
+      "zsh",
+      "fish",
+      "PowerShell"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Oh My Zsh",
+    "url": "https://ohmyz.sh",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Community-driven framework for managing Zsh configuration with themes and 300+ plugins",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Shell"
+    ],
+    "integration_targets": [
+      "zsh"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Ghostty",
+    "url": "https://ghostty.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Fast native terminal emulator built in Zig with platform-native UI, GPU rendering, and excellent font support",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Zig"
+    ],
+    "integration_targets": [
+      "tmux"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "curl",
+    "url": "https://curl.se",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Command-line tool and library for transferring data with URLs, supporting dozens of protocols",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "binary",
+      "library"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "HTTPie",
+    "url": "https://httpie.io",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Human-friendly command-line HTTP client with intuitive syntax, JSON support, and colorized output",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "wget",
+    "url": "https://www.gnu.org/software/wget",
+    "open_source": true,
+    "license": "GPL-3.0",
+    "summary": "Non-interactive network downloader with recursive retrieval, resume support, and proxy handling",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "ky",
+    "url": "https://github.com/sindresorhus/ky",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Tiny and elegant HTTP client based on the Fetch API with retry, hooks, and JSON shortcuts",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "got",
+    "url": "https://github.com/sindresorhus/got",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Human-friendly HTTP request library for Node.js with streams, retries, and pagination support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "undici",
+    "url": "https://undici.nodejs.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "High-performance HTTP/1.1 client for Node.js, the engine behind Node's built-in fetch implementation",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "Node.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Requests",
+    "url": "https://requests.readthedocs.io",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Elegant and simple HTTP library for Python with session handling, auth, and connection pooling",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "HTTPX",
+    "url": "https://www.python-httpx.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Fully featured async/sync HTTP client for Python with HTTP/2, connection pooling, and Requests-compatible API",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Postman",
+    "url": "https://www.postman.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "API development platform for building, testing, documenting, and sharing HTTP APIs with team workspaces",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": true,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "binary",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "OpenAPI",
+      "GraphQL"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Insomnia",
+    "url": "https://insomnia.rest",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Open-source API client for designing, debugging, and testing REST, GraphQL, and gRPC APIs",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "http_client"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "OpenAPI",
+      "GraphQL",
+      "gRPC"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Zellij",
+    "url": "https://zellij.dev",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Terminal workspace and multiplexer with layout system, floating panes, and WebAssembly plugin support",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "WASI"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "fish",
+    "url": "https://fishshell.com",
+    "open_source": true,
+    "license": "GPL-2.0",
+    "summary": "User-friendly command-line shell with autosuggestions, syntax highlighting, and web-based configuration",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "Starship"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "nushell",
+    "url": "https://www.nushell.sh",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Modern shell treating data as structured tables with pipelines that work on typed values instead of text",
+    "maturity": "growth",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "high",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "terminal"
+    ],
+    "deployment_model": [
+      "binary"
+    ],
+    "language_ecosystem": [
+      "Rust"
+    ],
+    "integration_targets": [
+      "Starship"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "gRPC",
+    "url": "https://grpc.io",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "High-performance universal RPC framework using Protocol Buffers with streaming and load balancing",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "serialization",
+      "http_client"
+    ],
+    "deployment_model": [
+      "library"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Go",
+      "Java",
+      "Python",
+      "Rust",
+      "C#"
+    ],
+    "integration_targets": [
+      "Protocol Buffers"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "cluster",
+    "used_by": []
+  }
+]

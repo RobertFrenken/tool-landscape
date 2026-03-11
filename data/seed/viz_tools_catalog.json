@@ -1,0 +1,3622 @@
+[
+  {
+    "name": "D3.js",
+    "url": "https://d3js.org",
+    "open_source": true,
+    "license": "ISC",
+    "summary": "Low-level JavaScript library for data-driven document manipulation and visualization using web standards (SVG, Canvas, HTML)",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Observable Framework",
+      "Observable Plot"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Chart.js",
+    "url": "https://www.chartjs.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Simple yet flexible JavaScript charting library for designers and developers with canvas-based rendering and good defaults",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "ECharts",
+    "url": "https://echarts.apache.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Feature-rich interactive charting and data visualization library from Apache with declarative API and extensive chart types",
+    "maturity": "production",
+    "governance": "apache_foundation",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Highcharts",
+    "url": "https://www.highcharts.com",
+    "open_source": false,
+    "license": "Commercial",
+    "summary": "Commercial JavaScript charting library with extensive chart types, accessibility, and enterprise support; free for non-commercial use",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "Plotly.js",
+    "url": "https://plotly.com/javascript/",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "High-level declarative charting library built on D3.js and WebGL with 40+ chart types and interactive features",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "scientific_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Plotly",
+      "Dash"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Recharts",
+    "url": "https://recharts.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Composable React charting library built on D3 with declarative components for building charts from reusable pieces",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Nivo",
+    "url": "https://nivo.rocks",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Rich set of React dataviz components built on D3 with server-side rendering support and 27+ chart types",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "D3.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Victory",
+    "url": "https://formidable.com/open-source/victory/",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "React component library for building interactive data visualizations with composable chart components",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "React Native"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "visx",
+    "url": "https://airbnb.io/visx/",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Collection of low-level React visualization primitives from Airbnb combining D3 power with React component model",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "D3.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Billboard.js",
+    "url": "https://naver.github.io/billboard.js/",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Re-usable easy-interface JavaScript chart library based on D3.js maintained by NAVER",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "D3.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "ApexCharts",
+    "url": "https://apexcharts.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Modern interactive charting library with clean API, responsive design, and framework wrappers for React/Vue/Angular",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Vue",
+      "Angular"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "C3.js",
+    "url": "https://c3js.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "D3-based reusable chart library providing classes for each chart type to simplify D3 chart generation",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "D3.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Frappe Charts",
+    "url": "https://frappe.io/charts",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Simple responsive modern SVG charts with zero dependencies for quick data visualization",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "uPlot",
+    "url": "https://github.com/leeoniya/uPlot",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Ultra-small (~50KB) fast time series chart library optimized for performance with minimal memory footprint",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Chartist.js",
+    "url": "https://chartist.dev",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Simple responsive SVG charting library with clean separation of concerns between CSS and JavaScript",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "G2",
+    "url": "https://g2.antv.antgroup.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Concise and progressive visualization grammar from AntV for building interactive data-driven graphics",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "G6",
+      "Ant Design"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Observable Plot",
+    "url": "https://observablehq.com/plot/",
+    "open_source": true,
+    "license": "ISC",
+    "summary": "Concise high-level JavaScript charting library from Observable for exploratory data analysis with sensible defaults",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Observable Framework",
+      "D3.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Vega",
+    "url": "https://vega.github.io/vega/",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Declarative visualization grammar using JSON specifications to create interactive views of data",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Vega-Lite",
+      "Altair"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Vega-Lite",
+    "url": "https://vega.github.io/vega-lite/",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "High-level grammar of interactive graphics providing concise JSON syntax that compiles to full Vega specifications",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Vega",
+      "Altair"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Cytoscape.js",
+    "url": "https://js.cytoscape.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Graph theory / network visualization library for analysis and visualization with rich interaction and layout algorithms",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Dagre",
+      "ELK"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Sigma.js",
+    "url": "https://www.sigmajs.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "WebGL-powered JavaScript library for visualizing large graphs with thousands of nodes and edges performantly",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "graphology"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "vis-network",
+    "url": "https://visjs.github.io/vis-network/",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Dynamic browser-based network visualization library for displaying customizable automatically-organized graph views",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "G6",
+    "url": "https://g6.antv.antgroup.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Graph visualization framework from AntV for interactive relationship data and network analysis with rich layouts",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "G2",
+      "Ant Design"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Gephi",
+    "url": "https://gephi.org",
+    "open_source": true,
+    "license": "CDDL-1.0",
+    "summary": "Desktop application for interactive graph and network visualization, exploration, and analysis of large networks",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Java"
+    ],
+    "integration_targets": [
+      "Sigma.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "yFiles",
+    "url": "https://www.yfiles.com",
+    "open_source": false,
+    "license": "Commercial",
+    "summary": "Commercial graph visualization SDK with advanced automatic layout algorithms, available for HTML/Java/.NET/JavaFX",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz",
+      "diagramming"
+    ],
+    "deployment_model": [
+      "npm",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "Java"
+    ],
+    "integration_targets": [
+      "React",
+      "Angular",
+      "Vue"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "Graphviz",
+    "url": "https://graphviz.org",
+    "open_source": true,
+    "license": "EPL-1.0",
+    "summary": "Open-source graph visualization software using DOT language for describing graphs with automatic layout algorithms",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz",
+      "diagramming"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "C"
+    ],
+    "integration_targets": [
+      "Jupyter Notebook",
+      "Kroki"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "react-force-graph",
+    "url": "https://github.com/vasturiano/react-force-graph",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "React component for force-directed 2D/3D/VR graph visualization using D3 force simulation and Three.js",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Three.js",
+      "D3.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Dagre",
+    "url": "https://github.com/dagrejs/dagre",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "JavaScript library for directed graph layout using Sugiyama-style hierarchical algorithm for DAG visualization",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Cytoscape.js",
+      "D3.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "ELK",
+    "url": "https://www.eclipse.org/elk/",
+    "open_source": true,
+    "license": "EPL-2.0",
+    "summary": "Eclipse Layout Kernel providing automatic graph layout algorithms usable standalone or via elkjs in JavaScript",
+    "maturity": "production",
+    "governance": "foundation",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Java",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Cytoscape.js",
+      "React Flow"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "graphology",
+    "url": "https://graphology.github.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Robust multi-purpose JavaScript graph library providing graph data structure and standard graph algorithms",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Sigma.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "React Flow",
+    "url": "https://reactflow.dev",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Customizable React component for building interactive node-based editors, flow charts, and diagrams",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "graph_viz",
+      "diagramming"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Dagre",
+      "ELK"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Leaflet",
+    "url": "https://leafletjs.com",
+    "open_source": true,
+    "license": "BSD-2-Clause",
+    "summary": "Lightweight open-source JavaScript library for mobile-friendly interactive maps with a simple well-documented API",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Folium",
+      "MapLibre GL JS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Mapbox GL JS",
+    "url": "https://docs.mapbox.com/mapbox-gl-js/",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "JavaScript library for interactive vector tile maps using WebGL with custom styling and 3D terrain support",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "npm",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Deck.gl",
+      "Kepler.gl"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "OpenLayers",
+    "url": "https://openlayers.org",
+    "open_source": true,
+    "license": "BSD-2-Clause",
+    "summary": "High-performance feature-packed JavaScript library for displaying maps with vector tiles, WMS, WFS, and GeoJSON",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "GeoServer"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Deck.gl",
+    "url": "https://deck.gl",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "WebGL2/WebGPU-powered framework for large-scale data visualization with geospatial and non-geospatial layers",
+    "maturity": "production",
+    "governance": "linux_foundation",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "MapLibre GL JS",
+      "Mapbox GL JS",
+      "Google Maps API",
+      "PyDeck"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "CesiumJS",
+    "url": "https://cesium.com/platform/cesiumjs/",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "JavaScript library for creating 3D globes and maps with time-dynamic visualization and terrain rendering",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "Turf.js",
+    "url": "https://turfjs.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Advanced geospatial analysis library for browsers and Node.js with modular functions for spatial operations",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Leaflet",
+      "Mapbox GL JS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "MapLibre GL JS",
+    "url": "https://maplibre.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Open-source community fork of Mapbox GL JS for interactive vector tile maps in the browser using WebGL",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Deck.gl",
+      "Kepler.gl"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Kepler.gl",
+    "url": "https://kepler.gl",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Powerful open-source geospatial analysis tool for large-scale data sets built on Deck.gl and Mapbox GL",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "mapping",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Deck.gl",
+      "MapLibre GL JS",
+      "Jupyter Notebook"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "H3",
+    "url": "https://h3geo.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Hexagonal hierarchical geospatial indexing system from Uber for efficient spatial data partitioning and analysis",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "C",
+      "Python",
+      "JavaScript",
+      "Java"
+    ],
+    "integration_targets": [
+      "DuckDB",
+      "Deck.gl",
+      "Kepler.gl"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "GeoServer",
+    "url": "https://geoserver.org",
+    "open_source": true,
+    "license": "GPL-2.0",
+    "summary": "Open-source Java server for sharing and editing geospatial data implementing OGC WMS/WFS/WCS standards",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Java"
+    ],
+    "integration_targets": [
+      "OpenLayers",
+      "Leaflet",
+      "QGIS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "QGIS",
+    "url": "https://qgis.org",
+    "open_source": true,
+    "license": "GPL-2.0",
+    "summary": "Full-featured open-source desktop GIS application for creating, editing, visualizing, and analyzing geospatial data",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Python"
+    ],
+    "integration_targets": [
+      "GeoServer",
+      "PostGIS",
+      "CesiumJS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Google Maps API",
+    "url": "https://developers.google.com/maps",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Google's mapping platform with JavaScript API for embedding interactive maps, geocoding, and routing services",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Deck.gl"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "draw.io",
+    "url": "https://www.drawio.com",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Free browser-based diagramming tool (also known as diagrams.net) for flowcharts, UML, network diagrams, and more",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "diagramming"
+    ],
+    "deployment_model": [
+      "saas",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Confluence",
+      "GitHub"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Virtual whiteboard for sketching hand-drawn style diagrams with real-time collaboration and library support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "diagramming"
+    ],
+    "deployment_model": [
+      "saas",
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "tldraw",
+    "url": "https://tldraw.dev",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Infinite canvas SDK for React with whiteboard and diagramming capabilities; free for non-commercial, paid for production",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "diagramming"
+    ],
+    "deployment_model": [
+      "npm",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Eraser",
+    "url": "https://www.eraser.io",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "AI-powered technical diagramming and documentation tool with diagram-as-code and GitHub integration",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "diagramming"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "GitHub"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Three.js",
+    "url": "https://threejs.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Widely-used JavaScript 3D library providing WebGL rendering with scene graph, cameras, lights, and loaders",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React Three Fiber"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Babylon.js",
+    "url": "https://www.babylonjs.com",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Powerful real-time 3D engine using WebGL and WebGPU for rendering interactive 3D experiences in the browser",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "A-Frame",
+    "url": "https://aframe.io",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Web framework for building VR/AR experiences using HTML-like declarative components built on Three.js",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Three.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "React Three Fiber",
+    "url": "https://docs.pmnd.rs/react-three-fiber",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "React renderer for Three.js enabling declarative 3D scene construction using React components and hooks",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Three.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Spline",
+    "url": "https://spline.design",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Browser-based 3D design tool for creating interactive 3D experiences with real-time collaboration",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "high",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "low",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Model Viewer",
+    "url": "https://modelviewer.dev",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Web component from Google for rendering 3D models in web pages with AR support and customizable controls",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "PlayCanvas",
+    "url": "https://playcanvas.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "WebGL/WebGPU game engine with visual editor for creating interactive 3D web content and games",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "low",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "PixiJS",
+    "url": "https://pixijs.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Fast 2D WebGL renderer with canvas fallback for creating interactive graphics, games, and animated content",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "AG Grid",
+    "url": "https://www.ag-grid.com",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Feature-rich JavaScript data grid with community (MIT) and enterprise editions for React/Angular/Vue",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_grid"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Angular",
+      "Vue"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "TanStack Table",
+    "url": "https://tanstack.com/table",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Headless UI table library for building powerful tables and datagrids with framework adapters for React/Vue/Solid/Svelte",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_grid"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Vue",
+      "Svelte",
+      "Solid"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Handsontable",
+    "url": "https://handsontable.com",
+    "open_source": false,
+    "license": "Commercial",
+    "summary": "Spreadsheet-like JavaScript data grid component; free for non-commercial use, paid license for commercial projects",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_grid"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Angular",
+      "Vue"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "SlickGrid",
+    "url": "https://github.com/6pac/SlickGrid",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Lightning-fast JavaScript grid/spreadsheet with virtual scrolling for rendering millions of rows efficiently",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_grid"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "DataTables",
+    "url": "https://datatables.net",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "jQuery plugin for enhancing HTML tables with pagination, searching, sorting, and AJAX data loading",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_grid"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "jQuery"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Tabulator",
+    "url": "https://tabulator.info",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Interactive tables and data grids for JavaScript with no dependencies, supporting filtering, sorting, and editing",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_grid"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "VTK.js",
+    "url": "https://kitware.github.io/vtk-js/",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "JavaScript implementation of VTK for scientific visualization in the browser including volume rendering and isosurfaces",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "heavy",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scientific_viz",
+      "3d_graphics"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "ParaView"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "ParaView",
+    "url": "https://www.paraview.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Multi-platform data analysis and visualization application for large scientific datasets with parallel processing support",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "scientific_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "C++",
+      "Python"
+    ],
+    "integration_targets": [
+      "VTK.js"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "Mayavi",
+    "url": "https://docs.enthought.com/mayavi/mayavi/",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "3D scientific data visualization and plotting in Python built on VTK with NumPy integration",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "heavy",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scientific_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "NumPy",
+      "Jupyter Notebook"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Bokeh",
+    "url": "https://bokeh.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Interactive visualization library for Python that creates browser-ready plots from large and streaming datasets",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scientific_viz",
+      "charting",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Jupyter Notebook",
+      "Panel",
+      "HoloViews"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Altair",
+    "url": "https://altair-viz.github.io",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Declarative statistical visualization library for Python based on Vega-Lite with a concise grammar of graphics API",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scientific_viz",
+      "charting",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Vega-Lite",
+      "Jupyter Notebook",
+      "Streamlit"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "HoloViews",
+    "url": "https://holoviews.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Python library that makes data analysis and visualization seamless by letting your data visualize itself",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scientific_viz",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Bokeh",
+      "matplotlib",
+      "Panel",
+      "Datashader"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Plotnine",
+    "url": "https://plotnine.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Grammar of graphics implementation for Python based on R's ggplot2 for creating complex multi-layered plots",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "python_viz",
+      "charting"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "matplotlib",
+      "Jupyter Notebook"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "PyDeck",
+    "url": "https://deckgl.readthedocs.io",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Python bindings for Deck.gl enabling large-scale geospatial visualization in Jupyter notebooks",
+    "maturity": "production",
+    "governance": "linux_foundation",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Deck.gl",
+      "Jupyter Notebook",
+      "Streamlit"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Folium",
+    "url": "https://python-visualization.github.io/folium/",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Python library to create interactive Leaflet maps from data manipulated with Python (pandas, etc.)",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Leaflet",
+      "Jupyter Notebook"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "GeoPandas",
+    "url": "https://geopandas.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Python library extending pandas with geospatial operations including spatial joins, plotting, and file I/O",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "matplotlib",
+      "Folium",
+      "Shapely"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Datashader",
+    "url": "https://datashader.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Python library for rendering massive datasets into fixed-size raster images quickly and accurately",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scientific_viz",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Bokeh",
+      "HoloViews",
+      "matplotlib"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "hvPlot",
+    "url": "https://hvplot.holoviz.org",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "High-level plotting API for pandas, dask, xarray, and networkx built on HoloViews with familiar .plot() syntax",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "python_viz",
+      "charting"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "HoloViews",
+      "Bokeh",
+      "matplotlib",
+      "Plotly"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Pygwalker",
+    "url": "https://kanaries.net/pygwalker",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Python library that turns pandas DataFrames into a Tableau-like visual exploration interface in Jupyter",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "python_viz",
+      "dashboard"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Jupyter Notebook",
+      "Streamlit"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Matplotlib Basemap",
+    "url": "https://matplotlib.org/basemap/",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Matplotlib toolkit for plotting 2D geographic data on map projections (deprecated in favor of Cartopy)",
+    "maturity": "archived",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "declining",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "high",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "matplotlib"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Cartopy",
+    "url": "https://scitools.org.uk/cartopy/",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Python library for cartographic projections and geospatial data visualization built on matplotlib and PROJ",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "matplotlib",
+      "GeoPandas"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Shapely",
+    "url": "https://shapely.readthedocs.io",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Python library for manipulation and analysis of planar geometric objects based on GEOS library",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "GeoPandas",
+      "Folium"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Mosaic",
+    "url": "https://uwdata.github.io/mosaic/",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Extensible framework for linking data visualizations, tables, and inputs over DuckDB with cross-filtering",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "charting",
+      "visualization",
+      "dashboard"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "DuckDB",
+      "Observable Framework",
+      "Vega-Lite"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Perspective",
+    "url": "https://perspective.finos.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Interactive analytics and data visualization component for large or streaming datasets with WebAssembly engine",
+    "maturity": "production",
+    "governance": "linux_foundation",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_grid",
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript",
+      "Python"
+    ],
+    "integration_targets": [
+      "Jupyter Notebook",
+      "Apache Arrow"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Superset",
+    "url": "https://superset.apache.org",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Modern data exploration and visualization platform with rich chart builder and interactive dashboards",
+    "maturity": "production",
+    "governance": "apache_foundation",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "heavy",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": true,
+    "self_hosted_viable": true,
+    "composite_tool": true,
+    "categories": [
+      "dashboard"
+    ],
+    "deployment_model": [
+      "self_hosted",
+      "saas"
+    ],
+    "language_ecosystem": [
+      "Python",
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "PostgreSQL",
+      "DuckDB",
+      "Trino"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "Tremor",
+    "url": "https://www.tremor.so",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "React library for building dashboards with pre-built chart and UI components using Tailwind CSS",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "dashboard",
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "React",
+      "Recharts",
+      "Tailwind CSS"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Apache ECharts for Python (pyecharts)",
+    "url": "https://pyecharts.org",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Python wrapper for Apache ECharts enabling interactive chart generation from Python with Jupyter integration",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "python_viz",
+      "charting"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "ECharts",
+      "Jupyter Notebook"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Plotly Express",
+    "url": "https://plotly.com/python/plotly-express/",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "High-level Python interface to Plotly for creating common figures in a single function call with tidy data",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "python_viz",
+      "charting"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [
+      "Plotly",
+      "Dash",
+      "Jupyter Notebook"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Manim",
+    "url": "https://www.manim.community",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Community-maintained Python library for creating mathematical animations and explanatory videos programmatically",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "low",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": true,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "scientific_viz",
+      "python_viz"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "Python"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Vega Embed",
+    "url": "https://github.com/vega/vega-embed",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "summary": "Utility for embedding Vega and Vega-Lite visualizations in web pages with tooltip and export support",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Vega",
+      "Vega-Lite"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  },
+  {
+    "name": "Mermaid Chart",
+    "url": "https://www.mermaidchart.com",
+    "open_source": false,
+    "license": "Proprietary",
+    "summary": "Commercial SaaS platform for creating, editing, and sharing Mermaid diagrams with visual editor and collaboration",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "low",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": true,
+    "self_hosted_viable": false,
+    "composite_tool": false,
+    "categories": [
+      "diagramming"
+    ],
+    "deployment_model": [
+      "saas"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Mermaid",
+      "GitHub",
+      "VS Code"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "PostGIS",
+    "url": "https://postgis.net",
+    "open_source": true,
+    "license": "GPL-2.0",
+    "summary": "Spatial database extension for PostgreSQL adding geographic object support and spatial SQL functions",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "SQL",
+      "C"
+    ],
+    "integration_targets": [
+      "PostgreSQL",
+      "QGIS",
+      "GeoServer",
+      "GeoPandas"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "enterprise",
+    "used_by": []
+  },
+  {
+    "name": "Luma.gl",
+    "url": "https://luma.gl",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "High-performance WebGL2/WebGPU framework from vis.gl providing GPU-accelerated data visualization primitives",
+    "maturity": "production",
+    "governance": "linux_foundation",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "moderate",
+    "interoperability": "high",
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "3d_graphics",
+      "visualization"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Deck.gl"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Lightweight Charts",
+    "url": "https://www.tradingview.com/lightweight-charts/",
+    "open_source": true,
+    "license": "Apache-2.0",
+    "summary": "Financial charting library from TradingView for rendering lightweight interactive candlestick and time-series charts",
+    "maturity": "production",
+    "governance": "company_backed",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "charting"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [],
+    "pipeline_stage": [],
+    "scale_profile": "team",
+    "used_by": []
+  },
+  {
+    "name": "Leaflet.markercluster",
+    "url": "https://github.com/Leaflet/Leaflet.markercluster",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "Leaflet plugin for beautiful animated marker clustering with spiderfied click expansion",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "medium",
+    "capability_ceiling": "low",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": false,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "JavaScript"
+    ],
+    "integration_targets": [
+      "Leaflet"
+    ],
+    "pipeline_stage": [],
+    "scale_profile": "single_node",
+    "used_by": []
+  }
+]
