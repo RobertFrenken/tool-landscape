@@ -21,7 +21,7 @@ jobs:
         run: pip install uv
 
       - name: Create venv and install dependencies
-        run: uv venv .venv && uv pip install -e ".[dev]" --python .venv/bin/python
+        run: uv venv .venv && uv pip install -e ".[dev,metrics]" --python .venv/bin/python
 
       - name: Lint
         run: .venv/bin/ruff check landscape/ tests/
