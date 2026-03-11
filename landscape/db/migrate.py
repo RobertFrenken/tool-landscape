@@ -228,7 +228,8 @@ def derive_edges(con: duckdb.DuckDBPyConnection) -> int:
                     con.execute(
                         """
                         INSERT INTO edges (source_id, target_id, relation, source_info, evidence)
-                        VALUES ($1, $2, 'integrates_with', 'hand_curated', 'Derived from integration_targets field')
+                        VALUES ($1, $2, 'integrates_with', 'hand_curated',
+                            'Derived from integration_targets field')
                         """,
                         [tool_id, target_id],
                     )
@@ -236,6 +237,34 @@ def derive_edges(con: duckdb.DuckDBPyConnection) -> int:
                 except duckdb.ConstraintException:
                     pass  # Duplicate edge
 
+    return count
+
+
+def backfill_identifiers(con: duckdb.DuckDBPyConnection) -> int:
+    """Backfill github_repo/pypi_package/npm_package from resolved_identifiers.json."""
+    ids_path = SEED_DIR / ".." / "resolved_identifiers.json"
+    if not ids_path.exists():
+        return 0
+
+    identifiers = json.loads(ids_path.read_text())
+    count = 0
+    for name, ids in identifiers.items():
+        gh = ids.get("github_repo")
+        pypi = ids.get("pypi_package")
+        npm = ids.get("npm_package")
+        if gh or pypi or npm:
+            con.execute(
+                """
+                UPDATE tools
+                SET github_repo = COALESCE($2, github_repo),
+                    pypi_package = COALESCE($3, pypi_package),
+                    npm_package = COALESCE($4, npm_package),
+                    updated_at = current_timestamp
+                WHERE name = $1
+                """,
+                [name, gh, pypi, npm],
+            )
+            count += 1
     return count
 
 
@@ -247,6 +276,7 @@ def run_migration(con: duckdb.DuckDBPyConnection) -> dict[str, int]:
         "tools": migrate_tools(con),
         "projects": migrate_projects(con),
         "edges": derive_edges(con),
+        "identifiers": backfill_identifiers(con),
     }
 
     return results

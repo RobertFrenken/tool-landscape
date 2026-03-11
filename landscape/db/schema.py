@@ -25,7 +25,8 @@ CREATE TYPE IF NOT EXISTS governance_type AS ENUM (
     'apache_foundation', 'cncf', 'linux_foundation'
 );
 CREATE TYPE IF NOT EXISTS metric_source AS ENUM (
-    'hand_curated', 'github_api', 'pypi_stats', 'npm_stats', 'override'
+    'hand_curated', 'github_api', 'pypi_stats', 'npm_stats',
+    'deps_dev', 'libraries_io', 'openssf_scorecard', 'override'
 );
 CREATE TYPE IF NOT EXISTS edge_type AS ENUM (
     'requires', 'replaces', 'often_paired',
@@ -83,6 +84,11 @@ CREATE TABLE IF NOT EXISTS tools (
     pipeline_stages     VARCHAR[] DEFAULT [],
     scale_profiles      VARCHAR[] DEFAULT [],
     used_by             VARCHAR[] DEFAULT [],
+
+    -- Registry identifiers (populated by resolve step)
+    github_repo     VARCHAR,
+    pypi_package    VARCHAR,
+    npm_package     VARCHAR,
 
     -- Metadata
     created_at   TIMESTAMP DEFAULT current_timestamp,

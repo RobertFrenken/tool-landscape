@@ -1,0 +1,3834 @@
+{
+  "Accelerate": {
+    "github_repo": "huggingface/accelerate",
+    "npm_package": null,
+    "pypi_package": "accelerate",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Activeloop Hub (Deep Lake)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Advisor": {
+    "github_repo": "tobegit3hub/advisor",
+    "npm_package": null,
+    "pypi_package": "advisor",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Aeromancy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "manual_correction"
+    ]
+  },
+  "Aim": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "aim",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Airbyte": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "airbyte",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Alibi": {
+    "github_repo": "SeldonIO/alibi",
+    "npm_package": null,
+    "pypi_package": "alibi",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Alluxio": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Amazon SageMaker": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Amundsen": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ansible": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "ansible",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Anyscale": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "anyscale",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Apache AGE": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Accumulo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Airflow": {
+    "github_repo": "apache/airflow",
+    "npm_package": null,
+    "pypi_package": "apache-airflow",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Apache Amoro": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Arrow": {
+    "github_repo": "apache/arrow",
+    "npm_package": null,
+    "pypi_package": "pyarrow",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Apache Atlas": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Avro": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Beam": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "apache-beam",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Apache Camel": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Cassandra": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache DataFusion": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache DolphinScheduler": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Doris": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Drill": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Druid": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Flink": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "apache-flink",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Apache Flume": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Gluten": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Gobblin": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Gravitino": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache HBase": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Hadoop": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Hadoop HDFS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Hive": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Hudi": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Iceberg": {
+    "github_repo": "apache/iceberg",
+    "npm_package": null,
+    "pypi_package": "apache-iceberg",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Apache Ignite": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Impala": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache InLong": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache IoTDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Kafka": {
+    "github_repo": "dpkp/kafka-python",
+    "npm_package": null,
+    "pypi_package": "kafka-python",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Apache Knox": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Kudu": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Kylin": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Linkis": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Mesos": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache NiFi": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache ORC": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache OpenDAL": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Ozone": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Paimon": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Parquet": {
+    "github_repo": "apache/arrow",
+    "npm_package": null,
+    "pypi_package": "pyarrow",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Apache Pinot": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Polaris": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Pulsar": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Ranger": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache RocketMQ": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Samza": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache SeaTunnel": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache ShardingSphere": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Singa": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Solr": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Spark": {
+    "github_repo": "apache/spark",
+    "npm_package": null,
+    "pypi_package": "pyspark",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Apache Storm": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Superset": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "apache-superset",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Apache SystemDS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache TVM": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "apache-tvm",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Apache XTable": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache YARN": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Apache Zeppelin": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Aporia": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "aporia",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Apptainer (Singularity)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ArangoDB": {
+    "github_repo": null,
+    "npm_package": "arangodb",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Argo Workflows": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "argo-workflows",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "ArgoCD": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Arize AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Arize Phoenix": {
+    "github_repo": "Arize-ai/phoenix",
+    "npm_package": null,
+    "pypi_package": "arize-phoenix",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Arrikto": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Arroyo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Auto-PyTorch": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Auto-sklearn": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "auto-sklearn",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "AutoGluon": {
+    "github_repo": "autogluon/autogluon",
+    "npm_package": null,
+    "pypi_package": "autogluon",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "AutoKeras": {
+    "github_repo": "keras-team/autokeras",
+    "npm_package": null,
+    "pypi_package": "autokeras",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "AutoMQ": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Azkaban": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Azure Machine Learning": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Bamboolib": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "bamboolib",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Banana": {
+    "github_repo": "MonashBI/banana",
+    "npm_package": null,
+    "pypi_package": "banana",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Bazel": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "BentoML": {
+    "github_repo": "bentoml/BentoML",
+    "npm_package": null,
+    "pypi_package": "bentoml",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Black": {
+    "github_repo": "psf/black",
+    "npm_package": null,
+    "pypi_package": "black",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "BlazingSQL": {
+    "github_repo": "BlazingDB/blazingsql",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Bodywork": {
+    "github_repo": "bodywork-ml/bodywork-core",
+    "npm_package": null,
+    "pypi_package": "bodywork",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "BudgetML": {
+    "github_repo": "ebhy/budgetml",
+    "npm_package": null,
+    "pypi_package": "budgetml",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Butterfree": {
+    "github_repo": "quintoandar/butterfree",
+    "npm_package": null,
+    "pypi_package": "butterfree",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ByteHub": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "bytehub",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Bytewax": {
+    "github_repo": "bytewax/bytewax",
+    "npm_package": null,
+    "pypi_package": "bytewax",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "CKAN": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "ckan",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "CML": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "cml",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "CNVRG.io": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "CUDA Toolkit": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "cuda-toolkit",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "CVAT": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "CWL (Common Workflow Language)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cadence": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Captum": {
+    "github_repo": "pytorch/captum",
+    "npm_package": null,
+    "pypi_package": "captum",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "CatBoost": {
+    "github_repo": "catboost/catboost",
+    "npm_package": null,
+    "pypi_package": "catboost",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Celery": {
+    "github_repo": "celery/celery",
+    "npm_package": null,
+    "pypi_package": "celery",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Ceph": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cerberus": {
+    "github_repo": "pyeve/cerberus",
+    "npm_package": null,
+    "pypi_package": "cerberus",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ChromaDB": {
+    "github_repo": "chroma-core/chroma",
+    "npm_package": null,
+    "pypi_package": "chromadb",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Citus": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cleanlab": {
+    "github_repo": "cleanlab/cleanlab",
+    "npm_package": null,
+    "pypi_package": "cleanlab",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ClearML": {
+    "github_repo": "allegroai/clearml",
+    "npm_package": null,
+    "pypi_package": "clearml",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Click": {
+    "github_repo": "pallets/click",
+    "npm_package": null,
+    "pypi_package": "click",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ClickHouse": {
+    "github_repo": "ppodolsky/clickhouse-python",
+    "npm_package": null,
+    "pypi_package": "clickhouse",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "CloudQuery": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "CockroachDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cog": {
+    "github_repo": "replicate/cog",
+    "npm_package": null,
+    "pypi_package": "cog",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Cognee": {
+    "github_repo": "topoteretes/cognee",
+    "npm_package": null,
+    "pypi_package": "cognee",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Comet ML": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "comet-ml",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Confluent Schema Registry": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "CouchDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Count": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "CrateDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cromwell": {
+    "github_repo": "broadinstitute/cromwell",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Cronitor": {
+    "github_repo": "cronitorio/cronitor-python",
+    "npm_package": null,
+    "pypi_package": "cronitor",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Crossplane": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Cube": {
+    "github_repo": null,
+    "npm_package": "cube",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "DGL (Deep Graph Library)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "DVC": {
+    "github_repo": "iterative/dvc",
+    "npm_package": null,
+    "pypi_package": "dvc",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Daft": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "daft",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Dagger": {
+    "github_repo": null,
+    "npm_package": "dagger",
+    "pypi_package": "dagger",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Dagster": {
+    "github_repo": "dagster-io/dagster",
+    "npm_package": null,
+    "pypi_package": "dagster",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Dash": {
+    "github_repo": "plotly/dash",
+    "npm_package": null,
+    "pypi_package": "dash",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Dask": {
+    "github_repo": "dask/dask",
+    "npm_package": null,
+    "pypi_package": "dask",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Data-diff": {
+    "github_repo": "datafold/data-diff",
+    "npm_package": null,
+    "pypi_package": "data-diff",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "DataHub": {
+    "github_repo": null,
+    "npm_package": "datahub",
+    "pypi_package": "datahub",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "DataPrep": {
+    "github_repo": "sfu-db/dataprep",
+    "npm_package": null,
+    "pypi_package": "dataprep",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "DataRobot": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "datarobot",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Databend": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Datachain": {
+    "github_repo": "iterative/datachain",
+    "npm_package": null,
+    "pypi_package": "datachain",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Dataiku": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Datasette": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "datasette",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Debezium": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "DeepSpeed": {
+    "github_repo": "microsoft/DeepSpeed",
+    "npm_package": null,
+    "pypi_package": "deepspeed",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Deepchecks": {
+    "github_repo": "deepchecks/deepchecks",
+    "npm_package": null,
+    "pypi_package": "deepchecks",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Deepnote": {
+    "github_repo": "s-omranpour/DeepNote",
+    "npm_package": null,
+    "pypi_package": "deepnote",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Deeque": {
+    "github_repo": "awslabs/deeque",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Delta Lake": {
+    "github_repo": "delta-io/delta",
+    "npm_package": null,
+    "pypi_package": "delta-spark",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Delta-rs": {
+    "github_repo": "delta-io/delta-rs",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Determined AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Dgraph": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Dify": {
+    "github_repo": null,
+    "npm_package": "dify",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Docker": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Dolt": {
+    "github_repo": "tswicegood/Dolt",
+    "npm_package": null,
+    "pypi_package": "dolt",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Domino Data Lab": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Dragonfly": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Drone CI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "DuckDB": {
+    "github_repo": "duckdb/duckdb-python",
+    "npm_package": "duckdb",
+    "pypi_package": "duckdb",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "DuckLake": {
+    "github_repo": "duckdb/pyducklake",
+    "npm_package": null,
+    "pypi_package": "ducklake",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ELI5": {
+    "github_repo": "eli5-org/eli5",
+    "npm_package": null,
+    "pypi_package": "eli5",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Earthly": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Edge Impulse": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "EdgeDB": {
+    "github_repo": "edgedb/edgedb-python",
+    "npm_package": null,
+    "pypi_package": "edgedb",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Egeria": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Elasticsearch": {
+    "github_repo": "elastic/elasticsearch-py",
+    "npm_package": null,
+    "pypi_package": "elasticsearch",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Elementary": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Estuary Flow": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "EvalML": {
+    "github_repo": "alteryx/evalml",
+    "npm_package": null,
+    "pypi_package": "evalml",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Evidence": {
+    "github_repo": null,
+    "npm_package": "evidence",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Evidently": {
+    "github_repo": "evidentlyai/evidently",
+    "npm_package": null,
+    "pypi_package": "evidently",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "FLAML": {
+    "github_repo": "microsoft/FLAML",
+    "npm_package": null,
+    "pypi_package": "flaml",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Facets": {
+    "github_repo": "olivier-m/django-facets",
+    "npm_package": "facets",
+    "pypi_package": "facets",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Fairlearn": {
+    "github_repo": "fairlearn/fairlearn",
+    "npm_package": null,
+    "pypi_package": "fairlearn",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "FalkorDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "FastAPI": {
+    "github_repo": "fastapi/fastapi",
+    "npm_package": null,
+    "pypi_package": "fastapi",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Feast": {
+    "github_repo": "feast-dev/feast",
+    "npm_package": null,
+    "pypi_package": "feast",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Feathr": {
+    "github_repo": "feathr-ai/feathr",
+    "npm_package": null,
+    "pypi_package": "feathr",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Feature Engine": {
+    "github_repo": "feature-engine/feature_engine",
+    "npm_package": null,
+    "pypi_package": "feature-engine",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Featureform": {
+    "github_repo": "featureform/featureform",
+    "npm_package": null,
+    "pypi_package": "featureform",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Featuretools": {
+    "github_repo": "alteryx/featuretools",
+    "npm_package": null,
+    "pypi_package": "featuretools",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "FedML": {
+    "github_repo": "FedML-AI/FedML",
+    "npm_package": null,
+    "pypi_package": "fedml",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "FerretDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Fiddler AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "FireWorks": {
+    "github_repo": "materialsproject/fireworks",
+    "npm_package": null,
+    "pypi_package": "fireworks",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Flax": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "flax",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Flink CDC": {
+    "github_repo": "apache/flink-cdc",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Fluent Bit": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Fluentd": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Fluvio": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Flux CD": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Flux Framework": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Flyte": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "flyte",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "FoundationDB": {
+    "github_repo": "apple/foundationdb",
+    "npm_package": null,
+    "pypi_package": "foundationdb",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Frouros": {
+    "github_repo": "IFCA/frouros",
+    "npm_package": null,
+    "pypi_package": "frouros",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Geniusrise": {
+    "github_repo": "geniusrise/geniusrise",
+    "npm_package": null,
+    "pypi_package": "geniusrise",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Git LFS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "GitHub Actions": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "manual_correction"
+    ]
+  },
+  "GitLab CI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "GlareDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Globus": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Google Cloud Vertex AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Google Colab": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Google Data Studio (Looker Studio)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gradio": {
+    "github_repo": "gradio-app/gradio",
+    "npm_package": null,
+    "pypi_package": "gradio",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Grafana": {
+    "github_repo": null,
+    "npm_package": "grafana",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Grafana Loki": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Graphite": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "graphite",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Great Expectations": {
+    "github_repo": "great-expectations/great_expectations",
+    "npm_package": null,
+    "pypi_package": "great-expectations",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Greenplum": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "GreptimeDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Guild AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Gunicorn": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "gunicorn",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "H2O": {
+    "github_repo": "h2oai/h2o-3",
+    "npm_package": null,
+    "pypi_package": "h2o",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Hamilton": {
+    "github_repo": "DAGWorks-Inc/hamilton",
+    "npm_package": null,
+    "pypi_package": "hamilton",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Hatch": {
+    "github_repo": "pypa/hatch",
+    "npm_package": null,
+    "pypi_package": "hatch",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Haystack": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "haystack",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Healthchecks.io": {
+    "github_repo": "andrewthetechie/py-healthchecks.io",
+    "npm_package": null,
+    "pypi_package": "healthchecks.io",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Helm": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Hex": {
+    "github_repo": "dmulholland/hex",
+    "npm_package": null,
+    "pypi_package": "hex",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Hive Metastore": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Hopsworks": {
+    "github_repo": "logicalclocks/hopsworks-api",
+    "npm_package": null,
+    "pypi_package": "hopsworks",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Horovod": {
+    "github_repo": "horovod/horovod",
+    "npm_package": null,
+    "pypi_package": "horovod",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Hue": {
+    "github_repo": "issackelly/python-hue",
+    "npm_package": "hue",
+    "pypi_package": "hue",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "HugeGraph": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Hugging Face Hub": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Hugging Face Transformers": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Hydra": {
+    "github_repo": "crankycoder/Hydra",
+    "npm_package": null,
+    "pypi_package": "hydra",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Hydrosphere": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Hyperopt": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "hyperopt",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "IBM AI Fairness 360": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "IPython": {
+    "github_repo": "ipython/ipython",
+    "npm_package": null,
+    "pypi_package": "ipython",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Ibis": {
+    "github_repo": "dmulholl/ibis",
+    "npm_package": null,
+    "pypi_package": "ibis",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "InfluxDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ingestr": {
+    "github_repo": "bruin-data/ingestr",
+    "npm_package": null,
+    "pypi_package": "ingestr",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Intake": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "intake",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "InterpretML": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "JAX": {
+    "github_repo": "jax-ml/jax",
+    "npm_package": null,
+    "pypi_package": "jax",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "JSON Schema": {
+    "github_repo": null,
+    "npm_package": "json-schema",
+    "pypi_package": "json-schema",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "JanusGraph": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Jenkins": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Jina": {
+    "github_repo": "jina-ai/jina",
+    "npm_package": null,
+    "pypi_package": "jina",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "JuiceFS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Jupyter Enterprise Gateway": {
+    "github_repo": "jupyter/enterprise_gateway",
+    "npm_package": null,
+    "pypi_package": "jupyter-enterprise-gateway",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Jupyter Notebook": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "jupyter-notebook",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "JupyterLab": {
+    "github_repo": "jupyterlab/jupyterlab",
+    "npm_package": null,
+    "pypi_package": "jupyterlab",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Jupytext": {
+    "github_repo": "mwouts/jupytext",
+    "npm_package": null,
+    "pypi_package": "jupytext",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "KNIME": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "KServe": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "kserve",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Kafka Connect": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Katib": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Katonic": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "katonic",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Kedro": {
+    "github_repo": "kedro-org/kedro",
+    "npm_package": null,
+    "pypi_package": "kedro",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Keepsake": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "keepsake",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Keras Tuner": {
+    "github_repo": "keras-team/keras-tuner",
+    "npm_package": null,
+    "pypi_package": "keras-tuner",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Kestra": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kibana": {
+    "github_repo": null,
+    "npm_package": "kibana",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Knowledge Repo": {
+    "github_repo": "airbnb/knowledge-repo",
+    "npm_package": null,
+    "pypi_package": "knowledge-repo",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "KsqlDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kubeflow": {
+    "github_repo": "kubeflow/kubeflow",
+    "npm_package": null,
+    "pypi_package": "kubeflow",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Kubernetes": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Kyso": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "LIME": {
+    "github_repo": "marcotcr/lime",
+    "npm_package": null,
+    "pypi_package": "lime",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Label Studio": {
+    "github_repo": "HumanSignal/label-studio",
+    "npm_package": null,
+    "pypi_package": "label-studio",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Labelbox": {
+    "github_repo": "Labelbox/labelbox-python",
+    "npm_package": null,
+    "pypi_package": "labelbox",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Lakekeeper": {
+    "github_repo": "lakekeeper/lakekeeper",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Lance": {
+    "github_repo": "susamn/lance",
+    "npm_package": null,
+    "pypi_package": "lance",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "LanceDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "lancedb",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "LangChain": {
+    "github_repo": "langchain-ai/langchain",
+    "npm_package": null,
+    "pypi_package": "langchain",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "LightGBM": {
+    "github_repo": "microsoft/LightGBM",
+    "npm_package": null,
+    "pypi_package": "lightgbm",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Lightdash": {
+    "github_repo": null,
+    "npm_package": "lightdash",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Lightning AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Litestar": {
+    "github_repo": "litestar-org/litestar",
+    "npm_package": null,
+    "pypi_package": "litestar",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "LlamaIndex": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "LocalAI": {
+    "github_repo": "mudler/LocalAI",
+    "npm_package": null,
+    "pypi_package": "localai",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Logstash": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Losswise": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "losswise",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Lucid": {
+    "github_repo": "tensorflow/lucid",
+    "npm_package": null,
+    "pypi_package": "lucid",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Ludwig": {
+    "github_repo": "ludwig-ai/ludwig",
+    "npm_package": null,
+    "pypi_package": "ludwig",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Luigi": {
+    "github_repo": "spotify/luigi",
+    "npm_package": null,
+    "pypi_package": "luigi",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Lux": {
+    "github_repo": "lux-org/lux",
+    "npm_package": null,
+    "pypi_package": "lux",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "LynxKite": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ML Workspace": {
+    "github_repo": "ml-tooling/ml-workspace",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "MLEM": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "mlem",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "MLReef": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "MLRun": {
+    "github_repo": "mlrun/mlrun",
+    "npm_package": null,
+    "pypi_package": "mlrun",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "MLServer": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "mlserver",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "MLflow": {
+    "github_repo": "mlflow/mlflow",
+    "npm_package": null,
+    "pypi_package": "mlflow",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Maestro": {
+    "github_repo": "Netflix/maestro",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Magda": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Mage.ai": {
+    "github_repo": "mage-ai/mage-ai",
+    "npm_package": null,
+    "pypi_package": "mage.ai",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "MariaDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Marimo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "marimo",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Marqo": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "marqo",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Marquez": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Materialize": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Meilisearch": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Meltano": {
+    "github_repo": "meltano/meltano",
+    "npm_package": null,
+    "pypi_package": "meltano",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Memcached": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Mercury": {
+    "github_repo": "mljar/mercury",
+    "npm_package": null,
+    "pypi_package": "mercury",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Merlin": {
+    "github_repo": "LLNL/merlin",
+    "npm_package": null,
+    "pypi_package": "merlin",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Metabase": {
+    "github_repo": null,
+    "npm_package": "metabase",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Metacat": {
+    "github_repo": "Netflix/metacat",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Metaflow": {
+    "github_repo": "Netflix/metaflow",
+    "npm_package": null,
+    "pypi_package": "metaflow",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Milvus": {
+    "github_repo": "milvus-io/milvus-lite",
+    "npm_package": null,
+    "pypi_package": "milvus",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "MinIO": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "MindsDB": {
+    "github_repo": "mindsdb/mindsdb",
+    "npm_package": null,
+    "pypi_package": "mindsdb",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Modal": {
+    "github_repo": "modal-labs/modal-client",
+    "npm_package": null,
+    "pypi_package": "modal",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ModelDB": {
+    "github_repo": "VertaAI/modeldb",
+    "npm_package": null,
+    "pypi_package": "modeldb",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Modin": {
+    "github_repo": "modin-project/modin",
+    "npm_package": null,
+    "pypi_package": "modin",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "MongoDB": {
+    "github_repo": null,
+    "npm_package": "mongodb",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Multiwoven": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "MySQL": {
+    "github_repo": "valhallasw/virtual-mysql-pypi-package",
+    "npm_package": null,
+    "pypi_package": "mysql",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "NATS": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "NNCF (OpenVINO)": {
+    "github_repo": "openvinotoolkit/nncf",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "NNI": {
+    "github_repo": "Microsoft/nni",
+    "npm_package": null,
+    "pypi_package": "nni",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "NSQ": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "NVIDIA Model Optimizer": {
+    "github_repo": "NVIDIA/Model-Optimizer",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "NVIDIA TensorRT": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "nvidia-tensorrt",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "NannyML": {
+    "github_repo": "nannyml/nannyml",
+    "npm_package": null,
+    "pypi_package": "nannyml",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "NebulaGraph": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Neo4j": {
+    "github_repo": "neo4j/neo4j-python-driver",
+    "npm_package": null,
+    "pypi_package": "neo4j",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Neon": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Neptune.ai": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Netflix Conductor": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Netron": {
+    "github_repo": "lutzroeder/netron",
+    "npm_package": "netron",
+    "pypi_package": "netron",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "NetworkX": {
+    "github_repo": "networkx/networkx",
+    "npm_package": null,
+    "pypi_package": "networkx",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Neu.ro": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Nextflow": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Nix": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "NumPy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "numpy",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "ODD Platform": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ONNX": {
+    "github_repo": "onnx/onnx",
+    "npm_package": null,
+    "pypi_package": "onnx",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ONNX Runtime": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "OceanBase": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ollama": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Opacus": {
+    "github_repo": "pytorch/opacus",
+    "npm_package": null,
+    "pypi_package": "opacus",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Open MPI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "OpenCost": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "OpenLineage": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "OpenML": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "openml",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "OpenMetadata": {
+    "github_repo": "abstractfactory/openmetadata",
+    "npm_package": null,
+    "pypi_package": "openmetadata",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "OpenRefine": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "OpenSearch": {
+    "github_repo": "edsu/opensearch",
+    "npm_package": null,
+    "pypi_package": "opensearch",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "OpenTelemetry": {
+    "github_repo": null,
+    "npm_package": "opentelemetry",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "OpenVINO": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "openvino",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Optuna": {
+    "github_repo": "optuna/optuna",
+    "npm_package": null,
+    "pypi_package": "optuna",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "PDM": {
+    "github_repo": "pdm-project/pdm",
+    "npm_package": null,
+    "pypi_package": "pdm",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Pachyderm": {
+    "github_repo": "pachyderm/pachyderm",
+    "npm_package": null,
+    "pypi_package": "pachyderm",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Pandas Profiling (ydata-profiling)": {
+    "github_repo": "ydataai/ydata-profiling",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Pandera": {
+    "github_repo": "pandera-dev/pandera",
+    "npm_package": null,
+    "pypi_package": "pandera",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Panel": {
+    "github_repo": "holoviz/panel",
+    "npm_package": null,
+    "pypi_package": "panel",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Pants": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "pants",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Papermill": {
+    "github_repo": "nteract/papermill",
+    "npm_package": null,
+    "pypi_package": "papermill",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Paperspace Gradient": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ParadeDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Parsl": {
+    "github_repo": "Parsl/parsl",
+    "npm_package": null,
+    "pypi_package": "parsl",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "PeerDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Pegasus WMS": {
+    "github_repo": "pegasus-isi/pegasus",
+    "npm_package": null,
+    "pypi_package": "pegasus-wms",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Petastorm": {
+    "github_repo": "uber/petastorm",
+    "npm_package": null,
+    "pypi_package": "petastorm",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Pinecone": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "pinecone",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Pixi": {
+    "github_repo": "azuline/pixi",
+    "npm_package": null,
+    "pypi_package": "pixi",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Ploomber": {
+    "github_repo": "ploomber/ploomber",
+    "npm_package": null,
+    "pypi_package": "ploomber",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Plotly": {
+    "github_repo": null,
+    "npm_package": "plotly",
+    "pypi_package": "plotly",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Podman": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Polars": {
+    "github_repo": "pola-rs/polars",
+    "npm_package": null,
+    "pypi_package": "polars",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Polyaxon": {
+    "github_repo": "polyaxon/polyaxon",
+    "npm_package": null,
+    "pypi_package": "polyaxon",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Polynote": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "PostgreSQL": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Prefect": {
+    "github_repo": "PrefectHQ/prefect",
+    "npm_package": null,
+    "pypi_package": "prefect",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Presto": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Project Nessie": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Prometheus": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Pulumi": {
+    "github_repo": "pulumi/pulumi",
+    "npm_package": "pulumi",
+    "pypi_package": "pulumi",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "PyIceberg": {
+    "github_repo": "apache/iceberg-python",
+    "npm_package": null,
+    "pypi_package": "pyiceberg",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "PyTorch": {
+    "github_repo": "pytorch/pytorch",
+    "npm_package": null,
+    "pypi_package": "pytorch",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "PyTorch Geometric (PyG)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "PyTorch Lightning": {
+    "github_repo": "Lightning-AI/lightning",
+    "npm_package": null,
+    "pypi_package": "pytorch-lightning",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Pydantic": {
+    "github_repo": "pydantic/pydantic",
+    "npm_package": null,
+    "pypi_package": "pydantic",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Qdrant": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Quary": {
+    "github_repo": null,
+    "npm_package": "quary",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Querybook": {
+    "github_repo": "pinterest/querybook",
+    "npm_package": "querybook",
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse",
+      "npm_guess"
+    ]
+  },
+  "QuestDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Quickwit": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Quilt": {
+    "github_repo": "quiltdata/quilt",
+    "npm_package": null,
+    "pypi_package": "quilt",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Quix": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "RAPIDS": {
+    "github_repo": "sinoroc/rapids",
+    "npm_package": null,
+    "pypi_package": "rapids",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "RabbitMQ": {
+    "github_repo": "jbg/rabbitmq",
+    "npm_package": null,
+    "pypi_package": "rabbitmq",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Ray": {
+    "github_repo": "ray-project/ray",
+    "npm_package": null,
+    "pypi_package": "ray",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Ray Tune": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Redash": {
+    "github_repo": null,
+    "npm_package": "redash",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "Redis": {
+    "github_repo": "redis/redis-py",
+    "npm_package": null,
+    "pypi_package": "redis",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Redpanda": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Redpanda Connect": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "RethinkDB": {
+    "github_repo": "RethinkDB/rethinkdb-python",
+    "npm_package": "rethinkdb",
+    "pypi_package": "rethinkdb",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls",
+      "npm_guess"
+    ]
+  },
+  "Rich": {
+    "github_repo": "Textualize/rich",
+    "npm_package": null,
+    "pypi_package": "rich",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "RisingWave": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "RocksDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Ruff": {
+    "github_repo": "astral-sh/ruff",
+    "npm_package": null,
+    "pypi_package": "ruff",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Rye": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "rye",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "SAS Viya": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "SHAP": {
+    "github_repo": "shap/shap",
+    "npm_package": null,
+    "pypi_package": "shap",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "SLURM": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "SQLAlchemy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "sqlalchemy",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "SQLGlot": {
+    "github_repo": "tobymao/sqlglot",
+    "npm_package": null,
+    "pypi_package": "sqlglot",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "SQLMesh": {
+    "github_repo": "TobikoData/sqlmesh",
+    "npm_package": null,
+    "pypi_package": "sqlmesh",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "SQLite": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Sacred": {
+    "github_repo": "IDSIA/sacred",
+    "npm_package": null,
+    "pypi_package": "sacred",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "SciPy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "scipy",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Scikit-Optimize": {
+    "github_repo": "holgern/scikit-optimize",
+    "npm_package": null,
+    "pypi_package": "scikit-optimize",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "ScyllaDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Seldon Core": {
+    "github_repo": "SeldonIO/seldon-core",
+    "npm_package": null,
+    "pypi_package": "seldon-core",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "Sematic": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "sematic",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "SigOpt": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "sigopt",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Singer": {
+    "github_repo": "singer-io/singer-python",
+    "npm_package": null,
+    "pypi_package": "singer",
+    "resolved_by": [
+      "manual_correction"
+    ]
+  },
+  "Singularity (SingularityCE)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "SkyPilot": {
+    "github_repo": "skypilot-org/skypilot",
+    "npm_package": null,
+    "pypi_package": "skypilot",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Sling": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Snakemake": {
+    "github_repo": "snakemake/snakemake",
+    "npm_package": null,
+    "pypi_package": "snakemake",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Snorkel": {
+    "github_repo": "snorkel-team/snorkel",
+    "npm_package": null,
+    "pypi_package": "snorkel",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Snowplow": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Soda": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "soda",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "SolidUI": {
+    "github_repo": "CloudOrc/SolidUI",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "StarRocks": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Starwhale": {
+    "github_repo": "star-whale/starwhale",
+    "npm_package": null,
+    "pypi_package": "starwhale",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Streamlit": {
+    "github_repo": "streamlit/streamlit",
+    "npm_package": null,
+    "pypi_package": "streamlit",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Submitit": {
+    "github_repo": "facebookincubator/submitit",
+    "npm_package": null,
+    "pypi_package": "submitit",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Supabase": {
+    "github_repo": null,
+    "npm_package": "supabase",
+    "pypi_package": "supabase",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "Superwise": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "superwise",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "SurrealDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TDEngine": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TPOT": {
+    "github_repo": "EpistasisLab/tpot",
+    "npm_package": null,
+    "pypi_package": "tpot",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "TSFresh": {
+    "github_repo": "blue-yonder/tsfresh",
+    "npm_package": null,
+    "pypi_package": "tsfresh",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Tableau": {
+    "github_repo": "moriyoshi/tableau",
+    "npm_package": null,
+    "pypi_package": "tableau",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Talos": {
+    "github_repo": "autonomio/talos",
+    "npm_package": null,
+    "pypi_package": "talos",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Tecton": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "tecton",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Tekton": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Telegraf": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Temporal": {
+    "github_repo": null,
+    "npm_package": "temporal",
+    "pypi_package": null,
+    "resolved_by": [
+      "npm_guess"
+    ]
+  },
+  "TensorBoard": {
+    "github_repo": "tensorflow/tensorboard",
+    "npm_package": null,
+    "pypi_package": "tensorboard",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "TensorFlow": {
+    "github_repo": "tensorflow/tensorflow",
+    "npm_package": "tensorflow",
+    "pypi_package": "tensorflow",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "TensorFlow Data Validation": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "tensorflow-data-validation",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "TensorFlow Extended (TFX)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TensorFlow Privacy": {
+    "github_repo": "tensorflow/privacy",
+    "npm_package": null,
+    "pypi_package": "tensorflow-privacy",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "TensorFlow Serving": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Terraform": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Text Generation Inference (TGI)": {
+    "github_repo": "huggingface/text-generation-inference",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "TiDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TiKV": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TimescaleDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "TorchDrift": {
+    "github_repo": "torchdrift/torchdrift",
+    "npm_package": null,
+    "pypi_package": "torchdrift",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "TorchServe": {
+    "github_repo": "pytorch/serve",
+    "npm_package": null,
+    "pypi_package": "torchserve",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Trino": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Triton Inference Server": {
+    "github_repo": "triton-inference-server/server",
+    "npm_package": null,
+    "pypi_package": "tritonclient",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Trivy": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Trubrics": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "trubrics",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "TrueFoundry": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "truefoundry",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Typer": {
+    "github_repo": "fastapi/typer",
+    "npm_package": null,
+    "pypi_package": "typer",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "Unity Catalog": {
+    "github_repo": "unitycatalog/unitycatalog",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "Upgini": {
+    "github_repo": "upgini/upgini",
+    "npm_package": null,
+    "pypi_package": "upgini",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Valkey": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Valohai": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "valohai",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Vector": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Vespa": {
+    "github_repo": "timothydmorton/VESPA",
+    "npm_package": null,
+    "pypi_package": "vespa",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "VictoriaMetrics": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Vizro": {
+    "github_repo": "mckinsey/vizro",
+    "npm_package": null,
+    "pypi_package": "vizro",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "Voila": {
+    "github_repo": "voila-dashboards/voila",
+    "npm_package": null,
+    "pypi_package": "voila",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "WDL (Workflow Description Language)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Wallaroo.AI": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Weaviate": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "weaviate",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "Weights & Biases": {
+    "github_repo": "wandb/wandb",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "github_override"
+    ]
+  },
+  "Weights & Biases Launch": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Weights & Biases Sweeps": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Weights & Biases Weave": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "WhyLabs (whylogs)": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Windmill": {
+    "github_repo": null,
+    "npm_package": "windmill",
+    "pypi_package": "windmill",
+    "resolved_by": [
+      "pypi_guess",
+      "npm_guess"
+    ]
+  },
+  "XGBoost": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "xgboost",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "YugabyteDB": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "Zabbix": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "ZenML": {
+    "github_repo": "zenml-io/zenml",
+    "npm_package": null,
+    "pypi_package": "zenml",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "chDB": {
+    "github_repo": "chdb-io/chdb",
+    "npm_package": null,
+    "pypi_package": "chdb",
+    "resolved_by": [
+      "url_parse",
+      "pypi_guess"
+    ]
+  },
+  "conda": {
+    "github_repo": "conda/conda",
+    "npm_package": null,
+    "pypi_package": "conda",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "dbt": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "dbt",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "delta-sharing": {
+    "github_repo": "delta-io/delta-sharing",
+    "npm_package": null,
+    "pypi_package": "delta-sharing",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "dlt": {
+    "github_repo": "dlt-hub/dlt",
+    "npm_package": null,
+    "pypi_package": "dlt",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "envd": {
+    "github_repo": "tensorchord/envd",
+    "npm_package": null,
+    "pypi_package": "envd",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "etcd": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": []
+  },
+  "lakeFS": {
+    "github_repo": "treeverse/lakeFS",
+    "npm_package": null,
+    "pypi_package": "lakefs",
+    "resolved_by": [
+      "github_override",
+      "pypi_guess"
+    ]
+  },
+  "mamba": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "mamba",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "matplotlib": {
+    "github_repo": "matplotlib/matplotlib",
+    "npm_package": null,
+    "pypi_package": "matplotlib",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "mypy": {
+    "github_repo": "python/mypy",
+    "npm_package": null,
+    "pypi_package": "mypy",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "nox": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "nox",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "pandas": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "pandas",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "pg_duckdb": {
+    "github_repo": "duckdb/pg_duckdb",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "pgvector": {
+    "github_repo": "pgvector/pgvector",
+    "npm_package": null,
+    "pypi_package": null,
+    "resolved_by": [
+      "url_parse"
+    ]
+  },
+  "pip": {
+    "github_repo": "pypa/pip",
+    "npm_package": null,
+    "pypi_package": "pip",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "pre-commit": {
+    "github_repo": "pre-commit/pre-commit",
+    "npm_package": null,
+    "pypi_package": "pre-commit",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "pytest": {
+    "github_repo": "pytest-dev/pytest",
+    "npm_package": null,
+    "pypi_package": "pytest",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "scikit-learn": {
+    "github_repo": null,
+    "npm_package": null,
+    "pypi_package": "scikit-learn",
+    "resolved_by": [
+      "pypi_guess"
+    ]
+  },
+  "seaborn": {
+    "github_repo": "mwaskom/seaborn",
+    "npm_package": null,
+    "pypi_package": "seaborn",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "tox": {
+    "github_repo": "tox-dev/tox",
+    "npm_package": null,
+    "pypi_package": "tox",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "uv": {
+    "github_repo": "astral-sh/uv",
+    "npm_package": null,
+    "pypi_package": "uv",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "uvicorn": {
+    "github_repo": "Kludex/uvicorn",
+    "npm_package": null,
+    "pypi_package": "uvicorn",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  },
+  "vLLM": {
+    "github_repo": "vllm-project/vllm",
+    "npm_package": null,
+    "pypi_package": "vllm",
+    "resolved_by": [
+      "pypi_guess",
+      "pypi_project_urls"
+    ]
+  }
+}

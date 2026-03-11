@@ -124,7 +124,8 @@ def cmd_inspect(args: argparse.Namespace) -> None:
     print()
     print(f"HPC: {tool_dict['hpc_compatible']}  |  Collab: {tool_dict['collaboration_model']}")
     print(
-        f"Ceiling: {tool_dict['capability_ceiling']}  |  Migration likelihood: {tool_dict['migration_likelihood']}"
+        f"Ceiling: {tool_dict['capability_ceiling']}  |  "
+        f"Migration likelihood: {tool_dict['migration_likelihood']}"
     )
     print(f"Lock-in: {tool_dict['lock_in_risk']}  |  Momentum: {tool_dict['community_momentum']}")
     print(
@@ -157,6 +158,90 @@ def cmd_inspect(args: argparse.Namespace) -> None:
             print(f"  [{relation}] {other_name}{ev}")
 
     con.close()
+
+
+def cmd_resolve(args: argparse.Namespace) -> None:
+    """Resolve tool URLs to registry identifiers."""
+    import asyncio
+    import json
+    from pathlib import Path
+
+    from landscape.analysis.resolve import (
+        IDENTIFIERS_PATH,
+        load_identifiers,
+        resolve_all,
+        save_identifiers,
+    )
+
+    seed_path = Path(__file__).resolve().parents[2] / "data" / "seed" / "mlops_tools_catalog.json"
+    tools = json.loads(seed_path.read_text())
+    existing = load_identifiers()
+
+    results = asyncio.run(resolve_all(tools, existing=existing, skip_resolved=not args.force))
+    save_identifiers(results)
+
+    # Summary
+    gh = sum(1 for v in results.values() if v.get("github_repo"))
+    pypi = sum(1 for v in results.values() if v.get("pypi_package"))
+    npm = sum(1 for v in results.values() if v.get("npm_package"))
+    print(f"Resolved {len(results)} tools:")
+    print(f"  GitHub repos:  {gh}")
+    print(f"  PyPI packages: {pypi}")
+    print(f"  npm packages:  {npm}")
+    print(f"Saved to {IDENTIFIERS_PATH}")
+
+
+def cmd_metrics_collect(args: argparse.Namespace) -> None:
+    """Collect metrics from external APIs."""
+    import logging
+    import os
+
+    from landscape.analysis.metrics import run_collect
+    from landscape.db.connection import get_db
+
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
+    con = get_db()
+    sources = [args.source] if args.source else None
+    tool_names = [args.tool] if args.tool else None
+    token = os.environ.get("GITHUB_TOKEN")
+
+    results = run_collect(con, sources=sources, tool_names=tool_names, github_token=token)
+    con.close()
+
+    print("Metrics collected:")
+    for source, count in results.items():
+        print(f"  {source}: {count} rows")
+
+
+def cmd_metrics_show(args: argparse.Namespace) -> None:
+    """Show metrics for a tool."""
+    from landscape.db.connection import get_db
+
+    con = get_db(read_only=True)
+
+    rows = con.execute(
+        """
+        SELECT m.metric_name, m.value, m.source, m.measured_at, m.metadata
+        FROM tool_metrics m
+        JOIN tools t ON m.tool_id = t.tool_id
+        WHERE lower(t.name) = lower($1)
+        ORDER BY m.source, m.metric_name, m.measured_at DESC
+        """,
+        [args.name],
+    ).fetchall()
+    con.close()
+
+    if not rows:
+        print(f"No metrics found for '{args.name}'.")
+        return
+
+    print(f"{'Metric':<30} {'Value':>12} {'Source':<15} {'Measured'}")
+    print("-" * 80)
+    for metric_name, value, source, measured_at, _meta in rows:
+        val_str = f"{value:,.0f}" if value == int(value) else f"{value:.2f}"
+        date_str = measured_at.strftime("%Y-%m-%d") if measured_at else ""
+        print(f"{metric_name:<30} {val_str:>12} {source:<15} {date_str}")
 
 
 def cmd_coverage(args: argparse.Namespace) -> None:
@@ -233,6 +318,26 @@ def main() -> None:
     p_coverage = sub.add_parser("coverage", help="Project coverage report")
     p_coverage.add_argument("project", help="Project name")
     p_coverage.set_defaults(func=cmd_coverage)
+
+    # resolve
+    p_resolve = sub.add_parser("resolve", help="Resolve tool URLs to registry identifiers")
+    p_resolve.add_argument("--force", action="store_true", help="Re-resolve all tools")
+    p_resolve.set_defaults(func=cmd_resolve)
+
+    # metrics
+    p_metrics = sub.add_parser("metrics", help="Metric collection commands")
+    metrics_sub = p_metrics.add_subparsers(dest="metrics_command")
+
+    p_mc = metrics_sub.add_parser("collect", help="Collect metrics from external APIs")
+    p_mc.add_argument(
+        "--source", choices=["github", "pypi", "npm"], help="Collect from single source"
+    )
+    p_mc.add_argument("--tool", help="Collect for a single tool name")
+    p_mc.set_defaults(func=cmd_metrics_collect)
+
+    p_ms = metrics_sub.add_parser("show", help="Show metrics for a tool")
+    p_ms.add_argument("name", help="Tool name")
+    p_ms.set_defaults(func=cmd_metrics_show)
 
     args = parser.parse_args()
     if not args.command:
