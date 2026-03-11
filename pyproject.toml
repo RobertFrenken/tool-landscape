@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tool-landscape"
+version = "0.1.0"
+description = "Developer tool evaluation framework — map project goals to stable tool stacks"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.1.0",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+metrics = ["httpx"]  # Phase 2: GitHub/PyPI API calls
+
+[project.scripts]
+landscape = "landscape.cli.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["landscape"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

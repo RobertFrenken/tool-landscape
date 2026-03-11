@@ -1,0 +1,314 @@
+{
+  "$schema_notes": "Each project defines its ceiling: the maximum capability it needs to support. Tool selection checks whether a tool's capability envelope contains the ceiling. Re-evaluate only when a ceiling changes, not when a new tool appears.",
+  "projects": {
+    "KD-GAT": {
+      "description": "CAN bus intrusion detection — ML research pipeline on HPC",
+      "team_size_ceiling": 5,
+      "environment": {
+        "primary": "hpc",
+        "secondary": ["wsl_local"],
+        "scheduler": "slurm",
+        "gpu_required": true,
+        "internet_on_compute": false,
+        "shared_filesystem": "nfs"
+      },
+      "capability_ceilings": {
+        "experiment_tracking": {
+          "description": "Track experiments across 5 researchers, compare runs, reproduce from metadata",
+          "requirements": {
+            "concurrent_users": 5,
+            "offline_capable": true,
+            "hpc_compatible": ["native", "adaptable"],
+            "collaboration_model": ["shared_server", "multi_tenant"],
+            "reproducibility": "full_config_and_artifacts",
+            "query_api": true,
+            "artifact_storage": true
+          },
+          "current_tool": "MLflow",
+          "trigger_to_reevaluate": [
+            "Databricks restricts OSS MLflow tracking server features",
+            "Need real-time collaborative experiment analysis (MLflow UI is read-only)",
+            "Team exceeds 10 concurrent writers on SQLite/PostgreSQL backend"
+          ]
+        },
+        "orchestration": {
+          "description": "Multi-stage pipeline with HPO, multi-seed, multi-dataset fan-out on SLURM",
+          "requirements": {
+            "concurrent_users": 5,
+            "offline_capable": true,
+            "hpc_compatible": ["native", "adaptable"],
+            "multi_node_training": true,
+            "hpo_integration": true,
+            "fault_tolerance": "checkpoint_resume",
+            "dag_support": true,
+            "slurm_native": true
+          },
+          "current_tool": "Ray",
+          "trigger_to_reevaluate": [
+            "Ray drops SLURM support or breaks compatibility",
+            "Need orchestration across multiple HPC clusters",
+            "Ray head-node overhead exceeds 10% of job allocation memory"
+          ]
+        },
+        "hyperparameter_tuning": {
+          "description": "Distributed HPO with early stopping, multi-fidelity, parallel trials",
+          "requirements": {
+            "offline_capable": true,
+            "hpc_compatible": ["native", "adaptable"],
+            "early_stopping": true,
+            "multi_fidelity": true,
+            "parallel_trials": true,
+            "search_algorithms": ["bayesian", "random", "grid"],
+            "integration_with_orchestrator": true
+          },
+          "current_tool": "Optuna (via Ray Tune)",
+          "trigger_to_reevaluate": [
+            "Ray Tune dropped or incompatible with Optuna",
+            "Need HPO across heterogeneous hardware (GPU types)"
+          ]
+        },
+        "training_framework": {
+          "description": "PyTorch training with callbacks, mixed precision, multi-GPU, checkpointing",
+          "requirements": {
+            "offline_capable": true,
+            "hpc_compatible": ["native"],
+            "multi_gpu": true,
+            "mixed_precision": true,
+            "checkpointing": true,
+            "callback_system": true,
+            "distributed_strategy": "ddp",
+            "profiling": true
+          },
+          "current_tool": "PyTorch Lightning",
+          "trigger_to_reevaluate": [
+            "Lightning AI deprioritizes OSS Trainer for cloud platform",
+            "Lightning breaks PyG DataLoader compatibility",
+            "Need custom training loops that fight the Trainer abstraction"
+          ]
+        },
+        "config_management": {
+          "description": "Typed, frozen, composable config with YAML files and CLI overrides",
+          "requirements": {
+            "offline_capable": true,
+            "type_validation": true,
+            "composition": true,
+            "cli_override": true,
+            "serialization": "json_and_yaml",
+            "frozen_immutable": true
+          },
+          "current_tool": "Pydantic v2 + YAML",
+          "trigger_to_reevaluate": [
+            "Need distributed config serving (multiple services reading config)",
+            "Config schema exceeds what Pydantic can validate (conditional cross-field)"
+          ]
+        },
+        "data_versioning": {
+          "description": "Track raw datasets, preprocessed caches, and model artifacts",
+          "requirements": {
+            "offline_capable": true,
+            "hpc_compatible": ["native", "adaptable"],
+            "large_file_support": true,
+            "reproducibility": "exact_data_version"
+          },
+          "current_tool": "DVC (passive) + Git LFS + HF Hub",
+          "trigger_to_reevaluate": [
+            "Need fine-grained data lineage (which rows trained which model)",
+            "Dataset size exceeds NFS quota and needs external storage"
+          ],
+          "notes": "DVC is passive dead weight. Evaluate whether Git LFS + HF Hub alone covers the ceiling."
+        },
+        "model_serving": {
+          "description": "REST API for inference, health checks, batch prediction",
+          "requirements": {
+            "offline_capable": true,
+            "hpc_compatible": ["native", "adaptable"],
+            "rest_api": true,
+            "batch_prediction": true,
+            "model_format": ["pytorch", "onnx"]
+          },
+          "current_tool": "FastAPI (custom serve.py)",
+          "trigger_to_reevaluate": [
+            "Need A/B testing or canary deployments",
+            "Need GPU-optimized batching (dynamic batching, continuous batching)",
+            "Deploying to edge devices (not just REST)"
+          ]
+        },
+        "dashboard": {
+          "description": "Ops dashboard for experiment comparison, training curves, model analysis",
+          "requirements": {
+            "hpc_compatible": ["native", "adaptable", "cloud_only"],
+            "collaboration_model": ["shared_server", "multi_tenant"],
+            "interactive_charts": true,
+            "data_source": "hf_datasets",
+            "zero_infra": true
+          },
+          "current_tool": "Streamlit on HF Spaces",
+          "trigger_to_reevaluate": [
+            "Need real-time updates (websocket, not poll)",
+            "Need multi-page app with authentication",
+            "Dashboard becomes public-facing (not just lab internal)"
+          ],
+          "notes": "5 switches in this category. Accept that dashboard is non-core and optimize for lowest maintenance, not highest capability."
+        },
+        "ci_cd": {
+          "description": "Lint, test subset on push, full test suite on SLURM",
+          "requirements": {
+            "github_integration": true,
+            "custom_runners": false,
+            "slurm_test_submission": "external_script"
+          },
+          "current_tool": "GitHub Actions",
+          "trigger_to_reevaluate": [
+            "Need CI on private HPC (no GitHub-hosted runners)",
+            "GitHub Actions minutes become a cost issue"
+          ]
+        },
+        "database": {
+          "description": "Metrics storage, sweep state, MLflow backend",
+          "requirements": {
+            "offline_capable": true,
+            "hpc_compatible": ["native"],
+            "concurrent_writers": 5,
+            "sql_query": true
+          },
+          "current_tool": "SQLite + PostgreSQL (on-demand via Apptainer)",
+          "trigger_to_reevaluate": [
+            "SQLite NFS corruption under concurrent writes",
+            "PostgreSQL Apptainer job maintenance burden exceeds value",
+            "Need time-series specific queries (not just relational)"
+          ]
+        },
+        "package_management": {
+          "description": "Fast, reproducible Python environment with pinned ML dependencies",
+          "requirements": {
+            "offline_capable": true,
+            "hpc_compatible": ["native"],
+            "lockfile": true,
+            "pyproject_toml": true,
+            "fast_resolution": true
+          },
+          "current_tool": "uv",
+          "trigger_to_reevaluate": [
+            "Need non-Python dependencies managed (C libraries, CUDA toolkit)",
+            "uv drops PyTorch/PyG wheel compatibility"
+          ]
+        },
+        "containerization": {
+          "description": "Reproducible environments, PostgreSQL hosting, dashboard deployment",
+          "requirements": {
+            "hpc_compatible": ["native"],
+            "rootless": true,
+            "oci_compatible": true
+          },
+          "current_tool": "Docker + Apptainer",
+          "trigger_to_reevaluate": [
+            "HPC switches to Podman/other runtime",
+            "Need multi-container orchestration on HPC (unlikely)"
+          ]
+        }
+      }
+    },
+    "Map-Visualizations": {
+      "description": "Ohio political district maps + campaign finance — interactive web dashboards",
+      "team_size_ceiling": 3,
+      "environment": {
+        "primary": "github_pages",
+        "secondary": ["wsl_local", "hpc_preprocessing"],
+        "gpu_required": false,
+        "internet_on_compute": true,
+        "shared_filesystem": null
+      },
+      "capability_ceilings": {
+        "data_pipeline": {
+          "description": "FEC/census data → DuckDB → static site with interactive charts",
+          "requirements": {
+            "sql_analytics": true,
+            "browser_queryable": true,
+            "incremental_updates": true,
+            "data_formats": ["parquet", "geojson", "topojson"]
+          },
+          "current_tool": "DuckDB + DuckDB-WASM",
+          "trigger_to_reevaluate": [
+            "Dataset exceeds browser memory (~500MB)",
+            "Need real-time data updates (not batch)",
+            "Need server-side query execution"
+          ]
+        },
+        "visualization": {
+          "description": "Interactive maps, network graphs, statistical charts for publication + web",
+          "requirements": {
+            "interactive": true,
+            "publication_quality": true,
+            "geospatial": true,
+            "network_graphs": true,
+            "responsive": true
+          },
+          "current_tool": "D3.js + Observable Framework",
+          "trigger_to_reevaluate": [
+            "Need 3D visualization (deck.gl territory)",
+            "Need collaborative editing (Observable notebooks)",
+            "D3 maintenance slows (unlikely, very stable)"
+          ]
+        },
+        "static_site": {
+          "description": "GitHub Pages hosted, zero-cost, auto-deployed",
+          "requirements": {
+            "zero_cost_hosting": true,
+            "ci_deploy": true,
+            "markdown_content": true,
+            "custom_js": true
+          },
+          "current_tool": "Observable Framework + GitHub Pages",
+          "trigger_to_reevaluate": [
+            "Need server-side rendering or API routes",
+            "Need authentication for private dashboards"
+          ]
+        },
+        "data_quality": {
+          "description": "Validate FEC/census data integrity on ingest",
+          "requirements": {
+            "schema_validation": true,
+            "null_checks": true,
+            "referential_integrity": true
+          },
+          "current_tool": "DuckDB constraints + Python scripts",
+          "trigger_to_reevaluate": [
+            "Need cross-source validation (FEC vs census join integrity)",
+            "Data sources exceed 5 (currently 2-3)"
+          ]
+        }
+      }
+    }
+  },
+  "evaluation_protocol": {
+    "when_to_evaluate": [
+      "A trigger condition fires (listed per capability)",
+      "A ceiling changes (e.g., team grows, new deployment target)",
+      "Annual review (low-effort: check community_momentum for all current tools)"
+    ],
+    "when_NOT_to_evaluate": [
+      "A new tool is trending on social media",
+      "A current tool has a minor annoyance",
+      "Someone at a conference recommends something"
+    ],
+    "how_to_evaluate": [
+      "1. Confirm the trigger is real (not frustration-driven)",
+      "2. Check project_ceilings.json — has the ceiling actually changed?",
+      "3. Query mlops_tools_catalog.json for tools matching the capability requirements",
+      "4. Filter candidates: capability_ceiling >= project ceiling level, migration_likelihood = low",
+      "5. Prefer tools where composite_tool = false (standalone) unless composing with an already-adopted tool",
+      "6. Check migration_cost from current tool — must be justified by ceiling coverage gap, not feature count",
+      "7. Check lock_in_risk — acceptable if migration_likelihood is low (you won't need to leave)",
+      "8. Verify community_momentum != declining — a dying tool forces migration regardless of fit"
+    ],
+    "key_dimensions_for_selection": {
+      "capability_ceiling": "Does the tool cover where the project is going? extensive > high > medium > low",
+      "migration_likelihood": "How likely are we to outgrow this tool? Low = keep, high = avoid",
+      "lock_in_risk": "Cost to leave IF we must. Acceptable when migration_likelihood is low",
+      "composite_tool": "Is this a standalone solution or part of a stack? Standalone = simpler to reason about",
+      "community_momentum": "Declining = forced migration eventually. Growing = safe bet"
+    },
+    "migration_budget": "Max 2 tool switches per quarter across all projects. If you're hitting this limit, the ceilings are wrong, not the tools.",
+    "history": "See ~/tool-migration-history.md — 30 switches in 14 months. The framework exists to end this pattern."
+  }
+}

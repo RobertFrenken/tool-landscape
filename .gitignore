@@ -1,0 +1,15 @@
+# Database (rebuilt from seed)
+data/landscape.duckdb
+data/landscape.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+.nfs*
