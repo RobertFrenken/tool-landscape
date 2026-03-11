@@ -2,7 +2,7 @@ export default {
   title: "Tool Landscape",
   root: "src",
   output: "dist",
-  theme: ["dashboard", "alt"],
+  theme: ["dashboard", "dark"],
   pages: [
     {name: "Dashboard", path: "/"},
     {name: "Graph Explorer", path: "/graph"},
@@ -12,14 +12,19 @@ export default {
   ],
   head: `<style>
   :root {
-    --accent: #4269d0;
-    --accent-light: #97bbf5;
-    --bg-card: #fafbfc;
+    --accent: #7c3aed;
+    --accent-light: #a78bfa;
+    --bg-card: color-mix(in srgb, var(--theme-foreground) 4%, var(--theme-background));
   }
-  .card { background: var(--bg-card); border: 1px solid #e1e4e8; border-radius: 8px; padding: 1rem; }
-  .metric { font-size: 2rem; font-weight: 700; color: var(--accent); }
-  .metric-label { font-size: 0.85rem; color: #586069; text-transform: uppercase; }
-  .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid color-mix(in srgb, var(--theme-foreground) 12%, transparent);
+    border-radius: 6px;
+    padding: 1rem;
+  }
+  .metric { font-size: 2rem; font-weight: 700; color: var(--accent-light); }
+  .metric-label { font-size: 0.8rem; color: var(--theme-foreground-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 </style>`,
 };
