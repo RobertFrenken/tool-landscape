@@ -573,6 +573,53 @@ def cmd_spec_list_templates(args: argparse.Namespace) -> None:
         print(f"  {name:<20} {n_components} components  {desc}")
 
 
+def cmd_spec_build(args: argparse.Namespace) -> None:
+    """Interactive spec builder or build from answers JSON."""
+    import yaml
+
+    from landscape.spec.build import build_from_answers, interactive_build
+    from landscape.spec.templates import merge_specs, resolve_extends
+
+    try:
+        if args.from_answers:
+            result = build_from_answers(args.from_answers)
+        else:
+            result = interactive_build()
+    except KeyboardInterrupt:
+        print("\nAborted.")
+        sys.exit(1)
+
+    spec_data = result["spec"]
+    output_path = args.output or result.get("output_path")
+
+    # Resolve template extends into the final spec
+    resolved = resolve_extends(spec_data)
+
+    # Merge any extra components from the questionnaire on top
+    if "components" in spec_data and "extends" in spec_data:
+        resolved = merge_specs(resolved, {"components": spec_data["components"]})
+
+    # Remove extends from output (already resolved)
+    resolved.pop("extends", None)
+
+    # Determine output path
+    if not output_path:
+        proj_name = resolved.get("project", {}).get("name", "project")
+        output_path = f"{proj_name.lower().replace(' ', '-')}-spec.yaml"
+
+    with open(output_path, "w") as f:
+        yaml.dump(resolved, f, default_flow_style=False, sort_keys=False)
+
+    n_components = len(resolved.get("components", {}))
+    pins = resolved.get("stack_pins", [])
+    print(f"\nWrote {output_path}")
+    print(f"  {n_components} components")
+    if pins:
+        print(f"  {len(pins)} stack pins: {', '.join(pins)}")
+    print(f"\nNext: landscape spec validate {output_path}")
+    print(f"      landscape shop {output_path}")
+
+
 def cmd_spec_extract(args: argparse.Namespace) -> None:
     """Extract a draft spec from a project codebase."""
 
@@ -896,6 +943,11 @@ def main() -> None:
     )
     p_spec_init.add_argument("--output", "-o", help="Output file path")
     p_spec_init.set_defaults(func=cmd_spec_init)
+
+    p_spec_build = spec_sub.add_parser("build", help="Interactive spec builder")
+    p_spec_build.add_argument("--from-answers", help="JSON file with answers (non-interactive)")
+    p_spec_build.add_argument("--output", "-o", help="Output file path")
+    p_spec_build.set_defaults(func=cmd_spec_build)
 
     p_spec_templates = spec_sub.add_parser("templates", help="List available templates")
     p_spec_templates.set_defaults(func=cmd_spec_list_templates)

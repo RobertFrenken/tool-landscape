@@ -1,0 +1,124 @@
+spec_version: "1"
+
+project:
+  name: tool-landscape
+  description: "Developer tool evaluation framework — DuckDB backend, Python CLI, web frontend"
+  team_size: 1
+
+environment:
+  primary: local            # GitHub Pages deploy, local dev
+  secondary: [hpc]          # runs on OSC login nodes too
+  gpu_required: false
+  internet_on_compute: true
+
+stack_pins: [DuckDB, D3.js, Python, Pydantic, ruff, pytest, Hatch, GitHub Actions]
+
+components:
+  # ── Frontend (the Phase I decision) ────────────────────────────────
+  site_framework:
+    description: "Host for /shop interactive page + existing 5 static pages"
+    current_tool: Observable Framework
+    require:
+      categories: [meta_framework, static_site]
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+      documentation_quality: {value: excellent, weight: 3}
+      lock_in_risk: {value: low, weight: 4}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Must support DuckDB-WASM queries from client-side JS"
+      - "Must deploy to GitHub Pages as static site"
+      - "Existing 5 pages are Observable markdown cells — migration cost matters"
+    triggers:
+      - "Interactive form-heavy pages fight Observable's implicit reactivity model"
+      - "Need component encapsulation for complex nested state (spec builder)"
+
+  visualization:
+    description: "Charting, graph viz, force-directed layouts for tool relationships"
+    current_tool: D3.js
+    require:
+      categories: [visualization]
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 2}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Force-directed graph with 1000+ nodes"
+      - "Custom SVG rendering, not just chart templates"
+    triggers:
+      - "Need WebGL/Canvas for 5000+ node rendering"
+
+  ui_framework:
+    description: "Component model for interactive spec builder widget on /shop page"
+    require:
+      categories: [frontend, ui_framework]
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 3}
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "Must work embedded inside Observable Framework pages OR as standalone"
+      - "Bundle size matters — this is one interactive widget, not a full SPA"
+      - "Needs form state management for nested spec objects"
+      - "Must coexist with DuckDB-WASM and D3.js"
+    triggers:
+      - "Widget complexity outgrows vanilla JS class"
+
+  query_engine:
+    description: "Client-side SQL for filtering 1157 tools by spec constraints"
+    current_tool: DuckDB
+    require:
+      categories: [query_engine, database]
+      open_source: true
+      offline_capable: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "DuckDB-WASM already loaded on all pages, queries Parquet files"
+      - "Same SQL predicates as Python shop.py backend"
+
+  graph_analytics:
+    description: "Louvain clustering, neighborhood computation"
+    current_tool: NetworkX
+    require:
+      categories: [graph_analytics]
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 3}
+      community_momentum: {value: growing, weight: 2}
+
+  build_tool:
+    description: "JS bundling for site assets, pre-bundling components"
+    require:
+      categories: [build_tool]
+      open_source: true
+    prefer:
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 4}
+    notes:
+      - "Observable Framework has built-in bundler but may need esbuild for pre-bundling components"
+      - "Must handle DuckDB-WASM's Node built-in imports"
+
+  config_management:
+    description: "Pydantic v2 for spec validation and typed models"
+    current_tool: Pydantic
+    require:
+      categories: [config_management]
+      open_source: true
+      offline_capable: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+
+  package_management:
+    description: "Python package build + dependency management"
+    current_tool: Hatch
+    require:
+      categories: [package_management]
+      open_source: true
