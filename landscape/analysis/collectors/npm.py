@@ -29,14 +29,24 @@ async def collect_npm_metrics(
     if not valid:
         return []
 
+    import asyncio
+
     async with httpx.AsyncClient(timeout=15.0) as client:
         for tool_id, package in valid:
-            # Weekly downloads
+            # Weekly downloads — throttle to avoid 429s
+            await asyncio.sleep(0.4)
             try:
                 resp = await client.get(
                     NPM_DOWNLOADS_URL.format(package=package),
                     follow_redirects=True,
                 )
+                if resp.status_code == 429:
+                    logger.info("npm downloads 429 for %s, retrying after 2s", package)
+                    await asyncio.sleep(2.0)
+                    resp = await client.get(
+                        NPM_DOWNLOADS_URL.format(package=package),
+                        follow_redirects=True,
+                    )
                 if resp.status_code == 200:
                     data = resp.json()
                     if data.get("downloads"):
@@ -53,7 +63,7 @@ async def collect_npm_metrics(
             except httpx.HTTPError as e:
                 logger.warning("npm downloads fetch failed for %s: %s", package, e)
 
-            # Package metadata
+            # Package metadata (registry.npmjs.org doesn't rate-limit)
             try:
                 resp = await client.get(
                     NPM_REGISTRY_URL.format(package=package),

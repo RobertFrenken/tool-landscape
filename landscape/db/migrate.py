@@ -240,6 +240,51 @@ def derive_edges(con: duckdb.DuckDBPyConnection) -> int:
     return count
 
 
+def load_curated_edges(
+    con: duckdb.DuckDBPyConnection,
+    edges_path: Path | None = None,
+) -> int:
+    """Load hand-curated edges from JSON into the edges table.
+
+    Reads curated_edges.json, resolves tool names to IDs, and inserts edges
+    with source_info='hand_curated'. Skips edges where either tool name is
+    not found in the database or the edge already exists.
+    """
+    path = edges_path or SEED_DIR / "curated_edges.json"
+    if not path.exists():
+        return 0
+
+    edges = json.loads(path.read_text())
+
+    # Build name→id lookup
+    tool_name_to_id: dict[str, int] = {}
+    for row in con.execute("SELECT tool_id, name FROM tools").fetchall():
+        tool_name_to_id[row[1]] = row[0]
+
+    count = 0
+    for edge in edges:
+        source_id = tool_name_to_id.get(edge["source"])
+        target_id = tool_name_to_id.get(edge["target"])
+
+        if not source_id or not target_id:
+            continue
+
+        try:
+            con.execute(
+                """
+                INSERT INTO edges
+                    (source_id, target_id, relation, source_info, evidence)
+                VALUES ($1, $2, $3::edge_type, 'hand_curated', $4)
+                """,
+                [source_id, target_id, edge["relation"], edge.get("evidence", "")],
+            )
+            count += 1
+        except duckdb.ConstraintException:
+            pass  # Duplicate edge
+
+    return count
+
+
 def backfill_identifiers(con: duckdb.DuckDBPyConnection) -> int:
     """Backfill github_repo/pypi_package/npm_package from resolved_identifiers.json."""
     ids_path = SEED_DIR / ".." / "resolved_identifiers.json"
@@ -275,7 +320,8 @@ def run_migration(con: duckdb.DuckDBPyConnection) -> dict[str, int]:
     results = {
         "tools": migrate_tools(con),
         "projects": migrate_projects(con),
-        "edges": derive_edges(con),
+        "edges_derived": derive_edges(con),
+        "edges_curated": load_curated_edges(con),
         "identifiers": backfill_identifiers(con),
     }
 

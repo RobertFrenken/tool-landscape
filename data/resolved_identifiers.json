@@ -492,11 +492,9 @@
   },
   "ArangoDB": {
     "github_repo": null,
-    "npm_package": "arangodb",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Argo Workflows": {
     "github_repo": null,
@@ -598,12 +596,12 @@
     ]
   },
   "Banana": {
-    "github_repo": "MonashBI/banana",
+    "github_repo": null,
     "npm_package": null,
-    "pypi_package": "banana",
+    "pypi_package": "banana-dev",
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "Bazel": {
@@ -693,9 +691,9 @@
   "CML": {
     "github_repo": null,
     "npm_package": null,
-    "pypi_package": "cml",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess"
+      "manual_correction"
     ]
   },
   "CNVRG.io": {
@@ -815,12 +813,13 @@
     ]
   },
   "ClickHouse": {
-    "github_repo": "ppodolsky/clickhouse-python",
+    "github_repo": "ClickHouse/ClickHouse",
     "npm_package": null,
-    "pypi_package": "clickhouse",
+    "pypi_package": "clickhouse-connect",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "CloudQuery": {
@@ -910,11 +909,9 @@
   },
   "Cube": {
     "github_repo": null,
-    "npm_package": "cube",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "DGL (Deep Graph Library)": {
     "github_repo": null,
@@ -941,11 +938,10 @@
   },
   "Dagger": {
     "github_repo": null,
-    "npm_package": "dagger",
+    "npm_package": null,
     "pypi_package": "dagger",
     "resolved_by": [
-      "pypi_guess",
-      "npm_guess"
+      "pypi_guess"
     ]
   },
   "Dagster": {
@@ -986,11 +982,10 @@
   },
   "DataHub": {
     "github_repo": null,
-    "npm_package": "datahub",
+    "npm_package": null,
     "pypi_package": "datahub",
     "resolved_by": [
-      "pypi_guess",
-      "npm_guess"
+      "pypi_guess"
     ]
   },
   "DataPrep": {
@@ -1064,12 +1059,11 @@
     ]
   },
   "Deepnote": {
-    "github_repo": "s-omranpour/DeepNote",
+    "github_repo": null,
     "npm_package": null,
-    "pypi_package": "deepnote",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "manual_correction"
     ]
   },
   "Deeque": {
@@ -1111,11 +1105,9 @@
   },
   "Dify": {
     "github_repo": null,
-    "npm_package": "dify",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Docker": {
     "github_repo": null,
@@ -1124,12 +1116,13 @@
     "resolved_by": []
   },
   "Dolt": {
-    "github_repo": "tswicegood/Dolt",
+    "github_repo": "dolthub/dolt",
     "npm_package": null,
-    "pypi_package": "dolt",
+    "pypi_package": "doltpy",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "Domino Data Lab": {
@@ -1237,10 +1230,10 @@
   },
   "Evidence": {
     "github_repo": null,
-    "npm_package": "evidence",
+    "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
-      "npm_guess"
+      "manual_correction"
     ]
   },
   "Evidently": {
@@ -1262,13 +1255,11 @@
     ]
   },
   "Facets": {
-    "github_repo": "olivier-m/django-facets",
-    "npm_package": "facets",
-    "pypi_package": "facets",
+    "github_repo": "PAIR-code/facets",
+    "npm_package": null,
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls",
-      "npm_guess"
+      "manual_correction"
     ]
   },
   "Fairlearn": {
@@ -1512,11 +1503,9 @@
   },
   "Grafana": {
     "github_repo": null,
-    "npm_package": "grafana",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Grafana Loki": {
     "github_repo": null,
@@ -1527,9 +1516,10 @@
   "Graphite": {
     "github_repo": null,
     "npm_package": null,
-    "pypi_package": "graphite",
+    "pypi_package": "graphite-web",
     "resolved_by": [
-      "pypi_guess"
+      "pypi_guess",
+      "manual_correction"
     ]
   },
   "Great Expectations": {
@@ -1618,12 +1608,11 @@
     "resolved_by": []
   },
   "Hex": {
-    "github_repo": "dmulholland/hex",
+    "github_repo": null,
     "npm_package": null,
-    "pypi_package": "hex",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "manual_correction"
     ]
   },
   "Hive Metastore": {
@@ -1651,13 +1640,11 @@
     ]
   },
   "Hue": {
-    "github_repo": "issackelly/python-hue",
-    "npm_package": "hue",
-    "pypi_package": "hue",
+    "github_repo": "cloudera/hue",
+    "npm_package": null,
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls",
-      "npm_guess"
+      "manual_correction"
     ]
   },
   "HugeGraph": {
@@ -1679,12 +1666,13 @@
     "resolved_by": []
   },
   "Hydra": {
-    "github_repo": "crankycoder/Hydra",
+    "github_repo": "facebookresearch/hydra",
     "npm_package": null,
-    "pypi_package": "hydra",
+    "pypi_package": "hydra-core",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "Hydrosphere": {
@@ -1717,12 +1705,13 @@
     ]
   },
   "Ibis": {
-    "github_repo": "dmulholl/ibis",
+    "github_repo": "ibis-project/ibis",
     "npm_package": null,
-    "pypi_package": "ibis",
+    "pypi_package": "ibis-framework",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "InfluxDB": {
@@ -1902,11 +1891,9 @@
   },
   "Kibana": {
     "github_repo": null,
-    "npm_package": "kibana",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Knowledge Repo": {
     "github_repo": "airbnb/knowledge-repo",
@@ -1980,12 +1967,13 @@
     ]
   },
   "Lance": {
-    "github_repo": "susamn/lance",
+    "github_repo": "lancedb/lance",
     "npm_package": null,
     "pypi_package": "lance",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "LanceDB": {
@@ -2016,11 +2004,9 @@
   },
   "Lightdash": {
     "github_repo": null,
-    "npm_package": "lightdash",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Lightning AI": {
     "github_repo": null,
@@ -2254,11 +2240,9 @@
   },
   "Metabase": {
     "github_repo": null,
-    "npm_package": "metabase",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Metacat": {
     "github_repo": "Netflix/metacat",
@@ -2343,12 +2327,11 @@
     "resolved_by": []
   },
   "MySQL": {
-    "github_repo": "valhallasw/virtual-mysql-pypi-package",
+    "github_repo": null,
     "npm_package": null,
-    "pypi_package": "mysql",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "manual_correction"
     ]
   },
   "NATS": {
@@ -2552,12 +2535,13 @@
     ]
   },
   "OpenMetadata": {
-    "github_repo": "abstractfactory/openmetadata",
+    "github_repo": "open-metadata/OpenMetadata",
     "npm_package": null,
-    "pypi_package": "openmetadata",
+    "pypi_package": "openmetadata-ingestion",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "OpenRefine": {
@@ -2567,21 +2551,20 @@
     "resolved_by": []
   },
   "OpenSearch": {
-    "github_repo": "edsu/opensearch",
+    "github_repo": "opensearch-project/OpenSearch",
     "npm_package": null,
-    "pypi_package": "opensearch",
+    "pypi_package": "opensearch-py",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "OpenTelemetry": {
     "github_repo": null,
-    "npm_package": "opentelemetry",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "OpenVINO": {
     "github_repo": null,
@@ -2715,12 +2698,11 @@
     ]
   },
   "Pixi": {
-    "github_repo": "azuline/pixi",
+    "github_repo": "prefix-dev/pixi",
     "npm_package": null,
-    "pypi_package": "pixi",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "manual_correction"
     ]
   },
   "Ploomber": {
@@ -2864,19 +2846,16 @@
   },
   "Quary": {
     "github_repo": null,
-    "npm_package": "quary",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Querybook": {
     "github_repo": "pinterest/querybook",
-    "npm_package": "querybook",
+    "npm_package": null,
     "pypi_package": null,
     "resolved_by": [
-      "url_parse",
-      "npm_guess"
+      "url_parse"
     ]
   },
   "QuestDB": {
@@ -2907,21 +2886,19 @@
     "resolved_by": []
   },
   "RAPIDS": {
-    "github_repo": "sinoroc/rapids",
+    "github_repo": null,
     "npm_package": null,
-    "pypi_package": "rapids",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "manual_correction"
     ]
   },
   "RabbitMQ": {
-    "github_repo": "jbg/rabbitmq",
+    "github_repo": "rabbitmq/rabbitmq-server",
     "npm_package": null,
-    "pypi_package": "rabbitmq",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "manual_correction"
     ]
   },
   "Ray": {
@@ -2941,11 +2918,9 @@
   },
   "Redash": {
     "github_repo": null,
-    "npm_package": "redash",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "Redis": {
     "github_repo": "redis/redis-py",
@@ -3276,12 +3251,11 @@
     ]
   },
   "Tableau": {
-    "github_repo": "moriyoshi/tableau",
+    "github_repo": null,
     "npm_package": null,
-    "pypi_package": "tableau",
+    "pypi_package": null,
     "resolved_by": [
-      "pypi_guess",
-      "pypi_project_urls"
+      "manual_correction"
     ]
   },
   "Talos": {
@@ -3315,11 +3289,9 @@
   },
   "Temporal": {
     "github_repo": null,
-    "npm_package": "temporal",
+    "npm_package": null,
     "pypi_package": null,
-    "resolved_by": [
-      "npm_guess"
-    ]
+    "resolved_by": []
   },
   "TensorBoard": {
     "github_repo": "tensorflow/tensorboard",
@@ -3332,12 +3304,11 @@
   },
   "TensorFlow": {
     "github_repo": "tensorflow/tensorflow",
-    "npm_package": "tensorflow",
+    "npm_package": null,
     "pypi_package": "tensorflow",
     "resolved_by": [
       "github_override",
-      "pypi_guess",
-      "npm_guess"
+      "pypi_guess"
     ]
   },
   "TensorFlow Data Validation": {
@@ -3503,12 +3474,13 @@
     "resolved_by": []
   },
   "Vespa": {
-    "github_repo": "timothydmorton/VESPA",
+    "github_repo": "vespa-engine/vespa",
     "npm_package": null,
-    "pypi_package": "vespa",
+    "pypi_package": "pyvespa",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "VictoriaMetrics": {
@@ -3589,11 +3561,11 @@
   },
   "Windmill": {
     "github_repo": null,
-    "npm_package": "windmill",
-    "pypi_package": "windmill",
+    "npm_package": null,
+    "pypi_package": "wmill",
     "resolved_by": [
       "pypi_guess",
-      "npm_guess"
+      "manual_correction"
     ]
   },
   "XGBoost": {
@@ -3814,12 +3786,13 @@
     ]
   },
   "uvicorn": {
-    "github_repo": "Kludex/uvicorn",
+    "github_repo": "encode/uvicorn",
     "npm_package": null,
     "pypi_package": "uvicorn",
     "resolved_by": [
       "pypi_guess",
-      "pypi_project_urls"
+      "pypi_project_urls",
+      "manual_correction"
     ]
   },
   "vLLM": {

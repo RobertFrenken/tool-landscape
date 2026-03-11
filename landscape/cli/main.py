@@ -284,6 +284,77 @@ def cmd_coverage(args: argparse.Namespace) -> None:
     con.close()
 
 
+def cmd_fitness_score(args: argparse.Namespace) -> None:
+    """Score all tools against capabilities for a project."""
+    from landscape.analysis.fitness import persist_scores, score_project
+    from landscape.db.connection import get_db
+
+    con = get_db()
+    try:
+        results = score_project(con, args.project, top_n=args.top_n)
+    except ValueError as e:
+        print(str(e))
+        con.close()
+        sys.exit(1)
+
+    all_scores = []
+    for cap_name, scored in results.items():
+        print(f"\n=== {cap_name} (top {len(scored)}) ===")
+        print(f"  {'Tool':<30} {'Fitness':>8} {'Ceiling%':>9} {'Floor%':>8}")
+        print(f"  {'-' * 30} {'-' * 8} {'-' * 9} {'-' * 8}")
+        for s in scored:
+            print(
+                f"  {s.tool_name:<30} {s.overall_fitness:>7.1f}% "
+                f"{s.ceiling_coverage:>8.1f}% {s.floor_coverage:>7.1f}%"
+            )
+        all_scores.extend(scored)
+
+    if args.persist:
+        count = persist_scores(con, all_scores)
+        print(f"\nPersisted {count} fitness scores to database.")
+
+    con.close()
+
+
+def cmd_fitness_show(args: argparse.Namespace) -> None:
+    """Show fitness scores for a specific tool across all capabilities."""
+    from landscape.analysis.fitness import score_single_tool
+    from landscape.db.connection import get_db
+
+    con = get_db(read_only=True)
+    try:
+        results = score_single_tool(con, args.name)
+    except ValueError as e:
+        print(str(e))
+        con.close()
+        sys.exit(1)
+
+    if not results:
+        print("No capabilities found to score against.")
+        con.close()
+        return
+
+    print(f"\n=== Fitness: {results[0].tool_name} ===\n")
+    print(f"  {'Capability':<30} {'Fitness':>8} {'Ceiling%':>9} {'Floor%':>8}")
+    print(f"  {'-' * 30} {'-' * 8} {'-' * 9} {'-' * 8}")
+    for s in results:
+        print(
+            f"  {s.capability_name:<30} {s.overall_fitness:>7.1f}% "
+            f"{s.ceiling_coverage:>8.1f}% {s.floor_coverage:>7.1f}%"
+        )
+
+    # Show component breakdown for the top capability
+    top = results[0]
+    print(f"\nTop match: {top.capability_name}")
+    print("  Components: ", end="")
+    parts = [f"{k}={v:.2f}" for k, v in sorted(top.components.items(), key=lambda x: -x[1])]
+    print(", ".join(parts))
+    if top.reasoning:
+        print(f"  Reasoning: {top.reasoning}")
+
+    con.close()
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="landscape",
@@ -341,9 +412,46 @@ def main() -> None:
     p_ms.add_argument("name", help="Tool name")
     p_ms.set_defaults(func=cmd_metrics_show)
 
+    # fitness
+    p_fitness = sub.add_parser("fitness", help="Fitness scoring")
+    fitness_sub = p_fitness.add_subparsers(dest="fitness_command")
+
+    p_fit_score = fitness_sub.add_parser(
+        "score",
+        help="Score tools against project capabilities",
+    )
+    p_fit_score.add_argument(
+        "--project",
+        required=True,
+        help="Project name",
+    )
+    p_fit_score.add_argument(
+        "--top-n",
+        type=int,
+        default=10,
+        help="Top N tools per capability",
+    )
+    p_fit_score.add_argument(
+        "--persist",
+        action="store_true",
+        help="Write scores to fitness table",
+    )
+    p_fit_score.set_defaults(func=cmd_fitness_score)
+
+    p_fit_show = fitness_sub.add_parser(
+        "show",
+        help="Show fitness for a tool",
+    )
+    p_fit_show.add_argument("name", help="Tool name")
+    p_fit_show.set_defaults(func=cmd_fitness_show)
+
     args = parser.parse_args()
     if not args.command:
         parser.print_help()
+        sys.exit(1)
+
+    if not hasattr(args, "func"):
+        sub.choices[args.command].print_help()
         sys.exit(1)
 
     args.func(args)

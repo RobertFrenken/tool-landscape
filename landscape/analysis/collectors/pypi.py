@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 from datetime import UTC, datetime
@@ -54,6 +55,10 @@ async def _fetch_pypi_downloads(
     rows: list[MetricRow] = []
     try:
         resp = await client.get(PYPISTATS_URL.format(package=package), follow_redirects=True)
+        if resp.status_code == 429:
+            logger.info("pypistats 429 for %s, retrying after 2s", package)
+            await asyncio.sleep(2.0)
+            resp = await client.get(PYPISTATS_URL.format(package=package), follow_redirects=True)
         if resp.status_code != 200:
             return rows
         data = resp.json()
@@ -100,6 +105,8 @@ async def collect_pypi_metrics(
     async with httpx.AsyncClient(timeout=15.0) as client:
         for i, (tool_id, package) in enumerate(valid):
             meta_rows = await _fetch_pypi_metadata(client, tool_id, package, now)
+            # Throttle pypistats.org requests to avoid 429s
+            await asyncio.sleep(0.4)
             dl_rows = await _fetch_pypi_downloads(client, tool_id, package, now)
             all_rows.extend(meta_rows)
             all_rows.extend(dl_rows)
