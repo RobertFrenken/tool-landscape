@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
-from typing import Annotated, Any
+from typing import Annotated, Any, Literal
 
 import yaml
 from pydantic import BaseModel, Field, field_validator, model_validator
@@ -316,8 +316,89 @@ class EnvironmentSpec(BaseModel):
     shared_filesystem: str | None = None
 
 
+# ── v2 Models ─────────────────────────────────────────────────────────────────
+
+
+class DataFlowStage(BaseModel):
+    """A stage in the project's data pipeline."""
+
+    name: str
+    description: str = ""
+    tools: list[str] = []  # current tools filling this stage
+    inputs: list[str] = []  # data formats consumed
+    outputs: list[str] = []  # data formats produced
+
+
+class IntegrationBoundary(BaseModel):
+    """Friction point between two pipeline stages."""
+
+    between: tuple[str, str]  # (stage_name, stage_name)
+    friction: Literal["low", "medium", "high"]
+    notes: str = ""
+
+
+class BoundaryOverride(BaseModel):
+    """Per-stack override for a specific boundary's friction level."""
+
+    between: tuple[str, str]  # (stage_name, stage_name)
+    friction: Literal["low", "medium", "high"]
+    notes: str = ""
+
+
+class DataFlow(BaseModel):
+    """Data pipeline topology for the project."""
+
+    stages: list[DataFlowStage] = []
+    boundaries: list[IntegrationBoundary] = []
+
+
+class PlannedWork(BaseModel):
+    """Concrete near-term work that affects tool selection."""
+
+    description: str
+    timeframe: str  # e.g. "2026-Q1"
+    components_affected: list[str] = []
+    complexity: Literal["low", "medium", "high"] = "medium"
+
+
+class TimeHorizon(BaseModel):
+    """When capabilities need to reach ceiling."""
+
+    planned_work: list[PlannedWork] = []
+    ceiling_timeline: dict[str, str] = {}  # component → timeframe
+    evolution: dict[str, Literal["genesis", "custom", "product", "commodity"]] = {}
+
+
+class MigrationOnetime(BaseModel):
+    """One-time migration costs for a component."""
+
+    effort_hours: float
+    risk: Literal["low", "medium", "high"] = "medium"
+    reversibility: Literal["full", "partial", "irreversible"] = "full"
+
+
+class MigrationFriction(BaseModel):
+    """Ongoing friction costs for staying on current tool."""
+
+    hours_per_week: float
+    trend: Literal["decreasing", "stable", "increasing"] = "stable"
+    notes: str = ""
+
+
+class MigrationEconomics(BaseModel):
+    """Migration cost/benefit analysis per component."""
+
+    one_time: dict[str, MigrationOnetime] = {}
+    ongoing_friction: dict[str, MigrationFriction] = {}
+
+
 class ProjectSpec(BaseModel):
-    """Top-level spec: project metadata + environment + components."""
+    """Top-level spec: project metadata + environment + components.
+
+    spec_version="1": v1 fields only (environment, components, stack_pins, weights).
+    spec_version="2": v2 fields are active (data_flow, time_horizon, migration,
+    candidate_stacks, invariant_pins).
+    """
 
     spec_version: str = SPEC_VERSION
     extends: list[str] = Field(default_factory=list)
@@ -337,6 +418,28 @@ class ProjectSpec(BaseModel):
     # Optional weight overrides
     weights: dict[str, float] = Field(default_factory=dict)
 
+    # ── v2 fields (all Optional with defaults for backward compatibility) ──────
+
+    # Data pipeline topology
+    data_flow: DataFlow | None = None
+
+    # When capabilities need to reach ceiling
+    time_horizon: TimeHorizon | None = None
+
+    # Migration cost/benefit analysis per component
+    migration: MigrationEconomics | None = None
+
+    # Named candidate stacks: stack_name → {component → tool | None}
+    candidate_stacks: dict[str, dict[str, str | None]] = Field(default_factory=dict)
+
+    # Pins that are truly invariant — never replaced regardless of score
+    invariant_pins: list[str] = Field(default_factory=list)
+
+    # Per-stack boundary friction overrides: stack_name → list of BoundaryOverride
+    # Allows challenger stacks to declare lower friction on specific boundaries
+    # (e.g., serving→presentation is "medium" for Astro but "high" for Observable Framework)
+    stack_boundary_overrides: dict[str, list[BoundaryOverride]] = Field(default_factory=dict)
+
     @model_validator(mode="after")
     def inject_environment_constraints(self) -> ProjectSpec:
         """Auto-inject environment-derived constraints into components.
@@ -350,13 +453,18 @@ class ProjectSpec(BaseModel):
                     comp.require.offline_capable = True
         return self
 
+    @property
+    def is_v2(self) -> bool:
+        """Return True if this spec uses v2 features."""
+        return self.spec_version == "2"
+
     def validate_spec(self) -> list[str]:
         """Run all validation checks. Returns list of error/warning messages."""
         errors: list[str] = []
 
-        # Version check
-        if self.spec_version != SPEC_VERSION:
-            errors.append(f"spec_version '{self.spec_version}' != current '{SPEC_VERSION}'")
+        # Version check — warn if unknown version
+        if self.spec_version not in ("1", "2"):
+            errors.append(f"spec_version '{self.spec_version}' is unknown (expected '1' or '2')")
 
         # Component validation
         for comp_name, comp in self.components.items():
@@ -364,7 +472,58 @@ class ProjectSpec(BaseModel):
             for e in comp_errors:
                 errors.append(f"components.{comp_name}.{e}")
 
+        # v2-specific validation
+        if self.is_v2:
+            errors.extend(self._validate_v2())
+
         return errors
+
+    def _validate_v2(self) -> list[str]:
+        """Validate v2-specific sections. Returns list of error messages."""
+        errors: list[str] = []
+
+        if self.data_flow is not None:
+            stage_names = [s.name for s in self.data_flow.stages]
+
+            # Stage names must be unique
+            seen: set[str] = set()
+            for name in stage_names:
+                if name in seen:
+                    errors.append(f"data_flow.stages: duplicate stage name '{name}'")
+                seen.add(name)
+
+            # Boundary references must point to valid stage names
+            for i, boundary in enumerate(self.data_flow.boundaries):
+                for side in boundary.between:
+                    if side not in seen:
+                        errors.append(
+                            f"data_flow.boundaries[{i}]: stage '{side}' not defined "
+                            f"in data_flow.stages"
+                        )
+
+        if self.time_horizon is not None:
+            # ceiling_timeline and evolution keys should reference known components
+            known_comps = set(self.components)
+            for key in self.time_horizon.ceiling_timeline:
+                if key not in known_comps:
+                    errors.append(
+                        f"time_horizon.ceiling_timeline: '{key}' is not a known component"
+                    )
+            for key in self.time_horizon.evolution:
+                if key not in known_comps:
+                    errors.append(f"time_horizon.evolution: '{key}' is not a known component")
+
+        return errors
+
+    def v2_feature_summary(self) -> dict[str, bool]:
+        """Return which v2 features are configured."""
+        return {
+            "data_flow": self.data_flow is not None,
+            "time_horizon": self.time_horizon is not None,
+            "migration": self.migration is not None,
+            "candidate_stacks": len(self.candidate_stacks) > 0,
+            "invariant_pins": len(self.invariant_pins) > 0,
+        }
 
     @classmethod
     def from_yaml(cls, path: str | Path) -> ProjectSpec:
@@ -391,3 +550,19 @@ class ProjectSpec(BaseModel):
                         comp_data["prefer"][key] = pref["value"]
         with open(path, "w") as f:
             yaml.dump(data, f, default_flow_style=False, sort_keys=False)
+
+
+# ── Model rebuild ─────────────────────────────────────────────────────────────
+# Pydantic requires model_rebuild() when from __future__ import annotations is
+# active, so it can resolve Literal and nested model classes from the module
+# globals at class-definition time rather than lazily.
+_MODULE_NS: dict = {k: v for k, v in globals().items()}
+IntegrationBoundary.model_rebuild(_types_namespace=_MODULE_NS)
+BoundaryOverride.model_rebuild(_types_namespace=_MODULE_NS)
+DataFlow.model_rebuild(_types_namespace=_MODULE_NS)
+PlannedWork.model_rebuild(_types_namespace=_MODULE_NS)
+TimeHorizon.model_rebuild(_types_namespace=_MODULE_NS)
+MigrationOnetime.model_rebuild(_types_namespace=_MODULE_NS)
+MigrationFriction.model_rebuild(_types_namespace=_MODULE_NS)
+MigrationEconomics.model_rebuild(_types_namespace=_MODULE_NS)
+ProjectSpec.model_rebuild(_types_namespace=_MODULE_NS)

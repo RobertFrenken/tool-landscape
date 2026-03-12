@@ -480,13 +480,67 @@ def cmd_spec_validate(args: argparse.Namespace) -> None:
     spec = load_spec_with_templates(args.spec_file)
     errors = spec.validate_spec()
 
-    # Print component summary
+    # Print header summary
     print(f"Spec: {spec.project.get('name', '(unnamed)')}")
     print(f"Version: {spec.spec_version}")
     print(f"Components: {len(spec.components)}")
     print(f"Stack pins: {spec.stack_pins}")
     if spec.extends:
         print(f"Extends: {spec.extends}")
+
+    # v2 feature report
+    if spec.is_v2:
+        features = spec.v2_feature_summary()
+        active = [k for k, v in features.items() if v]
+        inactive = [k for k, v in features.items() if not v]
+        print(f"\nv2 features active:   {', '.join(active) if active else '(none)'}")
+        if inactive:
+            print(f"v2 features missing:  {', '.join(inactive)}")
+
+        if spec.data_flow is not None:
+            stage_names = [s.name for s in spec.data_flow.stages]
+            print(f"\nData flow stages ({len(stage_names)}): {' → '.join(stage_names)}")
+            print(f"Integration boundaries: {len(spec.data_flow.boundaries)}")
+            for b in spec.data_flow.boundaries:
+                print(f"  {b.between[0]} → {b.between[1]}: friction={b.friction}")
+
+        if spec.time_horizon is not None:
+            th = spec.time_horizon
+            print(f"\nPlanned work ({len(th.planned_work)} items):")
+            for pw in th.planned_work:
+                affected = ", ".join(pw.components_affected) or "(none)"
+                print(f"  [{pw.timeframe}] {pw.description} ({pw.complexity}) → {affected}")
+            if th.ceiling_timeline:
+                print(f"Ceiling timeline: {th.ceiling_timeline}")
+            if th.evolution:
+                print(f"Evolution stage:  {th.evolution}")
+
+        if spec.migration is not None:
+            mg = spec.migration
+            if mg.one_time:
+                print(f"\nOne-time migration costs ({len(mg.one_time)} components):")
+                for comp, cost in mg.one_time.items():
+                    print(
+                        f"  {comp}: {cost.effort_hours}h, risk={cost.risk}, "
+                        f"reversibility={cost.reversibility}"
+                    )
+            if mg.ongoing_friction:
+                print(f"Ongoing friction ({len(mg.ongoing_friction)} components):")
+                for comp, friction in mg.ongoing_friction.items():
+                    print(
+                        f"  {comp}: {friction.hours_per_week}h/week ({friction.trend})"
+                        + (f" — {friction.notes}" if friction.notes else "")
+                    )
+
+        if spec.candidate_stacks:
+            print(f"\nCandidate stacks ({len(spec.candidate_stacks)}):")
+            for stack_name, mapping in spec.candidate_stacks.items():
+                parts = [f"{k}={v or 'null'}" for k, v in mapping.items()]
+                print(f"  {stack_name}: {', '.join(parts)}")
+
+        if spec.invariant_pins:
+            print(f"\nInvariant pins: {spec.invariant_pins}")
+
     print()
 
     # Per-component summary
@@ -495,7 +549,8 @@ def cmd_spec_validate(args: argparse.Namespace) -> None:
         n_prefer = len(comp.get_preferences())
         current = comp.current_tool or "(none)"
         print(
-            f"  {name}: current={current}, require={n_require}, prefer={n_prefer}, notes={len(comp.notes)}"
+            f"  {name}: current={current}, require={n_require}, prefer={n_prefer}, "
+            f"notes={len(comp.notes)}"
         )
 
     print()
@@ -538,6 +593,60 @@ def cmd_shop(args: argparse.Namespace) -> None:
             print(f"\nPersisted {n} fitness scores for project '{project_name}'")
 
     con.close()
+
+
+def cmd_shop_stack(args: argparse.Namespace) -> None:
+    """Evaluate candidate stacks as complete units using a v2 spec."""
+    from landscape.analysis.shop import (
+        generate_candidate_stacks,
+        print_stack_evidence,
+        print_stack_scores,
+        shop_stack,
+        stack_scores_to_json,
+    )
+    from landscape.db.connection import get_db
+    from landscape.spec.templates import load_spec_with_templates
+
+    spec = load_spec_with_templates(args.spec)
+    auto_mode = getattr(args, "auto", False)
+    explain = getattr(args, "explain", False)
+    top_n = getattr(args, "top_n", 3)
+    max_stacks = getattr(args, "max_stacks", 10)
+
+    con = get_db(read_only=True)
+
+    if auto_mode:
+        # Auto-generate candidate stacks from per-slot v1 evaluation
+        candidate_stacks = generate_candidate_stacks(
+            con, spec, top_n_per_slot=top_n, max_stacks=max_stacks
+        )
+        if not candidate_stacks:
+            print("No candidate stacks could be generated (no components or no DB results).")
+            con.close()
+            sys.exit(1)
+        # Inject generated stacks into spec (creates a shallow copy)
+        from copy import copy
+        spec = copy(spec)
+        object.__setattr__(spec, "candidate_stacks", candidate_stacks)
+        print(f"Auto-generated {len(candidate_stacks)} candidate stacks: "
+              f"{list(candidate_stacks.keys())}", file=sys.stderr)
+    elif not spec.candidate_stacks:
+        print(
+            "No candidate_stacks defined in spec. "
+            "Add them under 'candidate_stacks:' or use --auto."
+        )
+        con.close()
+        sys.exit(1)
+
+    scores = shop_stack(con, spec, collect_evidence=explain)
+    con.close()
+
+    if getattr(args, "format", "text") == "json":
+        print(stack_scores_to_json(scores))
+    else:
+        print_stack_scores(scores)
+        if explain:
+            print_stack_evidence(scores)
 
 
 def cmd_spec_init(args: argparse.Namespace) -> None:
@@ -970,6 +1079,40 @@ def main() -> None:
     p_shop.add_argument("--format", choices=["text", "json"], default="text", help="Output format")
     p_shop.add_argument("--persist", action="store_true", help="Write scores to fitness table")
     p_shop.set_defaults(func=cmd_shop)
+
+    # shop-stack
+    p_shop_stack = sub.add_parser(
+        "shop-stack", help="Evaluate candidate stacks as complete units (v2 spec)"
+    )
+    p_shop_stack.add_argument("--spec", required=True, help="Path to v2 spec YAML file")
+    p_shop_stack.add_argument(
+        "--format", choices=["text", "json"], default="text", help="Output format"
+    )
+    p_shop_stack.add_argument(
+        "--auto",
+        action="store_true",
+        help="Auto-generate candidate stacks from per-slot v1 evaluation",
+    )
+    p_shop_stack.add_argument(
+        "--top-n",
+        dest="top_n",
+        type=int,
+        default=3,
+        help="Top N candidates per slot for --auto mode (default: 3)",
+    )
+    p_shop_stack.add_argument(
+        "--max-stacks",
+        dest="max_stacks",
+        type=int,
+        default=10,
+        help="Maximum stacks to generate in --auto mode (default: 10)",
+    )
+    p_shop_stack.add_argument(
+        "--explain",
+        action="store_true",
+        help="Print per-dimension evidence trail for each stack",
+    )
+    p_shop_stack.set_defaults(func=cmd_shop_stack)
 
     args = parser.parse_args()
     if not args.command:

@@ -1,0 +1,164 @@
+spec_version: "2"
+
+project:
+  description: "ML research stack for HPC environments with SLURM scheduling"
+
+# reference_stack documents the archetype's canonical tool choices.
+# These are informational — they do not filter or score automatically.
+reference_stack:
+  training_framework: PyTorch
+  orchestration: Ray
+  experiment_tracking: MLflow
+  scheduler: SLURM
+  package_management: uv
+  config_management: Pydantic
+
+environment:
+  primary: hpc
+  gpu_required: true
+  internet_on_compute: false  # triggers offline_capable injection into all components
+  shared_filesystem: nfs
+
+# Committed tools that must stay in the stack.
+# Downstream components are scored for coherence with these pins.
+stack_pins:
+  - PyTorch
+  - SLURM
+
+# Data pipeline from raw dataset to tracked experiment results.
+data_flow:
+  stages:
+    - name: data_prep
+      description: "Download, clean, and version datasets"
+      tools: [Python]
+      outputs: [dataset_files, parquet]
+
+    - name: config
+      description: "Resolve experiment configuration from YAML + CLI overrides"
+      tools: [Pydantic]
+      inputs: [yaml_configs]
+      outputs: [typed_config]
+
+    - name: training
+      description: "GPU model training with hyperparameter sweeps"
+      tools: [PyTorch, Ray]
+      inputs: [dataset_files, typed_config]
+      outputs: [checkpoints, metrics_stream]
+
+    - name: tracking
+      description: "Log metrics, parameters, and artifacts per run"
+      tools: [MLflow]
+      inputs: [metrics_stream, checkpoints]
+      outputs: [experiment_records]
+
+    - name: evaluation
+      description: "Aggregate results and compare runs"
+      tools: [MLflow, Python]
+      inputs: [experiment_records]
+      outputs: [comparison_reports]
+
+  boundaries:
+    - between: [data_prep, training]
+      friction: low
+      notes: "Shared filesystem — no copy needed; use memory-mapped datasets"
+
+    - between: [training, tracking]
+      friction: low
+      notes: "MLflow autolog integrates natively with PyTorch Lightning and Ray Train"
+
+    - between: [tracking, evaluation]
+      friction: medium
+      notes: "MLflow query API is powerful but requires familiarity; SQL alternative available"
+
+components:
+  training_framework:
+    description: "Deep learning framework for model development and GPU training"
+    require:
+      open_source: true
+      python_native: true
+      offline_capable: true
+      categories: [deep_learning, machine_learning]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "CUDA and ROCm GPU acceleration required"
+      - "Ecosystem breadth (geometric, audio, vision) matters for research flexibility"
+    triggers:
+      - "Competing framework publishes hardware-specific performance gains >2x"
+
+  orchestration:
+    description: "Distributed training, hyperparameter sweeps, and job fault tolerance"
+    require:
+      python_native: true
+      offline_capable: true
+      hpc_compatible: [native, adaptable]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "SLURM integration (native or via adapter) required"
+      - "Fault tolerance for multi-day training runs on preemptable queues"
+    triggers:
+      - "Team exceeds 5 concurrent GPU users and queue contention degrades iteration"
+      - "Training runs regularly exceed 48 hours"
+
+  experiment_tracking:
+    description: "Track hyperparameters, metrics, and artifacts across runs"
+    require:
+      python_native: true
+      offline_capable: true
+      hpc_compatible: [native, adaptable]
+      categories: [experiment_tracking]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      lock_in_risk: {value: low, weight: 4}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Programmatic query API for post-hoc analysis required"
+      - "Artifact storage integrated with tracking (no separate blob store)"
+    triggers:
+      - "Managed service restricts OSS feature set or imposes egress costs"
+      - "Annual review: check community_momentum hasn't shifted to declining"
+
+  config_management:
+    description: "Type-safe experiment configuration with CLI override support"
+    require:
+      python_native: true
+    prefer:
+      lock_in_risk: {value: low, weight: 4}
+      capability_ceiling: {value: high, weight: 3}
+      resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Pydantic-based type checking catches misconfiguration at startup"
+      - "Hydra-style CLI overrides (--key=value) needed for sweep scripts"
+
+  data_versioning:
+    description: "Dataset versioning and reproducible experiment lineage"
+    require:
+      open_source: true
+      offline_capable: true
+      categories: [data_versioning, data_management]
+    prefer:
+      capability_ceiling: {value: high, weight: 3}
+      lock_in_risk: {value: low, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "Git-compatible workflow (diffs, branches, tags)"
+      - "Large file support (10GB+ raw datasets on shared filesystem)"
+
+  package_management:
+    description: "Python dependency resolution and virtual environment management"
+    require:
+      python_native: true
+      offline_capable: true
+      categories: [package_management]
+    prefer:
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Must work without internet access on compute nodes"
+      - "Lockfile reproducibility critical for SLURM array jobs"

@@ -3216,5 +3216,53 @@
     "capability_ceiling": "extensive",
     "migration_likelihood": "low",
     "composite_tool": false
+  },
+  {
+    "name": "Observable Framework",
+    "url": "https://observablehq.com/framework",
+    "open_source": true,
+    "categories": [
+      "site_generator",
+      "data_visualization"
+    ],
+    "license": "ISC",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "company_backed",
+    "integration_targets": [
+      "d3.js",
+      "duckdb",
+      "apache_arrow"
+    ],
+    "pipeline_stage": [
+      "visualization",
+      "reporting"
+    ],
+    "scale_profile": "single_node",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "shared_server",
+    "migration_cost": "medium",
+    "lock_in_risk": "medium",
+    "community_momentum": "growing",
+    "documentation_quality": "excellent",
+    "python_native": false,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "medium",
+    "summary": "Observable Framework is a static site generator for data-driven pages, with reactive JavaScript, SQL code blocks, and built-in DuckDB-WASM support.",
+    "used_by": [
+      "tool-landscape",
+      "Map-Visualizations"
+    ],
+    "capability_ceiling": "medium",
+    "migration_likelihood": "medium",
+    "composite_tool": false
   }
 ]

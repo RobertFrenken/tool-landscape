@@ -1140,7 +1140,9 @@
     "integration_targets": [],
     "pipeline_stage": [],
     "scale_profile": "single_node",
-    "used_by": []
+    "used_by": [
+      "tool-landscape"
+    ]
   },
   {
     "name": "VS Code",

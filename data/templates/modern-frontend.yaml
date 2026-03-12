@@ -1,0 +1,153 @@
+spec_version: "2"
+
+project:
+  description: "Modern web frontend with component framework, build tooling, and testing"
+
+# reference_stack documents the archetype's canonical tool choices.
+# These are informational — they do not filter or score automatically.
+reference_stack:
+  ui_framework: Svelte
+  build_tool: Vite
+  testing: Vitest
+  site_framework: SvelteKit
+  styling: Tailwind CSS
+
+environment:
+  primary: local
+  gpu_required: false
+  internet_on_compute: true
+  shared_filesystem: none
+
+# Committed tools that must stay in the stack.
+stack_pins:
+  - Vite
+
+# Developer workflow from component authoring through production deployment.
+data_flow:
+  stages:
+    - name: authoring
+      description: "Write components, styles, and application logic"
+      tools: [Svelte, TypeScript]
+      outputs: [component_files, style_files]
+
+    - name: development
+      description: "Local dev server with HMR and instant feedback"
+      tools: [Vite]
+      inputs: [component_files, style_files]
+      outputs: [dev_bundle]
+
+    - name: testing
+      description: "Unit, component, and integration tests"
+      tools: [Vitest]
+      inputs: [component_files]
+      outputs: [test_results]
+
+    - name: build
+      description: "Production bundle — tree-shaking, minification, code splitting"
+      tools: [Vite, SvelteKit]
+      inputs: [component_files, style_files]
+      outputs: [static_assets, server_bundle]
+
+    - name: deployment
+      description: "Publish to CDN or edge hosting"
+      inputs: [static_assets, server_bundle]
+      outputs: [live_site]
+
+  boundaries:
+    - between: [authoring, development]
+      friction: low
+      notes: "Vite HMR sub-50ms updates on save — tight authoring loop"
+
+    - between: [authoring, testing]
+      friction: low
+      notes: "Vitest shares Vite config — no separate test-runner setup"
+
+    - between: [development, build]
+      friction: low
+      notes: "Same Vite config for dev and prod; minor env-var differences"
+
+    - between: [build, deployment]
+      friction: medium
+      notes: "Adapter selection (static, Node, Cloudflare) affects deployment target"
+
+components:
+  ui_framework:
+    description: "Component-based UI framework for authoring interactive interfaces"
+    require:
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 3}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "Compile-step preferred — ships less JS to the browser"
+      - "TypeScript support required"
+    triggers:
+      - "Framework market share drops below 5% and ecosystem narrows"
+      - "Core team changes licensing or governance adversely"
+
+  build_tool:
+    description: "Development server and production asset bundler"
+    require:
+      open_source: true
+    prefer:
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "ESM-native with native ES module dev server (no bundling in dev)"
+      - "Plugin ecosystem breadth matters — PostCSS, WASM, workers"
+    triggers:
+      - "Build times exceed 30s for incremental production builds"
+
+  testing:
+    description: "Unit and component test runner"
+    require:
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      resource_overhead: {value: minimal, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "Vite-native preferred — shared transforms, no config duplication"
+      - "Watch mode for TDD workflow"
+      - "Coverage reporting (v8 or istanbul)"
+
+  site_framework:
+    description: "Full-stack or SSG framework built on the UI framework"
+    require:
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      community_momentum: {value: growing, weight: 4}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "SSR, SSG, and SPA modes all supported via adapters"
+      - "File-system routing reduces boilerplate"
+      - "Edge-deployable adapter available (Cloudflare, Vercel, Netlify)"
+
+  styling:
+    description: "CSS authoring and design token system"
+    require:
+      open_source: true
+    prefer:
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 4}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Utility-first or CSS-in-JS — consistent token system preferred"
+      - "PostCSS compatible for Vite integration"
+
+  e2e_testing:
+    description: "End-to-end browser automation and cross-browser testing"
+    require:
+      open_source: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      community_momentum: {value: growing, weight: 3}
+      documentation_quality: {value: excellent, weight: 4}
+    notes:
+      - "Chromium, Firefox, and WebKit coverage for cross-browser confidence"
+      - "CI-friendly headless mode required"
+      - "Component testing mode a bonus (avoids full-app mount)"

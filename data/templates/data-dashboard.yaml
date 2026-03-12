@@ -1,68 +1,138 @@
-spec_version: "1"
+spec_version: "2"
 
 project:
-  description: "Data dashboard template — interactive visualization with lightweight stack"
+  description: "Static-hosted analytical dashboard with client-side queries"
+
+# reference_stack documents the archetype's canonical tool choices.
+# These are informational — they do not filter or score automatically.
+reference_stack:
+  query_engine: DuckDB
+  visualization: D3.js
+  site_framework: Astro
+  build_tool: Vite
+  hosting: GitHub Pages
+  data_format: Parquet
 
 environment:
   primary: local
   gpu_required: false
   internet_on_compute: true
+  shared_filesystem: none
 
-stack_pins: []
+# Committed tools that must stay in the stack.
+# Downstream components are scored for coherence with these pins.
+stack_pins:
+  - DuckDB
+  - D3.js
+
+# Data pipeline from raw source to rendered DOM.
+# Stages and boundaries inform flow-aware scoring in `landscape shop`.
+data_flow:
+  stages:
+    - name: collection
+      description: "Acquire and clean raw data"
+      tools: [Python]
+      outputs: [csv, json, parquet]
+
+    - name: storage
+      description: "Analytical database — transform and query raw data"
+      tools: [DuckDB]
+      inputs: [csv, json, parquet]
+      outputs: [sql_views, parquet]
+
+    - name: export
+      description: "Denormalize views into frontend-ready files"
+      tools: [DuckDB]
+      inputs: [sql_views]
+      outputs: [parquet_files]
+
+    - name: serving
+      description: "Client-side in-browser query execution"
+      tools: [DuckDB-WASM]
+      inputs: [parquet_files]
+      outputs: [arrow_tables]
+
+    - name: presentation
+      description: "Interactive visualization rendered in the browser"
+      tools: [D3.js]
+      inputs: [arrow_tables]
+      outputs: [dom_elements]
+
+  boundaries:
+    - between: [storage, export]
+      friction: low
+      notes: "Same-process DuckDB COPY TO — no serialization overhead"
+
+    - between: [export, serving]
+      friction: medium
+      notes: "File handoff; manual rebuild required when source data changes"
+
+    - between: [serving, presentation]
+      friction: low
+      notes: "DuckDB-WASM returns Apache Arrow natively; D3 consumes it directly"
 
 components:
-  data_pipeline:
-    description: "ETL/ELT for ingesting and transforming data"
-    require:
-      open_source: true
-      categories: [data_pipeline, etl]
-    prefer:
-      capability_ceiling: {value: high, weight: 4}
-      community_momentum: {value: growing, weight: 3}
-      resource_overhead: {value: minimal, weight: 4}
-      lock_in_risk: {value: low, weight: 3}
-
   query_engine:
-    description: "Analytical query engine for dashboard data"
+    description: "Client-side analytical query engine for dashboard data"
     require:
       open_source: true
       categories: [database, analytics]
     prefer:
-      capability_ceiling: {value: extensive, weight: 4}
+      capability_ceiling: {value: extensive, weight: 5}
       resource_overhead: {value: minimal, weight: 5}
       community_momentum: {value: growing, weight: 3}
     notes:
-      - "In-process preferred (no server setup)"
-      - "Parquet/CSV native support"
+      - "In-process preferred — no server setup or network round-trips"
+      - "Parquet and Arrow native support required for WASM handoff"
 
   visualization:
-    description: "Charting and interactive visualization"
+    description: "Interactive charting and data visualization"
     require:
       open_source: true
-      categories: [visualization, charting]
+      categories: [data_visualization, visualization]
     prefer:
       capability_ceiling: {value: extensive, weight: 5}
       community_momentum: {value: growing, weight: 3}
       documentation_quality: {value: excellent, weight: 3}
     notes:
-      - "Interactive (hover, zoom, filter)"
-      - "Publication-quality output"
+      - "Interactive: hover, zoom, cross-filter"
+      - "Publication-quality SVG output for export"
 
-  static_site:
-    description: "Framework for building and deploying the dashboard"
+  site_framework:
+    description: "Static site generator with data loader and build pipeline"
     require:
       open_source: true
-      categories: [static_site, web_framework]
     prefer:
-      resource_overhead: {value: minimal, weight: 4}
+      capability_ceiling: {value: extensive, weight: 4}
       community_momentum: {value: growing, weight: 3}
+      resource_overhead: {value: minimal, weight: 4}
       lock_in_risk: {value: low, weight: 3}
     notes:
-      - "Data loader / build-time data processing"
-      - "Hot reload for development"
+      - "Build-time data loaders (generate Parquet during build)"
+      - "Hot reload for development iteration"
+
+  build_tool:
+    description: "Development server and production asset bundler"
+    require:
+      open_source: true
+    prefer:
+      community_momentum: {value: growing, weight: 4}
+      resource_overhead: {value: minimal, weight: 5}
+    notes:
+      - "ESM-native preferred for modern browser targets"
+      - "Fast HMR keeps iteration tight during visualization development"
+
+  hosting:
+    description: "Static file hosting with CDN distribution"
+    prefer:
+      resource_overhead: {value: minimal, weight: 5}
+      lock_in_risk: {value: low, weight: 4}
+    notes:
+      - "Zero-cost tier sufficient for research lab dashboards"
+      - "Custom domain support and automated deploy from CI"
 
   data_quality:
-    description: "Validation, profiling, anomaly detection on input data"
+    description: "Validation and anomaly detection on input data"
     require:
       open_source: true
       python_native: true
@@ -70,3 +140,5 @@ components:
       capability_ceiling: {value: high, weight: 3}
       community_momentum: {value: growing, weight: 3}
       resource_overhead: {value: minimal, weight: 3}
+    notes:
+      - "Run at collection stage before ingestion into DuckDB"

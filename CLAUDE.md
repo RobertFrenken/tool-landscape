@@ -8,7 +8,7 @@ Map project goals (floor/ceiling) to stable tool neighborhoods. Designed for sma
 # Rebuild database from seed JSON
 bash scripts/rebuild_db.sh
 
-# CLI
+# CLI — Core
 landscape import --seed                     # Migrate seed JSON → DuckDB
 landscape stats                             # Row counts, DB size
 landscape query --category orchestrator     # Filter tools
@@ -23,6 +23,15 @@ landscape recommend --tool <name>           # Related tool recommendations
 landscape recommend --capability NAME --project NAME
 landscape validate                          # Run data quality checks
 landscape export [--output DIR]             # Export tables to Parquet
+
+# CLI — Shopping (tool/stack evaluation)
+landscape shop specs/tool-landscape-spec.yaml          # v1: per-slot filter+score
+landscape shop-stack --spec specs/tool-landscape-spec.yaml  # v2: hand-authored stack comparison
+landscape shop-stack --spec SPEC --auto                # v2: auto-generate stacks from v1 results
+landscape shop-stack --spec SPEC --auto --explain      # v2: with evidence trails
+landscape shop-stack --spec SPEC --auto --top-n 3 --max-stacks 10  # tune generation
+landscape spec validate specs/tool-landscape-spec.yaml # validate spec (v1 or v2)
+landscape spec templates                               # list available templates
 
 # Frontend (Observable Framework)
 cd site && npm run dev                      # Local preview
@@ -41,8 +50,8 @@ uv pip install -e ".[dev]" --python .venv/bin/python
 
 | Table | Role | Rows |
 |-------|------|------|
-| `tools` | Tool catalog: identity, enums, arrays, booleans | 1157 |
-| `edges` | Typed directed relationships between tools | 1469 |
+| `tools` | Tool catalog: identity, enums, arrays, booleans | 1165 |
+| `edges` | Typed directed relationships between tools | 1553 |
 | `tool_metrics` | Time-series metrics with source tracking (EAV) | 0 (Phase 2) |
 | `neighborhoods` | Computed Louvain clusters | 58 |
 | `neighborhood_members` | Tool membership in neighborhoods (soft, pinnable) | 1157 |
@@ -61,16 +70,24 @@ landscape/
     connection.py   # DuckDB connection manager
     migrate.py      # JSON → DuckDB migration
   models/
-    types.py        # Pydantic v2 models (Phase 2)
+    spec.py         # Pydantic v2 models (ProjectSpec, v2: DataFlow, TimeHorizon, etc.)
   cli/
-    main.py         # Entry point + all subcommands
+    main.py         # Entry point + all subcommands (incl. shop-stack)
   analysis/
-    fitness.py       # Floor/ceiling scoring (Phase 2)
-    neighborhoods.py # Louvain graph clustering (Phase 3)
-    recommend.py     # Tool recommendations (Phase 3)
-    validate.py      # Data quality validation (Phase 3)
-    metrics.py       # GitHub/PyPI metric collection (Phase 2)
+    shop.py          # 2-phase shop (v1) + stack evaluation (v2) + auto-generation
+    fitness.py       # Floor/ceiling scoring
+    neighborhoods.py # Louvain graph clustering (58 neighborhoods)
+    recommend.py     # Tool recommendations
+    validate.py      # Data quality validation
+    metrics.py       # GitHub/PyPI metric collection
+  spec/
+    templates.py     # Template loading + extends resolution + v2 field merging
+    build.py         # Interactive spec builder
+    extract.py       # Draft spec extraction from codebases
   export.py          # DuckDB → Parquet export for frontend
+
+data/templates/        # Archetype templates (data-dashboard, ml-research-hpc, etc.)
+specs/                 # Project spec files (v1 or v2 YAML)
 
 site/                  # Observable Framework frontend (Phase 5)
   src/
@@ -108,6 +125,23 @@ site/                  # Observable Framework frontend (Phase 5)
 - **No ORM** — raw parameterized SQL. Pydantic for validation before insert.
 - **"unknown" → NULL** — enum columns use NULL for unknown, not an "unknown" enum value.
 
+### Spec v2 (Ecosystem Evaluation)
+
+v2 specs add 5 optional sections (backward compatible with v1):
+
+| Section | Purpose |
+|---------|---------|
+| `data_flow` | Pipeline stages + integration boundary friction |
+| `time_horizon` | Planned work, ceiling deadlines, Wardley evolution |
+| `migration` | One-time effort + ongoing friction per component |
+| `candidate_stacks` | Named complete stacks to evaluate as units |
+| `stack_boundary_overrides` | Per-stack friction overrides (e.g., Svelte reduces serving→presentation friction) |
+
+**Three evaluation modes:**
+1. `landscape shop SPEC` — v1: per-slot filter+score (good for discovering candidates)
+2. `landscape shop-stack --spec SPEC` — v2: compare hand-authored stacks
+3. `landscape shop-stack --spec SPEC --auto --explain` — v2: auto-generate stacks from v1 results with evidence trails
+
 ## Guiding Principle
 
 **"Grow into, don't switch."** The framework exists to end tool churn. Evaluate against ceilings (where you're going), not current needs. Re-evaluate only when a trigger fires, not when a new tool trends.
@@ -124,6 +158,7 @@ See `data/seed/project_ceilings.json` → `evaluation_protocol` for when/how to 
 | 3 | **Done** | Graph clustering (Louvain → 58 neighborhoods), recommend command, validate command |
 | 4 | **Done** | Expanded catalogs: 9 catalogs × 29 dimensions (mlops, frontend, document, llm, gamedev, viz, platform, backend) |
 | 5 | **Done** | Observable Framework frontend: dashboard, graph explorer, tool table, coverage, compare |
+| 6 | **Done** | Ecosystem redesign: spec v2 (DataFlow, TimeHorizon, MigrationEconomics), stack evaluation engine, 4 archetype templates, auto-stack generation, explainability layer |
 
 ## Seed Data
 
@@ -131,18 +166,18 @@ See `data/seed/project_ceilings.json` → `evaluation_protocol` for when/how to 
 
 | Catalog | Tools | Domain |
 |---------|-------|--------|
-| `mlops_tools_catalog.json` | 506 | ML/data/DevOps tools |
-| `frontend_tools_catalog_a.json` | 74 | UI frameworks, build tools, component libraries, state mgmt |
+| `mlops_tools_catalog.json` | 509 | ML/data/DevOps tools |
+| `frontend_tools_catalog_a.json` | 75 | UI frameworks, build tools, component libraries, state mgmt |
 | `frontend_tools_catalog_b.json` | 75 | Testing, SSG, validation, animation, forms, routing |
 | `document_tools_catalog.json` | 83 | LaTeX, Markdown, Quarto, Typst, publishing |
 | `llm_tools_catalog.json` | 71 | LLM frameworks, agents, RAG, vector DBs |
 | `gamedev_tools_catalog.json` | 77 | Game engines, embedded/IoT, robotics, blockchain |
-| `viz_tools_catalog.json` | 90 | Charting, graph viz, mapping, diagramming, 3D |
+| `viz_tools_catalog.json` | 94 | Charting, graph viz, mapping, diagramming, 3D |
 | `platform_tools_catalog.json` | 93 | Desktop/mobile, editors, CLI, WASM, package mgmt |
 | `backend_tools_catalog.json` | 88 | Databases, auth, monitoring, service mesh, queues |
 
 - `data/seed/project_ceilings.json` — 2 projects, 16 capabilities, evaluation protocol
-- `data/seed/curated_edges.json` — 99 hand-curated typed edges
+- `data/seed/curated_edges.json` — 164 hand-curated typed edges
 
 Validate catalogs: `python3 scripts/validate_catalogs.py`
 

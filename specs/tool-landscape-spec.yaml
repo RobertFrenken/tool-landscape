@@ -1,4 +1,4 @@
-spec_version: "1"
+spec_version: "2"
 
 project:
   name: tool-landscape
@@ -12,6 +12,8 @@ environment:
   internet_on_compute: true
 
 stack_pins: [DuckDB, D3.js, Python, Pydantic, ruff, pytest, Hatch, GitHub Actions]
+
+invariant_pins: [DuckDB, D3.js, Python, Pydantic, ruff, pytest, Hatch, GitHub Actions]
 
 components:
   # ── Frontend (the Phase I decision) ────────────────────────────────
@@ -122,3 +124,118 @@ components:
     require:
       categories: [package_management]
       open_source: true
+
+# ── v2: Data pipeline topology ─────────────────────────────────────────────
+
+data_flow:
+  stages:
+    - name: collection
+      description: "Curate tool catalogs as JSON seed files"
+      tools: [Python]
+      outputs: [json]
+    - name: storage
+      description: "Rebuild DuckDB from seed data"
+      tools: [DuckDB, Python]
+      inputs: [json]
+      outputs: [duckdb_tables]
+    - name: analysis
+      description: "Compute neighborhoods, fitness, recommendations"
+      tools: [Python, DuckDB]
+      inputs: [duckdb_tables]
+      outputs: [duckdb_tables]
+    - name: export
+      description: "Export tables to Parquet for frontend"
+      tools: [Python, DuckDB]
+      inputs: [duckdb_tables]
+      outputs: [parquet_files]
+    - name: serving
+      description: "Build static site with DuckDB-WASM"
+      tools: [Observable Framework, DuckDB-WASM]
+      inputs: [parquet_files]
+      outputs: [arrow_tables]
+    - name: presentation
+      description: "Render interactive dashboard"
+      tools: [Observable Framework, D3.js, Observable Plot]
+      inputs: [arrow_tables]
+      outputs: [dom_elements]
+  boundaries:
+    - between: [storage, analysis]
+      friction: low
+      notes: "Same Python process, DuckDB native"
+    - between: [analysis, export]
+      friction: low
+      notes: "DuckDB COPY TO parquet, trivial"
+    - between: [export, serving]
+      friction: medium
+      notes: "File handoff; must re-run export when data changes"
+    - between: [serving, presentation]
+      friction: high
+      notes: "Arrow proxy impedance, SQL string interpolation, no execution ordering"
+
+# ── v2: Time horizon ───────────────────────────────────────────────────────
+
+time_horizon:
+  planned_work:
+    - description: "Interactive shop page with nested form state"
+      timeframe: "2026-Q1"
+      components_affected: [site_framework, ui_framework]
+      complexity: high
+    - description: "Stack comparison wizard"
+      timeframe: "2026-Q2"
+      components_affected: [site_framework, ui_framework]
+      complexity: medium
+  ceiling_timeline:
+    site_framework: "2026-Q2"
+    visualization: "2027+"
+    query_engine: "2027+"
+  evolution:
+    site_framework: product
+    visualization: product
+    query_engine: product
+    build_tool: commodity
+
+# ── v2: Migration economics ────────────────────────────────────────────────
+
+migration:
+  one_time:
+    site_framework:
+      effort_hours: 16
+      risk: low
+      reversibility: full
+  ongoing_friction:
+    site_framework:
+      hours_per_week: 1.5
+      trend: increasing
+      notes: "Arrow proxy workarounds, no component encapsulation, keystroke reactivity"
+
+# ── v2: Candidate stacks ───────────────────────────────────────────────────
+
+candidate_stacks:
+  current:
+    site_framework: Observable Framework
+    ui_framework: null
+    build_tool: Observable Framework
+    visualization: D3.js
+    query_engine: DuckDB-WASM
+  astro_svelte:
+    site_framework: Astro
+    ui_framework: Svelte
+    build_tool: Vite
+    visualization: D3.js
+    query_engine: DuckDB-WASM
+  sveltekit:
+    site_framework: SvelteKit
+    ui_framework: Svelte
+    build_tool: Vite
+    visualization: D3.js
+    query_engine: DuckDB-WASM
+
+stack_boundary_overrides:
+  astro_svelte:
+    - between: [serving, presentation]
+      friction: medium
+      notes: "Svelte components have explicit state, standard DOM APIs, no Arrow proxy"
+  sveltekit:
+    - between: [serving, presentation]
+      friction: medium
+      notes: "SvelteKit has standard component model, no Arrow proxy impedance"

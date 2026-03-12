@@ -1,108 +1,986 @@
 [
-  {"source": "uv", "target": "conda", "relation": "replaces", "evidence": "uv provides faster, unified Python package and environment management"},
-  {"source": "uv", "target": "pip", "relation": "replaces", "evidence": "uv is a drop-in pip replacement with 10-100x faster resolution"},
-  {"source": "uv", "target": "Hatch", "relation": "replaces", "evidence": "uv subsumes Hatch's project management with faster tooling"},
-  {"source": "uv", "target": "PDM", "relation": "replaces", "evidence": "uv replaces PDM for Python project and dependency management"},
-  {"source": "uv", "target": "Rye", "relation": "replaces", "evidence": "uv absorbed Rye's functionality; Rye creator recommends uv"},
-  {"source": "Ruff", "target": "Black", "relation": "replaces", "evidence": "Ruff includes a formatter that replaces Black with much faster execution"},
-  {"source": "Ruff", "target": "mypy", "relation": "replaces", "evidence": "Ruff replaces many mypy-adjacent linting checks, though not full type checking"},
-  {"source": "Polars", "target": "pandas", "relation": "replaces", "evidence": "Polars replaces pandas for performance-critical tabular workloads with lazy evaluation"},
-  {"source": "DuckDB", "target": "SQLite", "relation": "replaces", "evidence": "DuckDB replaces SQLite for analytical queries with columnar storage and vectorized execution"},
-  {"source": "mamba", "target": "conda", "relation": "replaces", "evidence": "Mamba is a drop-in conda replacement with faster C++ dependency solver"},
-  {"source": "pytest", "target": "nox", "relation": "replaces", "evidence": "pytest replaces nox as primary test runner with richer plugin ecosystem"},
-  {"source": "Typer", "target": "Click", "relation": "replaces", "evidence": "Typer provides a modern CLI framework using type hints, replacing Click's decorator API"},
-  {"source": "Pydantic", "target": "Cerberus", "relation": "replaces", "evidence": "Pydantic replaces Cerberus for Python data validation with type-hint-driven schemas"},
-  {"source": "FastAPI", "target": "Litestar", "relation": "replaces", "evidence": "FastAPI is the dominant async Python API framework, displacing alternatives like Litestar"},
-  {"source": "Dagster", "target": "Luigi", "relation": "replaces", "evidence": "Dagster replaces Luigi with software-defined assets and modern orchestration"},
-  {"source": "Dagster", "target": "Apache Airflow", "relation": "replaces", "evidence": "Dagster replaces Airflow for data-aware orchestration with better local dev experience"},
-  {"source": "Prefect", "target": "Apache Airflow", "relation": "replaces", "evidence": "Prefect replaces Airflow with a more Pythonic workflow orchestration model"},
-  {"source": "Prefect", "target": "Luigi", "relation": "replaces", "evidence": "Prefect replaces Luigi with modern workflow orchestration and dynamic task graphs"},
-  {"source": "Podman", "target": "Docker", "relation": "replaces", "evidence": "Podman is a daemonless, rootless drop-in replacement for Docker CLI"},
-  {"source": "Apptainer (Singularity)", "target": "Docker", "relation": "replaces", "evidence": "Apptainer replaces Docker on HPC systems with unprivileged container execution"},
-  {"source": "Valkey", "target": "Redis", "relation": "replaces", "evidence": "Valkey is the community fork replacing Redis after its license change"},
-  {"source": "OpenSearch", "target": "Elasticsearch", "relation": "replaces", "evidence": "OpenSearch forked from Elasticsearch as an open-source replacement after license change"},
-  {"source": "Trino", "target": "Presto", "relation": "replaces", "evidence": "Trino is the community continuation of Presto, replacing it for distributed SQL"},
-  {"source": "Redpanda", "target": "Apache Kafka", "relation": "replaces", "evidence": "Redpanda is a Kafka-compatible streaming platform without JVM/ZooKeeper dependency"},
-  {"source": "ClickHouse", "target": "Apache Druid", "relation": "replaces", "evidence": "ClickHouse replaces Druid for real-time analytics with simpler architecture"},
-  {"source": "Ray Tune", "target": "Optuna", "relation": "wraps", "evidence": "Ray Tune wraps Optuna as a search algorithm backend for distributed HPO"},
-  {"source": "Ray Tune", "target": "Hyperopt", "relation": "wraps", "evidence": "Ray Tune wraps Hyperopt as a search algorithm backend for distributed HPO"},
-  {"source": "AutoKeras", "target": "TensorFlow", "relation": "wraps", "evidence": "AutoKeras wraps TensorFlow/Keras for automated neural architecture search"},
-  {"source": "PyTorch Lightning", "target": "PyTorch", "relation": "wraps", "evidence": "Lightning provides a structured high-level API over raw PyTorch training loops"},
-  {"source": "Accelerate", "target": "PyTorch", "relation": "wraps", "evidence": "Accelerate wraps PyTorch for seamless multi-GPU/TPU distributed training"},
-  {"source": "AutoGluon", "target": "scikit-learn", "relation": "wraps", "evidence": "AutoGluon wraps scikit-learn models as part of its AutoML ensemble"},
-  {"source": "AutoGluon", "target": "LightGBM", "relation": "wraps", "evidence": "AutoGluon wraps LightGBM as one of its ensemble model backends"},
-  {"source": "AutoGluon", "target": "XGBoost", "relation": "wraps", "evidence": "AutoGluon wraps XGBoost as one of its ensemble model backends"},
-  {"source": "Kedro", "target": "Luigi", "relation": "wraps", "evidence": "Kedro can use Luigi as an execution backend via kedro-airflow/luigi plugins"},
-  {"source": "Gradio", "target": "FastAPI", "relation": "wraps", "evidence": "Gradio uses FastAPI internally to serve its ML demo interfaces"},
-  {"source": "BentoML", "target": "MLflow", "relation": "wraps", "evidence": "BentoML can import MLflow models and wrap them for production serving"},
-  {"source": "Typer", "target": "Click", "relation": "wraps", "evidence": "Typer is built on top of Click, providing a type-hint-based API layer"},
-  {"source": "DeepSpeed", "target": "PyTorch", "relation": "wraps", "evidence": "DeepSpeed wraps PyTorch for ZeRO optimization, model parallelism, and mixed precision"},
-  {"source": "Horovod", "target": "PyTorch", "relation": "wraps", "evidence": "Horovod wraps PyTorch (and TensorFlow) for distributed data-parallel training"},
-  {"source": "Horovod", "target": "TensorFlow", "relation": "wraps", "evidence": "Horovod wraps TensorFlow for ring-allreduce distributed training"},
-  {"source": "Flax", "target": "JAX", "relation": "wraps", "evidence": "Flax provides a neural network library API on top of JAX"},
-  {"source": "FLAML", "target": "scikit-learn", "relation": "wraps", "evidence": "FLAML wraps scikit-learn estimators for fast automated machine learning"},
-  {"source": "FLAML", "target": "XGBoost", "relation": "wraps", "evidence": "FLAML wraps XGBoost as one of its AutoML learner backends"},
-  {"source": "FLAML", "target": "LightGBM", "relation": "wraps", "evidence": "FLAML wraps LightGBM as one of its AutoML learner backends"},
-  {"source": "pytest", "target": "Ruff", "relation": "often_paired", "evidence": "pytest and Ruff are the standard testing + linting pair in modern Python projects"},
-  {"source": "MLflow", "target": "Ray", "relation": "often_paired", "evidence": "MLflow tracks experiments from Ray-based distributed training runs"},
-  {"source": "DVC", "target": "Git LFS", "relation": "often_paired", "evidence": "DVC and Git LFS are both used for versioning large files alongside Git"},
-  {"source": "Jupyter Notebook", "target": "pandas", "relation": "often_paired", "evidence": "Jupyter and pandas are the canonical interactive data exploration pair"},
-  {"source": "Docker", "target": "Kubernetes", "relation": "often_paired", "evidence": "Docker containers are the standard unit deployed on Kubernetes clusters"},
-  {"source": "Prometheus", "target": "Grafana", "relation": "often_paired", "evidence": "Prometheus collects metrics that Grafana visualizes; the standard monitoring stack"},
-  {"source": "Elasticsearch", "target": "Kibana", "relation": "often_paired", "evidence": "Elasticsearch and Kibana form the ELK search and visualization stack"},
-  {"source": "Apache Airflow", "target": "Docker", "relation": "often_paired", "evidence": "Airflow commonly runs tasks in Docker containers via DockerOperator"},
-  {"source": "FastAPI", "target": "Pydantic", "relation": "often_paired", "evidence": "FastAPI uses Pydantic models for request/response validation by design"},
-  {"source": "scikit-learn", "target": "pandas", "relation": "often_paired", "evidence": "scikit-learn and pandas are the standard ML modeling + data wrangling pair"},
-  {"source": "NumPy", "target": "SciPy", "relation": "often_paired", "evidence": "NumPy arrays are the foundation for SciPy's scientific computing routines"},
-  {"source": "TensorFlow", "target": "TensorBoard", "relation": "often_paired", "evidence": "TensorBoard is TensorFlow's native experiment visualization tool"},
-  {"source": "PyTorch", "target": "TensorBoard", "relation": "often_paired", "evidence": "PyTorch integrates with TensorBoard via torch.utils.tensorboard"},
-  {"source": "Helm", "target": "Kubernetes", "relation": "often_paired", "evidence": "Helm is the standard package manager for Kubernetes deployments"},
-  {"source": "pandas", "target": "matplotlib", "relation": "often_paired", "evidence": "pandas DataFrames integrate with matplotlib for quick plotting via .plot()"},
-  {"source": "pandas", "target": "NumPy", "relation": "often_paired", "evidence": "pandas is built on NumPy and the two are used together ubiquitously"},
-  {"source": "DuckDB", "target": "Apache Superset", "relation": "feeds_into", "evidence": "DuckDB serves as a fast analytical backend feeding dashboards in Superset"},
-  {"source": "Apache Spark", "target": "Delta Lake", "relation": "feeds_into", "evidence": "Spark writes to and reads from Delta Lake tables as its lakehouse storage layer"},
-  {"source": "Apache Kafka", "target": "Apache Flink", "relation": "feeds_into", "evidence": "Kafka streams feed into Flink for real-time stream processing"},
-  {"source": "Airbyte", "target": "dbt", "relation": "feeds_into", "evidence": "Airbyte extracts/loads raw data that dbt transforms in the warehouse"},
-  {"source": "Great Expectations", "target": "Apache Airflow", "relation": "feeds_into", "evidence": "Great Expectations validation results feed into Airflow for pipeline gating"},
-  {"source": "MLflow", "target": "Seldon Core", "relation": "feeds_into", "evidence": "MLflow-logged models are exported and deployed via Seldon Core serving"},
-  {"source": "MLflow", "target": "BentoML", "relation": "feeds_into", "evidence": "MLflow-tracked models are imported into BentoML for production serving"},
-  {"source": "Feast", "target": "MLflow", "relation": "feeds_into", "evidence": "Feast serves features that are consumed during MLflow-tracked training runs"},
-  {"source": "DVC", "target": "MLflow", "relation": "feeds_into", "evidence": "DVC-versioned datasets feed into MLflow-tracked experiment pipelines"},
-  {"source": "dbt", "target": "Apache Superset", "relation": "feeds_into", "evidence": "dbt-transformed tables are visualized in Superset dashboards"},
-  {"source": "dbt", "target": "Google Data Studio (Looker Studio)", "relation": "feeds_into", "evidence": "dbt-modeled data feeds into Looker Studio for business intelligence dashboards"},
-  {"source": "Apache Kafka", "target": "ClickHouse", "relation": "feeds_into", "evidence": "Kafka streams feed into ClickHouse for real-time analytics ingestion"},
-  {"source": "Logstash", "target": "Elasticsearch", "relation": "feeds_into", "evidence": "Logstash processes and ships log data into Elasticsearch for indexing"},
-  {"source": "Telegraf", "target": "InfluxDB", "relation": "feeds_into", "evidence": "Telegraf collects metrics and writes them into InfluxDB time-series database"},
-  {"source": "Prometheus", "target": "Grafana", "relation": "feeds_into", "evidence": "Prometheus metric data feeds into Grafana for dashboard visualization"},
-
-  {"source": "PyTorch", "target": "CUDA Toolkit", "relation": "requires", "evidence": "PyTorch requires CUDA for GPU acceleration"},
-  {"source": "TensorFlow", "target": "CUDA Toolkit", "relation": "requires", "evidence": "TensorFlow requires CUDA for GPU training and inference"},
-  {"source": "JAX", "target": "CUDA Toolkit", "relation": "requires", "evidence": "JAX requires CUDA for GPU/TPU acceleration"},
-  {"source": "React", "target": "Node.js", "relation": "requires", "evidence": "React requires Node.js for build tooling and development"},
-  {"source": "Vue", "target": "Node.js", "relation": "requires", "evidence": "Vue requires Node.js for build tooling and development"},
-  {"source": "Angular", "target": "Node.js", "relation": "requires", "evidence": "Angular requires Node.js for CLI and build system"},
-  {"source": "Next.js", "target": "React", "relation": "requires", "evidence": "Next.js is built on React and requires it as a peer dependency"},
-  {"source": "Next.js", "target": "Node.js", "relation": "requires", "evidence": "Next.js requires Node.js for server-side rendering"},
-  {"source": "Nuxt", "target": "Vue", "relation": "requires", "evidence": "Nuxt is the Vue meta-framework and requires Vue"},
-  {"source": "Nuxt", "target": "Node.js", "relation": "requires", "evidence": "Nuxt requires Node.js for SSR and build"},
-  {"source": "Helm", "target": "Kubernetes", "relation": "requires", "evidence": "Helm is a Kubernetes package manager and requires a cluster"},
-  {"source": "Istio", "target": "Kubernetes", "relation": "requires", "evidence": "Istio is a Kubernetes-native service mesh"},
-  {"source": "ArgoCD", "target": "Kubernetes", "relation": "requires", "evidence": "ArgoCD is a Kubernetes-native GitOps CD tool"},
-  {"source": "Tekton", "target": "Kubernetes", "relation": "requires", "evidence": "Tekton runs CI/CD pipelines as Kubernetes-native resources"},
-  {"source": "Seldon Core", "target": "Kubernetes", "relation": "requires", "evidence": "Seldon Core deploys ML models on Kubernetes"},
-  {"source": "KServe", "target": "Kubernetes", "relation": "requires", "evidence": "KServe is a Kubernetes-native model serving platform"},
-  {"source": "Kubeflow", "target": "Kubernetes", "relation": "requires", "evidence": "Kubeflow is Kubernetes-native ML platform"},
-  {"source": "Ray Tune", "target": "Ray", "relation": "requires", "evidence": "Ray Tune is a Ray library and requires Ray Core"},
-  {"source": "Ray Serve", "target": "Ray", "relation": "requires", "evidence": "Ray Serve is built on Ray and requires Ray Core"},
-  {"source": "Flax", "target": "JAX", "relation": "requires", "evidence": "Flax is a JAX neural network library and requires JAX"},
-  {"source": "Keras Tuner", "target": "TensorFlow", "relation": "requires", "evidence": "Keras Tuner requires TensorFlow/Keras for hyperparameter search"},
-  {"source": "TensorBoard", "target": "TensorFlow", "relation": "requires", "evidence": "TensorBoard is part of TensorFlow ecosystem"},
-  {"source": "PyTorch Geometric (PyG)", "target": "PyTorch", "relation": "requires", "evidence": "PyG is built on PyTorch and requires it for GNN operations"},
-  {"source": "Captum", "target": "PyTorch", "relation": "requires", "evidence": "Captum is a PyTorch model interpretability library"},
-  {"source": "TRL", "target": "PyTorch", "relation": "requires", "evidence": "TRL requires PyTorch for transformer reinforcement learning"},
-  {"source": "PEFT", "target": "PyTorch", "relation": "requires", "evidence": "PEFT requires PyTorch for parameter-efficient fine-tuning"},
-  {"source": "Kibana", "target": "Elasticsearch", "relation": "requires", "evidence": "Kibana requires Elasticsearch as its data backend"},
-  {"source": "Grafana", "target": "Prometheus", "relation": "requires", "evidence": "Grafana commonly requires Prometheus as a data source for metrics dashboards"},
-  {"source": "Apache Flink", "target": "Apache Kafka", "relation": "requires", "evidence": "Flink commonly requires Kafka as a source/sink for stream processing"},
-  {"source": "dbt", "target": "PostgreSQL", "relation": "requires", "evidence": "dbt requires a SQL warehouse (PostgreSQL, Snowflake, etc.) as execution engine"}
+  {
+    "source": "uv",
+    "target": "conda",
+    "relation": "replaces",
+    "evidence": "uv provides faster, unified Python package and environment management"
+  },
+  {
+    "source": "uv",
+    "target": "pip",
+    "relation": "replaces",
+    "evidence": "uv is a drop-in pip replacement with 10-100x faster resolution"
+  },
+  {
+    "source": "uv",
+    "target": "Hatch",
+    "relation": "replaces",
+    "evidence": "uv subsumes Hatch's project management with faster tooling"
+  },
+  {
+    "source": "uv",
+    "target": "PDM",
+    "relation": "replaces",
+    "evidence": "uv replaces PDM for Python project and dependency management"
+  },
+  {
+    "source": "uv",
+    "target": "Rye",
+    "relation": "replaces",
+    "evidence": "uv absorbed Rye's functionality; Rye creator recommends uv"
+  },
+  {
+    "source": "Ruff",
+    "target": "Black",
+    "relation": "replaces",
+    "evidence": "Ruff includes a formatter that replaces Black with much faster execution"
+  },
+  {
+    "source": "Ruff",
+    "target": "mypy",
+    "relation": "replaces",
+    "evidence": "Ruff replaces many mypy-adjacent linting checks, though not full type checking"
+  },
+  {
+    "source": "Polars",
+    "target": "pandas",
+    "relation": "replaces",
+    "evidence": "Polars replaces pandas for performance-critical tabular workloads with lazy evaluation"
+  },
+  {
+    "source": "DuckDB",
+    "target": "SQLite",
+    "relation": "replaces",
+    "evidence": "DuckDB replaces SQLite for analytical queries with columnar storage and vectorized execution"
+  },
+  {
+    "source": "mamba",
+    "target": "conda",
+    "relation": "replaces",
+    "evidence": "Mamba is a drop-in conda replacement with faster C++ dependency solver"
+  },
+  {
+    "source": "pytest",
+    "target": "nox",
+    "relation": "replaces",
+    "evidence": "pytest replaces nox as primary test runner with richer plugin ecosystem"
+  },
+  {
+    "source": "Typer",
+    "target": "Click",
+    "relation": "replaces",
+    "evidence": "Typer provides a modern CLI framework using type hints, replacing Click's decorator API"
+  },
+  {
+    "source": "Pydantic",
+    "target": "Cerberus",
+    "relation": "replaces",
+    "evidence": "Pydantic replaces Cerberus for Python data validation with type-hint-driven schemas"
+  },
+  {
+    "source": "FastAPI",
+    "target": "Litestar",
+    "relation": "replaces",
+    "evidence": "FastAPI is the dominant async Python API framework, displacing alternatives like Litestar"
+  },
+  {
+    "source": "Dagster",
+    "target": "Luigi",
+    "relation": "replaces",
+    "evidence": "Dagster replaces Luigi with software-defined assets and modern orchestration"
+  },
+  {
+    "source": "Dagster",
+    "target": "Apache Airflow",
+    "relation": "replaces",
+    "evidence": "Dagster replaces Airflow for data-aware orchestration with better local dev experience"
+  },
+  {
+    "source": "Prefect",
+    "target": "Apache Airflow",
+    "relation": "replaces",
+    "evidence": "Prefect replaces Airflow with a more Pythonic workflow orchestration model"
+  },
+  {
+    "source": "Prefect",
+    "target": "Luigi",
+    "relation": "replaces",
+    "evidence": "Prefect replaces Luigi with modern workflow orchestration and dynamic task graphs"
+  },
+  {
+    "source": "Podman",
+    "target": "Docker",
+    "relation": "replaces",
+    "evidence": "Podman is a daemonless, rootless drop-in replacement for Docker CLI"
+  },
+  {
+    "source": "Apptainer (Singularity)",
+    "target": "Docker",
+    "relation": "replaces",
+    "evidence": "Apptainer replaces Docker on HPC systems with unprivileged container execution"
+  },
+  {
+    "source": "Valkey",
+    "target": "Redis",
+    "relation": "replaces",
+    "evidence": "Valkey is the community fork replacing Redis after its license change"
+  },
+  {
+    "source": "OpenSearch",
+    "target": "Elasticsearch",
+    "relation": "replaces",
+    "evidence": "OpenSearch forked from Elasticsearch as an open-source replacement after license change"
+  },
+  {
+    "source": "Trino",
+    "target": "Presto",
+    "relation": "replaces",
+    "evidence": "Trino is the community continuation of Presto, replacing it for distributed SQL"
+  },
+  {
+    "source": "Redpanda",
+    "target": "Apache Kafka",
+    "relation": "replaces",
+    "evidence": "Redpanda is a Kafka-compatible streaming platform without JVM/ZooKeeper dependency"
+  },
+  {
+    "source": "ClickHouse",
+    "target": "Apache Druid",
+    "relation": "replaces",
+    "evidence": "ClickHouse replaces Druid for real-time analytics with simpler architecture"
+  },
+  {
+    "source": "Ray Tune",
+    "target": "Optuna",
+    "relation": "wraps",
+    "evidence": "Ray Tune wraps Optuna as a search algorithm backend for distributed HPO"
+  },
+  {
+    "source": "Ray Tune",
+    "target": "Hyperopt",
+    "relation": "wraps",
+    "evidence": "Ray Tune wraps Hyperopt as a search algorithm backend for distributed HPO"
+  },
+  {
+    "source": "AutoKeras",
+    "target": "TensorFlow",
+    "relation": "wraps",
+    "evidence": "AutoKeras wraps TensorFlow/Keras for automated neural architecture search"
+  },
+  {
+    "source": "PyTorch Lightning",
+    "target": "PyTorch",
+    "relation": "wraps",
+    "evidence": "Lightning provides a structured high-level API over raw PyTorch training loops"
+  },
+  {
+    "source": "Accelerate",
+    "target": "PyTorch",
+    "relation": "wraps",
+    "evidence": "Accelerate wraps PyTorch for seamless multi-GPU/TPU distributed training"
+  },
+  {
+    "source": "AutoGluon",
+    "target": "scikit-learn",
+    "relation": "wraps",
+    "evidence": "AutoGluon wraps scikit-learn models as part of its AutoML ensemble"
+  },
+  {
+    "source": "AutoGluon",
+    "target": "LightGBM",
+    "relation": "wraps",
+    "evidence": "AutoGluon wraps LightGBM as one of its ensemble model backends"
+  },
+  {
+    "source": "AutoGluon",
+    "target": "XGBoost",
+    "relation": "wraps",
+    "evidence": "AutoGluon wraps XGBoost as one of its ensemble model backends"
+  },
+  {
+    "source": "Kedro",
+    "target": "Luigi",
+    "relation": "wraps",
+    "evidence": "Kedro can use Luigi as an execution backend via kedro-airflow/luigi plugins"
+  },
+  {
+    "source": "Gradio",
+    "target": "FastAPI",
+    "relation": "wraps",
+    "evidence": "Gradio uses FastAPI internally to serve its ML demo interfaces"
+  },
+  {
+    "source": "BentoML",
+    "target": "MLflow",
+    "relation": "wraps",
+    "evidence": "BentoML can import MLflow models and wrap them for production serving"
+  },
+  {
+    "source": "Typer",
+    "target": "Click",
+    "relation": "wraps",
+    "evidence": "Typer is built on top of Click, providing a type-hint-based API layer"
+  },
+  {
+    "source": "DeepSpeed",
+    "target": "PyTorch",
+    "relation": "wraps",
+    "evidence": "DeepSpeed wraps PyTorch for ZeRO optimization, model parallelism, and mixed precision"
+  },
+  {
+    "source": "Horovod",
+    "target": "PyTorch",
+    "relation": "wraps",
+    "evidence": "Horovod wraps PyTorch (and TensorFlow) for distributed data-parallel training"
+  },
+  {
+    "source": "Horovod",
+    "target": "TensorFlow",
+    "relation": "wraps",
+    "evidence": "Horovod wraps TensorFlow for ring-allreduce distributed training"
+  },
+  {
+    "source": "Flax",
+    "target": "JAX",
+    "relation": "wraps",
+    "evidence": "Flax provides a neural network library API on top of JAX"
+  },
+  {
+    "source": "FLAML",
+    "target": "scikit-learn",
+    "relation": "wraps",
+    "evidence": "FLAML wraps scikit-learn estimators for fast automated machine learning"
+  },
+  {
+    "source": "FLAML",
+    "target": "XGBoost",
+    "relation": "wraps",
+    "evidence": "FLAML wraps XGBoost as one of its AutoML learner backends"
+  },
+  {
+    "source": "FLAML",
+    "target": "LightGBM",
+    "relation": "wraps",
+    "evidence": "FLAML wraps LightGBM as one of its AutoML learner backends"
+  },
+  {
+    "source": "pytest",
+    "target": "Ruff",
+    "relation": "often_paired",
+    "evidence": "pytest and Ruff are the standard testing + linting pair in modern Python projects"
+  },
+  {
+    "source": "MLflow",
+    "target": "Ray",
+    "relation": "often_paired",
+    "evidence": "MLflow tracks experiments from Ray-based distributed training runs"
+  },
+  {
+    "source": "DVC",
+    "target": "Git LFS",
+    "relation": "often_paired",
+    "evidence": "DVC and Git LFS are both used for versioning large files alongside Git"
+  },
+  {
+    "source": "Jupyter Notebook",
+    "target": "pandas",
+    "relation": "often_paired",
+    "evidence": "Jupyter and pandas are the canonical interactive data exploration pair"
+  },
+  {
+    "source": "Docker",
+    "target": "Kubernetes",
+    "relation": "often_paired",
+    "evidence": "Docker containers are the standard unit deployed on Kubernetes clusters"
+  },
+  {
+    "source": "Prometheus",
+    "target": "Grafana",
+    "relation": "often_paired",
+    "evidence": "Prometheus collects metrics that Grafana visualizes; the standard monitoring stack"
+  },
+  {
+    "source": "Elasticsearch",
+    "target": "Kibana",
+    "relation": "often_paired",
+    "evidence": "Elasticsearch and Kibana form the ELK search and visualization stack"
+  },
+  {
+    "source": "Apache Airflow",
+    "target": "Docker",
+    "relation": "often_paired",
+    "evidence": "Airflow commonly runs tasks in Docker containers via DockerOperator"
+  },
+  {
+    "source": "FastAPI",
+    "target": "Pydantic",
+    "relation": "often_paired",
+    "evidence": "FastAPI uses Pydantic models for request/response validation by design"
+  },
+  {
+    "source": "scikit-learn",
+    "target": "pandas",
+    "relation": "often_paired",
+    "evidence": "scikit-learn and pandas are the standard ML modeling + data wrangling pair"
+  },
+  {
+    "source": "NumPy",
+    "target": "SciPy",
+    "relation": "often_paired",
+    "evidence": "NumPy arrays are the foundation for SciPy's scientific computing routines"
+  },
+  {
+    "source": "TensorFlow",
+    "target": "TensorBoard",
+    "relation": "often_paired",
+    "evidence": "TensorBoard is TensorFlow's native experiment visualization tool"
+  },
+  {
+    "source": "PyTorch",
+    "target": "TensorBoard",
+    "relation": "often_paired",
+    "evidence": "PyTorch integrates with TensorBoard via torch.utils.tensorboard"
+  },
+  {
+    "source": "Helm",
+    "target": "Kubernetes",
+    "relation": "often_paired",
+    "evidence": "Helm is the standard package manager for Kubernetes deployments"
+  },
+  {
+    "source": "pandas",
+    "target": "matplotlib",
+    "relation": "often_paired",
+    "evidence": "pandas DataFrames integrate with matplotlib for quick plotting via .plot()"
+  },
+  {
+    "source": "pandas",
+    "target": "NumPy",
+    "relation": "often_paired",
+    "evidence": "pandas is built on NumPy and the two are used together ubiquitously"
+  },
+  {
+    "source": "DuckDB",
+    "target": "Apache Superset",
+    "relation": "feeds_into",
+    "evidence": "DuckDB serves as a fast analytical backend feeding dashboards in Superset"
+  },
+  {
+    "source": "Apache Spark",
+    "target": "Delta Lake",
+    "relation": "feeds_into",
+    "evidence": "Spark writes to and reads from Delta Lake tables as its lakehouse storage layer"
+  },
+  {
+    "source": "Apache Kafka",
+    "target": "Apache Flink",
+    "relation": "feeds_into",
+    "evidence": "Kafka streams feed into Flink for real-time stream processing"
+  },
+  {
+    "source": "Airbyte",
+    "target": "dbt",
+    "relation": "feeds_into",
+    "evidence": "Airbyte extracts/loads raw data that dbt transforms in the warehouse"
+  },
+  {
+    "source": "Great Expectations",
+    "target": "Apache Airflow",
+    "relation": "feeds_into",
+    "evidence": "Great Expectations validation results feed into Airflow for pipeline gating"
+  },
+  {
+    "source": "MLflow",
+    "target": "Seldon Core",
+    "relation": "feeds_into",
+    "evidence": "MLflow-logged models are exported and deployed via Seldon Core serving"
+  },
+  {
+    "source": "MLflow",
+    "target": "BentoML",
+    "relation": "feeds_into",
+    "evidence": "MLflow-tracked models are imported into BentoML for production serving"
+  },
+  {
+    "source": "Feast",
+    "target": "MLflow",
+    "relation": "feeds_into",
+    "evidence": "Feast serves features that are consumed during MLflow-tracked training runs"
+  },
+  {
+    "source": "DVC",
+    "target": "MLflow",
+    "relation": "feeds_into",
+    "evidence": "DVC-versioned datasets feed into MLflow-tracked experiment pipelines"
+  },
+  {
+    "source": "dbt",
+    "target": "Apache Superset",
+    "relation": "feeds_into",
+    "evidence": "dbt-transformed tables are visualized in Superset dashboards"
+  },
+  {
+    "source": "dbt",
+    "target": "Google Data Studio (Looker Studio)",
+    "relation": "feeds_into",
+    "evidence": "dbt-modeled data feeds into Looker Studio for business intelligence dashboards"
+  },
+  {
+    "source": "Apache Kafka",
+    "target": "ClickHouse",
+    "relation": "feeds_into",
+    "evidence": "Kafka streams feed into ClickHouse for real-time analytics ingestion"
+  },
+  {
+    "source": "Logstash",
+    "target": "Elasticsearch",
+    "relation": "feeds_into",
+    "evidence": "Logstash processes and ships log data into Elasticsearch for indexing"
+  },
+  {
+    "source": "Telegraf",
+    "target": "InfluxDB",
+    "relation": "feeds_into",
+    "evidence": "Telegraf collects metrics and writes them into InfluxDB time-series database"
+  },
+  {
+    "source": "Prometheus",
+    "target": "Grafana",
+    "relation": "feeds_into",
+    "evidence": "Prometheus metric data feeds into Grafana for dashboard visualization"
+  },
+  {
+    "source": "PyTorch",
+    "target": "CUDA Toolkit",
+    "relation": "requires",
+    "evidence": "PyTorch requires CUDA for GPU acceleration"
+  },
+  {
+    "source": "TensorFlow",
+    "target": "CUDA Toolkit",
+    "relation": "requires",
+    "evidence": "TensorFlow requires CUDA for GPU training and inference"
+  },
+  {
+    "source": "JAX",
+    "target": "CUDA Toolkit",
+    "relation": "requires",
+    "evidence": "JAX requires CUDA for GPU/TPU acceleration"
+  },
+  {
+    "source": "React",
+    "target": "Node.js",
+    "relation": "requires",
+    "evidence": "React requires Node.js for build tooling and development"
+  },
+  {
+    "source": "Vue",
+    "target": "Node.js",
+    "relation": "requires",
+    "evidence": "Vue requires Node.js for build tooling and development"
+  },
+  {
+    "source": "Angular",
+    "target": "Node.js",
+    "relation": "requires",
+    "evidence": "Angular requires Node.js for CLI and build system"
+  },
+  {
+    "source": "Next.js",
+    "target": "React",
+    "relation": "requires",
+    "evidence": "Next.js is built on React and requires it as a peer dependency"
+  },
+  {
+    "source": "Next.js",
+    "target": "Node.js",
+    "relation": "requires",
+    "evidence": "Next.js requires Node.js for server-side rendering"
+  },
+  {
+    "source": "Nuxt",
+    "target": "Vue",
+    "relation": "requires",
+    "evidence": "Nuxt is the Vue meta-framework and requires Vue"
+  },
+  {
+    "source": "Nuxt",
+    "target": "Node.js",
+    "relation": "requires",
+    "evidence": "Nuxt requires Node.js for SSR and build"
+  },
+  {
+    "source": "Helm",
+    "target": "Kubernetes",
+    "relation": "requires",
+    "evidence": "Helm is a Kubernetes package manager and requires a cluster"
+  },
+  {
+    "source": "Istio",
+    "target": "Kubernetes",
+    "relation": "requires",
+    "evidence": "Istio is a Kubernetes-native service mesh"
+  },
+  {
+    "source": "ArgoCD",
+    "target": "Kubernetes",
+    "relation": "requires",
+    "evidence": "ArgoCD is a Kubernetes-native GitOps CD tool"
+  },
+  {
+    "source": "Tekton",
+    "target": "Kubernetes",
+    "relation": "requires",
+    "evidence": "Tekton runs CI/CD pipelines as Kubernetes-native resources"
+  },
+  {
+    "source": "Seldon Core",
+    "target": "Kubernetes",
+    "relation": "requires",
+    "evidence": "Seldon Core deploys ML models on Kubernetes"
+  },
+  {
+    "source": "KServe",
+    "target": "Kubernetes",
+    "relation": "requires",
+    "evidence": "KServe is a Kubernetes-native model serving platform"
+  },
+  {
+    "source": "Kubeflow",
+    "target": "Kubernetes",
+    "relation": "requires",
+    "evidence": "Kubeflow is Kubernetes-native ML platform"
+  },
+  {
+    "source": "Ray Tune",
+    "target": "Ray",
+    "relation": "requires",
+    "evidence": "Ray Tune is a Ray library and requires Ray Core"
+  },
+  {
+    "source": "Ray Serve",
+    "target": "Ray",
+    "relation": "requires",
+    "evidence": "Ray Serve is built on Ray and requires Ray Core"
+  },
+  {
+    "source": "Flax",
+    "target": "JAX",
+    "relation": "requires",
+    "evidence": "Flax is a JAX neural network library and requires JAX"
+  },
+  {
+    "source": "Keras Tuner",
+    "target": "TensorFlow",
+    "relation": "requires",
+    "evidence": "Keras Tuner requires TensorFlow/Keras for hyperparameter search"
+  },
+  {
+    "source": "TensorBoard",
+    "target": "TensorFlow",
+    "relation": "requires",
+    "evidence": "TensorBoard is part of TensorFlow ecosystem"
+  },
+  {
+    "source": "PyTorch Geometric (PyG)",
+    "target": "PyTorch",
+    "relation": "requires",
+    "evidence": "PyG is built on PyTorch and requires it for GNN operations"
+  },
+  {
+    "source": "Captum",
+    "target": "PyTorch",
+    "relation": "requires",
+    "evidence": "Captum is a PyTorch model interpretability library"
+  },
+  {
+    "source": "TRL",
+    "target": "PyTorch",
+    "relation": "requires",
+    "evidence": "TRL requires PyTorch for transformer reinforcement learning"
+  },
+  {
+    "source": "PEFT",
+    "target": "PyTorch",
+    "relation": "requires",
+    "evidence": "PEFT requires PyTorch for parameter-efficient fine-tuning"
+  },
+  {
+    "source": "Kibana",
+    "target": "Elasticsearch",
+    "relation": "requires",
+    "evidence": "Kibana requires Elasticsearch as its data backend"
+  },
+  {
+    "source": "Grafana",
+    "target": "Prometheus",
+    "relation": "requires",
+    "evidence": "Grafana commonly requires Prometheus as a data source for metrics dashboards"
+  },
+  {
+    "source": "Apache Flink",
+    "target": "Apache Kafka",
+    "relation": "requires",
+    "evidence": "Flink commonly requires Kafka as a source/sink for stream processing"
+  },
+  {
+    "source": "dbt",
+    "target": "PostgreSQL",
+    "relation": "requires",
+    "evidence": "dbt requires a SQL warehouse (PostgreSQL, Snowflake, etc.) as execution engine"
+  },
+  {
+    "source": "Pydantic",
+    "target": "Ruff",
+    "relation": "often_paired",
+    "evidence": "Pydantic models and Ruff linting are the standard validation + style pair in modern Python projects"
+  },
+  {
+    "source": "Pydantic",
+    "target": "pytest",
+    "relation": "often_paired",
+    "evidence": "Pydantic and pytest are routinely co-used: pytest validates Pydantic model behaviors and serialization"
+  },
+  {
+    "source": "Pydantic",
+    "target": "mypy",
+    "relation": "often_paired",
+    "evidence": "Pydantic v2 ships a mypy plugin; the two are co-used for runtime + static type safety"
+  },
+  {
+    "source": "uv",
+    "target": "Ruff",
+    "relation": "often_paired",
+    "evidence": "uv and Ruff are both Astral tools and are the standard fast Python packaging + linting pair"
+  },
+  {
+    "source": "uv",
+    "target": "pytest",
+    "relation": "often_paired",
+    "evidence": "uv manages the venv; pytest runs the tests \u2014 the standard modern Python dev workflow pair"
+  },
+  {
+    "source": "mypy",
+    "target": "Ruff",
+    "relation": "often_paired",
+    "evidence": "mypy and Ruff are co-used for comprehensive static analysis: Ruff for fast lint, mypy for type checking"
+  },
+  {
+    "source": "mypy",
+    "target": "pytest",
+    "relation": "often_paired",
+    "evidence": "mypy and pytest are co-run in CI to catch type errors alongside test failures"
+  },
+  {
+    "source": "DuckDB",
+    "target": "D3.js",
+    "relation": "often_paired",
+    "evidence": "DuckDB queries data that D3.js renders \u2014 the standard analytical dashboard pairing"
+  },
+  {
+    "source": "DuckDB",
+    "target": "Observable Framework",
+    "relation": "often_paired",
+    "evidence": "DuckDB-WASM is built into Observable Framework; they are co-designed as a data app stack"
+  },
+  {
+    "source": "D3.js",
+    "target": "Observable Framework",
+    "relation": "often_paired",
+    "evidence": "Observable Framework was created by the D3 author; D3 is the primary rendering library inside OF"
+  },
+  {
+    "source": "Observable Framework",
+    "target": "Observable Plot",
+    "relation": "often_paired",
+    "evidence": "Observable Plot is the recommended high-level charting library inside Observable Framework"
+  },
+  {
+    "source": "D3.js",
+    "target": "Observable Plot",
+    "relation": "often_paired",
+    "evidence": "Observable Plot is built on D3 internals and is routinely used alongside D3 for custom marks"
+  },
+  {
+    "source": "PyArrow",
+    "target": "DuckDB",
+    "relation": "often_paired",
+    "evidence": "PyArrow provides zero-copy interchange between pandas/Python and DuckDB for fast analytical pipelines"
+  },
+  {
+    "source": "PyArrow",
+    "target": "pandas",
+    "relation": "often_paired",
+    "evidence": "PyArrow is the default parquet/feather backend for pandas and is used together in every data pipeline"
+  },
+  {
+    "source": "Parquet",
+    "target": "DuckDB",
+    "relation": "often_paired",
+    "evidence": "DuckDB can directly query Parquet files; the two are the standard analytical file + engine pair"
+  },
+  {
+    "source": "PyTorch",
+    "target": "Ray",
+    "relation": "often_paired",
+    "evidence": "Ray distributes PyTorch training across nodes; the combination is standard for large-scale DL"
+  },
+  {
+    "source": "PyTorch",
+    "target": "MLflow",
+    "relation": "often_paired",
+    "evidence": "MLflow tracks PyTorch training experiments, logging metrics, params, and model artifacts"
+  },
+  {
+    "source": "Ray",
+    "target": "SLURM",
+    "relation": "often_paired",
+    "evidence": "Ray clusters are commonly launched on SLURM via ray-on-slurm for HPC distributed training"
+  },
+  {
+    "source": "MLflow",
+    "target": "SLURM",
+    "relation": "often_paired",
+    "evidence": "MLflow is run inside SLURM jobs to track distributed experiment results on HPC clusters"
+  },
+  {
+    "source": "PyTorch",
+    "target": "SLURM",
+    "relation": "often_paired",
+    "evidence": "PyTorch distributed training jobs are routinely scheduled via SLURM on HPC systems"
+  },
+  {
+    "source": "Vite",
+    "target": "Svelte",
+    "relation": "often_paired",
+    "evidence": "Vite is the recommended build tool for Svelte projects via the official @sveltejs/vite-plugin-svelte"
+  },
+  {
+    "source": "Vite",
+    "target": "React",
+    "relation": "often_paired",
+    "evidence": "Vite's React template (create-vite --template react) is a top-used project scaffold"
+  },
+  {
+    "source": "Vite",
+    "target": "Vue",
+    "relation": "often_paired",
+    "evidence": "Vite was originally created for Vue and remains the official Vue build tool"
+  },
+  {
+    "source": "Vite",
+    "target": "Vitest",
+    "relation": "often_paired",
+    "evidence": "Vitest is the official unit-testing framework for Vite projects, sharing the same config"
+  },
+  {
+    "source": "SvelteKit",
+    "target": "Svelte",
+    "relation": "often_paired",
+    "evidence": "SvelteKit is the Svelte app framework; every SvelteKit project uses Svelte components"
+  },
+  {
+    "source": "SvelteKit",
+    "target": "Vite",
+    "relation": "often_paired",
+    "evidence": "SvelteKit uses Vite as its build engine; they are always co-deployed"
+  },
+  {
+    "source": "Quarto",
+    "target": "Pandoc",
+    "relation": "often_paired",
+    "evidence": "Quarto uses Pandoc as its document conversion engine; every Quarto render invokes Pandoc"
+  },
+  {
+    "source": "Quarto",
+    "target": "BibTeX",
+    "relation": "often_paired",
+    "evidence": "Quarto academic documents use BibTeX/CSL for citations via Pandoc's bibliography system"
+  },
+  {
+    "source": "LaTeX",
+    "target": "BibTeX",
+    "relation": "often_paired",
+    "evidence": "BibTeX is the canonical bibliography management system for LaTeX documents"
+  },
+  {
+    "source": "Pandoc",
+    "target": "LaTeX",
+    "relation": "often_paired",
+    "evidence": "Pandoc converts documents to/from LaTeX and invokes pdflatex/lualatex for PDF output"
+  },
+  {
+    "source": "GitHub Actions",
+    "target": "Docker",
+    "relation": "often_paired",
+    "evidence": "GitHub Actions workflows commonly build and push Docker images as part of CI/CD pipelines"
+  },
+  {
+    "source": "GitHub Actions",
+    "target": "GitHub Pages",
+    "relation": "often_paired",
+    "evidence": "GitHub Actions deploys built static sites to GitHub Pages via the official deploy-pages action"
+  },
+  {
+    "source": "NumPy",
+    "target": "pandas",
+    "relation": "often_paired",
+    "evidence": "pandas is built on NumPy; the two are co-imported in almost every data science notebook"
+  },
+  {
+    "source": "NumPy",
+    "target": "matplotlib",
+    "relation": "often_paired",
+    "evidence": "NumPy arrays are the standard input to matplotlib plotting functions"
+  },
+  {
+    "source": "NumPy",
+    "target": "scikit-learn",
+    "relation": "often_paired",
+    "evidence": "scikit-learn uses NumPy arrays as its primary data structure throughout its API"
+  },
+  {
+    "source": "Jupyter Notebook",
+    "target": "matplotlib",
+    "relation": "often_paired",
+    "evidence": "matplotlib inline rendering in Jupyter is the standard exploratory visualization workflow"
+  },
+  {
+    "source": "Jupyter Notebook",
+    "target": "NumPy",
+    "relation": "often_paired",
+    "evidence": "NumPy and Jupyter are co-imported in virtually every scientific computing notebook"
+  },
+  {
+    "source": "Jupyter Notebook",
+    "target": "scikit-learn",
+    "relation": "often_paired",
+    "evidence": "scikit-learn model prototyping and evaluation are routinely done in Jupyter notebooks"
+  },
+  {
+    "source": "matplotlib",
+    "target": "scikit-learn",
+    "relation": "often_paired",
+    "evidence": "scikit-learn includes matplotlib-based plotting utilities (confusion matrix, learning curves, etc.)"
+  },
+  {
+    "source": "LangChain",
+    "target": "FAISS",
+    "relation": "often_paired",
+    "evidence": "LangChain's VectorStoreRetriever commonly uses FAISS as the local vector index backend"
+  },
+  {
+    "source": "LangChain",
+    "target": "ChromaDB",
+    "relation": "often_paired",
+    "evidence": "ChromaDB is a top-recommended LangChain vector store for local RAG development"
+  },
+  {
+    "source": "FAISS",
+    "target": "ChromaDB",
+    "relation": "often_paired",
+    "evidence": "FAISS and ChromaDB are commonly evaluated side-by-side as vector index options in RAG pipelines"
+  },
+  {
+    "source": "D3.js",
+    "target": "TopoJSON",
+    "relation": "often_paired",
+    "evidence": "D3's geographic projection utilities work natively with TopoJSON for choropleth maps"
+  },
+  {
+    "source": "TopoJSON",
+    "target": "GeoJSON",
+    "relation": "often_paired",
+    "evidence": "TopoJSON is always converted to/from GeoJSON for rendering; the two are inseparable"
+  },
+  {
+    "source": "Mapshaper",
+    "target": "TopoJSON",
+    "relation": "often_paired",
+    "evidence": "Mapshaper is the standard tool for simplifying and creating TopoJSON from Shapefiles"
+  },
+  {
+    "source": "Mapshaper",
+    "target": "GeoJSON",
+    "relation": "often_paired",
+    "evidence": "Mapshaper reads and writes GeoJSON as a primary format; used together in every geo pipeline"
+  },
+  {
+    "source": "DuckDB",
+    "target": "Observable Framework",
+    "relation": "feeds_into",
+    "evidence": "DuckDB-WASM is the built-in SQL engine in Observable Framework; DuckDB Parquet files feed OF dashboards"
+  },
+  {
+    "source": "DuckDB",
+    "target": "DuckDB-WASM",
+    "relation": "feeds_into",
+    "evidence": "DuckDB databases and Parquet files produced on the backend are consumed by DuckDB-WASM in the browser"
+  },
+  {
+    "source": "Python",
+    "target": "DuckDB",
+    "relation": "feeds_into",
+    "evidence": "Python scripts use the DuckDB Python API to ingest, transform, and query analytical data"
+  },
+  {
+    "source": "PyArrow",
+    "target": "Parquet",
+    "relation": "feeds_into",
+    "evidence": "PyArrow is the primary library for writing Parquet files from Python data pipelines"
+  },
+  {
+    "source": "pandas",
+    "target": "PyArrow",
+    "relation": "feeds_into",
+    "evidence": "pandas DataFrame.to_parquet() uses PyArrow as the default Parquet serialization engine"
+  },
+  {
+    "source": "GeoJSON",
+    "target": "TopoJSON",
+    "relation": "feeds_into",
+    "evidence": "GeoJSON is the input format that geo2topo converts into topology-encoded TopoJSON"
+  },
+  {
+    "source": "Mapshaper",
+    "target": "GeoJSON",
+    "relation": "feeds_into",
+    "evidence": "Mapshaper simplification pipelines output GeoJSON for downstream rendering in D3 and other tools"
+  },
+  {
+    "source": "Observable Framework",
+    "target": "DuckDB-WASM",
+    "relation": "integrates_with",
+    "evidence": "Observable Framework has first-class DuckDB-WASM support via built-in SQL code blocks"
+  },
+  {
+    "source": "Observable Framework",
+    "target": "D3.js",
+    "relation": "integrates_with",
+    "evidence": "Observable Framework provides reactive cells that integrate natively with D3.js visualizations"
+  },
+  {
+    "source": "Astro",
+    "target": "Svelte",
+    "relation": "integrates_with",
+    "evidence": "Astro has an official @astrojs/svelte integration for using Svelte components as islands"
+  },
+  {
+    "source": "Astro",
+    "target": "Vite",
+    "relation": "integrates_with",
+    "evidence": "Astro uses Vite as its build engine; the integration is official and first-class"
+  },
+  {
+    "source": "SvelteKit",
+    "target": "Vite",
+    "relation": "integrates_with",
+    "evidence": "SvelteKit uses Vite as its underlying build engine via vite-plugin-svelte"
+  },
+  {
+    "source": "PyArrow",
+    "target": "pandas",
+    "relation": "integrates_with",
+    "evidence": "pandas uses PyArrow as an optional (and now default) dtype backend for Arrow-native memory layout"
+  }
 ]

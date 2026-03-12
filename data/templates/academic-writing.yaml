@@ -1,0 +1,156 @@
+spec_version: "2"
+
+project:
+  description: "Academic document production with citations and cross-references"
+
+# reference_stack documents the archetype's canonical tool choices.
+# These are informational — they do not filter or score automatically.
+reference_stack:
+  authoring: Quarto
+  typesetting: LaTeX
+  bibliography: BibTeX
+  reference_management: Zotero
+  document_converter: Pandoc
+
+environment:
+  primary: local
+  gpu_required: false
+  internet_on_compute: true
+  shared_filesystem: none
+
+# Committed tools that must stay in the stack.
+# BibTeX and LaTeX are de facto requirements for most CS/ML publication venues.
+stack_pins:
+  - LaTeX
+  - BibTeX
+
+# Document lifecycle from authoring through publication.
+data_flow:
+  stages:
+    - name: authoring
+      description: "Write prose, code, and math in a markup language"
+      tools: [Quarto]
+      outputs: [qmd_files, tex_files]
+
+    - name: bibliography
+      description: "Manage citations and generate formatted reference lists"
+      tools: [Zotero, BibTeX]
+      inputs: [reference_database]
+      outputs: [bib_files]
+
+    - name: typesetting
+      description: "Compile markup into publication-quality PDF"
+      tools: [LaTeX, Pandoc]
+      inputs: [tex_files, bib_files]
+      outputs: [pdf, html]
+
+    - name: revision
+      description: "Track changes, review comments, and co-author edits"
+      tools: [Git]
+      inputs: [qmd_files, tex_files]
+      outputs: [diff_patches, version_history]
+
+    - name: submission
+      description: "Package and submit to venue (arXiv, journal, conference)"
+      outputs: [submission_archive]
+
+  boundaries:
+    - between: [authoring, typesetting]
+      friction: low
+      notes: "Quarto compiles .qmd directly to PDF via LaTeX — single command"
+
+    - between: [authoring, revision]
+      friction: low
+      notes: "Plain-text .qmd/.tex files diff cleanly with Git"
+
+    - between: [bibliography, typesetting]
+      friction: low
+      notes: "BibTeX/BibLaTeX integration is native to LaTeX compilation"
+
+    - between: [typesetting, submission]
+      friction: medium
+      notes: "Venue-specific LaTeX class requirements may require template customization"
+
+components:
+  authoring:
+    description: "Primary document authoring with executable code and math"
+    require:
+      open_source: true
+      offline_capable: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 4}
+      interoperability: {value: high, weight: 4}
+      lock_in_risk: {value: low, weight: 4}
+      documentation_quality: {value: excellent, weight: 3}
+    notes:
+      - "PDF output with publication-quality typography via LaTeX backend"
+      - "LaTeX math support required (inline and display)"
+      - "Cross-reference and citation integration"
+      - "Executable code blocks (Python/R) for reproducible figures"
+    triggers:
+      - "Journal requires specific LaTeX class incompatible with current toolchain"
+      - "Collaboration requires real-time co-editing (consider Overleaf integration)"
+
+  typesetting:
+    description: "Publication-quality document rendering from markup"
+    require:
+      open_source: true
+      offline_capable: true
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      maturity: {value: production, weight: 4}
+      lock_in_risk: {value: low, weight: 3}
+    notes:
+      - "Venue-specific LaTeX class support (IEEE, ACM, NeurIPS, etc.)"
+      - "Math rendering quality is non-negotiable for ML/CS papers"
+
+  bibliography:
+    description: "Citation management, BibTeX/BibLaTeX formatting"
+    require:
+      open_source: true
+    prefer:
+      interoperability: {value: high, weight: 4}
+      maturity: {value: production, weight: 3}
+      lock_in_risk: {value: low, weight: 5}
+    notes:
+      - "BibTeX and BibLaTeX export both required"
+      - "Venue citation style support (ACM, IEEE, APA, Chicago)"
+
+  reference_management:
+    description: "Literature database with PDF annotation and quick capture"
+    require:
+      offline_capable: true
+    prefer:
+      capability_ceiling: {value: high, weight: 4}
+      lock_in_risk: {value: low, weight: 5}
+      community_momentum: {value: stable, weight: 2}
+    notes:
+      - "Browser extension for one-click capture from ACM DL, arXiv, Semantic Scholar"
+      - "PDF annotation and reading notes integrated with citation records"
+
+  figure_generation:
+    description: "Publication-quality figures and reproducible plots"
+    require:
+      open_source: true
+      categories: [visualization, charting]
+    prefer:
+      capability_ceiling: {value: extensive, weight: 5}
+      documentation_quality: {value: excellent, weight: 3}
+      community_momentum: {value: growing, weight: 3}
+    notes:
+      - "Vector output (SVG/PDF) for lossless scaling in print"
+      - "Reproducible from script — no manual image editing"
+      - "Journal style templates (font sizes, line weights)"
+
+  version_control:
+    description: "Track document revisions and manage co-author contributions"
+    require:
+      open_source: true
+      offline_capable: true
+      categories: [version_control]
+    prefer:
+      maturity: {value: production, weight: 5}
+      community_momentum: {value: stable, weight: 2}
+    notes:
+      - "Plain-text diffs on .qmd/.tex keep history human-readable"
+      - "Branch-per-reviewer workflow for parallel feedback integration"

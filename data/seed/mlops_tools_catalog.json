@@ -10373,7 +10373,8 @@
     "interoperability": "high",
     "summary": "Embedded OLAP database with excellent Parquet/CSV support. Ideal for analytics on experiment data; zero-config, in-process, handles GB-scale data on a single node.",
     "used_by": [
-      "KD-GAT"
+      "KD-GAT",
+      "Map-Visualizations"
     ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -13109,7 +13110,8 @@
     "interoperability": "high",
     "summary": "Fast data validation library using Python type hints. Essential for config management; v2's Rust core makes it production-grade with minimal overhead.",
     "used_by": [
-      "KD-GAT"
+      "KD-GAT",
+      "tool-landscape"
     ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -18806,7 +18808,8 @@
     "interoperability": "high",
     "summary": "Blazing-fast Python package manager/resolver. Drop-in pip replacement with 10-100x speedup; no lock-in since it reads standard pyproject.toml.",
     "used_by": [
-      "KD-GAT"
+      "KD-GAT",
+      "tool-landscape"
     ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -18970,7 +18973,9 @@
     "self_hosted_viable": true,
     "interoperability": "medium",
     "summary": "Open-source package manager for python.",
-    "used_by": [],
+    "used_by": [
+      "tool-landscape"
+    ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
     "composite_tool": false
@@ -20084,7 +20089,8 @@
     "interoperability": "high",
     "summary": "Ultra-fast Python linter/formatter replacing flake8+isort+black. 10-100x faster; drop-in replacement with pyproject.toml config.",
     "used_by": [
-      "KD-GAT"
+      "KD-GAT",
+      "tool-landscape"
     ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -20254,7 +20260,8 @@
     "interoperability": "high",
     "summary": "De facto Python testing framework with rich plugin ecosystem. Zero-overhead, fixture-based; essential for any Python project.",
     "used_by": [
-      "KD-GAT"
+      "KD-GAT",
+      "tool-landscape"
     ],
     "capability_ceiling": "extensive",
     "migration_likelihood": "low",
@@ -20300,7 +20307,8 @@
     "interoperability": "high",
     "summary": "GitHub-native CI/CD with free tier for public repos. Easy YAML config; self-hosted runners enable HPC integration but workflow syntax is GitHub-specific.",
     "used_by": [
-      "KD-GAT"
+      "KD-GAT",
+      "Map-Visualizations"
     ],
     "capability_ceiling": "high",
     "migration_likelihood": "low",
@@ -21667,6 +21675,156 @@
     "used_by": [],
     "capability_ceiling": "high",
     "migration_likelihood": "medium",
+    "composite_tool": false
+  },
+  {
+    "name": "Python",
+    "url": "https://www.python.org",
+    "open_source": true,
+    "categories": [
+      "language",
+      "runtime"
+    ],
+    "license": "PSF-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "community",
+    "integration_targets": [
+      "pip",
+      "uv",
+      "conda"
+    ],
+    "pipeline_stage": [
+      "training",
+      "data_processing",
+      "serving"
+    ],
+    "scale_profile": "cluster",
+    "hpc_compatible": "native",
+    "collaboration_model": "shared_server",
+    "migration_cost": "high",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "extensive",
+    "summary": "General-purpose high-level programming language dominant in ML, data science, and scientific computing.",
+    "used_by": [
+      "KD-GAT",
+      "Map-Visualizations",
+      "tool-landscape"
+    ],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "PyArrow",
+    "url": "https://arrow.apache.org/docs/python/",
+    "open_source": true,
+    "categories": [
+      "data_processing",
+      "serialization"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python"
+    ],
+    "maturity": "production",
+    "governance": "foundation",
+    "integration_targets": [
+      "pandas",
+      "duckdb",
+      "parquet"
+    ],
+    "pipeline_stage": [
+      "data_processing",
+      "export"
+    ],
+    "scale_profile": "cluster",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "extensive",
+    "summary": "Python bindings for Apache Arrow \u2014 columnar in-memory data format enabling zero-copy data sharing across languages and fast Parquet I/O.",
+    "used_by": [
+      "Map-Visualizations",
+      "tool-landscape"
+    ],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
+    "composite_tool": false
+  },
+  {
+    "name": "Parquet",
+    "url": "https://parquet.apache.org",
+    "open_source": true,
+    "categories": [
+      "data_format",
+      "serialization"
+    ],
+    "license": "Apache-2.0",
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "python",
+      "java",
+      "javascript"
+    ],
+    "maturity": "production",
+    "governance": "foundation",
+    "integration_targets": [
+      "duckdb",
+      "pyarrow",
+      "pandas",
+      "apache_spark"
+    ],
+    "pipeline_stage": [
+      "data_processing",
+      "export",
+      "storage"
+    ],
+    "scale_profile": "cluster",
+    "hpc_compatible": "native",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "python_native": true,
+    "offline_capable": true,
+    "resource_overhead": "minimal",
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "interoperability": "extensive",
+    "summary": "Columnar storage format for efficient analytics and compression, widely used as the interchange format in data lakes and ML pipelines.",
+    "used_by": [
+      "Map-Visualizations",
+      "tool-landscape"
+    ],
+    "capability_ceiling": "extensive",
+    "migration_likelihood": "low",
     "composite_tool": false
   }
 ]

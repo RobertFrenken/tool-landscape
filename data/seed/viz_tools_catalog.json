@@ -38,7 +38,9 @@
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
-    "used_by": []
+    "used_by": [
+      "Map-Visualizations"
+    ]
   },
   {
     "name": "Chart.js",
@@ -663,7 +665,9 @@
     ],
     "pipeline_stage": [],
     "scale_profile": "team",
-    "used_by": []
+    "used_by": [
+      "Map-Visualizations"
+    ]
   },
   {
     "name": "Vega",
@@ -3618,5 +3622,193 @@
     "pipeline_stage": [],
     "scale_profile": "single_node",
     "used_by": []
+  },
+  {
+    "name": "DuckDB-WASM",
+    "url": "https://duckdb.org/docs/api/wasm/overview",
+    "open_source": true,
+    "license": "MIT",
+    "summary": "WebAssembly build of DuckDB enabling in-browser analytical SQL queries over local or remote Parquet/CSV data without a server.",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "cloud_only",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "growing",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_processing",
+      "database"
+    ],
+    "deployment_model": [
+      "npm",
+      "cdn"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "integration_targets": [
+      "observable framework",
+      "apache_arrow",
+      "parquet"
+    ],
+    "pipeline_stage": [
+      "data_processing",
+      "visualization"
+    ],
+    "scale_profile": "single_node",
+    "used_by": [
+      "tool-landscape"
+    ]
+  },
+  {
+    "name": "TopoJSON",
+    "url": "https://github.com/topojson/topojson",
+    "open_source": true,
+    "license": "ISC",
+    "summary": "Extension of GeoJSON that encodes topology, reducing file sizes by sharing arc segments between polygons.",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "unknown",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "data_format"
+    ],
+    "deployment_model": [
+      "npm"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "integration_targets": [
+      "d3.js",
+      "geojson"
+    ],
+    "pipeline_stage": [
+      "data_processing",
+      "visualization"
+    ],
+    "scale_profile": "single_node",
+    "used_by": [
+      "Map-Visualizations"
+    ]
+  },
+  {
+    "name": "Mapshaper",
+    "url": "https://mapshaper.org",
+    "open_source": true,
+    "license": "MPL-2.0",
+    "summary": "Command-line tool and web app for simplifying, editing, and converting geographic data formats (Shapefile, GeoJSON, TopoJSON).",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "adequate",
+    "resource_overhead": "minimal",
+    "interoperability": "high",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "mapping",
+      "data_processing"
+    ],
+    "deployment_model": [
+      "npm",
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript"
+    ],
+    "integration_targets": [
+      "geojson",
+      "topojson"
+    ],
+    "pipeline_stage": [
+      "data_processing"
+    ],
+    "scale_profile": "single_node",
+    "used_by": [
+      "Map-Visualizations"
+    ]
+  },
+  {
+    "name": "GeoJSON",
+    "url": "https://geojson.org",
+    "open_source": true,
+    "license": "open_standard",
+    "summary": "Open standard format for encoding geographic data structures using JSON, widely supported by mapping libraries and tools.",
+    "maturity": "production",
+    "governance": "community",
+    "hpc_compatible": "adaptable",
+    "collaboration_model": "single_user",
+    "migration_cost": "low",
+    "lock_in_risk": "low",
+    "community_momentum": "stable",
+    "documentation_quality": "excellent",
+    "resource_overhead": "minimal",
+    "interoperability": "extensive",
+    "capability_ceiling": "medium",
+    "migration_likelihood": "low",
+    "python_native": false,
+    "offline_capable": true,
+    "saas_available": false,
+    "self_hosted_viable": true,
+    "composite_tool": false,
+    "categories": [
+      "data_format",
+      "mapping"
+    ],
+    "deployment_model": [
+      "self_hosted"
+    ],
+    "language_ecosystem": [
+      "javascript",
+      "python"
+    ],
+    "integration_targets": [
+      "d3.js",
+      "topojson",
+      "mapshaper"
+    ],
+    "pipeline_stage": [
+      "data_processing",
+      "visualization"
+    ],
+    "scale_profile": "single_node",
+    "used_by": [
+      "Map-Visualizations"
+    ]
   }
 ]
